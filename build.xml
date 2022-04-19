@@ -48,6 +48,10 @@
         <include name="*.html"/>
         <replacetoken>&lt;br &gt;</replacetoken>
     </replace>
+    <replace dir="${target}" value="">
+        <include name="*.html"/>
+        <replacetoken>&lt;br&gt;</replacetoken>
+    </replace>
     <replace dir="${target}" value="&lt;br /&gt;">
         <include name="*.html"/>
         <replacetoken>&lt;/br&gt;</replacetoken>

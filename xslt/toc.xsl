@@ -58,7 +58,12 @@
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
+                                                    <a>
+                                                        <xsl:attribute name="href">                                                
+                                                            <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
+                                                    </a>
                                                 </td>  
                                             </tr>
                                         </xsl:for-each>
