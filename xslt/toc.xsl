@@ -30,7 +30,8 @@
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Titel</th>
+                                            <th scope="col">Werk</th>
+                                            <th scope="col">Manifestation</th>
                                             <th scope="col">Dateinname</th>
                                         </tr>
                                     </thead>
@@ -40,12 +41,20 @@
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>
                                             <tr>
+                                                <td>
+                                                    <a>
+                                                        <xsl:attribute name="href">                                                
+                                                            <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select=".//tei:title[@type='work']/tei:rs/text()"/>
+                                                    </a>
+                                                </td>
                                                 <td>                                        
                                                     <a>
                                                         <xsl:attribute name="href">                                                
                                                             <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
                                                         </xsl:attribute>
-                                                        <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+                                                        <xsl:value-of select=".//tei:title[@type='manifestation'][1]/text()"/>
                                                     </a>
                                                 </td>
                                                 <td>

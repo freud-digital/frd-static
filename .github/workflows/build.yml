@@ -20,12 +20,15 @@ jobs:
       run: |
         wget https://repo1.maven.org/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar
         mv ant-contrib-1.0b3.jar /usr/share/ant/lib
+    - name: Fetch the Data
+      run: |
+        ./fetch_data.sh
     - name: Build
       run: |
         ant
-    - name: Build Index
-      run: |
-        ./build_index.sh
+    # - name: Build Index
+    #   run: |
+    #     ./build_index.sh
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:

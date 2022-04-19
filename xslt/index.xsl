@@ -10,7 +10,7 @@
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+            <xsl:value-of select=".//tei:title[@type='manifestation'][1]/text()"/>
         </xsl:variable>
 
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
@@ -75,7 +75,10 @@
                         </div>
                     </div>
                     <div class="container" style="margin-top:1em;">
-                        <div class="row">
+                        <div class="alert alert-warning" role="alert">
+                            <h2>Currently for internal usage only</h2>
+                        </div>
+                        <!--<div class="row">
                             <div class="col-md-4">
                                 <a href="listperson.html" class="index-link">                                   
                                     <div class="card index-card">
@@ -118,7 +121,7 @@
                                     </div>                                     
                                 </a>                                    
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <xsl:call-template name="html_footer"/>
                 </div>
