@@ -10,6 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/tmp/uber-den-traum.html</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>collation-table</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>data/tmp/josef-popper-lynkeus-und-die-theorie-des-traumes.html</String>
                                 </field>
                                 <field name="scenarioIds">

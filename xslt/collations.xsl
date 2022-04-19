@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <table id="collationTable">                                
+                                <table class="table table-striped display" id="tocTable"  style="width:100%">                                
                                     <xsl:copy-of select=".//table/*"></xsl:copy-of>
                                 </table>
                             </div>
@@ -69,6 +69,11 @@
                     
                     <xsl:call-template name="html_footer"/>
                 </div>
+                <script>
+                    $(document).ready(function () {
+                    createDataTable('tocTable')
+                    });
+                </script>
             </body>
         </html>
     </xsl:template>
