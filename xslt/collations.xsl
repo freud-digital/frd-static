@@ -71,7 +71,7 @@
                 </div>
                 <script>
                     $(document).ready(function () {
-                    createDataTable('tocTable')
+                        createDataTable('tocTable')
                     });
                 </script>
             </body>

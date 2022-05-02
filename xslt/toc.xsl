@@ -33,6 +33,7 @@
                                             <th scope="col">Werk</th>
                                             <th scope="col">Manifestation</th>
                                             <th scope="col">Dateinname</th>
+                                            <th scope="col">Variantenvergleich</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -65,6 +66,16 @@
                                                         <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
                                                     </a>
                                                 </td>  
+                                                <td>
+                                                    <a>
+                                                        <xsl:attribute name="href">                                                
+                                                            <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '__druckversion\d?.xml', '.html')"/>
+                                                        </xsl:attribute>
+                                                        <xsl:if test="contains(tokenize($full_path, '/')[last()], 'josef-popper-lynkeus-und-die-theorie-des-traumes__druckversion')">
+                                                            Variantenvergleich
+                                                        </xsl:if>                                                        
+                                                    </a>
+                                                </td> 
                                             </tr>
                                         </xsl:for-each>
                                     </tbody>

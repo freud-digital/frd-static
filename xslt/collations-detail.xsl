@@ -48,7 +48,7 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid" style="max-width:100%;">                        
+                    <div class="container-fluid">                        
                         <div class="card" data-index="true">
                             <div class="card-header">
                                 <div class="row">
@@ -91,7 +91,7 @@
                             <div class="card-body">                                
                                 <xsl:apply-templates select="//tei:body"/>
                             </div>
-                            <div class="card-footer">
+                            <!--<div class="card-footer">
                                 <p style="text-align:center;">
                                     <xsl:for-each select=".//tei:note[not(./tei:p)]">
                                         <div class="footnotes" id="{local:makeId(.)}">
@@ -114,143 +114,26 @@
                                         </div>
                                     </xsl:for-each>
                                 </p>
-                            </div>
+                            </div>-->
                         </div>                       
                     </div>
-                    <xsl:for-each select=".//tei:back//tei:org[@xml:id]">
-                        
-                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-                            <xsl:attribute name="id">
-                                <xsl:value-of select="./@xml:id"/>
-                            </xsl:attribute>
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">
-                                            <xsl:value-of select=".//tei:orgName[1]/text()"/>
-                                        </h5>
-                                        
-                                    </div>
-                                    <div class="modal-body">
-                                        <xsl:call-template name="org_detail">
-                                            <xsl:with-param name="showNumberOfMentions" select="5"/>
-                                        </xsl:call-template>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </xsl:for-each>
-                    <xsl:for-each select=".//tei:back//tei:person[@xml:id]">
-                        <xsl:variable name="xmlId">
-                            <xsl:value-of select="data(./@xml:id)"/>
-                        </xsl:variable>
-                        
-                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{$xmlId}">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">
-                                            <xsl:value-of select="normalize-space(string-join(.//tei:persName[1]//text()))"/>
-                                            <xsl:text> </xsl:text>
-                                            <a href="{concat($xmlId, '.html')}">
-                                                <i class="fas fa-external-link-alt"></i>
-                                            </a>
-                                        </h5>
-                                        
-                                    </div>
-                                    <div class="modal-body">
-                                        <xsl:call-template name="person_detail">
-                                            <xsl:with-param name="showNumberOfMentions" select="5"/>
-                                        </xsl:call-template>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </xsl:for-each>
-                    <xsl:for-each select=".//tei:back//tei:place[@xml:id]">
-                        <xsl:variable name="xmlId">
-                            <xsl:value-of select="data(./@xml:id)"/>
-                        </xsl:variable>
-                        
-                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{$xmlId}">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">
-                                            <xsl:value-of select="normalize-space(string-join(.//tei:placeName[1]/text()))"/>
-                                            <xsl:text> </xsl:text>
-                                            <a href="{concat($xmlId, '.html')}">
-                                                <i class="fas fa-external-link-alt"></i>
-                                            </a>
-                                        </h5>
-                                    </div>
-                                    <div class="modal-body">
-                                        <xsl:call-template name="place_detail">
-                                            <xsl:with-param name="showNumberOfMentions" select="5"/>
-                                        </xsl:call-template>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </xsl:for-each>
+                    
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
         </html>
     </xsl:template>
 
-    <!--<xsl:template match="tei:p">
-        <p id="{generate-id()}">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>-->
-    <xsl:template match="tei:div">
-        <div id="{@xml:id}" style="margin-bottom: 4em;">
-            <xsl:for-each-group select="*" group-starting-with="tei:pb">  
-                <div class="row text-img" id="{@xml:id}">
-                    <div class="col-md-6 text-re">
-                        <xsl:for-each select="current-group()[self::tei:p|self::tei:fw]">
-                            <p class="yes-index">                                
-                                <xsl:apply-templates/>
-                            </p>
-                        </xsl:for-each>
-                    </div>
-                    <div class="col-md-6">
-                        <xsl:if test="@facs">
-                            <img src="{@facs}"/>
-                        </xsl:if>
-                    </div>
-                </div>
-            </xsl:for-each-group>
-        </div>
-    </xsl:template> 
-    <xsl:template match="tei:lb">
-        <br/>
-    </xsl:template>
-    <xsl:template match="tei:fw">
-        <p class="{@type}">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
     <xsl:template match="tei:ab">
         <span class="ab">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <!--<xsl:template match="text()[normalize-space()]">
+    <xsl:template match="text()[normalize-space()]">
         <p class="text" style="margin:.5em;">
             <xsl:copy/>
         </p>
-    </xsl:template>-->
+    </xsl:template>
     <xsl:template match="tei:app">
         <table class="app table">
             <tbody>
@@ -266,4 +149,5 @@
             </tbody>
         </table>
     </xsl:template>
+      
 </xsl:stylesheet>
