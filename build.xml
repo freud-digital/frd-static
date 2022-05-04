@@ -3,6 +3,7 @@
     <property name="index" value="./data/meta/about.xml"/>
     <property name="target" value="./html"/>
     <property name="target_xml" value="./html/xml-view"/>
+    <property name="app-uber-den-traum" value="./data/editions/uber-den-traum.xml"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
@@ -16,6 +17,14 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <xslt style="./xslt/collations-detail.xsl"  basedir="./data/editions" destdir="${target}" includes="*.xml" extension="_app.html">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <!-- <xslt in="${app-uber-den-traum}" out="${target}/app-uber-den-traum.html" style="./xslt/collations-detail.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt> -->
     <xslt style="./xslt/meta.xsl"  basedir="./data/meta" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>

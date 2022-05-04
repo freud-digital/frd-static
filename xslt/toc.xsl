@@ -69,11 +69,14 @@
                                                 <td>
                                                     <a>
                                                         <xsl:attribute name="href">                                                
-                                                            <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '__druckversion\d?.xml', '.html')"/>
-                                                        </xsl:attribute>
-                                                        <xsl:if test="contains(tokenize($full_path, '/')[last()], 'josef-popper-lynkeus-und-die-theorie-des-traumes__druckversion')">
-                                                            Variantenvergleich
-                                                        </xsl:if>                                                        
+                                                            <xsl:value-of select="                                                                                                                               
+                                                                replace(
+                                                                    replace(
+                                                                        tokenize($full_path, '/')[last()],
+                                                                    '__\w+\-?\d?\d?', ''),
+                                                                '.xml', '_app.html')"/>
+                                                        </xsl:attribute>                                                        
+                                                        Variantenvergleich                                                                                                                
                                                     </a>
                                                 </td> 
                                             </tr>

@@ -12,8 +12,39 @@ div.dataTables_filter {
   text-align: right;
 }
 
+body {
+    background-color: #f1f1f1 !important;
+    margin: 0 !important;
+}
+
+.tei_body {
+    margin-bottom: 1em;
+}
+
+.appcrit {
+    margin: 0 -1.3em !important;
+    padding: 1em !important;
+    background-color: #dedede;
+}
+
 .navbar {
     border-bottom: 5px solid #88dbdf !important;
+}
+
+.smallcaps {
+    text-transform: lowercase;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.em {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .dataTables_info {

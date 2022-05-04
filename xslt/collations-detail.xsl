@@ -17,6 +17,7 @@
     <xsl:import href="./partials/person.xsl"/>
     <xsl:import href="./partials/place.xsl"/>
     <xsl:import href="./partials/org.xsl"/>
+    <xsl:import href="../TEI-Stylesheets/Stylesheets-dev/html/html.xsl"/>
 
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"/>
@@ -89,7 +90,7 @@
                                 </div>
                             </div>
                             <div class="card-body">                                
-                                <xsl:apply-templates select="//tei:body"/>
+                                <xsl:apply-templates/>
                             </div>
                             <!--<div class="card-footer">
                                 <p style="text-align:center;">
@@ -124,7 +125,7 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="tei:ab">
+    <!--<xsl:template match="tei:ab">
         <span class="ab">
             <xsl:apply-templates/>
         </span>
@@ -148,6 +149,6 @@
                 </tr>
             </tbody>
         </table>
-    </xsl:template>
+    </xsl:template>-->
       
 </xsl:stylesheet>

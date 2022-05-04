@@ -241,29 +241,10 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="tei:ab">
-        <span class="ab">
+    <xsl:template match="tei:hi">
+        <span class="{substring-after(@type, '#')}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <!--<xsl:template match="text()[normalize-space()]">
-        <p class="text" style="margin:.5em;">
-            <xsl:copy/>
-        </p>
-    </xsl:template>-->
-    <xsl:template match="tei:app">
-        <table class="app table">
-            <tbody>
-                <tr>
-                    <xsl:for-each select="./tei:rdg">
-                        <td class="rdg" style="border:1px solid #f1f1f1;width:50%;">
-                            <a href="{replace(replace(@wit, '#', ''), '.xml', '.html')}">
-                                <xsl:apply-templates/>
-                            </a>
-                        </td>
-                    </xsl:for-each>
-                </tr>
-            </tbody>
-        </table>
-    </xsl:template>
+    
 </xsl:stylesheet>
