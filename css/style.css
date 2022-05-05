@@ -47,6 +47,21 @@ body {
     font-weight: bold;
 }
 
+.footnote-index {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+.inlinequote {
+    font-style: italic;
+}
+
+.note {
+    display: block;
+    padding: 1em;
+    background-color: f1f1f1;
+}
+
 .dataTables_info {
   text-align: center;
 }
