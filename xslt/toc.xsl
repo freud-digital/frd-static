@@ -32,8 +32,7 @@
                                         <tr>
                                             <th scope="col">Werk</th>
                                             <th scope="col">Manifestation</th>
-                                            <th scope="col">Dateinname</th>
-                                            <th scope="col">Variantenvergleich</th>
+                                            <th scope="col">Dateinname</th>                                            
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -60,27 +59,52 @@
                                                 </td>
                                                 <td>
                                                     <a>
-                                                        <xsl:attribute name="href">                                                
-                                                            <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
-                                                        </xsl:attribute>
-                                                        <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
+                                                        <xsl:choose>
+                                                            <xsl:when test="not(contains(
+                                                                tokenize($full_path, '/')[last()], 'sfe'))">
+                                                                <xsl:attribute name="href">                                                
+                                                                    <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '_app.html')"/>
+                                                                </xsl:attribute>
+                                                                <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '_app.html')"/>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <xsl:attribute name="href">                                                
+                                                                    <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
+                                                                </xsl:attribute>
+                                                                <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
                                                     </a>
                                                 </td>  
-                                                <td>
-                                                    <a>
-                                                        <xsl:attribute name="href">                                                
-                                                            <xsl:value-of select="                                                                                                                               
-                                                                replace(
-                                                                    replace(
-                                                                        tokenize($full_path, '/')[last()],
-                                                                    '__\w+\-?\d?\d?', ''),
-                                                                '.xml', '_app.html')"/>
-                                                        </xsl:attribute>                                                        
-                                                        Variantenvergleich                                                                                                                
-                                                    </a>
-                                                </td> 
-                                            </tr>
+                                                 
+                                            </tr>                                            
                                         </xsl:for-each>
+                                        <tr>
+                                            <td>
+                                                <a>
+                                                    <xsl:attribute name="href">                                                
+                                                        <xsl:value-of select="'1901-01_COL.html'"/>
+                                                    </xsl:attribute>                                                        
+                                                    <xsl:value-of select="'Freud, Sigmund (1901-001): Über den Traum'"/>                                                                                                          
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a>
+                                                    <xsl:attribute name="href">                                                
+                                                        <xsl:value-of select="'1901-01_COL.html'"/>
+                                                    </xsl:attribute>                                                        
+                                                    <xsl:value-of select="'Über den Traum - Variantenvergleich Tabelle'"/>                                                                                                               
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a>
+                                                    <xsl:attribute name="href">                                                
+                                                        <xsl:value-of select="'1901-01_COL.html'"/>
+                                                    </xsl:attribute>                                                        
+                                                    <xsl:value-of select="'1901-01_COL.xml'"/>                                                                                                               
+                                                </a>
+                                            </td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>

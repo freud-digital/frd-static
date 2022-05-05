@@ -242,9 +242,25 @@
         </p>
     </xsl:template>
     <xsl:template match="tei:hi">
-        <span class="{substring-after(@type, '#')}">
+        <span class="{substring-after(@rendition, '#')}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    <xsl:template match="tei:span">
+        <span class="{@class}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:strong">
+        <span class="bold">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:note">
+        <span class="note">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
     
 </xsl:stylesheet>
