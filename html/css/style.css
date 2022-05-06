@@ -32,7 +32,7 @@ body {
 }
 
 .smallcaps {
-    text-transform: lowercase;
+    font-variant: small-caps;
 }
 
 .italic {
