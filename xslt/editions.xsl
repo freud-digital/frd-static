@@ -92,6 +92,39 @@
                                 <xsl:apply-templates select="//tei:body"/>
                             </div>
                             <div class="card-footer">
+                                <div class="crit-app">
+                                    <h3>Kritischer Apparat</h3>
+                                    <xsl:for-each select=".//tei:app">
+                                        <div>
+                                            <xsl:element name="a">
+                                                <xsl:attribute name="name">
+                                                    <xsl:text>app_target</xsl:text>
+                                                    <xsl:number level="any" format="a" count="tei:app"/>
+                                                </xsl:attribute>
+                                                <a>
+                                                    <xsl:attribute name="href">
+                                                        <xsl:text>#app_anchor__</xsl:text>
+                                                        <xsl:number level="any" format="a" count="tei:app"/>
+                                                    </xsl:attribute>
+                                                    <span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">
+                                                        <xsl:number level="any" format="a" count="tei:app"/>
+                                                    </span>
+                                                </a>
+                                            </xsl:element>
+                                            <ul>
+                                                <xsl:for-each select=".//tei:rdg">
+                                                    <li>
+                                                        <xsl:apply-templates/>
+                                                        [<xsl:value-of select="./@wit"/>]
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                            
+                                        </div>
+                                    </xsl:for-each>
+                                </div>
+                                
+
                                 <p style="text-align:center;">
                                     <xsl:for-each select=".//tei:note[not(./tei:p)]">
                                         <div class="footnotes" id="{local:makeId(.)}">
@@ -225,9 +258,9 @@
                         </xsl:for-each>
                     </div>
                     <div class="col-md-6">
-                        <xsl:if test="@facs">
+                        <!--<xsl:if test="@facs">
                             <img src="{@facs}"/>
-                        </xsl:if>
+                        </xsl:if>-->
                     </div>
                 </div>
             </xsl:for-each-group>

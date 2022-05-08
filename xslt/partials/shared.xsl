@@ -33,6 +33,23 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="tei:app">
+        <xsl:apply-templates select="tei:lem"/>
+        <xsl:element name="a">
+            <xsl:attribute name="name">
+                <xsl:text>app_anchor__</xsl:text>
+                <xsl:number level="any" format="a" count="tei:app"/>
+            </xsl:attribute>
+            <xsl:attribute name="href">
+                <xsl:text>#app_target</xsl:text>
+                <xsl:number level="any" format="a" count="tei:app"/>
+            </xsl:attribute>
+            <sup>
+                <xsl:number level="any" format="a" count="tei:app"/>
+            </sup>
+        </xsl:element>
+    </xsl:template>
+    
     <xsl:template match="tei:table">
         <xsl:element name="table">
             <xsl:attribute name="class">
