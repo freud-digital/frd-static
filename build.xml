@@ -2,29 +2,14 @@
 <project basedir="." name="tei2html">
     <property name="index" value="./data/meta/about.xml"/>
     <property name="target" value="./html"/>
-    <property name="target_xml" value="./html/xml-view"/>
-    <property name="app-uber-den-traum" value="./data/editions/uber-den-traum.xml"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
     <delete dir="${target}/static-search"/>
-
     <xslt style="./xslt/editions.xsl"  basedir="./data/editions" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt style="./xslt/collations.xsl"  basedir="./data/tmp" destdir="${target}" includes="*.html" extension="_COL.html">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <xslt style="./xslt/collations-detail.xsl"  basedir="./data/editions" destdir="${target}" includes="1901-01.xml" extension="_app.html">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <!-- <xslt in="${app-uber-den-traum}" out="${target}/app-uber-den-traum.html" style="./xslt/collations-detail.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt> -->
     <xslt style="./xslt/meta.xsl"  basedir="./data/meta" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
@@ -42,10 +27,6 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt in="./data/imprint.xml" out="${target}/imprint.html" style="./xslt/imprint.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche.rdf" style="./xslt/arche.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>

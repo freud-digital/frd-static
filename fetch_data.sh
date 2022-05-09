@@ -10,7 +10,17 @@ rm -rf ./frd-data-main
 wget https://github.com/freud-digital/frd-data/archive/refs/heads/master.zip
 unzip master
 rm master.zip
-find -path "./frd-data-main/werke/*/*.xml" -exec cp -prv '{}' './data/editions' ';'
-find -path "./frd-data-main/werke/*/*.html" -exec cp -prv '{}' './data/tmp' ';'
+for f in  $(find -path "./frd-data-main/werke/*/*.xml" | grep __); do
+  b=$(basename $f); cp -v $f ./data/editions/${b%}
+done
 
 rm -rf ./frd-data-main
+
+wget https://github.com/freud-digital/frd-working-data/archive/refs/heads/main.zip
+unzip main
+rm main.zip
+
+for f in  $(find -path "./frd-working-data-main/werke/*/*.xml" | grep __); do
+  b=$(basename $f); cp -v $f ./data/editions/${b%__*}.xml
+done
+rm -rf ./frd-working-data-main

@@ -88,7 +88,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-body">                                
+                            <div class="card-body">
+                                <h2>Textzeugen</h2>
+                                <ul>
+                                    <xsl:for-each select=".//tei:listWit//tei:witness">
+                                        <li>
+                                            <a>
+                                                <xsl:attribute name="href">
+                                                    <xsl:value-of select="replace(data(@xml:id), '.xml', '.html')"/>
+                                                </xsl:attribute>
+                                                <xsl:value-of select="."/>
+                                            </a>
+                                        </li>
+                                    </xsl:for-each>
+                                </ul>
                                 <xsl:apply-templates select="//tei:body"/>
                             </div>
                             <div class="card-footer">
@@ -258,9 +271,9 @@
                         </xsl:for-each>
                     </div>
                     <div class="col-md-6">
-                        <!--<xsl:if test="@facs">
-                            <img src="{@facs}"/>
-                        </xsl:if>-->
+                        <xsl:if test="@facs">
+                            <img loading="lazy" src="{@facs}"/>
+                        </xsl:if>
                     </div>
                 </div>
             </xsl:for-each-group>
