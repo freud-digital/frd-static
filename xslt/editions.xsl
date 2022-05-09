@@ -102,7 +102,18 @@
                                         </li>
                                     </xsl:for-each>
                                 </ul>
-                                <xsl:apply-templates select="//tei:body"/>
+                                <xsl:for-each select=".//tei:body//tei:div[@xml:id]">
+                                    <div class="row text-img" id="{@xml:id}">
+                                        <div class="col-md-6 text-re">
+                                            <xsl:apply-templates/>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <xsl:if test="./tei:pb/@facs">
+                                                <img loading="lazy" src="{./tei:pb/@facs}"/>
+                                            </xsl:if>
+                                        </div>
+                                    </div>
+                                </xsl:for-each>
                             </div>
                             <div class="card-footer">
                                 <div class="crit-app">
@@ -125,6 +136,7 @@
                                                 </a>
                                             </xsl:element>
                                             <ul>
+                                                <li><strong><xsl:apply-templates select=".//tei:lem"/></strong></li>
                                                 <xsl:for-each select=".//tei:rdg">
                                                     <li>
                                                         <xsl:apply-templates/>
@@ -254,12 +266,12 @@
         </html>
     </xsl:template>
 
-    <!--<xsl:template match="tei:p">
+    <xsl:template match="tei:p">
         <p id="{generate-id()}">
             <xsl:apply-templates/>
         </p>
-    </xsl:template>-->
-    <xsl:template match="tei:div">
+    </xsl:template>
+    <!--<xsl:template match="tei:div">
         <div id="{@xml:id}" style="margin-bottom: 4em;">
             <xsl:for-each-group select="*" group-starting-with="tei:pb">  
                 <div class="row text-img" id="{@xml:id}">
@@ -278,7 +290,7 @@
                 </div>
             </xsl:for-each-group>
         </div>
-    </xsl:template> 
+    </xsl:template>--> 
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>

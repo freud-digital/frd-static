@@ -49,7 +49,7 @@
             </sup>
         </xsl:element>
     </xsl:template>
-    
+   
     <xsl:template match="tei:table">
         <xsl:element name="table">
             <xsl:attribute name="class">
