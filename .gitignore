@@ -3,6 +3,7 @@
 !search.html
 /saxon
 data/imprint.xml
+data/indices
 /static-search
 html/static-search
 /TEI-Stylesheets
@@ -143,6 +144,7 @@ desktop.ini
 # MacOS
 .DS_Store
 ./data/editions
+./data/indices
 html/*.xml
 html/*.rdf
 html/search.html

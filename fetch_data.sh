@@ -2,6 +2,7 @@
 rm -rf ./data/editions
 mkdir ./data/editions
 rm -rf ./data/indices
+mkdir ./data/indices
 rm -rf ./data/tmp
 mkdir ./data/tmp
 rm master.zip
@@ -13,6 +14,7 @@ rm master.zip
 for f in  $(find -path "./frd-data-main/werke/*/*.xml" | grep __); do
   b=$(basename $f); cp -v $f ./data/editions/${b%}
 done
+mv ./frd-data-main/indices ./data/indices
 
 rm -rf ./frd-data-main
 
