@@ -4,6 +4,8 @@
     <property name="target" value="./html"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
+        <fileset dir="${target}" includes="*.xml"/>
+        <fileset dir="${target}" includes="*.rdf"/>
     </delete>
     <delete dir="${target}/static-search"/>
     <xslt style="./xslt/editions.xsl"  basedir="./data/editions" destdir="${target}" includes="*.xml">
@@ -27,6 +29,14 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt in="./data/imprint.xml" out="${target}/imprint.html" style="./xslt/imprint.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="./data/indices/listperson.xml" out="${target}/listperson.html" style="./xslt/listperson.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="./data/indices/listplace.xml" out="${target}/listplace.html" style="./xslt/listplace.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
