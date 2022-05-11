@@ -5,9 +5,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-title" content="Inhaltsverzeichnis" />
+      <meta name="apple-mobile-web-app-title" content="Ortsregister" />
       <link rel="profile" href="http://gmpg.org/xfn/11" />
-      <title>Inhaltsverzeichnis</title>
+      <title>Ortsregister</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -34,20 +34,37 @@
          <div class="container-fluid">
             <div class="card">
                <div class="card-header">
-                  <h1>Table of Contents</h1>
+                  <h1>Ortsregister</h1>
                </div>
                <div class="card-body">
                   <table class="table table-striped display" id="tocTable" style="width:100%">
                      <thead>
                         <tr>
-                           <th scope="col">Werk</th>
-                           <th scope="col">Dateinname</th>
+                           <th scope="col">Ortsname</th>
+                           <th scope="col">Lat/Lng</th>
+                           <th scope="col">ID</th>
                         </tr>
                      </thead>
                      <tbody>
                         <tr>
-                           <td><a href="sfe-1901-01.html">Freud, Sigmund (1901-001; 1901a): Über den Traum</a></td>
-                           <td><a href="sfe-1901-01.html">sfe-1901-01.html</a></td>
+                           <td>Příbor</td>
+                           <td>49.6409 18.1450</td>
+                           <td><a href="frd_place_id_1.html">frd_place_id_1</a></td>
+                        </tr>
+                        <tr>
+                           <td>London</td>
+                           <td>51.5085 -0.1257</td>
+                           <td><a href="frd_place_id_2.html">frd_place_id_2</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kravaře ve Slezsku</td>
+                           <td>49.9361 18.0103</td>
+                           <td><a href="frd_place_id_3.html">frd_place_id_3</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wrocław</td>
+                           <td>51.1000 17.0333</td>
+                           <td><a href="frd_place_id_4.html">frd_place_id_4</a></td>
                         </tr>
                      </tbody>
                   </table>
@@ -107,7 +124,7 @@
          </div>
          <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="imprint.html">Impressum/Imprint</a> | <a href="https://github.com/freud-digital/frd-static"><i data-feather="github"></i></a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script>
                         $(document).ready(function () {
-                            createDataTable('tocTable')
+                        createDataTable('tocTable')
                         });
                     </script></div>
    </body>
