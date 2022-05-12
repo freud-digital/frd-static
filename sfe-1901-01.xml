@@ -121,7 +121,7 @@
                   <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">urteilt</lem>
                   <rdg wit="#sfe-1901-01__1901.xml">urtheilt</rdg>
                </app>
-               <lb/> z. B. <hi rendition="#smallcaps"><rs type="person" ref="#frd_person_03499">Schubert</rs></hi>: Der Traum sei eine
+               <lb/> z. B. <hi rendition="#smallcaps"><rs ref="#frd_person_4">Schubert</rs></hi>: Der Traum sei eine
                Befreiung des Geistes<lb/> von der Gewalt der
                <app>
                   <lem wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">äusseren</lem>
@@ -143,7 +143,7 @@
                </app>
                seelischer Kräfte dar<lb break="no"/>stellen, die tagsüber
                an ihrer freien Entfaltung behindert sind (der<lb/>
-               <rs ref="#frd_kw_2770">Traumphantasie</rs> — <hi rendition="#smallcaps"><rs ref="#frd_person_03500">Scherner</rs></hi>, <hi rendition="#smallcaps"><rs ref="#frd_person_03501">Volkelt</rs></hi>). Eine Fähigkeit zur<lb/>
+               <rs ref="#frd_kw_2770">Traumphantasie</rs> — <hi rendition="#smallcaps"><rs ref="#frd_person_3">Scherner</rs></hi>, <hi rendition="#smallcaps"><rs ref="#frd_person_2">Volkelt</rs></hi>). Eine Fähigkeit zur<lb/>
                <app>
                   <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">Überleistung</lem>
                   <rdg wit="#sfe-1901-01__1901.xml">Ueberleistung</rdg>
@@ -1971,5 +1971,31 @@
                Zwangsideen, klargelegt hat.</p>
          </div>
       </body>
-   <back/></text>
+   <back><listPerson><person xml:id="frd_person_3">
+               <persName>Scherner, Karl Albert</persName>
+               <birth>
+                  <date>1825</date>
+               </birth>
+               <death>
+                   <date>1889</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
+               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_4">
+               <persName>Schubert, Gotthilf Heinrich</persName>
+               <birth>
+                  <date>1780</date>
+               </birth>
+               <death>
+                   <date>1860</date>
+               </death>
+               <idno type="gnd">http://lobid.org/gnd/118610937</idno>
+               <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_2">
+               <persName>Volkelt, Johannes</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            </listPerson></back></text>
 </TEI>
