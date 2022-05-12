@@ -289,7 +289,7 @@
                Kürze empfehlen kann. Vielleicht wird gerade der Traum<lb/> der letzten Nacht diesen
                Ansprüchen genügen. Sein unmittelbar<lb/> nach dem Erwachen fixierter Inhalt lautet
                folgendermaßen:</p>
-            <p>„<hi rendition="#em">Eine Gesellschaft, Tisch oder Table d’hôte . . . Es wird Spinat
+            <p>„<hi rendition="#em"><rs ref="frd_dream_id_5">Eine Gesellschaft, Tisch oder Table d’hôte</rs><note type="e" resp="#chuber">Table d’hôte ] Gasthaustafel mit festgelegtem Menü, im Gegensatz zu à la carte. Vgl. SFs Brief an Martha Freud, Riva, 5.9.1900: „u im nahe gelegenen [Hotel] Mahlzeiten an der Tabel des Todes, wie ich sie reichlicher u besser, leichter u appetitlicher nirgends getroffen habe.“ (Reisebriefe, S.130).</note> . . . Es wird Spinat
                   gegessen . . . Frau E. L. sitzt neben mir, wendet sich ganz mir zu und legt
                   vertraulich die Hand auf mein Knie. Ich entferne die Hand abwehrend. Sie sagt
                   dann: Sie haben aber immer so schöne Augen gehabt . . . Ich sehe dann undeutlich
@@ -306,7 +306,7 @@
          <div xml:id="page__b250ed0a-54a8-4330-b03f-010170aba3a4">
             <pb n="9" facs="https://www.freud-edition.net/sites/default/files/manifestationen/node-25035/images/page-9.jpg" xml:id="faks__174ec1c3-0ae5-4992-b109-0a3e95ff3e63"/>
             <fw type="pageNum">195</fw>
-            <p prev="true">nicht näher. Ich werde aber jetzt absichts- und kritiklos die Ein<lb break="no"/>fälle verzeichnen, die sich meiner Selbstbeobachtung ergeben. Ich<lb/>
+            <p prev="true">nicht näher. Ich werde aber jetzt absichts- und kritiklos die Ein<lb break="no"/>fälle verzeichnen, die sich meiner Selbstbeobachtung<note type="e" resp="#chuber"><term>meiner Selbstbeobachtung</term> Von <rs ref="#frd_person_5">Freud</rs> zur Methode ausgebaut; steht in Kontrast zu jener häufig anzutreffenden Selbstbeobachtung, die Unzusammenhängendes im Traum vorschnell als unsinnig oder unwichtig verwirft.</note> ergeben. Ich<lb/>
                bemerke bald, daß es dabei vorteilhaft ist, den Traum in seine<lb/> Elemente zu
                zerlegen und zu jedem dieser Bruchstücke die an<lb break="no"/>knüpfenden Einfälle
                aufzusuchen.</p>
@@ -1971,18 +1971,23 @@
                Zwangsideen, klargelegt hat.</p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_3">
-               <persName>Scherner, Karl Albert</persName>
+   <back><listPerson><person xml:id="frd_person_5">
+               <persName>Freud, Sigmund</persName>
                <birth>
-                  <date>1825</date>
+                  <date>1856</date>
+                  <placeName key="frd_place_id_1">
+                     <settlement>Příbor</settlement>
+                  </placeName>
                </birth>
                <death>
-                   <date>1889</date>
+                   <date>1939</date>
+                   <placeName key="frd_place_id_2">
+                       <settlement>London</settlement>
+                   </placeName>
                </death>
-               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
-               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
+               <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_4">
+         <person xml:id="frd_person_4">
                <persName>Schubert, Gotthilf Heinrich</persName>
                <birth>
                   <date>1780</date>
@@ -1996,6 +2001,17 @@
             <person xml:id="frd_person_2">
                <persName>Volkelt, Johannes</persName>
                <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_3">
+               <persName>Scherner, Karl Albert</persName>
+               <birth>
+                  <date>1825</date>
+               </birth>
+               <death>
+                   <date>1889</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
+               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>

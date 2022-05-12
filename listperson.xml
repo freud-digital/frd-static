@@ -61,7 +61,7 @@
                    </placeName>
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
          </listPerson>
       </body>
    </text>
