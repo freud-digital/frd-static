@@ -106,7 +106,28 @@
                                     <div class="row text-img" id="{@xml:id}">
                                         <div class="col-md-6 text-re">
                                             <xsl:apply-templates />
+                                            
                                             <hr/>
+                                            <div class="crit-app">
+                                                <xsl:for-each select=".//tei:note[@type='e']">
+                                                    <div class="row">
+                                                        <div class="col-md-1">
+                                                            <xsl:element name="a">
+                                                                <xsl:attribute name="name">
+                                                                    <xsl:text>editorial_note_target__</xsl:text><xsl:number level="any" format="001" count="tei:note[@type='e']"/>
+                                                                </xsl:attribute>
+                                                                <xsl:attribute name="href">
+                                                                    <xsl:text>#editorial_note_anchor__</xsl:text><xsl:number level="any" format="001" count="tei:note[@type='e']"/>
+                                                                </xsl:attribute>
+                                                                <sup><xsl:number level="any" format="001" count="tei:note[@type='e']"/></sup>
+                                                            </xsl:element>
+                                                        </div>
+                                                        <div class="col-md-11">
+                                                            <xsl:apply-templates/>
+                                                        </div>
+                                                    </div>
+                                                </xsl:for-each>
+                                            </div>
                                             <div class="crit-app">
                                                 <xsl:for-each select=".//tei:app">
                                                     <div class="row">
@@ -151,30 +172,6 @@
                                         </div>
                                     </div>
                                 </xsl:for-each>
-                            </div>
-                            <div class="card-footer">
-                                <p style="text-align:center;">
-                                    <xsl:for-each select=".//tei:note[not(./tei:p)]">
-                                        <div class="footnotes" id="{local:makeId(.)}">
-                                            <xsl:element name="a">
-                                                <xsl:attribute name="name">
-                                                    <xsl:text>fn</xsl:text>
-                                                    <xsl:number level="any" format="1" count="tei:note"/>
-                                                </xsl:attribute>
-                                                <a>
-                                                    <xsl:attribute name="href">
-                                                        <xsl:text>#fna_</xsl:text>
-                                                        <xsl:number level="any" format="1" count="tei:note"/>
-                                                    </xsl:attribute>
-                                                    <span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">
-                                                        <xsl:number level="any" format="1" count="tei:note"/>
-                                                    </span>
-                                                </a>
-                                            </xsl:element>
-                                            <xsl:apply-templates/>
-                                        </div>
-                                    </xsl:for-each>
-                                </p>
                             </div>
                         </div>                       
                     </div>
@@ -328,6 +325,18 @@
         <span class="note">
             <xsl:apply-templates/>
         </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:note[@type='e']">
+        <xsl:element name="a">
+            <xsl:attribute name="name">
+                <xsl:text>editorial_note_anchor__</xsl:text><xsl:number level="any" format="001" count="tei:note[@type='e']"/>
+            </xsl:attribute>
+            <xsl:attribute name="href">
+                <xsl:text>#editorial_note_target__</xsl:text><xsl:number level="any" format="001" count="tei:note[@type='e']"/>
+            </xsl:attribute>
+            <sup><xsl:number level="any" format="001" count="tei:note[@type='e']"/></sup>
+        </xsl:element>
     </xsl:template>
     
     <xsl:template match="tei:note/tei:hi[1]">
