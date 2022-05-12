@@ -105,7 +105,44 @@
                                 <xsl:for-each select=".//tei:body//tei:div[@xml:id]">
                                     <div class="row text-img" id="{@xml:id}">
                                         <div class="col-md-6 text-re">
-                                            <xsl:apply-templates/>
+                                            <xsl:apply-templates />
+                                            <hr/>
+                                            <div class="crit-app">
+                                                <xsl:for-each select=".//tei:app">
+                                                    <div class="row">
+                                                        <div class="col-md-1">
+                                                            <xsl:element name="a">
+                                                                <xsl:attribute name="name">
+                                                                    <xsl:text>app_target</xsl:text>
+                                                                    <xsl:number level="any" format="a" count="tei:app"/>
+                                                                </xsl:attribute>
+                                                                <a>
+                                                                    <xsl:attribute name="href">
+                                                                        <xsl:text>#app_anchor__</xsl:text>
+                                                                        <xsl:number level="any" format="a" count="tei:app"/>
+                                                                    </xsl:attribute>
+                                                                    <sup>
+                                                                        <xsl:number level="any" format="a" count="tei:app"/>
+                                                                    </sup>
+                                                                </a>
+                                                            </xsl:element>
+                                                        </div>
+                                                        <div class="col-md-11">
+                                                            <ul class="list-unstyled">
+                                                                <li><strong><xsl:apply-templates select=".//tei:lem"/></strong></li>
+                                                                <xsl:for-each select=".//tei:rdg">
+                                                                    <li>
+                                                                        <xsl:apply-templates/>
+                                                                        [<xsl:value-of select="./@wit"/>]
+                                                                    </li>
+                                                                </xsl:for-each>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </xsl:for-each>
+                                            </div>
+                                            
+                                            
                                         </div>
                                         <div class="col-md-6">
                                             <xsl:if test="./tei:pb/@facs">
@@ -116,40 +153,6 @@
                                 </xsl:for-each>
                             </div>
                             <div class="card-footer">
-                                <div class="crit-app">
-                                    <h3>Kritischer Apparat</h3>
-                                    <xsl:for-each select=".//tei:app">
-                                        <div>
-                                            <xsl:element name="a">
-                                                <xsl:attribute name="name">
-                                                    <xsl:text>app_target</xsl:text>
-                                                    <xsl:number level="any" format="a" count="tei:app"/>
-                                                </xsl:attribute>
-                                                <a>
-                                                    <xsl:attribute name="href">
-                                                        <xsl:text>#app_anchor__</xsl:text>
-                                                        <xsl:number level="any" format="a" count="tei:app"/>
-                                                    </xsl:attribute>
-                                                    <span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">
-                                                        <xsl:number level="any" format="a" count="tei:app"/>
-                                                    </span>
-                                                </a>
-                                            </xsl:element>
-                                            <ul>
-                                                <li><strong><xsl:apply-templates select=".//tei:lem"/></strong></li>
-                                                <xsl:for-each select=".//tei:rdg">
-                                                    <li>
-                                                        <xsl:apply-templates/>
-                                                        [<xsl:value-of select="./@wit"/>]
-                                                    </li>
-                                                </xsl:for-each>
-                                            </ul>
-                                            
-                                        </div>
-                                    </xsl:for-each>
-                                </div>
-                                
-
                                 <p style="text-align:center;">
                                     <xsl:for-each select=".//tei:note[not(./tei:p)]">
                                         <div class="footnotes" id="{local:makeId(.)}">
@@ -294,15 +297,22 @@
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
+    <xsl:template match="tei:lb[@break]">-<br/></xsl:template>
     <xsl:template match="tei:fw">
         <p class="{@type}">
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="tei:hi">
-        <span class="{substring-after(@rendition, '#')}">
-            <xsl:apply-templates/>
-        </span>
+    <xsl:template match="tei:hi[ends-with(@rendition, '#footnote-index')]">
+        <xsl:element name="a">
+            <xsl:attribute name="name">
+                <xsl:text>fn_anchor__</xsl:text><xsl:number level="any" format="1" count="tei:hi[ends-with(@rendition, '#footnote-index')]"/>
+            </xsl:attribute>
+            <xsl:attribute name="href">
+                <xsl:text>#fn_target__</xsl:text><xsl:number level="any" format="1" count="tei:hi[ends-with(@rendition, '#footnote-index')]"/>
+            </xsl:attribute>
+            <sup><xsl:value-of select="./text()"/></sup>
+        </xsl:element>
     </xsl:template>
     <xsl:template match="tei:span">
         <span class="{@class}">
@@ -318,6 +328,18 @@
         <span class="note">
             <xsl:apply-templates/>
         </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:note/tei:hi[1]">
+        <xsl:element name="a">
+            <xsl:attribute name="name">
+                <xsl:text>fn_target__</xsl:text><xsl:number level="any" format="1" count="tei:note/tei:hi[ends-with(@rendition, '#footnote-index')]"/>
+            </xsl:attribute>
+            <xsl:attribute name="href">
+                <xsl:text>#fn_anchor__</xsl:text><xsl:number level="any" format="1" count="tei:note/tei:hi[ends-with(@rendition, '#footnote-index')]"/>
+            </xsl:attribute>
+            <sup><xsl:value-of select="./text()"/></sup>
+        </xsl:element>
     </xsl:template>
     
     
