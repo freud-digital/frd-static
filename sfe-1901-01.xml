@@ -12,14 +12,14 @@
          </publicationStmt>
          <sourceDesc>
             <listWit>
-               <witness xml:id="sfe-1901-01__1901.xml">E: Über den Traum. Hrsg. von L. Löwenfeld and H. Kurella. Wiesbaden: Bergmann 1901 (= Grenzfragen des Nerven- und Seelenlebens VIII), S. 307-344.</witness>
-               <witness xml:id="sfe-1901-01__1911.xml">D1: Über den Traum. 2. Aufl. Wiesbaden: Bergmann 1911. [Erw. Aufl. als Broschüre]
+               <witness xml:id="sfe-1901-01__1901.xml"><idno>E</idno>: Über den Traum. Hrsg. von L. Löwenfeld and H. Kurella. Wiesbaden: Bergmann 1901 (= Grenzfragen des Nerven- und Seelenlebens VIII), S. 307-344.</witness>
+               <witness xml:id="sfe-1901-01__1911.xml"><idno>D1</idno>: Über den Traum. 2. Aufl. Wiesbaden: Bergmann 1911. [Erw. Aufl. als Broschüre]
                </witness>
-               <witness xml:id="sfe-1901-01__1921.xml">D2: Über den Traum. 3. Aufl. München und Wiesbaden: Bergmann 1921. 
+               <witness xml:id="sfe-1901-01__1921.xml"><idno>D2</idno>: Über den Traum. 3. Aufl. München und Wiesbaden: Bergmann 1921. 
                </witness>
-               <witness xml:id="sfe-1901-01__1925.xml">C: Über den Traum. In: Gesammelte Schriften 3. Leipzig, Wien und Zürich: Internationaler Psychoanalytischer Verlag 1925, S. 189-256.
+               <witness xml:id="sfe-1901-01__1925.xml"><idno>C</idno>: Über den Traum. In: Gesammelte Schriften 3. Leipzig, Wien und Zürich: Internationaler Psychoanalytischer Verlag 1925, S. 189-256.
                </witness>
-               <witness xml:id="sfe-1901-01__1931.xml">S: Über den Traum. In: Kleine Schriften zur Sexualtheorie und zur Traumlehre. Leipzig, Wien und Zürich: Internationaler Psychoanalytischer Verlag 1931, S. 246-307 [Kleinoktavausgabe].
+               <witness xml:id="sfe-1901-01__1931.xml"><idno>S</idno>: Über den Traum. In: Kleine Schriften zur Sexualtheorie und zur Traumlehre. Leipzig, Wien und Zürich: Internationaler Psychoanalytischer Verlag 1931, S. 246-307 [Kleinoktavausgabe].
                </witness>
             </listWit>
          </sourceDesc>
@@ -1974,22 +1974,7 @@
                Zwangsideen, klargelegt hat.</p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_3">
-               <persName>Scherner, Karl Albert</persName>
-               <birth>
-                  <date>1825</date>
-               </birth>
-               <death>
-                   <date>1889</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
-               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_2">
-               <persName>Volkelt, Johannes</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_5">
+   <back><listPerson><person xml:id="frd_person_5">
                <persName>Freud, Sigmund</persName>
                <birth>
                   <date>1856</date>
@@ -2005,7 +1990,18 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-         <person xml:id="frd_person_4">
+         <person xml:id="frd_person_3">
+               <persName>Scherner, Karl Albert</persName>
+               <birth>
+                  <date>1825</date>
+               </birth>
+               <death>
+                   <date>1889</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
+               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_4">
                <persName>Schubert, Gotthilf Heinrich</persName>
                <birth>
                   <date>1780</date>
@@ -2015,6 +2011,10 @@
                </death>
                <idno type="gnd">http://lobid.org/gnd/118610937</idno>
                <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_2">
+               <persName>Volkelt, Johannes</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>
