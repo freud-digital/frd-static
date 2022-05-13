@@ -34,7 +34,9 @@
         <xsl:value-of select=".//tei:title[@type='label'][1]/text()"/>
     </xsl:variable>
 
+
     <xsl:template match="/">
+        <xsl:variable name="listWit" select="root()//tei:listWit" as="node()"/>
         <xsl:variable name="doc_title">
             <xsl:value-of select=".//tei:title[@type='manifestation'][1]/text()"/>
         </xsl:variable>
@@ -153,7 +155,20 @@
                                                                 <xsl:for-each select=".//tei:rdg">
                                                                     <li>
                                                                         <xsl:apply-templates/>
-                                                                        [<xsl:value-of select="./@wit"/>]
+                                                                        <xsl:for-each select="tokenize(./@wit, ' ')">
+                                                                            <xsl:variable name="witId">
+                                                                                <xsl:value-of select="substring-after(., '#')"/>
+                                                                            </xsl:variable>
+                                                                            
+                                                                            ]<xsl:element name="a">
+                                                                                <xsl:attribute name="title"><xsl:value-of select="string-join($listWit//tei:witness[@xml:id=$witId]//text())"/></xsl:attribute>
+                                                                                <xsl:attribute name="href">
+                                                                                    <xsl:value-of select="replace($witId, '.xml', '.html')"/>
+                                                                                </xsl:attribute>
+                                                                                <xsl:value-of select="$listWit//tei:witness[@xml:id=$witId]/tei:idno/text()"/>
+                                                                            </xsl:element>
+                                                                        </xsl:for-each>
+                                                                        
                                                                     </li>
                                                                 </xsl:for-each>
                                                             </ul>
@@ -166,7 +181,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <xsl:if test="./tei:pb/@facs">
-                                                <img loading="lazy" src="{./tei:pb/@facs}"/>
+                                                <!--<img loading="lazy" src="{./tei:pb/@facs}"/>-->
                                             </xsl:if>
                                         </div>
                                     </div>
