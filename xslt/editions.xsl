@@ -36,7 +36,6 @@
 
 
     <xsl:template match="/">
-        <xsl:variable name="listWit" select="root()//tei:listWit" as="node()"/>
         <xsl:variable name="doc_title">
             <xsl:value-of select=".//tei:title[@type='manifestation'][1]/text()"/>
         </xsl:variable>
@@ -131,6 +130,7 @@
                                             </div>
                                             <div class="crit-app">
                                                 <xsl:for-each select=".//tei:app">
+                                                    <xsl:variable name="listWit" select="root()//tei:listWit" as="node()"/>
                                                     <div class="row">
                                                         <div class="col-md-1">
                                                             <xsl:element name="a">
