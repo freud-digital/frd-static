@@ -181,7 +181,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <xsl:if test="./tei:pb/@facs">
-                                                <!--<img loading="lazy" src="{./tei:pb/@facs}"/>-->
+                                                <img loading="lazy" src="{./tei:pb/@facs}"/>
                                             </xsl:if>
                                         </div>
                                     </div>
