@@ -106,9 +106,8 @@
                                     <div class="row text-img" id="{@xml:id}">
                                         <div class="col-md-6 text-re">
                                             <xsl:apply-templates />
-                                            
                                             <hr/>
-                                            <div class="crit-app">
+                                            <div class="editorial-notes">
                                                 <xsl:for-each select=".//tei:note[@type='e']">
                                                     <div class="row">
                                                         <div class="col-md-1">
@@ -271,26 +270,6 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <!--<xsl:template match="tei:div">
-        <div id="{@xml:id}" style="margin-bottom: 4em;">
-            <xsl:for-each-group select="*" group-starting-with="tei:pb">  
-                <div class="row text-img" id="{@xml:id}">
-                    <div class="col-md-6 text-re">
-                        <xsl:for-each select="current-group()[self::tei:p|self::tei:fw]">
-                            <p class="yes-index">                                
-                                <xsl:apply-templates/>
-                            </p>
-                        </xsl:for-each>
-                    </div>
-                    <div class="col-md-6">
-                        <xsl:if test="@facs">
-                            <img loading="lazy" src="{@facs}"/>
-                        </xsl:if>
-                    </div>
-                </div>
-            </xsl:for-each-group>
-        </div>
-    </xsl:template>--> 
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
@@ -349,6 +328,10 @@
             </xsl:attribute>
             <sup><xsl:value-of select="./text()"/></sup>
         </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:term">
+        <xsl:apply-templates/>]
     </xsl:template>
     
     
