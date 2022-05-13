@@ -148,10 +148,10 @@
                   <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">Überleistung</lem>
                   <rdg wit="#sfe-1901-01__1901.xml">Ueberleistung</rdg>
                </app>
-               wenigstens auf gewissen Gebieten (<rs ref="#frd_kw3413"><app>
-                     <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">Gedächtnis</lem>
+               wenigstens auf gewissen Gebieten (<app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml"><rs ref="#frd_kw3413">Gedächtnis</rs></lem>
                      <rdg wit="#sfe-1901-01__1901.xml">Gedächtniss</rdg>
-                  </app></rs>)<lb/> wird dem Traumleben von einer
+                  </app>)<lb/> wird dem Traumleben von einer
                <app>
                   <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">großen</lem>
                   <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">grossen</rdg>
@@ -213,7 +213,8 @@
                Verkündigung der Zukunft<lb/> bezieht, und der durch irgend ein Verfahren der Deutung
                aus<lb/> seinem oft verworrenen und rätselhaften Inhalt gewonnen werden<lb/> könne.
                Die in Anwendung gebrachten Deutungsmethoden bestehen<lb/> darin, daß man den
-               erinnerten Trauminhalt durch einen anderen<lb/> ersetzt, entweder Stück für Stück <hi rendition="#smallcaps">nach einem feststehenden Schlüssel</hi>, oder das Ganze des
+               erinnerten Trauminhalt durch einen anderen<lb/> ersetzt, entweder Stück für Stück <hi rendition="#smallcaps">nach einem feststehenden<lb/>
+                  Schlüssel</hi>, oder das Ganze des
                Traumes durch ein anderes<lb/> Ganzes, zu dem es in der Beziehung eines <hi rendition="#smallcaps">Symbols</hi> steht.<lb/> Ernsthafte Männer lächeln über
                diese Bemühungen. „Träume<lb/> sind Schäume.“</p>
          </div>
@@ -289,12 +290,14 @@
                Kürze empfehlen kann. Vielleicht wird gerade der Traum<lb/> der letzten Nacht diesen
                Ansprüchen genügen. Sein unmittelbar<lb/> nach dem Erwachen fixierter Inhalt lautet
                folgendermaßen:</p>
-            <p>„<hi rendition="#em"><rs ref="frd_dream_id_5">Eine Gesellschaft, Tisch oder Table d’hôte</rs><note type="e" resp="#chuber">Table d’hôte ] Gasthaustafel mit festgelegtem Menü, im Gegensatz zu à la carte. Vgl. SFs Brief an Martha Freud, Riva, 5.9.1900: „u im nahe gelegenen [Hotel] Mahlzeiten an der Tabel des Todes, wie ich sie reichlicher u besser, leichter u appetitlicher nirgends getroffen habe.“ (Reisebriefe, S.130).</note> . . . Es wird Spinat
-                  gegessen . . . Frau E. L. sitzt neben mir, wendet sich ganz mir zu und legt
-                  vertraulich die Hand auf mein Knie. Ich entferne die Hand abwehrend. Sie sagt
-                  dann: Sie haben aber immer so schöne Augen gehabt . . . Ich sehe dann undeutlich
-                  etwas wie zwei Augen als Zeichnung oder wie die Kontur eines Brillenglases . .
-                  .</hi>“</p>
+            <p>„<hi rendition="#em"><rs ref="frd_dream_id_5">Eine Gesellschaft, Tisch oder Table d’hôte</rs><note type="e" resp="#chuber"><term>Table d’hôte</term>
+               Gasthaustafel mit festgelegtem Menü, im Gegensatz zu à la carte. Vgl. SFs Brief an Martha Freud, Riva, 5.9.1900: „u im nahe gelegenen [Hotel] Mahlzeiten an der Tabel des Todes, wie ich sie reichlicher u besser, leichter u appetitlicher nirgends getroffen habe.“ (Reisebriefe, S.130).</note> . . . Es wird Spinat<lb/>
+               gegessen . . . Frau E. L. sitzt neben mir, wendet sich ganz mir<lb/>
+               zu und legt vertraulich die Hand auf mein Knie. Ich entferne<lb/>
+               die Hand abwehrend. Sie sagt dann: Sie haben aber immer so<lb/>
+               schöne Augen gehabt . . . Ich sehe dann undeutlich etwas wie<lb/>
+               zwei Augen als Zeichnung oder wie die Kontur eines Brillen<lb break="no"/>
+               glases . . .</hi>“</p>
             <p>Dies ist der ganze Traum oder wenigstens alles, was ich von<lb/> ihm erinnere. Er
                erscheint mir dunkel und sinnlos, vor allem<lb/> aber befremdlich. Frau E. L. ist
                eine Person, zu der ich kaum<lb/> je freundschaftliche Beziehungen gepflogen, meines
@@ -346,7 +349,7 @@
                Zeit meiner geheimen Werbung zuge<lb break="no"/>tragen hat. Die Liebkosung unter dem
                Tischtuch war die Ant<lb break="no"/>wort auf einen ernsthaft werbenden Brief. Im
                Traum ist aber<lb/> meine Frau durch die mir fremde E. L. ersetzt.</p>
-            <p>Frau E. L. ist die Tochter eines Mannes, dem ich <hi rendition="#smallcaps">Geld
+            <p>Frau E. L. ist die Tochter eines Mannes, dem ich <hi rendition="#smallcaps">Geld<lb/>
                   geschuldet</hi> habe! Ich kann nicht umhin zu bemerken, daß<lb/> sich da ein
                ungeahnter Zusammenhang zwischen den Stücken des<lb/> Trauminhalts und meinen
                Einfällen enthüllt. Folgt man der<lb/> Assoziationskette, die von einem Element des
@@ -1971,7 +1974,22 @@
                Zwangsideen, klargelegt hat.</p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_5">
+   <back><listPerson><person xml:id="frd_person_3">
+               <persName>Scherner, Karl Albert</persName>
+               <birth>
+                  <date>1825</date>
+               </birth>
+               <death>
+                   <date>1889</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
+               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_2">
+               <persName>Volkelt, Johannes</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_5">
                <persName>Freud, Sigmund</persName>
                <birth>
                   <date>1856</date>
@@ -1997,21 +2015,6 @@
                </death>
                <idno type="gnd">http://lobid.org/gnd/118610937</idno>
                <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_2">
-               <persName>Volkelt, Johannes</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_3">
-               <persName>Scherner, Karl Albert</persName>
-               <birth>
-                  <date>1825</date>
-               </birth>
-               <death>
-                   <date>1889</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
-               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>
