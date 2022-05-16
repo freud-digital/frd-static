@@ -104,7 +104,20 @@
                                     </xsl:for-each>
                                 </ul>
                                 <xsl:for-each select=".//tei:body//tei:div[@xml:id]">
-                                    <div class="row text-img" id="{@xml:id}">
+                                    <div class="row" id="{@xml:id}">
+                                        <div class="col-md-3">
+                                            
+                                            <!--<xsl:for-each select=".//tei:p">
+                                                <ul>
+                                                    <li>§<xsl:number count="tei:p"/></li>
+                                                    <ul>
+                                                        <xsl:for-each select="tei:lb">
+                                                        <li>l: <xsl:number count="tei:lb"/></li>
+                                                        </xsl:for-each>
+                                                    </ul>
+                                                </ul>
+                                            </xsl:for-each>-->
+                                        </div>
                                         <div class="col-md-6 text-re">
                                             <xsl:apply-templates />
                                             <hr/>
@@ -179,12 +192,8 @@
                                             
                                             
                                         </div>
-                                        <div class="col-md-6">
-                                            <xsl:if test="./tei:pb/@facs">
-                                                <img loading="lazy" src="{./tei:pb/@facs}"/>
-                                            </xsl:if>
-                                        </div>
                                     </div>
+                                    
                                 </xsl:for-each>
                             </div>
                         </div>                       
