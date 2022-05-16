@@ -1081,21 +1081,99 @@
          <div xml:id="page__613f242a-7247-45f4-9927-9aa4616c8809">
             <pb n="36" facs="https://www.freud-edition.net/sites/default/files/manifestationen/node-25035/images/page-36.jpg" xml:id="faks__aa90c301-6988-4d1b-8b2f-0a7edef8ef4f"/>
             <fw type="pageNum">222</fw>
-            <p prev="true">sich regelmäßig Erinnerungen an eindrucksvolle Erlebnisse, —<lb/> nicht
-               selten aus früher Kindheit, — die also selbst als Situationen<lb/> mit meist
-               visuellem Inhalt erfaßt worden sind. Wo es irgend<lb/> möglich ist, äußert dieser
-               Bestandteil der Traumgedanken einen<lb/> bestimmenden Einfluß auf die Gestaltung des
-               Trauminhalts,<lb/> indem er gleichsam als Kristallisationspunkt anziehend und ver<lb break="no"/>teilend auf das Material der Traumgedanken wirkt. Die Traum<lb break="no"/>situation ist oft nichts anderes als eine modifizierte und durch<lb/>
-               Einschaltungen komplizierte Wiederholung eines solchen eindrucks<lb break="no"/>vollen Erlebnisses; getreue und unvermengte Reproduktionen realer<lb/> Szenen
-               bringt der Traum hingegen nur sehr selten.</p>
-            <p>Der Trauminhalt besteht aber nicht ausschließlich aus<lb/> Situationen, sondern
-               schließt auch unvereinigte Brocken von<lb/> visuellen Bildern, Reden und selbst
+            <p prev="true">sich
+               <app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">regelmäßig</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">regelmässig</rdg>
+               </app>
+               Erinnerungen an eindrucksvolle Erlebnisse, —<lb/> nicht
+               selten aus früher Kindheit
+               <app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">, —</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">—</rdg>
+               </app>
+               die also selbst als Situationen<lb/> mit meist
+               visuellem Inhalt
+               <app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">erfaßt</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">erfasst</rdg>
+               </app>
+               worden sind. Wo es irgend<lb/> möglich ist,
+               <app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">äußert</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">äussert</rdg>
+               </app>
+               dieser
+               <app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">Bestandteil</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">Bestandtheil</rdg>
+               </app>
+               der Traumgedanken einen<lb/> bestimmenden
+               <app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">Einfluß</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml">Einﬂuss</rdg>
+                  <rdg wit="#sfe-1901-01__1921.xml">Einfluss</rdg>
+               </app>
+               auf die Gestaltung des
+               Trauminhalts,<lb/> indem er gleichsam als
+               <app>
+                  <lem wit="#sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">Kristallisationspunkt</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml">Krystallisationspunkt</rdg>
+               </app>
+               anziehend und
+               <app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">ver<lb break="no"/>teilend</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">vertheilend</rdg>
+               </app>
+               auf das Material der Traumgedanken wirkt. Die Traum<lb break="no"/>situation ist oft nichts anderes als eine
+               <app>
+                  <lem wit="#sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">modifizierte</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml">modifizirte</rdg>
+               </app>
+               und durch<lb/>
+               Einschaltungen
+               <app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">komplizierte</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">komplizirte</rdg>
+               </app>
+               Wiederholung eines solchen eindrucks<lb break="no"/>vollen Erlebnisses; getreue und unvermengte Reproduktionen realer<lb/>
+               <app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">Szenen</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">Scenen</rdg>
+               </app>
+               bringt der Traum hingegen nur
+               <app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">sehr</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">höchst</rdg>
+               </app>
+               selten.</p>
+            <p>Der Trauminhalt besteht aber nicht
+               <app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">ausschließlich</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">ausschliesslich</rdg>
+               </app>
+               aus<lb/> Situationen, sondern
+               <app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">schließt</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">schliesst</rdg>
+               </app>
+               auch unvereinigte Brocken von<lb/> visuellen Bildern, Reden und selbst
                Stücke von unveränderten<lb/> Gedanken ein. Es wird daher vielleicht anregend
                wirken,<lb/> wenn wir in knappster Weise die Darstellungsmittel mustern,<lb/> welche
-               der Traumarbeit zur Verfügung stehen, um in der<lb/> eigentümlichen Ausdrucksweise
+               der Traumarbeit zur Verfügung stehen, um in der<lb/>
+               <app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">eigentümlichen</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">eigenthümlichen</rdg>
+               </app>
+               Ausdrucksweise
                des Traumes die Traumgedanken<lb/> wiederzugeben.</p>
             <p>Die Traumgedanken, welche wir durch die Analyse erfahren,<lb/> zeigen sich uns als
-               ein psychischer Komplex von allerverwickelt<lb break="no"/>stem Aufbau. Die Stücke
+               ein psychischer Komplex
+               <app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">von</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">vom</rdg>
+               </app>
+               allerverwickelt<lb break="no"/>stem Aufbau. Die Stücke
                desselben stehen in den mannigfaltigsten<lb/> logischen Relationen
                <app>
                   <lem wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml">zu einander</lem>
@@ -1135,7 +1213,8 @@
                seines<lb/> eigenen Gefüges zu ersetzen.</p>
             <p>Der Traum wird zunächst dem unleugbaren Zusammenhang<lb/> zwischen allen Stücken der
                Traumgedanken dadurch gerecht, daß<lb/> er dieses Material zu einer Situation
-               vereinigt. Er gibt <hi rendition="#smallcaps">logischen Zusammenhang</hi> wieder als
+               vereinigt. Er gibt <hi rendition="#smallcaps">logischen<lb/>
+                  Zusammenhang</hi> wieder als
                   <hi rendition="#smallcaps">Annäherung in Zeit und Raum</hi>, ähnlich wie der
                Maler, der alle Dichter zum Bild des<lb/> Parnaß zusammenstellt, die niemals auf
                einem Berggipfel bei<lb break="no"/>sammen gewesen sind, wohl aber begrifflich eine
@@ -2033,16 +2112,16 @@
                <persName>Volkelt, Johannes</persName>
                <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_4">
-               <persName>Schubert, Gotthilf Heinrich</persName>
+            <person xml:id="frd_person_3">
+               <persName>Scherner, Karl Albert</persName>
                <birth>
-                  <date>1780</date>
+                  <date>1825</date>
                </birth>
                <death>
-                   <date>1860</date>
+                   <date>1889</date>
                </death>
-               <idno type="gnd">http://lobid.org/gnd/118610937</idno>
-               <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
+               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
+               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_5">
                <persName>Freud, Sigmund</persName>
@@ -2060,16 +2139,16 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-         <person xml:id="frd_person_3">
-               <persName>Scherner, Karl Albert</persName>
+         <person xml:id="frd_person_4">
+               <persName>Schubert, Gotthilf Heinrich</persName>
                <birth>
-                  <date>1825</date>
+                  <date>1780</date>
                </birth>
                <death>
-                   <date>1889</date>
+                   <date>1860</date>
                </death>
-               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
-               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
+               <idno type="gnd">http://lobid.org/gnd/118610937</idno>
+               <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>
