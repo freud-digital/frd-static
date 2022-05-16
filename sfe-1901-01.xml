@@ -257,8 +257,8 @@
                </app>
                man den erinnerten Trauminhalt durch einen anderen<lb/> ersetzt, entweder Stück für Stück <hi rendition="#smallcaps">nach einem feststehenden<lb/>
                   Schlüssel</hi>, oder das Ganze des
-               Traumes durch ein anderes<lb/> Ganzes, zu dem es in der Beziehung eines <hi rendition="#smallcaps">Symbols</hi> steht.<lb/> Ernsthafte Männer lächeln über
-               diese Bemühungen. „Träume<lb/> sind Schäume.“</p>
+               Traumes durch ein anderes<lb/> Ganzes, zu dem es in der Beziehung eines <hi rendition="#smallcaps">Symbols</hi> steht.<lb/>
+               Ernsthafte Männer lächeln über diese Bemühungen. „<q type="redensart" source="#zotero__CUZ37478 S. 763">Träume<lb/> sind Schäume.</q>“</p>
          </div>
          <div xml:id="page__3ad6eb58-2495-4bec-a055-1bce4d7ad96d">
             <pb n="6" facs="https://www.freud-edition.net/sites/default/files/manifestationen/node-25035/images/page-6.jpg" xml:id="faks__4525acbd-7b09-40ce-a09b-ae467156440e"/>
@@ -371,8 +371,30 @@
                <hi rendition="#smallcaps">Table d’hôte</hi> der komischen Besorgnis, ich bekomme zu
                wenig,<lb/> müsse auf meinen Vorteil bedacht sein, nicht erwehren kann.“<lb/> In
                entfernterem Zusammenhange hiermit zitierte ich:</p>
-            <q><p>„Ihr führt ins Leben uns hinein,<lb/> Ihr laßt den Armen <hi rendition="#smallcaps">schuldig</hi> werden.“</p>
-            </q>
+            <p>„<q source="#zotero__2TNR565J Bd.5. S. 134">Ihr führt ins Leben uns hinein,<lb/> Ihr laßt den Armen <hi rendition="#smallcaps">schuldig</hi> werden.<note type="e" resp="#chuber">
+               <term>„Ihr führt ins Leben uns hinein, […]</term>
+               Lied des Harfners aus Goethes Wilhelm Meisters Lehrjahre:
+               <cit>
+                  <quote>
+                     <lg>
+                        <l>Wer nie sein Brot mit Tränen aß,</l>
+                        <l>wer nie die kummervollen Nächte </l>
+                        <l>Auf seinem Bette weinend saß,</l>
+                        <l>der kennt euch nicht, ihr himmlischen Mächte.</l>
+                     </lg>
+                     <lg>
+                        <l>Ihr führt ins Leben uns hinein,</l>
+                        <l> Ihr laßt den Armen schuldig werden, </l>
+                        <l> Dann überlaßt ihr ihn der Pein;</l>
+                        <l> Denn alle Schuld rächt sich auf Erden.“</l>
+                     </lg>
+                  </quote>
+               </cit>
+               <bibl>Goethe: Sämtl. Werke (Münchner Ausgabe), Bd. 5, S. 134)</bibl>
+            </note>
+            </q>“
+            </p>
+            
             <p>Ein zweiter Einfall zur Table d’hôte: Vor einigen Wochen<lb/> habe ich mich an einer
                   <hi rendition="#smallcaps">Gasthaustafel</hi> in einem Tiroler<lb/> Höhenkurort
                heftig über meine liebe Frau geärgert, die mir nicht<lb/> reserviert genug gegen
@@ -2120,7 +2142,18 @@
                Zwangsideen, klargelegt hat.</p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_5">
+   <back><listPerson><person xml:id="frd_person_3">
+               <persName>Scherner, Karl Albert</persName>
+               <birth>
+                  <date>1825</date>
+               </birth>
+               <death>
+                   <date>1889</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
+               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_5">
                <persName>Freud, Sigmund</persName>
                <birth>
                   <date>1856</date>
@@ -2136,11 +2169,7 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-         <person xml:id="frd_person_2">
-               <persName>Volkelt, Johannes</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_4">
+         <person xml:id="frd_person_4">
                <persName>Schubert, Gotthilf Heinrich</persName>
                <birth>
                   <date>1780</date>
@@ -2151,16 +2180,9 @@
                <idno type="gnd">http://lobid.org/gnd/118610937</idno>
                <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_3">
-               <persName>Scherner, Karl Albert</persName>
-               <birth>
-                  <date>1825</date>
-               </birth>
-               <death>
-                   <date>1889</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
-               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
+            <person xml:id="frd_person_2">
+               <persName>Volkelt, Johannes</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>
