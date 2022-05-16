@@ -80,7 +80,7 @@
                </app>
                Eigentümlichkeiten seines Inhaltes, die Inkongruenz<lb/> zwischen seinen
                Vorstellungsbildern und den an sie geknüpften<lb/>
-               <rs ref="#frd_kw_0052">Affekten</rs>, endlich die Flüchtigkeit des Traumes, die Art,
+               <rs ref="#frd_kw_52">Affekten</rs>, endlich die Flüchtigkeit des Traumes, die Art,
                wie das<lb/> wache Denken ihn als fremdartig <app>
                   <lem wit="#sfe-1901-01__1925.xml">beiseite</lem>
                   <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">bei Seite</rdg>
@@ -88,7 +88,7 @@
                </app> <app>
                   <lem wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml">schiebt</lem>
                   <rdg wit="#sfe-1901-01__1931.xml"/>
-               </app>, in der <rs ref="#frd_kw_0685">Erinnerung</rs><lb/> verstümmelt oder auslöscht: — all diese
+               </app>, in der <rs ref="#frd_kw_685">Erinnerung</rs><lb/> verstümmelt oder auslöscht: — all diese
                und noch andere Pro<lb break="no"/>bleme verlangen seit vielen hundert Jahren nach
                Lösungen, die<lb/> bis heute nicht befriedigend gegeben werden konnten. Im Vorder<lb break="no"/>grunde des Interesses steht aber die Frage nach der <hi rendition="#smallcaps">Bedeutung</hi><lb/> des Traumes, die einen zweifachen Sinn
                in sich <app>
@@ -192,7 +192,7 @@
                   <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">Instruments</lem>
                   <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">Instrumentes</rdg>
                </app>
-               hin<lb break="no"/>laufen. Der Traum ist geradezu als <q who="#point_to_bibl_id, 35f">„ein
+               hin<lb break="no"/>laufen. Der Traum ist geradezu als <q source="#zotero__SZWT6IJP S. 35">„ein
                   körperlicher, in allen<lb/> Fällen unnützer, in vielen Fällen krankhafter
                   Vorgang“</q> zu kenn-</p>
          </div>
@@ -332,7 +332,7 @@
                Kürze empfehlen kann. Vielleicht wird gerade der Traum<lb/> der letzten Nacht diesen
                Ansprüchen genügen. Sein unmittelbar<lb/> nach dem Erwachen fixierter Inhalt lautet
                folgendermaßen:</p>
-            <p>„<hi rendition="#em"><rs ref="frd_dream_id_5">Eine Gesellschaft, Tisch oder Table d’hôte</rs><note type="e" resp="#chuber"><term>Table d’hôte</term>
+            <p>„<hi rendition="#em"><rs ref="frd_dream_id_5">Eine <rs type="#frd_dream_id_5">Gesellschaft</rs>, Tisch oder Table d’hôte</rs><note type="e" resp="#chuber"><term>Table d’hôte</term>
                Gasthaustafel mit festgelegtem Menü, im Gegensatz zu à la carte. Vgl. SFs Brief an Martha Freud, Riva, 5.9.1900: „u im nahe gelegenen [Hotel] Mahlzeiten an der Tabel des Todes, wie ich sie reichlicher u besser, leichter u appetitlicher nirgends getroffen habe.“ (Reisebriefe, S.130).</note> . . . Es wird Spinat<lb/>
                gegessen . . . Frau E. L. sitzt neben mir, wendet sich ganz mir<lb/>
                zu und legt vertraulich die Hand auf mein Knie. Ich entferne<lb/>
@@ -383,7 +383,7 @@
          </div>
          <div xml:id="page__b1251d59-e3d3-4f52-8c1e-34b69006cef7">
             <pb n="10" facs="https://www.freud-edition.net/sites/default/files/manifestationen/node-25035/images/page-10.jpg" xml:id="faks__7d37f12e-dd9d-4422-9bf8-d9263dfad610"/>
-            <fw type="pageNum">196</fw>
+            <fw type="pageNum">196</fw>   
             <p prev="true">Benehmen meiner Frau an jener Tafel und dem der Frau E. L.<lb/> im Traum,
                   „<hi rendition="#smallcaps">die sich ganz mir zuwendet</hi>“.</p>
             <p>Weiter: Ich merke jetzt, daß der Traumvorgang die Repro<lb break="no"/>duktion einer
@@ -591,7 +591,15 @@
                gesammelt habe: Ein Mädchen von 19 Monaten<lb/> wird über einen Tag nüchtern
                erhalten, weil sie am Morgen<lb/> erbrochen und sich nach der Aussage der Kinderfrau
                an Erd<lb break="no"/>beeren verdorben hat. In der Nacht nach diesem Hungertag
-               hört<lb/> man sie aus dem Schlafe ihren Namen nennen und dazusetzen:<lb/> „<hi rendition="#em">Er(d)beer</hi>, <hi rendition="#em">Hochbeer</hi>, <hi rendition="#em">Eier(s)peis</hi>, <hi rendition="#em">Papp</hi>.“ Sie träumt also,
+               hört<lb/> man sie aus dem Schlafe ihren Namen nennen und dazusetzen:<lb/> „<hi rendition="#em">Er(d)beer</hi>, <hi rendition="#em">Hochbeer</hi><note type="e">
+                  <term>Hochbeer</term>
+                  regionale österr. Bezeichnung für Himbeere; vgl. <title ref="zotero__">Österr. Wörterbuch</title></note>,
+               <hi rendition="#em">Eier(s)peis</hi>, <hi rendition="#em">Papp</hi>.“
+               <note type="e" resp="chuber">
+                  <term>Papp</term>
+                  regionale österr. Bezeichnung für Brei
+               </note>
+               Sie träumt also,
                daß<lb/> sie ißt, und hebt aus ihrem Menü gerade das hervor, was ihr<lb/> die nächste
                Zeit, wie sie vermutet, karg zugemessen bleiben wird.<lb/> — Ähnlich träumt von einem
                versagten Genuß ein 22mona<lb break="no"/>tiger Knabe, der tags zuvor seinem Onkel
@@ -1814,7 +1822,11 @@
                möchte noch<lb/> spielen. Diese Bedürfnisse werden zum Teil befriedigt, zum
                anderen<lb/> mit Autorität auf den nächsten Tag verschoben. Es ist klar, daß<lb/>
                Wünsche und Bedürfnisse, die sich regen, die Hemmnisse des<lb/> Einschlafens sind.
-               Wer kennt nicht die heitere Geschichte von<lb/> dem schlimmen Buben (Balduin <hi rendition="#smallcaps">Grollers</hi>), der, bei Nacht</p>
+               Wer kennt nicht die heitere Geschichte von<lb/> dem schlimmen Buben (<rs ref="frd_person_3505">Balduin <hi rendition="#smallcaps">Grollers</hi></rs>),
+               <note type="e" resp="#chuber">
+                  <term>die heitere Geschichte von dem schlimmen Buben (Balduin Grollers)</term>] <title ref="#zotero__2EM7DFJP">Vom kleinen Rudi (1897)</title>, Roman von Balduin Groller (d.i. Adalbert Goldscheider), dem Erfinder des österreichischen Sherlock Holmes, alias Detektiv Dagobert Trostler.
+               </note>
+               der, bei Nacht</p>
          </div>
          <div xml:id="page__c1ff12a9-99bc-4b4f-a1aa-464b2a1c7a00">
             <pb n="60" facs="https://www.freud-edition.net/sites/default/files/manifestationen/node-25035/images/page-60.jpg" xml:id="faks__52348770-b22b-41bb-bf70-1cffb9846dfa"/>
@@ -2108,22 +2120,7 @@
                Zwangsideen, klargelegt hat.</p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_2">
-               <persName>Volkelt, Johannes</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_3">
-               <persName>Scherner, Karl Albert</persName>
-               <birth>
-                  <date>1825</date>
-               </birth>
-               <death>
-                   <date>1889</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
-               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_5">
+   <back><listPerson><person xml:id="frd_person_5">
                <persName>Freud, Sigmund</persName>
                <birth>
                   <date>1856</date>
@@ -2139,7 +2136,11 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-         <person xml:id="frd_person_4">
+         <person xml:id="frd_person_2">
+               <persName>Volkelt, Johannes</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_4">
                <persName>Schubert, Gotthilf Heinrich</persName>
                <birth>
                   <date>1780</date>
@@ -2149,6 +2150,17 @@
                </death>
                <idno type="gnd">http://lobid.org/gnd/118610937</idno>
                <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_3">
+               <persName>Scherner, Karl Albert</persName>
+               <birth>
+                  <date>1825</date>
+               </birth>
+               <death>
+                   <date>1889</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
+               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>
