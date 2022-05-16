@@ -205,15 +205,57 @@
                   <rdg wit="#sfe-1901-01__1901.xml">Eigenthümlichkeiten</rdg>
                </app>
                des Traumlebens er<lb break="no"/>klären sich aus der
-               zusammenhanglosen, durch physiologische Reize<lb/> erzwungenen Arbeit einzelner
+               <app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">zusammenhanglosen</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">zusammenhangslosen</rdg>
+               </app>,
+               durch physiologische Reize<lb/> erzwungenen Arbeit einzelner
                Organe oder Zellgruppen des sonst<lb/> in Schlaf versenkten Gehirns.</p>
-            <p>Wenig beeinflußt durch dieses Urteil der Wissenschaft und<lb/> unbekümmert um die
-               Quellen des Traumes, scheint die Volks<lb break="no"/>meinung an dem Glauben
-               festzuhalten, daß der Traum denn doch<lb/> einen Sinn habe, der sich auf die
-               Verkündigung der Zukunft<lb/> bezieht, und der durch irgend ein Verfahren der Deutung
-               aus<lb/> seinem oft verworrenen und rätselhaften Inhalt gewonnen werden<lb/> könne.
-               Die in Anwendung gebrachten Deutungsmethoden bestehen<lb/> darin, daß man den
-               erinnerten Trauminhalt durch einen anderen<lb/> ersetzt, entweder Stück für Stück <hi rendition="#smallcaps">nach einem feststehenden<lb/>
+            <p>Wenig
+            <app>
+               <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">beeinflußt</lem>
+               <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">beeinflusst</rdg>
+            </app>
+               durch dieses
+               <app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">Urteil</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">Urtheil</rdg>
+               </app>
+               der Wissenschaft und<lb/> unbekümmert um die
+               Quellen des Traumes
+               <app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">,</lem>
+                  <rdg wit="#sfe-1901-01__1911.xml #sfe-1901-01__1901.xml #sfe-1901-01__1921.xml"/>
+               </app>
+               scheint die Volks<lb break="no"/>meinung an dem Glauben
+               festzuhalten,
+               <app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">dass</rdg>
+               </app>
+               der Traum denn doch<lb/> einen Sinn habe, der sich auf die
+               Verkündigung der Zukunft<lb/> bezieht
+               <app>
+                  <lem wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml">,</lem>
+                  <rdg wit="#sfe-1901-01__1931.xml"/>
+               </app>
+               und der durch
+               <app>
+                  <lem wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml">irgend ein</lem>
+                  <rdg wit="#sfe-1901-01__1931.xml">irgendein</rdg>
+               </app>
+               Verfahren der Deutung aus<lb/> seinem oft verworrenen und
+               <app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">rätselhaften</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">räthselhaften</rdg>
+               </app>
+               Inhalt gewonnen werden<lb/>
+               könne. Die in Anwendung gebrachten Deutungsmethoden bestehen<lb/> darin,
+               <app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">dass</rdg>
+               </app>
+               man den erinnerten Trauminhalt durch einen anderen<lb/> ersetzt, entweder Stück für Stück <hi rendition="#smallcaps">nach einem feststehenden<lb/>
                   Schlüssel</hi>, oder das Ganze des
                Traumes durch ein anderes<lb/> Ganzes, zu dem es in der Beziehung eines <hi rendition="#smallcaps">Symbols</hi> steht.<lb/> Ernsthafte Männer lächeln über
                diese Bemühungen. „Träume<lb/> sind Schäume.“</p>
@@ -1054,10 +1096,23 @@
                des Traumes die Traumgedanken<lb/> wiederzugeben.</p>
             <p>Die Traumgedanken, welche wir durch die Analyse erfahren,<lb/> zeigen sich uns als
                ein psychischer Komplex von allerverwickelt<lb break="no"/>stem Aufbau. Die Stücke
-               desselben stehen in den mannigfaltigsten<lb/> logischen Relationen zu einander; sie
-               bilden Vorder- und Hinter<lb break="no"/>grund, Bedingungen, Abschweifungen,
-               Erläuterungen, Beweisgänge<lb/> und Einsprüche. Fast regelmäßig steht neben einem
-                  Gedanken<lb break="no"/>gang sein kontradiktorisches Widerspiel. Diesem Material
+               desselben stehen in den mannigfaltigsten<lb/> logischen Relationen
+               <app>
+                  <lem wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml">zu einander</lem>
+                  <rdg wit="#sfe-1901-01__1931.xml">zueinander</rdg>
+               </app>; sie
+               bilden
+               <app>
+                  <lem wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml">Vorder- und</lem>
+                  <rdg wit="#sfe-1901-01__1931.xml">Vorderund</rdg>
+               </app>
+               Hinter<lb break="no"/>grund, Bedingungen, Abschweifungen,
+               Erläuterungen, Beweisgänge<lb/> und Einsprüche. Fast
+               <app>
+                  <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">regelmäßig</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">regelmässig</rdg>
+               </app>
+               steht neben einem Gedanken<lb break="no"/>gang sein kontradiktorisches Widerspiel. Diesem Material
                fehlt<lb/> keiner der Charaktere, die uns von unserem wachen Denken her<lb/> bekannt
                sind. Soll nun aus alledem ein Traum werden, so unter<lb break="no"/>liegt dies
                psychische Material einer Pressung, die es ausgiebig<lb/> verdichtet, einer inneren
@@ -1974,7 +2029,11 @@
                Zwangsideen, klargelegt hat.</p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_4">
+   <back><listPerson><person xml:id="frd_person_2">
+               <persName>Volkelt, Johannes</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_4">
                <persName>Schubert, Gotthilf Heinrich</persName>
                <birth>
                   <date>1780</date>
@@ -1984,21 +2043,6 @@
                </death>
                <idno type="gnd">http://lobid.org/gnd/118610937</idno>
                <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_2">
-               <persName>Volkelt, Johannes</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_3">
-               <persName>Scherner, Karl Albert</persName>
-               <birth>
-                  <date>1825</date>
-               </birth>
-               <death>
-                   <date>1889</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
-               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_5">
                <persName>Freud, Sigmund</persName>
@@ -2016,5 +2060,16 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-         </listPerson></back></text>
+         <person xml:id="frd_person_3">
+               <persName>Scherner, Karl Albert</persName>
+               <birth>
+                  <date>1825</date>
+               </birth>
+               <death>
+                   <date>1889</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
+               <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            </listPerson></back></text>
 </TEI>
