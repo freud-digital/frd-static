@@ -104,22 +104,11 @@
                                     </xsl:for-each>
                                 </ul>
                                 <xsl:for-each select=".//tei:body//tei:div[@xml:id]">
-                                    <div class="row" id="{@xml:id}">
-                                        <div class="col-md-3">
+                                    <div class="row text-middle" id="{@xml:id}">
+                                        <div class="col-md-12 text-re">
                                             
-                                            <!--<xsl:for-each select=".//tei:p">
-                                                <ul>
-                                                    <li>§<xsl:number count="tei:p"/></li>
-                                                    <ul>
-                                                        <xsl:for-each select="tei:lb">
-                                                        <li>l: <xsl:number count="tei:lb"/></li>
-                                                        </xsl:for-each>
-                                                    </ul>
-                                                </ul>
-                                            </xsl:for-each>-->
-                                        </div>
-                                        <div class="col-md-6 text-re">
-                                            <xsl:apply-templates />
+                                                    <xsl:apply-templates/>
+                                           
                                             <hr/>
                                             <div class="editorial-notes">
                                                 <xsl:for-each select=".//tei:note[@type='e']">
@@ -290,14 +279,104 @@
     </xsl:template>
 
     <xsl:template match="tei:p">
-        <p id="{generate-id()}">
+        <xsl:variable name="para" as="xs:int">
+            <xsl:number from="tei:body"/>
+        </xsl:variable>
+        <p class="indentedP" id="{generate-id()}">
+            <a style="padding-right:5em;margin-left:-5em;">                
+                <xsl:attribute name="href">
+                    <xsl:text>#</xsl:text><xsl:value-of select="parent::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/>
+                </xsl:attribute>
+                <xsl:attribute name="name">
+                    <xsl:value-of select="parent::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/>
+                </xsl:attribute>                
+                <xsl:text>§ </xsl:text><xsl:value-of select="$para"/>
+            </a>
+            <a style="padding-right:1.8em;margin-left:-2.5em;color:#f1f1f1;">
+                <xsl:attribute name="href">
+                    <xsl:text>#</xsl:text><xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:text>01</xsl:text>
+                </xsl:attribute>
+                <xsl:attribute name="name">
+                    <xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:text>01</xsl:text>
+                </xsl:attribute>                
+                <xsl:text>01</xsl:text>
+            </a>
             <xsl:apply-templates/>
-        </p>
+        </p>          
     </xsl:template>
-    <xsl:template match="tei:lb">
+    <xsl:template match="tei:lb">        
         <br/>
+        <a>
+            <xsl:variable name="para" as="xs:int">
+                <xsl:number from="tei:body"/>
+            </xsl:variable>
+            <xsl:variable name="lines" as="xs:int">
+                <xsl:number from="tei:body"/>
+            </xsl:variable>
+            <xsl:variable name="lines_corr" as="xs:int">
+                <xsl:value-of select="$lines + 1"/>
+            </xsl:variable>
+            <xsl:attribute name="href">
+                <xsl:text>#</xsl:text><xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines_corr"/>
+            </xsl:attribute>
+            <xsl:attribute name="name">
+                <xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines_corr"/>
+            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="$lines_corr != 5">
+                    <xsl:attribute name="style">
+                        <xsl:text>padding-right:1.5em;margin-left:-1em;color:#f1f1f1;</xsl:text>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="style">
+                        <xsl:text>padding-right:1.5em;margin-left:-1em;</xsl:text>
+                    </xsl:attribute>
+                </xsl:otherwise>
+            </xsl:choose>            
+            <xsl:if test="$lines_corr &lt; 10">
+                <xsl:text>0</xsl:text>
+            </xsl:if>
+            <xsl:value-of select="$lines_corr"/>
+        </a>  
     </xsl:template>
-    <xsl:template match="tei:lb[@break]">-<br/></xsl:template>
+    <xsl:template match="tei:lb[@break]">
+        -<br/>
+        <a>
+            <xsl:variable name="para" as="xs:int">
+                <xsl:number from="tei:body"/>
+            </xsl:variable>
+            <xsl:variable name="lines" as="xs:int">
+                <xsl:number from="tei:body"/>
+            </xsl:variable>
+            <xsl:variable name="lines_corr" as="xs:int">
+                <xsl:value-of select="$lines + 1"/>
+            </xsl:variable>
+            <xsl:attribute name="href">
+                <xsl:text>#</xsl:text><xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines_corr"/>
+            </xsl:attribute>
+            <xsl:attribute name="name">
+                <xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines_corr"/>
+            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="$lines_corr != 5">
+                    <xsl:attribute name="style">
+                        <xsl:text>padding-right:1.5em;margin-left:-1em;color:#f1f1f1;</xsl:text>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="style">
+                        <xsl:text>padding-right:1.5em;margin-left:-1em;</xsl:text>
+                    </xsl:attribute>
+                </xsl:otherwise>
+            </xsl:choose>   
+            <xsl:if test="$lines_corr &lt; 10">
+                <xsl:text>0</xsl:text>
+            </xsl:if>
+            <xsl:value-of select="$lines_corr"/>
+        </a>  
+        <xsl:text> </xsl:text>
+    </xsl:template>
     <xsl:template match="tei:fw">
         <p class="{@type}">
             <xsl:apply-templates/>

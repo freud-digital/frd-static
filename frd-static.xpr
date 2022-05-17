@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/indices/listperson.xml</String>
+                                    <String>data/editions/sfe-1901-01__1925.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>listperson</String>
+                                        <String>editions</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -30,11 +30,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/sfe-1901-01__1925.xml</String>
+                                    <String>data/indices/listperson.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>editions</String>
+                                        <String>listperson</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
