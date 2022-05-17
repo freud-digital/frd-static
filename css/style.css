@@ -12,6 +12,10 @@ div.dataTables_filter {
   text-align: right;
 }
 
+.indentedP {
+
+}
+
 body {
     background-color: #f1f1f1 !important;
     margin: 0 !important;
@@ -128,15 +132,15 @@ p {
     max-width: 1024px;
 }
 
-div.text-img {
+div.text-middle {
     display: flex;
     align-items: center;
-    padding: 0 !important;
 }
 
-div.text-img div.text-re {
+div.text-middle div.text-re {
     display: grid;
     justify-content: center;
+    padding: 2em;
 }
 
 span.ssQueryAndButton {

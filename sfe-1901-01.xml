@@ -332,7 +332,7 @@
                Kürze empfehlen kann. Vielleicht wird gerade der Traum<lb/> der letzten Nacht diesen
                Ansprüchen genügen. Sein unmittelbar<lb/> nach dem Erwachen fixierter Inhalt lautet
                folgendermaßen:</p>
-            <p>„<hi rendition="#em"><rs ref="frd_dream_id_5">Eine <rs type="#frd_dream_id_5">Gesellschaft</rs>, Tisch oder Table d’hôte</rs><note type="e" resp="#chuber"><term>Table d’hôte</term>
+            <p>„<hi rendition="#em"><rs ref="frd_dream_id_5">Eine Gesellschaft, Tisch oder Table d’hôte</rs><note type="e" resp="#chuber"><term>Table d’hôte</term>
                Gasthaustafel mit festgelegtem Menü, im Gegensatz zu à la carte. Vgl. SFs Brief an Martha Freud, Riva, 5.9.1900: „u im nahe gelegenen [Hotel] Mahlzeiten an der Tabel des Todes, wie ich sie reichlicher u besser, leichter u appetitlicher nirgends getroffen habe.“ (Reisebriefe, S.130).</note> . . . Es wird Spinat<lb/>
                gegessen . . . Frau E. L. sitzt neben mir, wendet sich ganz mir<lb/>
                zu und legt vertraulich die Hand auf mein Knie. Ich entferne<lb/>
@@ -384,13 +384,13 @@
                      </lg>
                      <lg>
                         <l>Ihr führt ins Leben uns hinein,</l>
-                        <l> Ihr laßt den Armen schuldig werden, </l>
-                        <l> Dann überlaßt ihr ihn der Pein;</l>
-                        <l> Denn alle Schuld rächt sich auf Erden.“</l>
+                        <l>Ihr laßt den Armen schuldig werden, </l>
+                        <l>Dann überlaßt ihr ihn der Pein;</l>
+                        <l>Denn alle Schuld rächt sich auf Erden.“</l>
                      </lg>
                   </quote>
                </cit>
-               <bibl>Goethe: Sämtl. Werke (Münchner Ausgabe), Bd. 5, S. 134)</bibl>
+               <title ref="#zotero__2TNR565J">Goethe: Sämtl. Werke (Münchner Ausgabe), Bd. 5, S. 134)</title>
             </note>
             </q>“
             </p>
@@ -2142,24 +2142,7 @@
                Zwangsideen, klargelegt hat.</p>
          </div>
       </body>
-   <back><listBibl><biblStruct type="book" xml:id="zotero__2EM7DFJP" corresp="http://zotero.org/groups/4690432/items/2EM7DFJP">
-          <monogr>
-            <title level="m">Vom kleinen Rudi. Von Balduin Groller. (pseud.) 2. verm. Aufl</title>
-            <idno type="callNumber">188472-B</idno>
-            <author>
-              <forename>Adalbert</forename>
-              <surname>Goldscheider</surname>
-            </author>
-            <imprint>
-              <pubPlace>Dresden</pubPlace>
-              <publisher>E. Pierson</publisher>
-              <date>1897</date>
-              <note type="accessed">2022-05-16T10:50:48Z</note>
-              <note type="url">http://data.onb.ac.at/imgk/AZ00365142</note>
-            </imprint>
-          </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
-        <biblStruct type="book" xml:id="zotero__CUZ37478" corresp="http://zotero.org/groups/4690432/items/CUZ37478">
+   <back><listBibl><biblStruct type="book" xml:id="zotero__CUZ37478" corresp="http://zotero.org/groups/4690432/items/CUZ37478">
           <monogr>
             <title level="m">Der Duden in 12 Bänden: das Standardwerk zur deutschen Sprache : auf der Grundlage der neuen amtlichen Rechtschreibregeln : 11 : Duden - Redewendungen : Wörterbuch der deutschen Idiomatik ; [mehr als 10000 feste Wendungen, Redensarten und Sprichwörter] / hrsg. von der Dudenred. [Red. Bearb.: Werner Scholze-Stubenrecht ...]</title>
             <title type="short">Der Duden in 12 Bänden</title>
@@ -2185,24 +2168,6 @@
             </imprint>
           </monogr>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
-        <biblStruct type="book" xml:id="zotero__SZWT6IJP" corresp="http://zotero.org/groups/4690432/items/SZWT6IJP">
-          <monogr>
-            <title level="m">Über den Traum: nach einem 1876 gehaltenen öffentlichen Vortrag</title>
-            <title type="short">Über den Traum</title>
-            <idno type="callNumber">252767-B</idno>
-            <author>
-              <forename>Carl</forename>
-              <surname>Binz</surname>
-            </author>
-            <imprint>
-              <pubPlace>Bonn</pubPlace>
-              <publisher>Marcus</publisher>
-              <date>1878</date>
-              <note type="accessed">2022-05-16T10:37:17Z</note>
-              <note type="url">http://data.onb.ac.at/ABO/%2BZ172615305</note>
-            </imprint>
-          </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
         <biblStruct type="journalArticle" xml:id="zotero__2TNR565J" corresp="http://zotero.org/groups/4690432/items/2TNR565J">
           <analytic>
             <title level="a">Johann Wolfgang Goethe, "Sämtliche Werke nach Epochen seines Schaffens. Münchner Ausgabe". Hg. von Karl Richter u. a. "Bd. 5: Wilhelm Meisters Lehrjahre. Ein Roman". Hg. von Hans-Jürgen Schings. 1985-1990</title>
@@ -2224,9 +2189,51 @@
             </imprint>
           </monogr>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
-        </listBibl><listPerson><person xml:id="frd_person_2">
-               <persName>Volkelt, Johannes</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
+        <biblStruct type="book" xml:id="zotero__2EM7DFJP" corresp="http://zotero.org/groups/4690432/items/2EM7DFJP">
+          <monogr>
+            <title level="m">Vom kleinen Rudi. Von Balduin Groller. (pseud.) 2. verm. Aufl</title>
+            <idno type="callNumber">188472-B</idno>
+            <author>
+              <forename>Adalbert</forename>
+              <surname>Goldscheider</surname>
+            </author>
+            <imprint>
+              <pubPlace>Dresden</pubPlace>
+              <publisher>E. Pierson</publisher>
+              <date>1897</date>
+              <note type="accessed">2022-05-16T10:50:48Z</note>
+              <note type="url">http://data.onb.ac.at/imgk/AZ00365142</note>
+            </imprint>
+          </monogr>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
+        <biblStruct type="book" xml:id="zotero__SZWT6IJP" corresp="http://zotero.org/groups/4690432/items/SZWT6IJP">
+          <monogr>
+            <title level="m">Über den Traum: nach einem 1876 gehaltenen öffentlichen Vortrag</title>
+            <title type="short">Über den Traum</title>
+            <idno type="callNumber">252767-B</idno>
+            <author>
+              <forename>Carl</forename>
+              <surname>Binz</surname>
+            </author>
+            <imprint>
+              <pubPlace>Bonn</pubPlace>
+              <publisher>Marcus</publisher>
+              <date>1878</date>
+              <note type="accessed">2022-05-16T10:37:17Z</note>
+              <note type="url">http://data.onb.ac.at/ABO/%2BZ172615305</note>
+            </imprint>
+          </monogr>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
+        </listBibl><listPerson><person xml:id="frd_person_4">
+               <persName>Schubert, Gotthilf Heinrich</persName>
+               <birth>
+                  <date>1780</date>
+               </birth>
+               <death>
+                   <date>1860</date>
+               </death>
+               <idno type="gnd">http://lobid.org/gnd/118610937</idno>
+               <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_5">
                <persName>Freud, Sigmund</persName>
@@ -2244,16 +2251,9 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_4">
-               <persName>Schubert, Gotthilf Heinrich</persName>
-               <birth>
-                  <date>1780</date>
-               </birth>
-               <death>
-                   <date>1860</date>
-               </death>
-               <idno type="gnd">http://lobid.org/gnd/118610937</idno>
-               <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
+            <person xml:id="frd_person_2">
+               <persName>Volkelt, Johannes</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_3">
                <persName>Scherner, Karl Albert</persName>
