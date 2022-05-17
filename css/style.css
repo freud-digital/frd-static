@@ -13,7 +13,7 @@ div.dataTables_filter {
 }
 
 .indentedP {
-
+    margin-left: 2em;
 }
 
 body {
@@ -63,7 +63,7 @@ body {
 .note {
     display: block;
     padding: 1em;
-    background-color: f1f1f1;
+    background-color: #f1f1f1;
 }
 
 .dataTables_info {
@@ -135,12 +135,14 @@ p {
 div.text-middle {
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 
 div.text-middle div.text-re {
     display: grid;
     justify-content: center;
     padding: 2em;
+    margin: 0 auto;
 }
 
 span.ssQueryAndButton {
