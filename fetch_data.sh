@@ -31,9 +31,6 @@ rm -rf ./frd-working-data-main
 add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/freud-hka"
 add-attributes -g "./data/indices/*.xml" -b "https://id.acdh.oeaw.ac.at/freud-hka"
 
-denormalize-indices -f "./data/editions/*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref" -x ".//tei:titleStmt/tei:title[1]/text()" 
-
-echo "add bibls"
-python add_bibls.py
+denormalize-indices -f "./data/editions/*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref | .//*/@source" -x ".//tei:titleStmt/tei:title[1]/text()" 
 
 echo "done"
