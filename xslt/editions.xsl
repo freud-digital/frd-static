@@ -331,7 +331,7 @@
         <br/>
         <a>
             <xsl:variable name="para" as="xs:int">
-                <xsl:number level="any" from="tei:body"/>
+                <xsl:number level="any" from="tei:body" count="tei:p|tei:div"/>
             </xsl:variable>
             <xsl:variable name="lines" as="xs:int">
                 <xsl:number level="any" from="tei:body"/>
@@ -373,7 +373,7 @@
         -<br/>
         <a>
             <xsl:variable name="para" as="xs:int">
-                <xsl:number level="any" from="tei:body"/>
+                <xsl:number level="any" from="tei:body" count="tei:p|tei:div"/>
             </xsl:variable>
             <xsl:variable name="lines" as="xs:int">
                 <xsl:number level="any" from="tei:body"/>
