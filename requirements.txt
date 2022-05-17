@@ -1,1 +1,1 @@
-acdh-tei-pyutils
+acdh-tei-pyutils==0.26.0
