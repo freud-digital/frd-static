@@ -615,7 +615,7 @@
                an Erd<lb break="no"/>beeren verdorben hat. In der Nacht nach diesem Hungertag
                hört<lb/> man sie aus dem Schlafe ihren Namen nennen und dazusetzen:<lb/> „<hi rendition="#em">Er(d)beer</hi>, <hi rendition="#em">Hochbeer</hi><note type="e">
                   <term>Hochbeer</term>
-                  regionale österr. Bezeichnung für Himbeere; vgl. <title ref="zotero__">Österr. Wörterbuch</title></note>,
+                  regionale österr. Bezeichnung für Himbeere; vgl. <title ref="#zotero__CUZ37478">Österr. Wörterbuch</title></note>,
                <hi rendition="#em">Eier(s)peis</hi>, <hi rendition="#em">Papp</hi>.“
                <note type="e" resp="chuber">
                   <term>Papp</term>
@@ -2153,6 +2153,10 @@
                <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
                <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_2">
+               <persName>Volkelt, Johannes</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_5">
                <persName>Freud, Sigmund</persName>
                <birth>
@@ -2169,7 +2173,7 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-         <person xml:id="frd_person_4">
+            <person xml:id="frd_person_4">
                <persName>Schubert, Gotthilf Heinrich</persName>
                <birth>
                   <date>1780</date>
@@ -2180,9 +2184,87 @@
                <idno type="gnd">http://lobid.org/gnd/118610937</idno>
                <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_2">
-               <persName>Volkelt, Johannes</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            </listPerson></back></text>
+            </listPerson><listBibl><biblStruct type="book" xml:id="zotero__SZWT6IJP" corresp="http://zotero.org/groups/4690432/items/SZWT6IJP">
+          <monogr>
+            <title level="m">Über den Traum: nach einem 1876 gehaltenen öffentlichen Vortrag</title>
+            <title type="short">Über den Traum</title>
+            <idno type="callNumber">252767-B</idno>
+            <author>
+              <forename>Carl</forename>
+              <surname>Binz</surname>
+            </author>
+            <imprint>
+              <pubPlace>Bonn</pubPlace>
+              <publisher>Marcus</publisher>
+              <date>1878</date>
+              <note type="accessed">2022-05-16T10:37:17Z</note>
+              <note type="url">http://data.onb.ac.at/ABO/%2BZ172615305</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="zotero__CUZ37478" corresp="http://zotero.org/groups/4690432/items/CUZ37478">
+          <monogr>
+            <title level="m">Der Duden in 12 Bänden: das Standardwerk zur deutschen Sprache : auf der Grundlage der neuen amtlichen Rechtschreibregeln : 11 : Duden - Redewendungen : Wörterbuch der deutschen Idiomatik ; [mehr als 10000 feste Wendungen, Redensarten und Sprichwörter] / hrsg. von der Dudenred. [Red. Bearb.: Werner Scholze-Stubenrecht ...]</title>
+            <title type="short">Der Duden in 12 Bänden</title>
+            <idno type="ISBN">9783411041145</idno>
+            <idno type="callNumber">1922045-B.11,4.Aufl., 1472291-B.11,4.Aufl.</idno>
+            <author>
+              <forename>Werner</forename>
+              <surname>Scholze-Stubenrecht</surname>
+            </author>
+            <author>
+              <forename>Matthias</forename>
+              <surname>Wermke</surname>
+            </author>
+            <author>
+              <forename>Dudenredaktion</forename>
+              <surname>Bibliographisches Institut &amp; F A Brockhaus AG Mannheim</surname>
+            </author>
+            <edition>4., neu bearb. u. aktualisierte Aufl..</edition>
+            <imprint>
+              <pubPlace>Mannheim Leipzig Wien Zürich</pubPlace>
+              <publisher>Dudenverlag</publisher>
+              <date>2013</date>
+            </imprint>
+          </monogr>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
+        <biblStruct type="journalArticle" xml:id="zotero__2TNR565J" corresp="http://zotero.org/groups/4690432/items/2TNR565J">
+          <analytic>
+            <title level="a">Johann Wolfgang Goethe, "Sämtliche Werke nach Epochen seines Schaffens. Münchner Ausgabe". Hg. von Karl Richter u. a. "Bd. 5: Wilhelm Meisters Lehrjahre. Ein Roman". Hg. von Hans-Jürgen Schings. 1985-1990</title>
+            <title type="short">Johann Wolfgang Goethe, "Sämtliche Werke nach Epochen seines Schaffens. Münchner Ausgabe". Hg. von Karl Richter u. a. "Bd. 5</title>
+            <author>
+              <forename>Josef</forename>
+              <surname>Mattausch</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Arbitrium</title>
+            <idno type="ISSN">0723-2977</idno>
+            <imprint>
+              <biblScope unit="volume">12</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <biblScope unit="page">196</biblScope>
+              <date>1994</date>
+              <note type="url">https://opacplus.bsb-muenchen.de/search?issn</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="zotero__2EM7DFJP" corresp="http://zotero.org/groups/4690432/items/2EM7DFJP">
+          <monogr>
+            <title level="m">Vom kleinen Rudi. Von Balduin Groller. (pseud.) 2. verm. Aufl</title>
+            <idno type="callNumber">188472-B</idno>
+            <author>
+              <forename>Adalbert</forename>
+              <surname>Goldscheider</surname>
+            </author>
+            <imprint>
+              <pubPlace>Dresden</pubPlace>
+              <publisher>E. Pierson</publisher>
+              <date>1897</date>
+              <note type="accessed">2022-05-16T10:50:48Z</note>
+              <note type="url">http://data.onb.ac.at/imgk/AZ00365142</note>
+            </imprint>
+          </monogr>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
+        </listBibl></back></text>
 </TEI>
