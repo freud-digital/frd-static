@@ -105,9 +105,8 @@
                                 </ul>
                                 <xsl:for-each select=".//tei:body//tei:div[@xml:id]">
                                     <div class="row text-middle" id="{@xml:id}">
-                                        <div class="col-md-12 text-re">
-                                            
-                                                    <xsl:apply-templates/>
+                                        <div class="col-md-8 text-re">                                            
+                                            <xsl:apply-templates/>
                                            
                                             <hr/>
                                             <div class="editorial-notes">
@@ -280,27 +279,51 @@
 
     <xsl:template match="tei:p">
         <xsl:variable name="para" as="xs:int">
-            <xsl:number from="tei:body"/>
+            <xsl:number level="any" from="tei:body"/>
         </xsl:variable>
         <p class="indentedP" id="{generate-id()}">
-            <a style="padding-right:5em;margin-left:-5em;">                
+            <a>                
                 <xsl:attribute name="href">
                     <xsl:text>#</xsl:text><xsl:value-of select="parent::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/>
                 </xsl:attribute>
                 <xsl:attribute name="name">
                     <xsl:value-of select="parent::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/>
-                </xsl:attribute>                
+                </xsl:attribute>        
+                <xsl:choose>
+                    <xsl:when test="$para >= 10 and $para &lt; 100 and child::tei:lb">
+                        <xsl:attribute name="style">
+                            <xsl:text>padding-right:5.5em;margin-left:-5em;</xsl:text>
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:when test="$para > 100 and child::tei:lb">
+                        <xsl:attribute name="style">
+                            <xsl:text>padding-right:5em;margin-left:-5em;</xsl:text>
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:when test="$para &lt; 10 and child::tei:lb">
+                        <xsl:attribute name="style">
+                            <xsl:text>padding-right:6em;margin-left:-5em;</xsl:text>
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:attribute name="style">
+                            <xsl:text>padding-right:4em;margin-left:-5em;</xsl:text>
+                        </xsl:attribute>
+                    </xsl:otherwise>
+                </xsl:choose>  
                 <xsl:text>§ </xsl:text><xsl:value-of select="$para"/>
             </a>
-            <a style="padding-right:1.8em;margin-left:-2.5em;color:#f1f1f1;">
-                <xsl:attribute name="href">
-                    <xsl:text>#</xsl:text><xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:text>01</xsl:text>
-                </xsl:attribute>
-                <xsl:attribute name="name">
-                    <xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:text>01</xsl:text>
-                </xsl:attribute>                
-                <xsl:text>01</xsl:text>
-            </a>
+<!--            <xsl:if test="$para = 3">
+                <a style="padding-right:1.8em;margin-left:-2.5em;color:#f1f1f1;">
+                    <xsl:attribute name="href">
+                        <xsl:text>#</xsl:text><xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:text>01</xsl:text>
+                    </xsl:attribute>
+                    <xsl:attribute name="name">
+                        <xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:text>01</xsl:text>
+                    </xsl:attribute>                
+                    <xsl:text>01</xsl:text>
+                </a>
+            </xsl:if>-->
             <xsl:apply-templates/>
         </p>          
     </xsl:template>
@@ -308,13 +331,13 @@
         <br/>
         <a>
             <xsl:variable name="para" as="xs:int">
-                <xsl:number from="tei:body"/>
+                <xsl:number level="any" from="tei:body"/>
             </xsl:variable>
             <xsl:variable name="lines" as="xs:int">
-                <xsl:number from="tei:body"/>
+                <xsl:number level="any" from="tei:body"/>
             </xsl:variable>
             <xsl:variable name="lines_corr" as="xs:int">
-                <xsl:value-of select="$lines + 1"/>
+                <xsl:value-of select="$lines"/>
             </xsl:variable>
             <xsl:attribute name="href">
                 <xsl:text>#</xsl:text><xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines_corr"/>
@@ -325,16 +348,19 @@
             <xsl:choose>
                 <xsl:when test="$lines_corr != 5">
                     <xsl:attribute name="style">
-                        <xsl:text>padding-right:1.5em;margin-left:-1em;color:#f1f1f1;</xsl:text>
+                        <xsl:text>position:relative;padding-right:1.5em;margin-left:-1em;bottom:1.5em;color:#f1f1f1;</xsl:text>
                     </xsl:attribute>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:attribute name="style">
-                        <xsl:text>padding-right:1.5em;margin-left:-1em;</xsl:text>
+                        <xsl:text>position:relative;padding-right:1.5em;margin-left:-1em;bottom:1.5em;</xsl:text>
                     </xsl:attribute>
                 </xsl:otherwise>
             </xsl:choose>            
             <xsl:if test="$lines_corr &lt; 10">
+                <xsl:text>00</xsl:text>
+            </xsl:if>
+            <xsl:if test="$lines_corr &lt; 100 and $lines_corr >= 10">
                 <xsl:text>0</xsl:text>
             </xsl:if>
             <xsl:value-of select="$lines_corr"/>
@@ -344,13 +370,13 @@
         -<br/>
         <a>
             <xsl:variable name="para" as="xs:int">
-                <xsl:number from="tei:body"/>
+                <xsl:number level="any" from="tei:body"/>
             </xsl:variable>
             <xsl:variable name="lines" as="xs:int">
-                <xsl:number from="tei:body"/>
+                <xsl:number level="any" from="tei:body"/>
             </xsl:variable>
             <xsl:variable name="lines_corr" as="xs:int">
-                <xsl:value-of select="$lines + 1"/>
+                <xsl:value-of select="$lines"/>
             </xsl:variable>
             <xsl:attribute name="href">
                 <xsl:text>#</xsl:text><xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines_corr"/>
@@ -361,16 +387,19 @@
             <xsl:choose>
                 <xsl:when test="$lines_corr != 5">
                     <xsl:attribute name="style">
-                        <xsl:text>padding-right:1.5em;margin-left:-1em;color:#f1f1f1;</xsl:text>
+                        <xsl:text>position:relative;padding-right:1.5em;margin-left:-1em;bottom:1.5em;color:#f1f1f1;</xsl:text>
                     </xsl:attribute>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:attribute name="style">
-                        <xsl:text>padding-right:1.5em;margin-left:-1em;</xsl:text>
+                        <xsl:text>position:relative;padding-right:1.5em;margin-left:-1em;bottom:1.5em;</xsl:text>
                     </xsl:attribute>
                 </xsl:otherwise>
             </xsl:choose>   
             <xsl:if test="$lines_corr &lt; 10">
+                <xsl:text>00</xsl:text>
+            </xsl:if>
+            <xsl:if test="$lines_corr &lt; 100 and $lines_corr >= 10">
                 <xsl:text>0</xsl:text>
             </xsl:if>
             <xsl:value-of select="$lines_corr"/>
