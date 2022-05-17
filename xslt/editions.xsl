@@ -336,6 +336,9 @@
             <xsl:variable name="lines" as="xs:int">
                 <xsl:number level="any" from="tei:body"/>
             </xsl:variable>
+            <xsl:variable name="lines_single" as="xs:int">
+                <xsl:number level="single"/>
+            </xsl:variable>
             <xsl:variable name="lines_corr" as="xs:int">
                 <xsl:value-of select="$lines"/>
             </xsl:variable>
@@ -346,7 +349,7 @@
                 <xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines_corr"/>
             </xsl:attribute>
             <xsl:choose>
-                <xsl:when test="$lines_corr != 5">
+                <xsl:when test="$lines_single != 5">
                     <xsl:attribute name="style">
                         <xsl:text>position:relative;padding-right:1.5em;margin-left:-1em;bottom:1.5em;color:#f1f1f1;</xsl:text>
                     </xsl:attribute>
@@ -375,6 +378,9 @@
             <xsl:variable name="lines" as="xs:int">
                 <xsl:number level="any" from="tei:body"/>
             </xsl:variable>
+            <xsl:variable name="lines_single" as="xs:int">
+                <xsl:number level="single"/>
+            </xsl:variable>
             <xsl:variable name="lines_corr" as="xs:int">
                 <xsl:value-of select="$lines"/>
             </xsl:variable>
@@ -385,7 +391,7 @@
                 <xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines_corr"/>
             </xsl:attribute>
             <xsl:choose>
-                <xsl:when test="$lines_corr != 5">
+                <xsl:when test="$lines_single != 5">
                     <xsl:attribute name="style">
                         <xsl:text>position:relative;padding-right:1.5em;margin-left:-1em;bottom:1.5em;color:#f1f1f1;</xsl:text>
                     </xsl:attribute>
