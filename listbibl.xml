@@ -116,7 +116,7 @@
               <note type="url">https://opacplus.bsb-muenchen.de/search?issn</note>
             </imprint>
           </monogr>
-        </biblStruct>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
         <biblStruct type="book" xml:id="zotero__MD4W3RNE" corresp="http://zotero.org/groups/4690432/items/MD4W3RNE">
           <monogr>
             <title level="m">Lexikon der sprichwörtlichen Redensarten</title>
@@ -150,7 +150,7 @@
               <note type="url">http://data.onb.ac.at/ABO/%2BZ172615305</note>
             </imprint>
           </monogr>
-        </biblStruct>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
         <biblStruct type="book" xml:id="zotero__TCHU39SP" corresp="http://zotero.org/groups/4690432/items/TCHU39SP">
           <monogr>
             <title level="m">Briefe an Wilhelm Fließ: 1887 - 1904</title>
