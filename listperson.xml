@@ -36,7 +36,7 @@
             <person xml:id="frd_person_1">
                <persName>Binz, Carl</persName>
                <idno type="gnd">https://d-nb.info/gnd/116184280</idno>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_2">
                <persName>Volkelt, Johannes</persName>
                <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
@@ -79,6 +79,22 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_173">
+               <persName>Rank, Otto</persName>
+               <birth>
+                  <date>1881</date>
+                  <placeName key="frd_place_id_6">
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </birth>
+               <death>
+                   <date>1939</date>
+                   <placeName key="frd_place_id_7">
+                       <settlement>New York</settlement>
+                   </placeName>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/118598260</idno>
+            </person>
             <person xml:id="frd_person_450">
                <persName>Fließ, Wilhelm</persName>
                <birth>
@@ -89,6 +105,26 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118533975</idno>
             </person>
+            <person xml:id="frd_person_545">
+               <persName>Silberer, Herbert</persName>
+               <birth>
+                  <date>1882</date>
+                  <placeName key="frd_place_id_6">
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </birth>
+               <death>
+                   <date>1923</date>
+                   <placeName key="frd_place_id_6">
+                       <settlement>Wien</settlement>
+                   </placeName>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/118834258</idno>
+            </person>
+            <person xml:id="frd_person_3485">
+               <persName>Artemidoros aus Daldis</persName>
+               <idno type="gnd">https://d-nb.info/gnd/1089126093</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
          </listPerson>
       </body>
    </text>
