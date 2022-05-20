@@ -82,7 +82,7 @@
     </xsl:template>
     
     <xsl:template match="tei:rs[@ref or @key]">
-        <strong>
+        <span class="{tokenize(@ref, '_')[2]}{tokenize(@key, '_')[2]}">
             <xsl:element name="a">
                 <xsl:attribute name="data-toggle">modal</xsl:attribute>
                 <xsl:attribute name="data-target">
@@ -91,7 +91,7 @@
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
+        </span>
     </xsl:template>
     
 </xsl:stylesheet>
