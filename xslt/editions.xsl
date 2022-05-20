@@ -276,45 +276,9 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="tei:p">
-        <xsl:if test="not(@rend)">
-        <xsl:variable name="para" as="xs:int">
-            <xsl:number level="any" from="tei:body"/>
-        </xsl:variable>
-        <a class="paranum">                
-            <xsl:attribute name="href">
-                <xsl:text>#</xsl:text><xsl:value-of select="parent::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/>
-            </xsl:attribute>
-            <xsl:attribute name="name">
-                <xsl:value-of select="parent::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/>
-            </xsl:attribute>        
-            <!--<xsl:choose>
-                <xsl:when test="$para >= 10 and $para &lt; 100 and child::tei:lb">
-                    <xsl:attribute name="style">
-                        <xsl:text>padding-right:5.5em;margin-left:-5em;</xsl:text>
-                    </xsl:attribute>
-                </xsl:when>
-                <xsl:when test="$para > 100 and child::tei:lb">
-                    <xsl:attribute name="style">
-                        <xsl:text>padding-right:5em;margin-left:-5em;</xsl:text>
-                    </xsl:attribute>
-                </xsl:when>
-                <xsl:when test="$para &lt; 10 and child::tei:lb">
-                    <xsl:attribute name="style">
-                        <xsl:text>padding-right:6em;margin-left:-5em;</xsl:text>
-                    </xsl:attribute>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:attribute name="style">
-                        <xsl:text>padding-right:4em;margin-left:-5em;</xsl:text>
-                    </xsl:attribute>
-                </xsl:otherwise>
-            </xsl:choose>-->  
-            <xsl:text>§ </xsl:text><xsl:value-of select="$para"/>
-        </a>
-        </xsl:if>
+    <xsl:template match="tei:p[@rend]">
         <xsl:choose>
-            <xsl:when test="@rend != 'title'">
+            <xsl:when test="@rend = 'h1'">
                 <xsl:element name="{@rend}">                    
                     <xsl:attribute name="id">
                         <xsl:value-of select="generate-id()"/>
@@ -341,8 +305,24 @@
                     <xsl:apply-templates/>
                 </p>
             </xsl:otherwise>
-        </xsl:choose>
-        
+        </xsl:choose>        
+    </xsl:template>
+    <xsl:template match="tei:p[not(@rend)]">
+        <xsl:variable name="para" as="xs:int">
+            <xsl:number level="any" from="tei:body"/>
+        </xsl:variable>
+        <a class="paranum">                
+            <xsl:attribute name="href">
+                <xsl:text>#</xsl:text><xsl:value-of select="parent::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/>
+            </xsl:attribute>
+            <xsl:attribute name="name">
+                <xsl:value-of select="parent::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/>
+            </xsl:attribute>        
+            <xsl:text>§ </xsl:text><xsl:value-of select="$para"/>
+        </a>
+        <p class="indentedP" id="{generate-id()}">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     <xsl:template match="tei:lb">        
         <br/>
