@@ -33,6 +33,9 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Personen" href="listperson.html" class="nav-link">Personen</a>
                                     </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Personen" href="listbibl.html " class="nav-link">Literaturverzeichnis</a>
+                                    </li>
                                <!--     <li class="nav-item dropdown-submenu">
                                         <a title="Orte" href="listplace.html" class="nav-link">Orte</a>
                                     </li>
@@ -43,7 +46,7 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a title="GND-BEACON" href="beacon.txt" class="nav-link">GND-BEACON</a>
                                     </li>--> 
-                                </ul>                                
+                                </ul>                               
                             </li>                           
                             <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>
                         </ul>                        

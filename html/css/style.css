@@ -35,6 +35,15 @@ body {
     background-color: #dedede;
 }
 
+#bibl_detail_table th {
+    border-right: 1px solid #f1f1f1;
+}
+
+#bibl_detail_table th, #bibl_detail_table td  {
+    border-top: none;
+}
+
+
 .navbar {
     border-bottom: 5px solid #88dbdf !important;
 }
