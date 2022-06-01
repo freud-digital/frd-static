@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="sfe-1901-01.xml" next="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01__1901.xml" prev="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001__1931.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="sfe-1901-01.xml" next="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1903-001__1903.xml" prev="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001__1931.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -1788,7 +1788,7 @@
                beherrschenden und hemmenden Einfluß auf die<lb/> seelischen Regungen mit
                eifersüchtiger Strenge festhält, und die<lb/> durch ihre Stellung zum Bewußtsein und
                zur willkürlichen<lb/> Motilität mit den größten Mitteln psychischer Macht
-               ausgestattet<lb/> ist. Ein Keil der kindlichen Regungen aber ist als
+               ausgestattet<lb/> ist. Ein <choice><sic>Keil</sic><corr resp="#chuber">Teil</corr></choice> der kindlichen Regungen aber ist als
                lebensunnütz<lb/> von dieser Instanz unterdrückt worden, und alles Gedanken<lb break="no"/>material, was von diesen abstammt, befindet sich im Zustande der<lb/>
                Verdrängung.</p>
             <p>Während sich nun die Instanz, in welcher wir unser normales<lb/> Ich erkennen, auf
@@ -2003,7 +2003,7 @@
             <fw type="pageNum">254</fw>
             <p prev="true">Menschen und der „wiederkehrenden“ Träume des Einzelnen.<lb/> Wenn die
                Würdigung der symbolischen Ausdrucksweise des<lb/> Traumes in dieser kurzen
-               Darstellung so unvollständig aufgefallen<lb/> ist, so rechtfertigt sich diese
+               Darstellung so unvollständig <choice><sic>aufgefallen</sic><corr resp="#chuber">ausgefallen</corr></choice><lb/> ist, so rechtfertigt sich diese
                Vernachlässigung durch den Hin<lb break="no"/>weis auf eine Einsicht, die zu dem
                Wichtigsten gehört, was wir<lb/> über diesen Gegenstand aussagen können. Die
                Traumsymbolik<lb/> führt weit über den Traum hinaus; sie gehört nicht dem<lb/> Traume
@@ -2078,6 +2078,18 @@
                <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
                <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_1">
+               <persName>Binz, Carl</persName>
+               <idno type="gnd">https://d-nb.info/gnd/116184280</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_2">
+               <persName>Volkelt, Johannes</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_3485">
+               <persName>Artemidoros aus Daldis</persName>
+               <idno type="gnd">https://d-nb.info/gnd/1089126093</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_5">
                <persName>Freud, Sigmund</persName>
                <birth>
@@ -2094,19 +2106,24 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_3485">
-               <persName>Artemidoros aus Daldis</persName>
-               <idno type="gnd">https://d-nb.info/gnd/1089126093</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-         <person xml:id="frd_person_1">
-               <persName>Binz, Carl</persName>
-               <idno type="gnd">https://d-nb.info/gnd/116184280</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_2">
-               <persName>Volkelt, Johannes</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            </listPerson><listBibl><biblStruct type="book" xml:id="zotero__CUZ37478" corresp="http://zotero.org/groups/4690432/items/CUZ37478">
+            </listPerson><listBibl><biblStruct type="book" xml:id="zotero__2EM7DFJP" corresp="http://zotero.org/groups/4690432/items/2EM7DFJP">
+          <monogr>
+            <title level="m">Vom kleinen Rudi. Von Balduin Groller. (pseud.) 2. verm. Aufl</title>
+            <idno type="callNumber">188472-B</idno>
+            <author>
+              <forename>Adalbert</forename>
+              <surname>Goldscheider</surname>
+            </author>
+            <imprint>
+              <pubPlace>Dresden</pubPlace>
+              <publisher>E. Pierson</publisher>
+              <date>1897</date>
+              <note type="accessed">2022-05-16T10:50:48Z</note>
+              <note type="url">http://data.onb.ac.at/imgk/AZ00365142</note>
+            </imprint>
+          </monogr>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
+        <biblStruct type="book" xml:id="zotero__CUZ37478" corresp="http://zotero.org/groups/4690432/items/CUZ37478">
           <monogr>
             <title level="m">Der Duden in 12 Bänden: das Standardwerk zur deutschen Sprache : auf der Grundlage der neuen amtlichen Rechtschreibregeln : 11 : Duden - Redewendungen : Wörterbuch der deutschen Idiomatik ; [mehr als 10000 feste Wendungen, Redensarten und Sprichwörter] / hrsg. von der Dudenred. [Red. Bearb.: Werner Scholze-Stubenrecht ...]</title>
             <title type="short">Der Duden in 12 Bänden</title>
@@ -2147,23 +2164,6 @@
               <date>1878</date>
               <note type="accessed">2022-05-16T10:37:17Z</note>
               <note type="url">http://data.onb.ac.at/ABO/%2BZ172615305</note>
-            </imprint>
-          </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
-        <biblStruct type="book" xml:id="zotero__2EM7DFJP" corresp="http://zotero.org/groups/4690432/items/2EM7DFJP">
-          <monogr>
-            <title level="m">Vom kleinen Rudi. Von Balduin Groller. (pseud.) 2. verm. Aufl</title>
-            <idno type="callNumber">188472-B</idno>
-            <author>
-              <forename>Adalbert</forename>
-              <surname>Goldscheider</surname>
-            </author>
-            <imprint>
-              <pubPlace>Dresden</pubPlace>
-              <publisher>E. Pierson</publisher>
-              <date>1897</date>
-              <note type="accessed">2022-05-16T10:50:48Z</note>
-              <note type="url">http://data.onb.ac.at/imgk/AZ00365142</note>
             </imprint>
           </monogr>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
