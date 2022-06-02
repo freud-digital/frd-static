@@ -34,7 +34,7 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
-                                            <th>Autor</th>
+                                            <th>Autor(en)</th>
                                             <th scope="col">ID</th>
                                         </tr>
                                     </thead>
@@ -48,13 +48,15 @@
                                                     <xsl:value-of select=".//tei:title[@level='m']/text()"/>
                                                 </td>
                                                 <td>
-                                                    <ul style="padding-left: 0;">
-                                                        <xsl:for-each select=".//tei:author">
-                                                            <li style="list-style:none;padding-bottom:.5em;">
-                                                                <xsl:value-of select="concat(./tei:surname/text(), ', ', ./tei:forename/text())"/>
-                                                            </li>
-                                                        </xsl:for-each>
-                                                    </ul>                                                                                                        
+                                                    <xsl:if test=".//tei:author/text()">
+                                                        <ul style="padding-left: 0;">
+                                                            <xsl:for-each select=".//tei:author">
+                                                                <li style="list-style:none;padding-bottom:.5em;">
+                                                                    <xsl:value-of select="concat(./tei:surname/text(), ', ', ./tei:forename/text())"/>
+                                                                </li>
+                                                            </xsl:for-each>
+                                                        </ul>       
+                                                    </xsl:if>
                                                 </td>
                                                 <td>
                                                     <a>
@@ -82,7 +84,7 @@
         </html>
         <xsl:for-each select=".//tei:biblStruct[@xml:id]">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
-            <xsl:variable name="name" select="normalize-space(string-join(.//tei:author//text()))"></xsl:variable>
+            <xsl:variable name="name" select="normalize-space(string-join(.//tei:title[@level='m']//text()))"></xsl:variable>
             <xsl:result-document href="{$filename}">
                 <html xmlns="http://www.w3.org/1999/xhtml">
                     <xsl:call-template name="html_head">

@@ -5,7 +5,7 @@
     version="2.0" exclude-result-prefixes="xsl tei xs">
     
     <xsl:template match="tei:biblStruct" name="bibl_detail">
-        <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000" />
+        <xsl:param name="showNumberOfMentions" as="xs:integer" select="count(.//tei:event)" />
         <xsl:variable name="selfLink">
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
@@ -71,7 +71,9 @@
                             Permalink
                         </th>
                         <td>
-                            <xsl:value-of select=".//tei:imprint/tei:note[@type='url']/text()"/>
+                            <a target="_blank" href="{.//tei:imprint/tei:note[@type='url']/text()}">
+                                <xsl:value-of select=".//tei:imprint/tei:note[@type='url']/text()"/>
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -82,32 +84,44 @@
                             <xsl:value-of select=".//tei:imprint/tei:note[@type='accessed']/text()"/>
                         </td>
                     </tr>
+                    <tr>
+                        <th>
+                            Erwähnt in
+                        </th>
+                        <td>
+                            <ul style="padding-left: 0;">
+                                <xsl:for-each select=".//tei:event">
+                                    <xsl:variable name="linkToDocument">
+                                        <xsl:value-of select="replace(tokenize(data(.//tei:link/@target), '/')[last()], '.xml', '.html')"/>
+                                    </xsl:variable>
+                                    <xsl:choose>
+                                        <xsl:when test="position() lt $showNumberOfMentions + 1">
+                                            <li style="list-style:none;padding-bottom:.5em;">
+                                                <xsl:value-of select=".//tei:title"/><xsl:text> </xsl:text>
+                                                <a href="{$linkToDocument}">
+                                                    <i class="fas fa-external-link-alt"></i>
+                                                </a>
+                                            </li>
+                                        </xsl:when>
+                                    </xsl:choose>
+                                </xsl:for-each>
+                            </ul>
+                        </td>                        
+                    </tr>
+                    <xsl:if test="count(.//tei:event) gt $showNumberOfMentions + 1">
+                        <tr>
+                            <th>
+                                ...
+                            </th>
+                            <td>
+                                Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a> für eine vollständige Auflistung
+                            </td>  
+                        </tr>
+                                                  
+                    </xsl:if>
                 </tbody>
-            </table>  
+            </table>              
             
-            <div id="mentions">
-                <h5>erwähnt in</h5>
-                <ul>
-                    <xsl:for-each select=".//tei:event">
-                        <xsl:variable name="linkToDocument">
-                            <xsl:value-of select="replace(tokenize(data(.//tei:link/@target), '/')[last()], '.xml', '.html')"/>
-                        </xsl:variable>
-                        <xsl:choose>
-                            <xsl:when test="position() lt $showNumberOfMentions + 1">
-                                <li>
-                                    <xsl:value-of select=".//tei:title"/><xsl:text> </xsl:text>
-                                    <a href="{$linkToDocument}">
-                                        <i class="fas fa-external-link-alt"></i>
-                                    </a>
-                                </li>
-                            </xsl:when>
-                        </xsl:choose>
-                    </xsl:for-each>
-                </ul>
-                <xsl:if test="count(.//tei:event) gt $showNumberOfMentions + 1">
-                    <p>Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a> für eine vollständige Auflistung</p>
-                </xsl:if>
-            </div>
         </div>
     </xsl:template>
 </xsl:stylesheet>
