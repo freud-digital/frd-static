@@ -2056,7 +2056,11 @@
                Zwangsideen, klargelegt hat.</p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_3">
+   <back><listPerson><person xml:id="frd_person_3485">
+               <persName>Artemidoros aus Daldis</persName>
+               <idno type="gnd">https://d-nb.info/gnd/1089126093</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_3">
                <persName>Scherner, Karl Albert</persName>
                <birth>
                   <date>1825</date>
@@ -2083,9 +2087,9 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_2">
-               <persName>Volkelt, Johannes</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
+            <person xml:id="frd_person_1">
+               <persName>Binz, Carl</persName>
+               <idno type="gnd">https://d-nb.info/gnd/116184280</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_4">
                <persName>Schubert, Gotthilf Heinrich</persName>
@@ -2098,54 +2102,11 @@
                <idno type="gnd">http://lobid.org/gnd/118610937</idno>
                <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_1">
-               <persName>Binz, Carl</persName>
-               <idno type="gnd">https://d-nb.info/gnd/116184280</idno>
+            <person xml:id="frd_person_2">
+               <persName>Volkelt, Johannes</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_3485">
-               <persName>Artemidoros aus Daldis</persName>
-               <idno type="gnd">https://d-nb.info/gnd/1089126093</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
-            </listPerson><listBibl><biblStruct type="book" xml:id="zotero__SZWT6IJP" corresp="http://zotero.org/groups/4690432/items/SZWT6IJP">
-          <monogr>
-            <title level="m">Über den Traum: nach einem 1876 gehaltenen öffentlichen Vortrag</title>
-            <title type="short">Über den Traum</title>
-            <idno type="callNumber">252767-B</idno>
-            <author>
-              <forename>Carl</forename>
-              <surname>Binz</surname>
-            </author>
-            <imprint>
-              <pubPlace>Bonn</pubPlace>
-              <publisher>Marcus</publisher>
-              <date>1878</date>
-              <note type="accessed">2022-05-16T10:37:17Z</note>
-              <note type="url">http://data.onb.ac.at/ABO/%2BZ172615305</note>
-            </imprint>
-          </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
-        <biblStruct type="journalArticle" xml:id="zotero__2TNR565J" corresp="http://zotero.org/groups/4690432/items/2TNR565J">
-          <analytic>
-            <title level="a">Johann Wolfgang Goethe, "Sämtliche Werke nach Epochen seines Schaffens. Münchner Ausgabe". Hg. von Karl Richter u. a. "Bd. 5: Wilhelm Meisters Lehrjahre. Ein Roman". Hg. von Hans-Jürgen Schings. 1985-1990</title>
-            <title type="short">Johann Wolfgang Goethe, "Sämtliche Werke nach Epochen seines Schaffens. Münchner Ausgabe". Hg. von Karl Richter u. a. "Bd. 5</title>
-            <author>
-              <forename>Josef</forename>
-              <surname>Mattausch</surname>
-            </author>
-          </analytic>
-          <monogr>
-            <title level="j">Arbitrium</title>
-            <idno type="ISSN">0723-2977</idno>
-            <imprint>
-              <biblScope unit="volume">12</biblScope>
-              <biblScope unit="issue">2</biblScope>
-              <biblScope unit="page">196</biblScope>
-              <date>1994</date>
-              <note type="url">https://opacplus.bsb-muenchen.de/search?issn</note>
-            </imprint>
-          </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
-        <biblStruct type="book" xml:id="zotero__CUZ37478" corresp="http://zotero.org/groups/4690432/items/CUZ37478">
+            </listPerson><listBibl><biblStruct type="book" xml:id="zotero__CUZ37478" corresp="http://zotero.org/groups/4690432/items/CUZ37478">
           <monogr>
             <title level="m">Der Duden in 12 Bänden: das Standardwerk zur deutschen Sprache : auf der Grundlage der neuen amtlichen Rechtschreibregeln : 11 : Duden - Redewendungen : Wörterbuch der deutschen Idiomatik ; [mehr als 10000 feste Wendungen, Redensarten und Sprichwörter] / hrsg. von der Dudenred. [Red. Bearb.: Werner Scholze-Stubenrecht ...]</title>
             <title type="short">Der Duden in 12 Bänden</title>
@@ -2171,6 +2132,24 @@
             </imprint>
           </monogr>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
+        <biblStruct type="book" xml:id="zotero__SZWT6IJP" corresp="http://zotero.org/groups/4690432/items/SZWT6IJP">
+          <monogr>
+            <title level="m">Über den Traum: nach einem 1876 gehaltenen öffentlichen Vortrag</title>
+            <title type="short">Über den Traum</title>
+            <idno type="callNumber">252767-B</idno>
+            <author>
+              <forename>Carl</forename>
+              <surname>Binz</surname>
+            </author>
+            <imprint>
+              <pubPlace>Bonn</pubPlace>
+              <publisher>Marcus</publisher>
+              <date>1878</date>
+              <note type="accessed">2022-05-16T10:37:17Z</note>
+              <note type="url">http://data.onb.ac.at/ABO/%2BZ172615305</note>
+            </imprint>
+          </monogr>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
         <biblStruct type="book" xml:id="zotero__2EM7DFJP" corresp="http://zotero.org/groups/4690432/items/2EM7DFJP">
           <monogr>
             <title level="m">Vom kleinen Rudi. Von Balduin Groller. (pseud.) 2. verm. Aufl</title>
@@ -2185,6 +2164,27 @@
               <date>1897</date>
               <note type="accessed">2022-05-16T10:50:48Z</note>
               <note type="url">http://data.onb.ac.at/imgk/AZ00365142</note>
+            </imprint>
+          </monogr>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
+        <biblStruct type="journalArticle" xml:id="zotero__2TNR565J" corresp="http://zotero.org/groups/4690432/items/2TNR565J">
+          <analytic>
+            <title level="a">Johann Wolfgang Goethe, "Sämtliche Werke nach Epochen seines Schaffens. Münchner Ausgabe". Hg. von Karl Richter u. a. "Bd. 5: Wilhelm Meisters Lehrjahre. Ein Roman". Hg. von Hans-Jürgen Schings. 1985-1990</title>
+            <title type="short">Johann Wolfgang Goethe, "Sämtliche Werke nach Epochen seines Schaffens. Münchner Ausgabe". Hg. von Karl Richter u. a. "Bd. 5</title>
+            <author>
+              <forename>Josef</forename>
+              <surname>Mattausch</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Arbitrium</title>
+            <idno type="ISSN">0723-2977</idno>
+            <imprint>
+              <biblScope unit="volume">12</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <biblScope unit="page">196</biblScope>
+              <date>1994</date>
+              <note type="url">https://opacplus.bsb-muenchen.de/search?issn</note>
             </imprint>
           </monogr>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
