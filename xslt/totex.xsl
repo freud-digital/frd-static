@@ -15,16 +15,15 @@
         \Xendsep{$\parallel$}
         
         \begin{document}
+
         \beginnumbering
-        <xsl:for-each select=".//tei:body/tei:div">
-            <xsl:apply-templates/>
-        </xsl:for-each>
+        <xsl:for-each select=".//tei:body/tei:div"><xsl:apply-templates/></xsl:for-each>
         \endnumbering
   
-        \section{Kritischer Apparat}
+        \section*{Kritischer Apparat}
         \doendnotes{A}
         
-        \section{Stellenkommentar}
+        \section*{Stellenkommentar}
         \doendnotes{B}
 
 
@@ -53,4 +52,7 @@
     <xsl:template match="tei:note[@type='e']">
         \edtext{<xsl:value-of select="./tei:term/text()"></xsl:value-of>}{\Bendnote{<xsl:value-of select="./text()"/>}}
     </xsl:template>
+    
+    <xsl:template match="tei:fw"/>
+    
 </xsl:stylesheet>
