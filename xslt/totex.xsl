@@ -14,7 +14,8 @@
         \Xendparagraph[]
         \Xendsep{$\parallel$}
         
-        \makeindex[name=kw,title=Schlagworteregister,columns=3]
+        \makeindex[name=kw,title=Schlagworteregister,columns=2]
+        \makeindex[name=person,title=Personenregister,columns=2]
         
         \begin{document}
 
@@ -28,7 +29,9 @@
         \section*{Stellenkommentar}
         \doendnotes{B}
         
+        \printindex[person]
         \printindex[kw]
+        
 
 
         \end{document}
@@ -53,11 +56,14 @@
                 </xsl:for-each>
             </xsl:variable><xsl:apply-templates select="."/><xsl:text> </xsl:text><xsl:for-each select="$witLabels"><xsl:value-of select="."/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>}}
     </xsl:template>
-    <xsl:template match="tei:note[@type='e']">\edtext{<xsl:value-of select="./tei:term/text()"></xsl:value-of>}{\Bendnote{<xsl:apply-templates/>}}
+    <xsl:template match="tei:note[@type='e']">\edtext{}{\Bendnote{<xsl:apply-templates/>}}
     </xsl:template>
     
+    <xsl:template match="tei:term">\textbf{<xsl:value-of select="."/>}</xsl:template>
     <xsl:template match="tei:fw"/>
     
-    <xsl:template match="tei:rs[starts-with(@ref, '#frd_kw')]">\edindex[kw]{<xsl:value-of select="replace(@ref, '#frd_kw_', 'Nr. ')"/>}</xsl:template>
+    <xsl:template match="tei:rs[starts-with(@ref, '#frd_kw')]"><xsl:value-of select="."/>\edindex[kw]{<xsl:value-of select="replace(@ref, '#frd_kw_', 'Schlagwort Nr. ')"/>}</xsl:template>
+    
+    <xsl:template match="tei:rs[starts-with(@ref, '#frd_person')]"><xsl:value-of select="."/>\edindex[person]{<xsl:value-of select="replace(@ref, '#frd_person_', 'Person Nr. ')"/>}</xsl:template>
     
 </xsl:stylesheet>
