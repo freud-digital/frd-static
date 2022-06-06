@@ -8,11 +8,13 @@
     <xsl:template match="/">
         \documentclass{article}
         \usepackage[german]{babel}
-        
+        \usepackage[nonewpage]{indextools}
         \usepackage{lettrine}
         \usepackage[series={A,B}]{reledmac}
         \Xendparagraph[]
         \Xendsep{$\parallel$}
+        
+        \makeindex[name=kw,title=Schlagworteregister,columns=3]
         
         \begin{document}
 
@@ -25,6 +27,8 @@
         
         \section*{Stellenkommentar}
         \doendnotes{B}
+        
+        \printindex[kw]
 
 
         \end{document}
@@ -49,10 +53,11 @@
                 </xsl:for-each>
             </xsl:variable><xsl:apply-templates select="."/><xsl:text> </xsl:text><xsl:for-each select="$witLabels"><xsl:value-of select="."/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>}}
     </xsl:template>
-    <xsl:template match="tei:note[@type='e']">
-        \edtext{<xsl:value-of select="./tei:term/text()"></xsl:value-of>}{\Bendnote{<xsl:value-of select="./text()"/>}}
+    <xsl:template match="tei:note[@type='e']">\edtext{<xsl:value-of select="./tei:term/text()"></xsl:value-of>}{\Bendnote{<xsl:apply-templates/>}}
     </xsl:template>
     
     <xsl:template match="tei:fw"/>
+    
+    <xsl:template match="tei:rs[starts-with(@ref, '#frd_kw')]">\edindex[kw]{<xsl:value-of select="replace(@ref, '#frd_kw_', 'Nr. ')"/>}</xsl:template>
     
 </xsl:stylesheet>
