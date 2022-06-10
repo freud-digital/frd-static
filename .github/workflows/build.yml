@@ -16,22 +16,26 @@ jobs:
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
         ./script.sh
-    # - name: Install Ant-Contrib
-    #   run: |
-    #     wget https://repo1.maven.org/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar
-    #     mv ant-contrib-1.0b3.jar /usr/share/ant/lib
     - name: Python
       run: |
         pip install -r requirements.txt
     - name: Fetch the Data
       run: |
         ./fetch_data.sh
+    - name: Copy processed data to freud-digital/frd-archiv
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source_file: './data/.'
+        destination_repo: 'freud-digital/frd-archiv'
+        destination_folder: 'data'
+        user_email: 'peter.andorfer@oeaw.ac.at.com'
+        user_name: 'csae8092'
+        commit_message: 'copy XML/TEI files from frd-static'
     - name: Build
       run: |
         ant
-    # - name: Build Index
-    #   run: |
-    #     ./build_index.sh
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
