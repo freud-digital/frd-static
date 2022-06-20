@@ -44,7 +44,7 @@
                 <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
             </xsl:call-template>
             
-            <body class="page">
+            <body class="page" onload="createIndex()">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
@@ -102,9 +102,9 @@
                                         </li>
                                     </xsl:for-each>
                                 </ul>
-                                <xsl:for-each select=".//tei:body//tei:div[@xml:id]">
-                                    <div class="row text-middle" id="{@xml:id}">
-                                        <div class="col-md-6 text-re">                                            
+                                <xsl:for-each select=".//tei:body/tei:div">
+                                    <div class="row text-middle">
+                                        <div class="col-md-6 text-re">                                           
                                             <xsl:apply-templates/>
                                            
                                             <hr/>
@@ -180,6 +180,7 @@
                                             
                                         </div>
                                     </div>
+                                        
                                     
                                 </xsl:for-each>
                             </div>
@@ -272,7 +273,7 @@
                     </xsl:for-each>
                     <xsl:call-template name="html_footer"/>
                 </div>
-            </body>
+            </body>     
         </html>
     </xsl:template>
 
@@ -324,8 +325,15 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="tei:lb">        
-        <br/>
+    <xsl:template match="tei:lb">
+        <xsl:choose>
+            <xsl:when test="@break = 'paragraph' and following-sibling::*[1]/name() = 'pb'">
+                <xsl:text> </xsl:text><br/>
+            </xsl:when>
+            <xsl:otherwise>
+                <br/>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:if test="ancestor::tei:p">
             <a>
                 <xsl:variable name="para" as="xs:int">
@@ -365,8 +373,20 @@
             </a>  
         </xsl:if>
     </xsl:template>
-    <xsl:template match="tei:lb[@break]">
-        -<br/>
+    <xsl:template match="tei:lb[@break='no']">
+        <xsl:choose>
+            <xsl:when test="following-sibling::*[1]/name() = 'pb'">
+                <xsl:text>-</xsl:text>
+                <span class="pb-merged">
+                    <xsl:text>[/]</xsl:text>
+                </span>
+                <br/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>-</xsl:text>
+                <br/>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:if test="ancestor::tei:p">
             <a class="linenumbers">
                 <xsl:variable name="para" as="xs:int">
@@ -407,10 +427,23 @@
             <xsl:text> </xsl:text>
         </xsl:if>
     </xsl:template>
+    <xsl:template match="tei:pb">
+        <xsl:choose>
+            <xsl:when test="preceding-sibling::tei:lb[1][@break]">
+                
+            </xsl:when>
+            <xsl:otherwise>
+                <br/>
+                <br/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
     <xsl:template match="tei:fw">
-        <p class="{@type}">
+        <span class="{@type}" style="position: relative;
+            padding-right: 8.3em;
+            margin-left: -10em;">
             <xsl:apply-templates/>
-        </p>
+        </span>
     </xsl:template>
     <xsl:template match="tei:hi">
         <span>
