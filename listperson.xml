@@ -36,11 +36,11 @@
             <person xml:id="frd_person_1">
                <persName>Binz, Carl</persName>
                <idno type="gnd">https://d-nb.info/gnd/116184280</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            </person>
             <person xml:id="frd_person_2">
                <persName>Volkelt, Johannes</persName>
                <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            </person>
             <person xml:id="frd_person_3">
                <persName>Scherner, Karl Albert</persName>
                <birth>
@@ -51,7 +51,7 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
                <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            </person>
             <person xml:id="frd_person_4">
                <persName>Schubert, Gotthilf Heinrich</persName>
                <birth>
@@ -62,7 +62,7 @@
                </death>
                <idno type="gnd">http://lobid.org/gnd/118610937</idno>
                <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            </person>
             <person xml:id="frd_person_5">
                <persName>Freud, Sigmund</persName>
                <birth>
@@ -78,7 +78,7 @@
                    </placeName>
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            </person>
             <person xml:id="frd_person_40">
                <persName>Deutsch, Felix</persName>
                <birth>
@@ -88,7 +88,7 @@
                    <date>1964</date>
                </death>
                <idno type="gnd">https://d-nb.info/gnd/123979390</idno>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_41">
                <persName>Deutsch, Helene</persName>
                <birth>
@@ -98,7 +98,8 @@
                    <date>1982</date>
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118524968</idno>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_49">
                <persName>Eckstein, Emma</persName>
                <birth>
@@ -342,7 +343,7 @@
             <person xml:id="frd_person_3485">
                <persName>Artemidoros aus Daldis</persName>
                <idno type="gnd">https://d-nb.info/gnd/1089126093</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></person>
+            </person>
             <person xml:id="frd_person_3499">
                <persName>Bigelow, John</persName>
                <idno type="gnd">https://d-nb.info/gnd/171977521</idno>

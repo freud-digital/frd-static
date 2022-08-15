@@ -16,6 +16,27 @@
   <text>
     <body>
       <listBibl>
+        <biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
+          <monogr>
+            <title level="m">Studien über Hysterie</title>
+            <idno type="callNumber">I-176203</idno>
+            <author>
+              <forename>Josef</forename>
+              <surname>Breuer</surname>
+            </author>
+            <author>
+              <forename>Sigmund</forename>
+              <surname>Freud</surname>
+            </author>
+            <imprint>
+              <pubPlace>Leipzig Wien</pubPlace>
+              <publisher>Deuticke</publisher>
+              <date>1895</date>
+              <note type="accessed">2022-07-19T11:05:41Z</note>
+              <note type="url">http://phaidra.univie.ac.at/o:350215</note>
+            </imprint>
+          </monogr>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
         <biblStruct type="book" xml:id="zotero__M9TAGAWQ" corresp="http://zotero.org/groups/4690432/items/M9TAGAWQ">
           <monogr>
             <title level="m">Die psychischen Zwangserscheinungen: auf klinischer Grundlage dargestellt</title>
@@ -312,7 +333,7 @@
               <date>2013</date>
             </imprint>
           </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
+        </biblStruct>
         <biblStruct type="book" xml:id="zotero__2EM7DFJP" corresp="http://zotero.org/groups/4690432/items/2EM7DFJP">
           <monogr>
             <title level="m">Vom kleinen Rudi. Von Balduin Groller. (pseud.) 2. verm. Aufl</title>
@@ -329,7 +350,7 @@
               <note type="url">http://data.onb.ac.at/imgk/AZ00365142</note>
             </imprint>
           </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
+        </biblStruct>
         <biblStruct type="book" xml:id="zotero__SM6D343V" corresp="http://zotero.org/groups/4690432/items/SM6D343V">
           <monogr>
             <title level="m">Deutsches Wörterbuch. Von Jacob Grimm u. Wilhelm Grimm (4 ff.: Bearb. v. Jacob Grimm ... [u. a.]). Bd 1-16. [Nebst] Quellenverzeichnis.</title>
@@ -387,7 +408,7 @@
               <note type="url">https://opacplus.bsb-muenchen.de/search?issn</note>
             </imprint>
           </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
+        </biblStruct>
         <biblStruct type="book" xml:id="zotero__MD4W3RNE" corresp="http://zotero.org/groups/4690432/items/MD4W3RNE">
           <monogr>
             <title level="m">Lexikon der sprichwörtlichen Redensarten</title>
@@ -421,7 +442,7 @@
               <note type="url">http://data.onb.ac.at/ABO/%2BZ172615305</note>
             </imprint>
           </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-01.xml"/></linkGrp></event></listEvent></biblStruct>
+        </biblStruct>
         <biblStruct type="book" xml:id="zotero__TCHU39SP" corresp="http://zotero.org/groups/4690432/items/TCHU39SP">
           <monogr>
             <title level="m">Briefe an Wilhelm Fließ: 1887 - 1904</title>

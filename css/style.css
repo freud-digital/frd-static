@@ -30,6 +30,10 @@ body {
     margin-bottom: 1em;
 }
 
+.pb-merged {
+    color: #dedede;
+}
+
 .appcrit {
     margin: 0 -1.3em !important;
     padding: 1em !important;
