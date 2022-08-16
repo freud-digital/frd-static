@@ -215,28 +215,32 @@
             <p>Meine Herren! Es sind ungefähr <app>
                   <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">acht</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">8</rdg>
-               </app> Jahre her, seitdem ich<lb/> über Aufforderung Ihres betrauerten Vorsitzenden <app>
-                  <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Professor</lem>
-                  <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">Prof.</rdg>
-               </app>
-               <app>
-                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">von</lem>
-                  <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">v.</rdg>
-               </app><lb/>
-               <hi rendition="#smallcaps"><app>
-                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Reder</lem>
-                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">REDER</rdg>
-                  </app></hi> in Ihrem Kreise über das Thema der Hysterie sprechen<lb/> durfte. Ich
-               hatte kurz zuvor (1895) in Gemeinschaft mit <app>
-                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Doktor</lem>
-                  <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">Dr.</rdg>
-               </app><lb/> Josef <hi rendition="#smallcaps"><app>
-                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Josef Breuer</lem>
-                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">JOSEF BREUER</rdg>
+               </app> Jahre her, seitdem ich<lb/> über Aufforderung Ihres betrauerten Vorsitzenden
+                  <rs type="person" ref="#frd_person_45"><app>
+                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Professor</lem>
+                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">Prof.</rdg>
                   </app>
-               </hi>die „Studien über Hysterie“ veröffentlicht und<lb/> den Versuch unternommen, auf
-               Grund der neuen Erkenntnis,<lb/> welche wir diesem Forscher verdanken, eine neuartige
-                  Behand<lb break="no"/>lungsweise der Neurose einzuführen. <app>
+                  <app>
+                     <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">von</lem>
+                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">v.</rdg>
+                  </app><lb/>
+                  <hi rendition="#smallcaps"><app>
+                        <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Reder</lem>
+                        <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">REDER</rdg>
+                     </app></hi></rs> in Ihrem Kreise über das Thema der Hysterie sprechen<lb/>
+               durfte. Ich hatte kurz zuvor (1895) in Gemeinschaft mit <rs type="person" ref="#frd_person_40"><app>
+                     <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Doktor</lem>
+                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">Dr.</rdg>
+                  </app><lb/>
+                  <hi rendition="#smallcaps"><app>
+                        <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Josef Breuer</lem>
+                        <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">JOSEF
+                           BREUER</rdg>
+                     </app>
+                  </hi></rs><note type="e" resp="#chuber"><term>Josef Breuer </term>Josef Breuer (1842-1925), österr. Internist und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>die „Studien über Hysterie“
+               veröffentlicht und<lb/> den Versuch unternommen, auf Grund der neuen Erkenntnis,<lb/>
+               welche wir diesem Forscher verdanken, eine neuartige Behand<lb break="no"/>lungsweise
+               der Neurose einzuführen. <app>
                   <lem wit="#sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Erfreulicherweise</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml">Erfreulicherweise,</rdg>
                </app> darf ich<lb/> sagen, haben die Bemühungen unserer „Studien“ Erfolg
@@ -306,8 +310,8 @@
                   <rdg wit="#sfe-1905-001__1922.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml">andere</rdg>
                </app> beim Heilungsvorgang sehr in Betracht kommende<lb/> Partei — nämlich die
                Kranken — nicht die Absicht hat, auf sie<lb break="paragraph"/><pb n="3" xml:id="page__9e692491-df34-4886-b159-7932cf37f1c0"/><fw type="pageNum">13</fw>zu
-               verzichten. Sie wissen, welche Aufklärungen wir hierüber<lb/> der Schule von Nancy
-                  (<hi rendition="#smallcaps"><app>
+               verzichten. Sie wissen, welche Aufklärungen wir hierüber<lb/> der Schule von Nancy<note type="e" resp="#chuber"><term>Schule
+                  von Nancy</term> Hypnoseorientierte Psychotherapie-Schule in Nancy, von Liébault in Nancy 1882 gegründet, der gemeinsam mit Bernheim prominentester Vertreter der Suggestionstherapie war.</note> (<hi rendition="#smallcaps"><app>
                      <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Liébault</lem>
                      <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">LIEBAULT</rdg>
                   </app></hi>, <hi rendition="#smallcaps"><app>
@@ -876,5 +880,15 @@
 
          </div>
       </body>
-   <back/></text>
+   <back><listPerson><person xml:id="frd_person_40">
+               <persName>Deutsch, Felix</persName>
+               <birth>
+                  <date>1884</date>
+               </birth>
+               <death>
+                   <date>1964</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/123979390</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            </listPerson></back></text>
 </TEI>
