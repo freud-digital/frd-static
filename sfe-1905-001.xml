@@ -204,7 +204,6 @@
          
          
          <div>
-
             <pb n="1" xml:id="page__b9473681-9963-4a1a-8b9f-93476fcd57dc"/>
             <fw type="pageNum">[11]</fw>
             <p rendition="#level_2">ÜBER PSYCHOTHERAPIE</p>
@@ -232,15 +231,17 @@
                      <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Doktor</lem>
                      <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">Dr.</rdg>
                   </app><lb/>
-                  <hi rendition="#smallcaps"><app>
-                        <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Josef Breuer</lem>
-                        <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">JOSEF
-                           BREUER</rdg>
-                     </app>
-                  </hi></rs><note type="e" resp="#chuber"><term>Josef Breuer </term>Josef Breuer (1842-1925), österr. Internist und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>die „Studien über Hysterie“
-               veröffentlicht und<lb/> den Versuch unternommen, auf Grund der neuen Erkenntnis,<lb/>
-               welche wir diesem Forscher verdanken, eine neuartige Behand<lb break="no"/>lungsweise
-               der Neurose einzuführen. <app>
+                  <rs type="person" ref="#frd_person_40"><hi rendition="#smallcaps"><app>
+                           <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Josef Breuer</lem>
+                           <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">JOSEF
+                              BREUER</rdg>
+                        </app>
+                     </hi></rs></rs><note type="e" resp="#chuber"><term>Josef Breuer </term>Josef
+                  Breuer (1842-1925), österr. Internist und Physiologe, veröffentl. gem. mit Freud
+                  u.a. Studien über Hysterie.</note>die „Studien über Hysterie“ veröffentlicht
+               und<lb/> den Versuch unternommen, auf Grund der neuen Erkenntnis,<lb/> welche wir
+               diesem Forscher verdanken, eine neuartige Behand<lb break="no"/>lungsweise der
+               Neurose einzuführen. <app>
                   <lem wit="#sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Erfreulicherweise</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml">Erfreulicherweise,</rdg>
                </app> darf ich<lb/> sagen, haben die Bemühungen unserer „Studien“ Erfolg
@@ -254,7 +255,6 @@
                Fachgenossen, der nicht zum mindesten ein<lb/> Stück weit mit dieser Lehre ginge. Und
                doch mögen diese Sätze<lb/> und diese Termini, solange sie noch frisch waren,
                befremdend<lb/> genug geklungen haben!<lb break="paragraph"/></p>
-
             <pb n="2" xml:id="page__4edd5abf-bac9-4bf3-8e30-18c5540308c3"/>
             <fw type="pageNum">12</fw>
             <p>Ich kann nicht dasselbe von dem therapeutischen Verfahren<lb/> sagen, das
@@ -286,10 +286,12 @@
                   <lem wit="#sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Gegenteil</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml">Gegenteile</rdg>
                </app>, sie ist<lb/> die älteste Therapie, deren sich die Medizin bedient hat. In
-               dem<lb/> lehrreichen Werke von <hi rendition="#smallcaps"><app>
-                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Löwenfeld</lem>
-                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">LÖWENFELD</rdg>
-                  </app></hi> (Lehrbuch der gesamten<lb/> Psychotherapie) können Sie nachlesen, <app>
+               dem<lb/> lehrreichen Werke von <rs type="person" ref="#frd_person_41"><hi rendition="#smallcaps"><app>
+                        <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Löwenfeld</lem>
+                        <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">LÖWENFELD</rdg>
+                     </app></hi></rs><note type="e" resp="#chuber"><term>Löwenfeld</term>Leopold Löwenfeld (1847–1923), dt.
+                  Psychiater und Sexualpathologe</note> (Lehrbuch der gesamten<lb/> Psychotherapie)
+               können Sie nachlesen, <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">welche</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">welches</rdg>
                </app> die Methoden der<lb/> primitiven und der antiken Medizin waren. Sie werden
@@ -310,21 +312,32 @@
                   <rdg wit="#sfe-1905-001__1922.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml">andere</rdg>
                </app> beim Heilungsvorgang sehr in Betracht kommende<lb/> Partei — nämlich die
                Kranken — nicht die Absicht hat, auf sie<lb break="paragraph"/><pb n="3" xml:id="page__9e692491-df34-4886-b159-7932cf37f1c0"/><fw type="pageNum">13</fw>zu
-               verzichten. Sie wissen, welche Aufklärungen wir hierüber<lb/> der Schule von Nancy<note type="e" resp="#chuber"><term>Schule
-                  von Nancy</term> Hypnoseorientierte Psychotherapie-Schule in Nancy, von Liébault in Nancy 1882 gegründet, der gemeinsam mit Bernheim prominentester Vertreter der Suggestionstherapie war.</note> (<hi rendition="#smallcaps"><app>
-                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Liébault</lem>
-                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">LIEBAULT</rdg>
-                  </app></hi>, <hi rendition="#smallcaps"><app>
-                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Bernheim</lem>
-                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">BERNHEIM</rdg>
-                  </app></hi>) verdanken. Ein<lb/> von der psychischen Disposition der Kranken
-               abhängiger Faktor<lb/> tritt, ohne daß wir es beabsichtigen, zur Wirkung eines
-               jeden<lb/> vom Arzte eingeleiteten Heilverfahrens hinzu, meist im begün<lb break="no"/>stigenden, oft auch im hemmenden Sinne. Wir haben für diese<lb/> Tatsache das Wort
-               „Suggestion“ anzuwenden gelernt, und<lb/>
-               <hi rendition="#smallcaps"><app>
-                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Moebius</lem>
-                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">MOEBIUS</rdg>
-                  </app></hi> hat uns <app>
+               verzichten. Sie wissen, welche Aufklärungen wir hierüber<lb/> der Schule von
+                  Nancy<note type="e" resp="#chuber"><term>Schule von Nancy</term>
+                  Hypnoseorientierte Psychotherapie-Schule in Nancy, von Liébault in Nancy 1882
+                  gegründet, der gemeinsam mit Bernheim prominentester Vertreter der
+                  Suggestionstherapie war.</note> (<hi rendition="#smallcaps"><rs type="person" ref="#frd_person_49"><app>
+                        <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Liébault</lem>
+                        <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">LIEBAULT</rdg>
+                     </app></rs></hi><note type="e" resp="#chuber"><term>Liébeault</term>Ambroise-Auguste Liébeault
+                  (1823-1904), frz. Arzt und Psychiater, Vertreter der Suggestionstherapie, mit
+                  Bernheim Begründer der Schule von Nancy.</note>, <rs type="person" ref="#frd_person_46"><hi rendition="#smallcaps"><app>
+                        <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Bernheim</lem>
+                        <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">BERNHEIM</rdg>
+                  </app></hi></rs><note type="e" resp="#chuber"><term>Bernheim</term>Hippolyte Marie Bernheim
+                  (1840-1919), frz. Internist, Psychiater und Neurologe, Vertreter der
+                  Suggestionstherapie, Mitglied der Schule von Nancy. Freud übersetzt von ihm ins
+                  Dt.: Die Suggestion und ihre Heilwirkung. Leipzig/Wien 1888 und Neue Studien über
+                  Hypnotismus, Suggestion und Psychotherapie. Leipzig/Wien 1892.</note>) verdanken.
+               Ein<lb/> von der psychischen Disposition der Kranken abhängiger Faktor<lb/> tritt,
+               ohne daß wir es beabsichtigen, zur Wirkung eines jeden<lb/> vom Arzte eingeleiteten
+               Heilverfahrens hinzu, meist im begün<lb break="no"/>stigenden, oft auch im hemmenden
+               Sinne. Wir haben für diese<lb/> Tatsache das Wort „Suggestion“ anzuwenden gelernt, und<lb/>
+               <rs type="person" ref="#frd_person_48"><hi rendition="#smallcaps"><app>
+                        <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Moebius</lem>
+                        <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">MOEBIUS</rdg>
+               </app></hi></rs><note type="e" resp="#chuber"><term>Moebius</term>Paul Julius Moebius (1853-1907), dt.
+                  Neurologe und Psychiater.</note> hat uns <app>
                   <lem wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">gelehrt</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml">belehrt</rdg>
                </app>, daß die Unverläßlichkeit, die wir an<lb/> so manchen unserer Heilmethoden
@@ -340,8 +353,6 @@
                bemächtigen, sich seiner mit<lb/> Absicht zu bedienen, ihn zu lenken und zu
                verstärken? Nichts<lb/> anderes als dies ist es, was die wissenschaftliche
                Psychotherapie<lb/> Ihnen zumutet.<lb break="paragraph"/></p>
-
-
             <p>Zu dritt, meine Herren Kollegen, will ich Sie auf die altbe<lb break="no"/>kannte
                Erfahrung verweisen, daß gewisse <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Leiden,</lem>
@@ -358,15 +369,26 @@
                </app> wohl die<lb/> Persönlichkeit des Arztes, insofern er psychischen Einfluß
                durch<lb/> sie ausübt. Ich weiß wohl, meine Herren Kollegen, daß bei<lb/> Ihnen jene
                Anschauung sehr beliebt ist, welcher der Ästhetiker<lb/>
-               <hi rendition="#smallcaps"><app>
-                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Vischer</lem>
-                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">VISCHER</rdg>
-                  </app></hi> in seiner Faustparodie (Faust, der Tragödie III. Teil)<lb/>
-               klassischen Ausdruck geliehen hat:<lb break="paragraph"/></p>
-            <q><p><span class="inlinequote">„Ich weiß, das Physikalische<lb/> Wirkt öfters aufs
+               <rs type="person" ref="#frd_person_50"><hi rendition="#smallcaps"><app>
+                        <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Vischer</lem>
+                        <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">VISCHER</rdg>
+               </app></hi></rs><note type="e" resp="#chuber"><term>Vischer</term>Friedrich Theodor Vischer
+                  (1807–1887), deutscher Literaturwissenschaftler, Philosoph, Schriftsteller und
+                  Politiker, 1848 gewähltes Mitglied der Frankfurter Nationalversammlung. Freud
+                  zitiert mehrfach aus seinem Werk, vor allem aus seiner Faustparodie (1862) und
+                  seinem Roman Auch einer (1879). Zitat aus: Faust. Der Tragödie dritter Teil. Treu
+                  im Geiste des zweiten Teils des Goetheschen Faust, gedichtet von Deutobold
+                  Symbolizetti Allegoriowitsch Mystifizinski (I/4, Lieschen).</note> in seiner
+               Faustparodie (Faust, der Tragödie III. Teil)<lb/> klassischen Ausdruck geliehen
+                  hat:<lb break="paragraph"/></p>
+            <q>
+               <p><span class="inlinequote">„Ich weiß, das Physikalische<lb/> Wirkt öfters aufs
                      Moralische.“</span><lb break="paragraph"/></p>
             </q>
-
+            <note type="e" resp="#chuber"><term>„Ich weiß, das Physikalische<lb/> Wirkt öfters aufs Moralische.“</term>Zitat
+               aus: Faust. Der Tragödie dritter Teil. Treu im Geiste des zweiten Teils des
+               Goetheschen Faust, gedichtet von Deutobold Symbolizetti Allegoriowitsch Mystifizinski
+               (I/4, Lieschen).</note>
             <pb n="4" xml:id="page__3ad2b8d2-35ad-4e59-85c9-89572dde77e2"/>
             <fw type="pageNum">14</fw>
             <p>Aber sollte es nicht adäquater sein und häufiger zutreffen, daß<lb/> man aufs
@@ -390,12 +412,12 @@
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">mich in
                      Wirklichkeit</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">in Wirklichkeit mich</rdg>
-               </app> auf ein einziges<lb/> Heilverfahren beschränkt habe, auf die von <hi rendition="#smallcaps"><app>
-                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Breuer</lem>
-                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">BREUER</rdg>
-                  </app></hi> „<hi rendition="#smallcaps">kathar<lb break="no"/>tisch</hi>“ genannte
-               Methode, die ich lieber die „<hi rendition="#smallcaps">analytische</hi>“<lb/> heiße,
-               so sind bloß subjektive Motive für mich maßgebend<lb/> gewesen. Infolge meines <app>
+               </app> auf ein einziges<lb/> Heilverfahren beschränkt habe, auf die von <rs type="person" ref="#frd_person_40"><hi rendition="#smallcaps"><app>
+                        <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Breuer</lem>
+                        <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">BREUER</rdg>
+                     </app></hi></rs> „<hi rendition="#smallcaps">kathar<lb break="no"/>tisch</hi>“
+               genannte Methode, die ich lieber die „<hi rendition="#smallcaps">analytische</hi>“<lb/> heiße, so sind bloß subjektive Motive für mich maßgebend<lb/>
+               gewesen. Infolge meines <app>
                   <lem wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Anteiles</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml">Anteils</rdg>
                </app> an der Aufstellung dieser Therapie<lb/> fühle ich die persönliche
@@ -418,7 +440,6 @@
                </app> auf diese kathartische oder analytische Methode der<lb/> Psychotherapie
                gestatten Sie mir nun, einige Irrtümer zu ver<lb break="no"/>bessern und einige
                Aufklärungen zu geben.<lb break="paragraph"/></p>
-
             <pb n="5" xml:id="page__2294de35-26ef-4fab-a871-0b99a9be1021"/>
             <fw type="pageNum">15</fw>
             <p><hi rendition="#em">a)</hi> Ich merke, daß diese Methode sehr häufig mit der hypno<lb break="no"/>tischen Suggestivbehandlung verwechselt wird, merke es daran,<lb/> daß
@@ -435,17 +456,19 @@
                ausgenommen) und pflege<lb/> solche Sendungen mit dem Rate, wer auf die Hypnose
                baut,<lb/> möge sie selbst machen, zu retournieren. In Wahrheit besteht<lb/> zwischen
                der suggestiven Technik und der analytischen der größt<lb break="no"/>mögliche
-               Gegensatz, jener Gegensatz, den der große <hi rendition="#smallcaps"><app>
-                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Leonardo da Vinci</lem>
-                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">LEONARDO DA
-                        VINCI</rdg>
-                  </app></hi> für die Künste in die Formeln <hi rendition="#em">per via di
+               Gegensatz, jener Gegensatz, den der große <rs type="person" ref="#frd_person_51"><hi rendition="#smallcaps"><app>
+                        <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Leonardo da Vinci</lem>
+                        <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">LEONARDO DA
+                           VINCI</rdg>
+                     </app></hi></rs> für die Künste in die Formeln <hi rendition="#em">per via di
                   porre</hi> und<lb/>
                <hi rendition="#em">per via di levare</hi> gefaßt hat. Die Malerei, sagt <hi rendition="#smallcaps"><app>
                      <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Leonardo</lem>
                      <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">LEONARDO</rdg>
-                  </app></hi>,<lb/> arbeitet <hi rendition="#em">per via di porre</hi>; sie setzt
-               nämlich Farbenhäufchen hin,<lb/> wo sie früher nicht waren, auf die <app>
+                  </app></hi><note type="e" resp="#chuber"><term>Leonardo da Vinci</term>Leonardo da Vinci (1452-1519),
+                  ital. Maler, Bildhauer, Architekt, Anatom und Universalgelehrter.</note>,<lb/>
+               arbeitet <hi rendition="#em">per via di porre</hi>; sie setzt nämlich Farbenhäufchen
+               hin,<lb/> wo sie früher nicht waren, auf die <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">nichtfarbige</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">nicht farbige</rdg>
                </app> Leinwand; die<lb/> Skulptur dagegen geht <hi rendition="#em">per via di
@@ -478,8 +501,6 @@
                Kranken an ihrer Krankheit festhalten, mit dem sie sich<lb/> also auch gegen die
                Genesung sträuben, und der doch allein das<lb/> Verständnis ihres Benehmens im Leben
                   ermöglicht.<lb break="paragraph"/></p>
-
-
             <p><hi rendition="#em">b)</hi> Es scheint mir der Irrtum unter den Kollegen weit ver<lb break="no"/>breitet zu sein, daß die Technik der Forschung nach den Krank<lb break="no"/>heitsanlässen und die Beseitigung der Erscheinungen durch diese<lb/>
                Erforschung leicht und selbstverständlich sei. Ich schließe dies<lb/> daraus, daß
                noch keiner von den vielen, die sich für meine<lb/> Therapie interessieren und
@@ -532,8 +553,6 @@
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">.).</rdg>
                   <rdg wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">).</rdg>
                </app></p>
-
-
             <p><hi rendition="#em">c)</hi> Sie werden aus gewissen meiner Bemerkungen erraten<lb/>
                haben, daß der analytischen Kur manche Eigenschaften anhaften,<lb/> die sie von dem
                Ideal einer Therapie ferne halten. <hi rendition="#em">Tuto, cito,</hi><lb/>
@@ -582,8 +601,6 @@
                   <lem wit="#sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1906.xml #sfe-1905-001__1925.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml">Allgemeinleiden</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">Allgemeinleiden,</rdg>
                </app> zurücksteht.<lb break="paragraph"/></p>
-
-
             <p><hi rendition="#em">d)</hi> Die Indikationen und Gegenanzeigen dieser Behandlung
                sind<lb/> infolge der vielen praktischen Beschränkungen, die meine Tätigkeit<lb/>
                betroffen haben, kaum <app>
@@ -622,8 +639,6 @@
                   <lem wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">anderen</lem>
                   <rdg wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">andern</rdg>
                </app><lb/> Gesichtspunkte würdigen müssen.<lb break="paragraph"/></p>
-
-
             <p><app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">2)</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">2.</rdg>
@@ -659,8 +674,6 @@
                Unabsehbare verlängert. Die Altersgrenze<lb/> nach unten ist nur individuell zu
                bestimmen; jugendliche<lb/> Personen noch vor der Pubertät sind oft ausgezeichnet
                zu<lb/> beeinflussen.<lb break="paragraph"/></p>
-
-
             <p><app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">4)</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">4.</rdg>
@@ -739,8 +752,6 @@
                   <lem wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">daß</lem>
                   <rdg wit="#sfe-1905-001__1911.xml">das</rdg>
                </app> er sich unter<lb/> anderen Bedingungen kritischer erwiesen hätte.<lb break="paragraph"/></p>
-
-
             <p><hi rendition="#em">f)</hi> Zum Schlusse, meine Herren Kollegen, muß ich mir
                sagen,<lb/> es geht doch nicht an, Ihre Aufmerksamkeit so lange zugunsten<lb/> der
                analytischen Psychotherapie in Anspruch zu nehmen, ohne<lb/> Ihnen zu sagen, worin
@@ -752,11 +763,13 @@
                gegründet, daß unbewußte Vorstellungen — besser: die Unbe<lb break="no"/>wußtheit
                gewisser seelischer Vorgänge — die nächste Ursache<lb break="paragraph"/><pb n="12" xml:id="page__c74f97f2-2e2d-40d2-8d72-3954e2585966"/><fw type="pageNum">22</fw>der
                krankhaften Symptome ist. Eine solche Überzeugung ver<lb break="no"/>treten wir
-               gemeinsam mit der französischen Schule (<app>
-                  <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Janet</lem>
-                  <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">JANET</rdg>
-               </app>), die<lb/> übrigens in arger Schematisierung das hysterische Symptom auf<lb/>
-               die unbewußte <hi rendition="#em"><app>
+               gemeinsam mit der französischen Schule <rs type="person" ref="#frd_person_47">(<app>
+                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Janet</lem>
+                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">JANET</rdg>
+               </app></rs><note type="e" resp="#chuber"><term>Janet</term>Pierre-Marie-Félix Janet (1859-1947), frz.
+                  Philosoph, Psychologe, Psychiater und Psychotherapeut, Begründer der dynamischen
+                  Psychiatrie, bedeutender Psychotraumatologe.</note>), die<lb/> übrigens in arger
+               Schematisierung das hysterische Symptom auf<lb/> die unbewußte <hi rendition="#em"><app>
                      <lem wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">idée</lem>
                      <rdg wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">Idée</rdg>
                   </app> fixe</hi> zurückführt. Fürchten Sie nun nicht,<lb/> daß wir dabei zu tief
@@ -783,8 +796,6 @@
                niemals so groß werden kann wie die der<lb/> unbewußten. Wir beherrschen alle unsere
                Regungen doch nur<lb/> dadurch, daß wir unsere höchsten, mit Bewußtsein
                verbundenen<lb/> Seelenleistungen auf sie wenden.<lb break="paragraph"/></p>
-
-
             <p>Sie können aber auch einen anderen Gesichtspunkt für das<lb/> Verständnis der
                psychoanalytischen Behandlung wählen. Die Auf<lb break="no"/>deckung und Übersetzung
                des Unbewußten geht unter beständigem<lb/>
@@ -812,15 +823,16 @@
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">wichtige,</lem>
                   <rdg wit="#sfe-1905-001__1922.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml">wichtige</rdg>
                </app> an den Arzt zu stellende Anforderung. Er muß nicht<lb/> nur selbst ein
-               integrer Charakter sein — „<span class="inlinequote">das Moralische ver<lb break="no"/>steht sich ja von selbst</span>“, wie die Hauptperson in <app>
-                  <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Th. </lem>
-                  <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">TH.</rdg>
-               </app>
-               <app>
-                  <lem wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Vischers</lem>
-                  <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">VISCHERs</rdg>
-                  <rdg wit="#sfe-1905-001__1906.xml">Vischer’s</rdg>
-               </app><lb/> „Auch Einer“ zu sagen <app>
+               integrer Charakter sein — „<span class="inlinequote">das Moralische ver<lb break="no"/>steht sich ja von selbst</span>“, wie die Hauptperson in <rs type="person" ref="#frd_person_50"><app>
+                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Th. </lem>
+                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">TH.</rdg>
+                  </app>
+                  <app>
+                     <lem wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Vischers</lem>
+                     <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">VISCHERs</rdg>
+                     <rdg wit="#sfe-1905-001__1906.xml">Vischer’s</rdg>
+                  </app><lb/></rs>
+               „Auch Einer“ zu sagen <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">pflegt; —</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">pflegt —;</rdg>
                </app> er muß auch für seine eigene<lb/> Person die Mischung von Lüsternheit und
@@ -828,8 +840,6 @@
                   <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">andere</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">Andere</rdg>
                </app> den sexuellen Pro<lb break="no"/>blemen entgegenzutreten gewohnt sind.<lb break="paragraph"/></p>
-
-
             <p>Hier ist vielleicht der Platz für eine weitere Bemerkung. Ich<lb/> weiß, daß meine
                Betonung der Rolle des Sexuellen für die Ent<lb break="no"/>stehung der
                Psychoneurosen in weiteren Kreisen bekannt geworden<lb/> ist. Ich weiß aber auch, daß
@@ -871,16 +881,34 @@
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">hervor,</rdg>
                </app> und darum kann der Rat der sexuellen Betätigung bei<lb/> den Psychoneurosen
                eigentlich nur selten als guter Rat<lb/> bezeichnet werden.<lb break="paragraph"/></p>
-
-
             <p>Lassen Sie mich mit dieser abwehrenden Bemerkung schließen.<lb/> Wir wollen hoffen,
                daß Ihr von jedem feindseligen Vorurteil<lb/> gereinigtes Interesse für die
                Psychotherapie uns darin unterstützen<lb/> wird, auch in der Behandlung der schweren
                Fälle von Psycho<lb break="no"/>neurosen Erfreuliches zu leisten.<lb break="paragraph"/></p>
-
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_40">
+   <back><listPerson><person xml:id="frd_person_41">
+               <persName>Deutsch, Helene</persName>
+               <birth>
+                  <date>1884</date>
+               </birth>
+               <death>
+                   <date>1982</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/118524968</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_51">
+               <persName>Ehrenstein, Albert</persName>
+               <birth>
+                  <date>1886</date>
+               </birth>
+               <death>
+                   <date>1950</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/118688227</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_40">
                <persName>Deutsch, Felix</persName>
                <birth>
                   <date>1884</date>
@@ -890,5 +918,15 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/123979390</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_49">
+               <persName>Eckstein, Emma</persName>
+               <birth>
+                  <date>1865</date>
+               </birth>
+               <death>
+                   <date>1924</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/1021283231</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>

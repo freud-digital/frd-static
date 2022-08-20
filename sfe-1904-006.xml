@@ -330,6 +330,6 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118524968</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>

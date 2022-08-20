@@ -192,7 +192,10 @@
 
             <pb n="3" xml:id="page__7cd44336-b83a-43e6-9ac3-19ba903d1af7"/>
             <fw type="pageNum">[189]</fw>
-            <p rendition="h1">I<lb break="paragraph"/></p>
+            <p rendition="h1"><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">I</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">I.</rdg>
+               </app><lb break="paragraph"/></p>
             <p>In <app>
                   <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">den Zeiten</lem>
                   <rdg wit="#sfe-1901-01__1911.xml #sfe-1901-01__1901.xml #sfe-1901-01__1921.xml">Zeiten</rdg>
@@ -341,7 +344,10 @@
 
             <pb n="6" xml:id="page__3ad6eb58-2495-4bec-a055-1bce4d7ad96d"/>
             <fw type="pageNum">[192]</fw>
-            <p rendition="h1">II<lb break="paragraph"/></p>
+            <p rendition="h1"><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">II</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">II.</rdg>
+               </app><lb break="paragraph"/></p>
             <p>Zu meiner großen<app>
                   <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">großen</lem>
                   <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">grossen</rdg>
@@ -948,7 +954,10 @@
 
             <pb n="15" xml:id="page__5c1c3cc7-55ac-4e1c-9a0f-72d212c38aa0"/>
             <fw type="pageNum">[201]</fw>
-            <p rendition="h1">III<lb break="paragraph"/></p>
+            <p rendition="h1"><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">III</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">III.</rdg>
+               </app><lb break="paragraph"/></p>
             <p>Die Verwandlung der latenten Traumgedanken in den mani<lb/>festen Trauminhalt
                verdient unsere volle Aufmerksamkeit als das<lb/> zuerst <app>
                   <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">bekannt gewordene</lem>
@@ -1432,7 +1441,10 @@
 
             <pb n="22" xml:id="page__2e83d8e2-b61b-4bd9-8651-94c960f9ead6"/>
             <fw type="pageNum">[208]</fw>
-            <p rendition="h1">IV<lb break="paragraph"/></p>
+            <p rendition="h1"><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">IV</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">IV.</rdg>
+               </app><lb break="paragraph"/></p>
             <p>Wir werden geneigt sein anzunehmen, <app>
                   <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
                   <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
@@ -1890,7 +1902,10 @@
 
             <pb n="29" xml:id="page__79a646c2-86df-4853-8c37-5058b52510ef"/>
             <fw type="pageNum">[215]</fw>
-            <p rendition="h1">V<lb break="paragraph"/></p>
+            <p rendition="h1"><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">V</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">V.</rdg>
+               </app><lb break="paragraph"/></p>
             <p>Bei den <app>
                   <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">komplizierten</lem>
                   <rdg wit="#sfe-1901-001__1901.xml">komplizirten</rdg>
@@ -2106,7 +2121,7 @@
                </app> mit dem <app>
                   <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Wert<lb break="no"/>vollsten</lem>
                   <rdg wit="#sfe-1901-001__1901.xml">Werthvollsten</rdg>
-               </app> in der psychischen Schätzung des Einzelnen zusammen<lb break="no"/>hängt. <hi rendition="#smallcaps">Es sind nur Akte der <choice wit="#sfe-1901-001__1925.xml">
+               </app> in der psychischen Schätzung des Einzelnen zusammen<lb break="no"/>hängt. <hi rendition="#smallcaps">Es sind nur Akte der <choice source="#sfe-1901-001__1925.xml">
                      <sic>Verschiebungsarbeit</sic>
                      <corr>Verschiebungsarbeit,</corr>
                   </choice><lb/>
@@ -2236,7 +2251,10 @@
 
             <pb n="35" xml:id="page__4d044f64-32e4-45e9-b730-887dddf6a706"/>
             <fw type="pageNum">[221]</fw>
-            <p rendition="h1">VI<lb break="paragraph"/></p>
+            <p rendition="h1"><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">VI</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">VI.</rdg>
+               </app><lb break="paragraph"/></p>
             <p>Ist es hauptsächlich der Verschiebungsarbeit zur Last zu legen,<lb/> wenn man die
                Traumgedanken im Trauminhalt nicht wieder<lb break="no"/>findet oder nicht
                wiedererkennt, — ohne <app>
@@ -2560,7 +2578,10 @@
                bezieht sein Material aus drei<lb/> Quellen:<lb break="paragraph"/></p>
 
 
-            <p><hi rendition="#em">1)</hi> Herr M., den ich bei einer <hi rendition="#smallcaps">Tischgesellschaft</hi>
+            <p><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml"><hi rendition="#em">1)</hi></lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">1.</rdg>
+               </app>Herr M., den ich bei einer <hi rendition="#smallcaps">Tischgesellschaft</hi>
                <app>
                   <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">kennen<lb/> lernte</lem>
                   <rdg wit="#sfe-1901-001__1931.xml">kennenlernte</rdg>
@@ -2584,13 +2605,15 @@
                   <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">veranlaßt</lem>
                   <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">veranlasst</rdg>
                </app>, durch welche<lb/> seine Gedächtnisschwäche erwiesen werden sollte.<lb break="paragraph"/></p>
-            <p><hi rendition="#em">2)</hi> Eine medizinische Zeitschrift, die sich auch meines
-               Namens<lb/> auf ihrem Titel rühmte, hatte von einem recht <hi rendition="#smallcaps">jugend</hi><lb break="no"/><hi rendition="#smallcaps">lichen</hi> Referenten eine
-               geradezu „<hi rendition="#smallcaps">vernichtende</hi>“<lb/> Kritik über ein Buch
-               meines Freundes F. in Berlin auf<lb break="no"/>genommen. Ich stellte den Redakteur
-               darob zur Rede, der<lb/> mir zwar sein Bedauern ausdrückte, aber eine Remedur<lb/>
-               nicht versprechen wollte. Daraufhin brach ich meine Be<lb break="no"/>ziehungen zur
-               Zeitung ab und hob in meinem Absagebrief<lb/> die Erwartung hervor, <app>
+            <p><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml"><hi rendition="#em">2)</hi></lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">2.</rdg>
+               </app>Eine medizinische Zeitschrift, die sich auch meines Namens<lb/> auf ihrem Titel
+               rühmte, hatte von einem recht <hi rendition="#smallcaps">jugend</hi><lb break="no"/><hi rendition="#smallcaps">lichen</hi> Referenten eine geradezu „<hi rendition="#smallcaps">vernichtende</hi>“<lb/> Kritik über ein Buch meines
+               Freundes F. in Berlin auf<lb break="no"/>genommen. Ich stellte den Redakteur darob
+               zur Rede, der<lb/> mir zwar sein Bedauern ausdrückte, aber eine Remedur<lb/> nicht
+               versprechen wollte. Daraufhin brach ich meine Be<lb break="no"/>ziehungen zur Zeitung
+               ab und hob in meinem Absagebrief<lb/> die Erwartung hervor, <app>
                   <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
                   <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
                </app>
@@ -2601,8 +2624,11 @@
                   <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">vielen</lem>
                   <rdg wit="#sfe-1901-001__1901.xml">vier</rdg>
                </app> Jahren — den<lb/> Fachgenossen zu gefallen beginnt.<lb break="paragraph"/></p>
-            <p><hi rendition="#em">3)</hi> Eine Patientin hatte mir kurz zuvor die
-               Krankengeschichte<lb/> ihres Bruders erzählt, der mit dem Ausrufe „<hi rendition="#smallcaps">Natur</hi>,<lb/>
+            <p><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml"><hi rendition="#em">3)</hi></lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">3.</rdg>
+               </app> Eine Patientin hatte mir kurz zuvor die Krankengeschichte<lb/> ihres Bruders
+               erzählt, der mit dem Ausrufe „<hi rendition="#smallcaps">Natur</hi>,<lb/>
                <hi rendition="#smallcaps">Natur</hi>“ in Tobsucht verfallen war. Die <app>
                   <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Ärzte</lem>
                   <rdg wit="#sfe-1901-001__1901.xml">Aerzte</rdg>
@@ -2734,7 +2760,10 @@
 
             <pb n="43" xml:id="page__05964edd-6467-4594-b72d-f6ec0714f8d4"/>
             <fw type="pageNum">[229]</fw>
-            <p rendition="h1">VII<lb break="paragraph"/></p>
+            <p rendition="h1"><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">VII</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">VII.</rdg>
+               </app><lb break="paragraph"/></p>
             <p>Wir sind mit der Würdigung der Traumarbeit noch nicht zu<lb/> Ende gekommen. Wir
                sehen uns <app>
                   <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">genötigt</lem>
@@ -2880,346 +2909,930 @@
                   <lem wit="#sfe-1901-01__1911.xml #sfe-1901-01__1921.xml #sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">Man würde aber irre gehen, wenn man in diesen <app>
                         <lem wit="#sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Traum<lb break="no"/>fassaden</lem>
                         <rdg wit="#sfe-1901-001__1911.xml">Traumfaçaden</rdg>
-                        
-                     </app>
-                     nichts anderes sehen <app>
+
+                     </app> nichts anderes sehen <app>
                         <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">wollte,</lem>
                         <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">wollte</rdg>
-                        
+
                      </app> als solche eigentlich <app>
                         <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">miß<lb break="no"/>verständliche</lem>
                         <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">missverständliche</rdg>
-                        
+
                      </app> und ziemlich willkürliche Bearbeitungen des Traum<lb break="no"/>inhaltes durch die <app>
                         <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">bewußte</lem>
                         <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">bewusste</rdg>
-                        
-                     </app> Instanz unseres Seelenlebens. Zur<lb/> Herstellung
-                     der <app>
+
+                     </app> Instanz unseres Seelenlebens. Zur<lb/> Herstellung der <app>
                         <lem wit="#sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Traumfassade</lem>
                         <rdg wit="#sfe-1901-001__1911.xml">Traumfaçade</rdg>
-                        
-                     </app> werden nicht selten Wunsch<lb break="no"/>phantasien
-                     verwendet, die sich in den Traumgedanken vorgebildet<lb break="paragraph"/><pb n="45" xml:id="page__9802c2d0-4408-4d95-9c85-2e972354d2ec"/><fw type="pageNum">231</fw>finden, und die von derselben Art sind wie die uns
-                     aus dem<lb/> wachen Leben bekannten, mit Recht so genannten „Tagträume“.<app>
+
+                     </app> werden nicht selten Wunsch<lb break="no"/>phantasien verwendet, die sich
+                     in den Traumgedanken vorgebildet<lb break="paragraph"/><pb n="45" xml:id="page__9802c2d0-4408-4d95-9c85-2e972354d2ec"/><fw type="pageNum">231</fw>finden, und die von derselben Art sind wie die uns aus dem<lb/>
+                     wachen Leben bekannten, mit Recht so genannten „Tagträume“.<app>
                         <lem wit="#sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">„Tagträume“.</lem>
                         <rdg wit="#sfe-1901-001__1911.xml">„Tagträume.“</rdg>
-                        
-                     </app><lb/>
-                     Die Wunschphantasien, welche die Analyse in den nächtlichen<lb/> Träumen
-                     aufdeckt, erweisen sich oft als Wiederholungen und<lb/> Umarbeitungen
+
+                     </app><lb/> Die Wunschphantasien, welche die Analyse in den nächtlichen<lb/>
+                     Träumen aufdeckt, erweisen sich oft als Wiederholungen und<lb/> Umarbeitungen
                      infantiler Szenen; die <app>
                         <lem wit="#sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Traumfassade</lem>
                         <rdg wit="#sfe-1901-001__1911.xml">Traumfaçade</rdg>
-                        
-                     </app> zeigt uns so<lb/> in manchen Träumen
-                     unmittelbar den durch Vermengung mit<lb/> anderem Material entstellten
-                     eigentlichen Kern des Traumes.<lb break="paragraph"/></lem><rdg wit="#sfe-1901-01__1901.xml">ABSATZ TEXTTEIL FEHLT</rdg>
+
+                     </app> zeigt uns so<lb/> in manchen Träumen unmittelbar den durch Vermengung
+                     mit<lb/> anderem Material entstellten eigentlichen Kern des Traumes.<lb break="paragraph"/></lem>
+                  <rdg wit="#sfe-1901-01__1901.xml">ABSATZ TEXTTEIL FEHLT</rdg>
                </app></p>
 
 
-            <p>Andere als die vier erwähnten Tätigkeiten sind bei der Traum<lb break="no"/>arbeit
-               nicht zu entdecken. Halten wir an der Begriffsbestimmung<lb/> fest, daß „Traumarbeit“
-               die Überführung der Traumgedanken in<lb/> den Trauminhalt bezeichnet, so müssen wir
-               uns sagen, die Traum<lb break="no"/>arbeit sei nicht schöpferisch, sie entwickle
-               keine ihr eigentümliche<lb/> Phantasie, sie urteilt nicht, schließt nicht, sie
-               leistet überhaupt<lb/> nichts anderes als das Material zu verdichten, verschieben
-               und<lb/> auf Anschaulichkeit umzuarbeiten, wozu noch das inkonstante<lb/> letzte
-               Stückchen deutender Bearbeitung hinzukommt. Man findet<lb/> zwar mancherlei im
-               Trauminhalt, was man als das Ergebnis<lb/> einer anderen und höheren intellektuellen
-               Leistung auffassen<lb/> möchte, aber die Analyse weist jedesmal überzeugend nach, daß<lb/>
+            <p>Andere als die vier erwähnten <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Tätigkeiten</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Thätigkeiten</rdg>
+               </app> sind bei der Traum<lb break="no"/>arbeit nicht zu entdecken. Halten wir an der <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Begriffsbestimmung</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Begriffbestimmung</rdg>
+               </app><lb/> fest, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> „Traumarbeit“ die <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Überführung</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Ueberführung</rdg>
+               </app> der Traumgedanken in<lb/> den Trauminhalt bezeichnet, so müssen wir uns sagen,
+               die Traum<lb break="no"/>arbeit sei nicht schöpferisch, sie entwickle keine ihr <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">eigentümliche</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">eigenthümliche</rdg>
+               </app><lb/> Phantasie, sie <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">urteilt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">urtheilt</rdg>
+               </app> nicht, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">schließt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">schliesst</rdg>
+               </app> nicht, sie leistet überhaupt<lb/> nichts anderes als das Material zu
+               verdichten, verschieben und<lb/> auf Anschaulichkeit umzuarbeiten, wozu noch das
+               inkonstante<lb/> letzte Stückchen deutender Bearbeitung hinzukommt. Man findet<lb/>
+               zwar mancherlei im Trauminhalt, was man als das <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Ergebnis</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Ergebniss</rdg>
+               </app><lb/> einer anderen und höheren intellektuellen Leistung auffassen<lb/> möchte,
+               aber die Analyse weist jedesmal überzeugend nach, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app><lb/>
                <hi rendition="#smallcaps">diese intellektuellen Operationen bereits in den<lb/>
                   Traumgedanken vorgefallen und vom Trauminhalt<lb/> nur übernommen worden
-               sind</hi>. Eine Schlußfolgerung im<lb/> Traum ist nichts anderes als die Wiederholung
-               eines Schlusses<lb/> in den Traumgedanken; sie erscheint unanstößig, wenn sie
-               ohne<lb/> Veränderung in den Traum übergegangen ist; sie wird unsinnig,<lb/> wenn sie
-               durch die Traumarbeit etwa auf ein anderes Material<lb/> verschoben wurde. Eine
-               Rechnung im Trauminhalt bedeutet nichts<lb/> anderes, als daß sich unter den
-               Traumgedanken eine Berechnung<lb/> findet; während diese jedesmal richtig ist, kann
-               die Traum<lb break="no"/>rechnung durch Verdichtung ihrer Faktoren und durch Ver<lb break="no"/>schiebung der nämlichen Operationsweise auf anderes Material<lb/> das
-               tollste Ergebnis liefern. Nicht einmal die Reden, die sich<lb/> im Trauminhalt
-               vorfinden, sind neu komponiert; sie erweisen<lb break="paragraph"/><pb n="46" xml:id="page__f3b9f8ce-4fc8-4fa9-9953-dd8a9973e1ad"/><fw type="pageNum">232</fw>sich als zusammengestückelt aus Reden, die als gehaltene oder<lb/> als
-               gehörte und gelesene in den Traumgedanken erneuert wurden,<lb/> deren Wortlaut sie
-               aufs getreueste kopieren, während sie deren<lb/> Veranlassung ganz beiseite lassen
-               und ihren Sinn aufs gewaltsamste<lb/> verändern.<lb break="paragraph"/></p>
+               sind</hi>. Eine <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Schlußfolgerung</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Schlussfolgerung</rdg>
+               </app> im<lb/> Traum ist nichts anderes als die Wiederholung eines Schlusses<lb/> in
+               den Traumgedanken; sie erscheint <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">unanstößig</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">unanstössig</rdg>
+               </app>, wenn sie ohne<lb/> Veränderung in den Traum übergegangen ist; sie wird
+               unsinnig,<lb/> wenn sie durch die Traumarbeit etwa auf ein anderes Material<lb/>
+               verschoben wurde. Eine Rechnung im Trauminhalt bedeutet nichts<lb/> anderes, als <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> sich unter den Traumgedanken eine Berechnung<lb/> findet; während diese
+               jedesmal richtig ist, kann die Traum<lb break="no"/>rechnung durch Verdichtung ihrer
+               Faktoren und durch Ver<lb break="no"/>schiebung der nämlichen Operationsweise auf
+               anderes Material<lb/> das tollste <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Ergebnis</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Ergebniss</rdg>
+               </app> liefern. Nicht einmal die Reden, die sich<lb/> im Trauminhalt vorfinden, sind
+               neu <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">komponiert</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">komponirt</rdg>
+               </app>; sie erweisen<lb break="paragraph"/><pb n="46" xml:id="page__f3b9f8ce-4fc8-4fa9-9953-dd8a9973e1ad"/><fw type="pageNum">232</fw>sich als zusammengestückelt aus Reden, die als gehaltene oder<lb/> als <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">gehörte und gelesene</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">gehörte</rdg>
+               </app> in den Traumgedanken erneuert wurden,<lb/> deren Wortlaut sie <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">aufs getreueste</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">auf’s Getreueste</rdg>
+               </app>
+               <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">kopieren</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">kopiren</rdg>
+               </app>, während sie deren<lb/> Veranlassung ganz beiseite lassen und ihren Sinn <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">aufs gewaltsamste</lem>
+                  <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">aufs Gewaltsamste</rdg>
+                  <rdg wit="#sfe-1901-001__1901.xml">auf’s Gewaltsamste</rdg>
+               </app><lb/> verändern.<lb break="paragraph"/></p>
 
 
             <p>Es ist vielleicht nicht überflüssig, die letzten Behauptungen<lb/> durch Beispiele zu
                   unterstützen.<lb break="paragraph"/></p>
-            <p><hi rendition="#em">I)</hi> Ein harmlos klingender, gut komponierter Traum einer<lb/>
-                  Patientin:<lb break="paragraph"/></p>
+            <p>
+               <app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml"><hi rendition="#em">I)</hi></lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">I.</rdg>
+               </app>Ein harmlos klingender, gut <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">komponierter</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">komponirter</rdg>
+               </app> Traum einer<lb/> Patientin:<lb break="paragraph"/></p>
             <p><hi rendition="#em">Sie geht auf den Markt mit ihrer Köchin, die den Korb trägt. Der
-                  Fleischhauer sagt ihr, nachdem sie etwas verlangt hat: Das ist nicht mehr zu
-                  haben, und will ihr etwas anderes geben mit der Bemerkung: Das ist auch gut. Sie
-                  lehnt ab und geht zur Gemüsefrau. Die will ihr ein eigentümliches Gemüse
-                  verkaufen, was in Bündeln zusammengebunden ist, aber schwarz von Farbe. Sie sagt:
-                  Das kenne ich nicht, das nehme ich nicht.</hi><lb break="paragraph"/></p>
+                  Fleischhauer sagt ihr, nachdem sie etwas verlangt hat: <app>
+                     <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml"><hi rendition="smallcaps">Das ist nicht mehr zu haben</hi></lem>
+                     <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921"><hi rendition="bold">Das ist nicht mehr zu haben</hi></rdg>
+                  </app>, und will ihr etwas anderes geben mit der Bemerkung: Das ist auch gut. Sie
+                  lehnt ab und geht zur Gemüsefrau. Die will ihr ein <app>
+                     <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">eigentümliches</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml">eigenthümliches</rdg>
+                  </app> Gemüse verkaufen, was in Bündeln zusammengebunden ist, aber schwarz von
+                  Farbe. Sie sagt: <app>
+                     <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml"><hi rendition="smallcaps">Das kenne ich nicht</hi></lem>
+                     <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921"><hi rendition="bold">Das kenne ich nicht</hi></rdg>
+                  </app>, das nehme ich nicht.</hi><lb break="paragraph"/></p>
             <p>Die Rede: das ist nicht mehr zu haben — stammt aus der<lb/> Behandlung. Ich selbst
-               hatte der Patientin einige Tage vorher<lb/> wörtlich erklärt, daß die ältesten
-               Kindererinnerungen <hi rendition="#smallcaps">nicht<lb/> mehr</hi> als solche <hi rendition="#smallcaps">zu haben</hi> sind, sondern sich durch Über<lb break="no"/>tragungen und Träume ersetzen. Ich bin also der Fleischhauer.<lb break="paragraph"/></p>
+               hatte der Patientin einige Tage vorher<lb/> wörtlich erklärt, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> die ältesten Kindererinnerungen <hi rendition="#smallcaps">nicht<lb/>
+                  mehr</hi> als solche <hi rendition="#smallcaps">zu haben</hi> sind, sondern sich
+               durch <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Über<lb break="no"/>tragungen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Uebertragungen</rdg>
+               </app>und Träume ersetzen. Ich bin also der Fleischhauer.<lb break="paragraph"/></p>
             <p>Die zweite Rede: <hi rendition="#smallcaps">Das kenne ich nicht</hi> — ist in
                einem<lb/> ganz anderen Zusammenhange vorgefallen. Tags vorher hatte sie<lb/> selbst
-               ihrer Köchin, die übrigens auch im Traume erscheint,<lb/> tadelnd zugerufen: <hi rendition="#smallcaps">Benehmen Sie sich anständig; das<lb/> kenne ich nicht</hi>,
-               d. h. wohl, ein solches Benehmen anerkenne<lb/> ich nicht, lasse ich nicht zu. Der
-               harmlosere Teil dieser Rede<lb/> gelangte durch eine Verschiebung in den Trauminhalt;
-               in den<lb/> Traumgedanken spielte nur der andere Teil der Rede eine Rolle,<lb/> denn
-               hier hat die Traumarbeit bis zur vollen Unkenntlichkeit<lb/> und bis zur äußersten
-               Harmlosigkeit eine Phantasiesituation ver<lb break="no"/>ändert, in welcher ich mich
-               gegen die Dame<hi rendition="#smallcaps"> in einer<lb/> gewissen Weise unanständig
-                  benehme</hi>. Diese in<lb break="paragraph"/><pb n="47" xml:id="page__0144227a-3a6d-4e6a-b91d-f829ddbc981b"/><fw type="pageNum">233</fw>der Phantasie erwartete Situation ist aber selbst nur die Neu<lb break="no"/>auflage einer einmal wirklich erlebten.<lb break="paragraph"/></p>
+               ihrer Köchin, die übrigens auch im Traume erscheint,<lb/> tadelnd zugerufen: <hi rendition="#smallcaps">Benehmen <app>
+                     <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Sie</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">sie</rdg>
+                  </app> sich anständig; das<lb/> kenne ich nicht</hi>, d. h. wohl, ein solches
+               Benehmen anerkenne<lb/> ich nicht,<app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">lasse ich nicht zu</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">lasse nicht zu</rdg>
+               </app>. Der harmlosere <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Teil</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Theil</rdg>
+               </app> dieser Rede<lb/> gelangte durch eine Verschiebung in den Trauminhalt; in
+               den<lb/> Traumgedanken spielte nur der andere <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Teil</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Theil</rdg>
+               </app> der Rede eine Rolle,<lb/> denn hier hat die Traumarbeit bis zur vollen
+               Unkenntlichkeit<lb/> und bis zur <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">äußersten</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">äussersten</rdg>
+               </app> Harmlosigkeit eine Phantasiesituation ver<lb break="no"/>ändert, in welcher
+               ich mich gegen die Dame<hi rendition="#smallcaps"> in einer<lb/> gewissen Weise
+                  unanständig benehme</hi>. Diese in<lb break="paragraph"/><pb n="47" xml:id="page__0144227a-3a6d-4e6a-b91d-f829ddbc981b"/><fw type="pageNum">233</fw>der Phantasie erwartete Situation ist aber selbst nur die Neu<lb break="no"/>auflage einer einmal wirklich erlebten.<lb break="paragraph"/></p>
 
 
-            <p><hi rendition="#em">II)</hi> Ein scheinbar ganz bedeutungsloser Traum, in dem
-               Zahlen<lb/> vorkommen. <hi rendition="#em">Sie will irgend etwas bezahlen; ihre
-                  Tochter nimmt 3 fl. 65 kr. aus der Geldtasche; sie sagt aber: Was tust du? Es
-                  kostet ja nur 21 Kreuzer.</hi><lb break="paragraph"/></p>
+            <p><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml"><hi rendition="#em">II)</hi></lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">II.</rdg>
+               </app> Ein scheinbar ganz bedeutungsloser Traum, in dem Zahlen<lb/> vorkommen. <hi rendition="#em">Sie will <app>
+                     <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">irgend etwas</lem>
+                     <rdg wit="#sfe-1901-001__1931.xml">irgendetwas</rdg>
+                  </app> bezahlen; ihre Tochter <app>
+                     <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">nimmt</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">nimmt ihr</rdg>
+                  </app><app>
+                     <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml"><hi rendition="smallcaps">3 fl. 65 kr.</hi></lem>
+                     <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921"><hi rendition="bold">3 fl. 65 kr.</hi></rdg>
+                  </app>aus der Geldtasche; sie sagt aber: Was <app>
+                     <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">tust du</lem>
+                     <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">tust Du</rdg>
+                     <rdg wit="#sfe-1901-001__1901.xml">thust Du</rdg>
+                  </app>? Es kostet ja nur <app>
+                     <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml"><hi rendition="smallcaps">21 Kreuzer</hi></lem>
+                     <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921"><hi rendition="bold">21 Kreuzer</hi></rdg>
+                  </app>.</hi><lb break="paragraph"/></p>
             <p>Die Träumerin war eine Fremde, die ihr Kind in einem<lb/> Wiener Erziehungsinstitute
-               untergebracht hatte, und die meine<lb/> Behandlung fortsetzen konnte, so lange ihre
-               Tochter in Wien<lb/> blieb. Am Tage vor dem Traume hatte ihr die Institutsvor<lb break="no"/>steherin nahegelegt, ihr das Kind noch ein weiteres Jahr zu<lb/>
-               überlassen. In diesem Falle hätte sie auch die Behandlung um<lb/> ein Jahr
-               verlängert. Die Zahlen im Traum kommen zur Bedeu<lb break="no"/>tung, wenn man sich
-               erinnert, daß Zeit Geld ist. <hi rendition="#em">Time is money.</hi><lb/>
-               <hi rendition="#smallcaps">Ein Jahr</hi> ist gleich 365 <hi rendition="#smallcaps">Tagen</hi>, in Kreuzern ausgedrückt<lb/> 365 Kreuzer oder 3 l. 65 kr. Die <hi rendition="#smallcaps">21 Kreuzer</hi> entsprechen den<lb/>
-               <hi rendition="#smallcaps">drei Wochen</hi>, die damals vom Traumtage bis zum
-               Schulschluß<lb/> und damit bis zum Ende der Kur ausständig waren. Es waren<lb/>
-               offenbar Geldrücksichten, welche die Dame bewogen hatten, den<lb/> Vorschlag der
-               Vorsteherin abzulehnen, und welche für die Klein<lb break="no"/>heit der Summe im
-               Traum verantwortlich sind.<lb break="paragraph"/></p>
-            <p>III. Eine junge, aber schon seit Jahren verheiratete Dame<lb/> erfährt, daß eine ihr
-               fast gleichalterige Bekannte, Frl. Elise L.,<lb/> sich verlobt hat. Dieser Anlaß
-               erregt nachstehenden Traum:<lb break="paragraph"/></p>
-            <p><hi rendition="#em">Sie sitzt mit ihrem Manne im Theater, eine Seite des Parketts ist
-                  ganz unbesetzt. Ihr Mann erzählt ihr, Elise L. und ihr Bräutigam hätten auch gehen
-                  wollen, hätten aber nur schlechte Sitze bekommen, drei für 1 ﬂ. 50 kr., und die
-                  konnten sie ja nicht nehmen. Sie meint, es wäre auch kein Unglück gewesen.</hi><lb break="paragraph"/></p>
-            <p>Hier wird uns die Herkunft der Zahlen aus dem Material der<lb/> Traumgedanken und die
-               Verwandlungen, die sie erfahren haben,<lb/> interessieren. Woher rühren die <hi rendition="#em">1 fl. 50 kr.</hi>? Aus einem indiffe<lb break="no"/><pb n="48" xml:id="page__1ee6585a-f768-4234-af01-f04262ec886b"/><fw type="pageNum">234</fw>renten Anlaß des Vortages. Ihre Schwägerin hatte von ihrem<lb/> Manne die
-               Summe von 150 fl. zum Geschenke bekommen und<lb/> sich <hi rendition="#smallcaps">beeilt</hi>, sie los zu werden, indem sie sich einen Schmuck<lb/> dafür kaufte.
-               Wir wollen anmerken, daß 150 fl. hundertmal mehr<lb/> sind als 1 fl. 50 kr. Für die
-                  <hi rendition="#smallcaps">drei</hi>, die bei den Theaterbillets<lb/> steht,
-               findet sich nur die eine Anknüpfung, daß die Braut Elise<lb/> L. genau <hi rendition="#smallcaps">drei</hi> Monate jünger ist als die Träumerin. Die Situa<lb break="no"/>tion im Traume ist die Wiedergabe einer kleinen Begebenheit,<lb/> mit
-               der sie von ihrem Manne oft geneckt worden ist. Sie hatte<lb/> sich einmal so sehr
-                  <hi rendition="#smallcaps">beeilt</hi>, vorzeitig Karten zu einer Theater<lb break="no"/>vorstellung zu nehmen, und als sie dann ins Theater kam, <hi rendition="#smallcaps">war<lb/> eine Seite des Parketts fast unbesetzt</hi>. Sie
-               hätte es<lb/> also nicht nötig gehabt, <hi rendition="#smallcaps">sich so sehr zu
-                  beeilen</hi>. — Über<lb break="no"/>sehen wir endlich nicht die <hi rendition="#smallcaps">Absurdität</hi> des Traumes, daß<lb/> zwei Personen drei
-               Karten fürs Theater nehmen sollen!<lb break="paragraph"/></p>
+               untergebracht hatte, und die meine<lb/> Behandlung fortsetzen konnte, <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">so lange</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">solange</rdg>
+               </app> ihre Tochter in Wien<lb/> blieb. Am Tage vor dem <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Traume</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Traum</rdg>
+               </app> hatte ihr die Institutsvor<lb break="no"/>steherin <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">nahegelegt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">nahe gelegt</rdg>
+               </app>, ihr das Kind noch ein weiteres Jahr zu<lb/> überlassen. In diesem Falle hätte
+               sie auch die Behandlung um<lb/> ein Jahr verlängert. Die Zahlen im Traum kommen zur
+                  Bedeu<lb break="no"/>tung, wenn man sich erinnert, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> Zeit Geld ist. <hi rendition="#em">Time is money.</hi><lb/>
+               <hi rendition="#smallcaps">Ein Jahr</hi> ist gleich 365 <hi rendition="#smallcaps">Tagen</hi>, in Kreuzern ausgedrückt<lb/> 365 Kreuzer oder 3 fl. 65<app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">kr.</lem>
+                  <rdg wit="#sfe-1901-001__1911.xml">kr</rdg>
+               </app> Die <hi rendition="#smallcaps">21 Kreuzer</hi> entsprechen den<lb/>
+               <hi rendition="#smallcaps">drei Wochen</hi>, die damals vom Traumtage bis zum <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Schulschluß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Schulschluss</rdg>
+               </app><lb/> und damit bis zum Ende der <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Kur</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Cur</rdg>
+               </app> ausständig waren. Es waren<lb/> offenbar Geldrücksichten, welche die Dame
+               bewogen hatten, den<lb/> Vorschlag der Vorsteherin abzulehnen, und welche für die
+                  Klein<lb break="no"/>heit der Summe im Traum verantwortlich sind.<lb break="paragraph"/></p>
+            <p><app>
+                  <choice>
+                     <sic><lem wit="#sfe-1901-01__1925.xml">III.</lem></sic>
+                     <corr><hi rendition="#em">III)</hi></corr>
+                  </choice>
+                  <rdg wit="#sfe-1901-01__1931.xml"><hi rendition="#em">III)</hi></rdg>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">III.</rdg>
+               </app>Eine junge, aber schon seit Jahren verheiratete<app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">verheiratete</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">verheirathete</rdg>
+               </app>Dame<lb/> erfährt, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> eine ihr fast gleichalterige Bekannte, Frl. Elise L.,<lb/> sich verlobt hat.
+               Dieser <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Anlaß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Anlass</rdg>
+               </app> erregt nachstehenden Traum:<lb break="paragraph"/></p>
+            <p><hi rendition="#em">Sie sitzt mit ihrem Manne im Theater, eine Seite des <app>
+                     <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Parketts</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml">Parquets</rdg>
+                  </app> ist ganz unbesetzt. Ihr Mann erzählt ihr, Elise L. und ihr Bräutigam hätten
+                  auch gehen wollen, hätten aber nur schlechte Sitze bekommen,<app>
+                     <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml"><hi rendition="smallcaps">drei für 1 ﬂ. 50 kr.</hi></lem>
+                     <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml"><hi rendition="bold">drei für 1 ﬂ. 50 kr.</hi></rdg>
+                  </app>, und die konnten sie ja nicht nehmen. Sie meint, es wäre auch kein Unglück
+                  gewesen.</hi><lb break="paragraph"/></p>
+            <p>Hier <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">wird</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">werden</rdg>
+               </app> uns die Herkunft der Zahlen aus dem Material der<lb/> Traumgedanken und die
+               Verwandlungen, die sie erfahren haben,<lb/>
+               <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">interessieren</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">interessiren</rdg>
+               </app>. Woher rühren die <hi rendition="#em">1 fl. 50 kr.</hi>? Aus einem indiffe<lb break="no"/><pb n="48" xml:id="page__1ee6585a-f768-4234-af01-f04262ec886b"/><fw type="pageNum">234</fw>renten <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Anlaß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Anlass</rdg>
+               </app> des Vortages. Ihre Schwägerin hatte von ihrem<lb/> Manne die Summe von 150 fl.
+               zum <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Geschenke</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Geschenk</rdg>
+               </app> bekommen und<lb/> sich <hi rendition="#smallcaps">beeilt</hi>, sie los zu
+               werden, indem sie sich einen Schmuck<lb/> dafür kaufte. Wir wollen anmerken, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> 150 fl. <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">hundertmal</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">100 mal</rdg>
+               </app> mehr<lb/> sind als 1 fl. 50 kr. Für die <hi rendition="#smallcaps">drei</hi>,
+               die bei den Theaterbillets<lb/> steht, findet sich nur die eine Anknüpfung, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> die Braut Elise<lb/> L. genau <hi rendition="#smallcaps">drei</hi> Monate
+               jünger ist als die Träumerin. Die Situa<lb break="no"/>tion im Traume ist die
+               Wiedergabe einer kleinen Begebenheit,<lb/> mit der sie von ihrem Manne oft geneckt
+               worden ist. Sie hatte<lb/> sich einmal so sehr <hi rendition="#smallcaps">beeilt</hi>, vorzeitig Karten zu einer Theater<lb break="no"/>vorstellung zu nehmen,
+               und als sie dann <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">ins</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">in’s</rdg>
+               </app> Theater kam, <hi rendition="#smallcaps">war<lb/> eine Seite des <app>
+                     <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Parketts</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml">Parquets</rdg>
+                  </app> fast unbesetzt</hi>. Sie hätte es<lb/> also nicht <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">nötig</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">nöthig</rdg>
+               </app> gehabt, <hi rendition="#smallcaps">sich so sehr zu beeilen</hi>. — <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Über<lb break="no"/>sehen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Uebersehen</rdg>
+               </app> wir endlich nicht die <hi rendition="#smallcaps">Absurdität</hi> des Traumes, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app><lb/> zwei Personen drei Karten <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">fürs</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">für’s</rdg>
+               </app> Theater nehmen sollen!<lb break="paragraph"/></p>
 
 
             <p>Nun die Traumgedanken: Ein <hi rendition="#smallcaps">Unsinn</hi> war es doch, so
-               früh<lb/> zu heiraten; ich hätte es nicht <hi rendition="#smallcaps">nötig gehabt,
-                  mich so zu<lb/> beeilen</hi>. An dem Beispiel der Elise L. sehe ich, daß ich
-               immer<lb/> noch einen Mann bekommen hätte, und zwar einen <hi rendition="#smallcaps">hundert</hi><lb break="no"/><hi rendition="#smallcaps">mal</hi> besseren (Mann,
-               Schatz), wenn ich nur gewartet hätte.<lb/>
+               früh<lb/> zu <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">heiraten</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">heirathen</rdg>
+               </app>; ich hätte es nicht <hi rendition="#smallcaps"><app>
+                     <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">nötig</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml">nöthig</rdg>
+                  </app> gehabt, mich so zu<lb/> beeilen</hi>. An dem Beispiel der Elise L. sehe
+               ich, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> ich immer<lb/> noch einen Mann bekommen hätte, und zwar einen <hi rendition="#smallcaps">hundert</hi><lb break="no"/><hi rendition="#smallcaps">mal</hi> besseren (Mann, Schatz), wenn ich nur gewartet hätte.<lb/>
                <hi rendition="#smallcaps">Drei</hi> solche Männer hätte ich mir für das Geld (die
                Mitgift)<lb/> kaufen können!<lb break="paragraph"/></p>
 
             <pb n="49" xml:id="page__cc3df82a-554a-43ad-b18c-77e29555fdb5"/>
             <fw type="pageNum">[235]</fw>
-            <p rendition="h1">VIII<lb break="paragraph"/></p>
-            <p>Nachdem wir in den vorstehenden Darlegungen die Traum<lb break="no"/>arbeit kennen
-               gelernt haben, werden wir wohl geneigt sein, sie<lb/> für einen ganz besonderen
-               psychischen Vorgang zu erklären,<lb/> dessengleichen es nach unserer Kenntnis sonst
-               nicht gibt. Es ist<lb/> gleichsam auf die Traumarbeit das Befremden
-               übergegangen,<lb/> welches sonst ihr Produkt, der Traum, bei uns zu erwecken<lb/>
-               pflegte. In Wirklichkeit ist die Traumarbeit nur der zuerst<lb/> erkannte unter einer
-               ganzen Reihe von psychischen Prozessen,<lb/> auf welche die Entstehung der
-               hysterischen Symptome, der Angst-,<lb/> Zwangs- und Wahnideen zurückzuführen ist.
-               Verdichtung und<lb/> vor allem Verschiebung sind niemals fehlende Charaktere
-               auch<lb/> dieser anderen Prozesse. Die Umarbeitung aufs Anschauliche bleibt<lb/>
-               hingegen der Traumarbeit eigentümlich. Wenn diese Aufklärung<lb/> den Traum in eine
-               Reihe mit den Bildungen psychischer Er<lb break="no"/>krankung bringt, so wird es uns
-               um so wichtiger werden, die<lb/> wesentlichen Bedingungen solcher Vorgänge wie der
+            <p rendition="h1"><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">VIII</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">VIII.</rdg>
+               </app><lb break="paragraph"/></p>
+            <p>Nachdem wir in den vorstehenden Darlegungen die Traum<lb break="no"/>arbeit <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">kennen gelernt</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">kennengelernt</rdg>
+               </app> haben, werden wir wohl geneigt sein, sie<lb/> für einen ganz besonderen
+               psychischen Vorgang zu erklären,<lb/>
+               <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">dessengleichen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">dessen Gleichen</rdg>
+               </app> es nach unserer <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Kenntnis</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Kenntniss</rdg>
+               </app> sonst nicht <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">gibt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">giebt</rdg>
+               </app>. Es ist<lb/> gleichsam auf die Traumarbeit das Befremden übergegangen,<lb/>
+               welches sonst ihr Produkt, der Traum, bei uns zu erwecken<lb/> pflegte. In
+               Wirklichkeit ist die Traumarbeit nur der zuerst<lb/> erkannte unter einer ganzen
+               Reihe von psychischen Prozessen,<lb/> auf welche die Entstehung der hysterischen
+               Symptome, der Angst-,<lb/> Zwangs- und Wahnideen zurückzuführen ist. Verdichtung
+               und<lb/> vor allem Verschiebung sind niemals fehlende Charaktere auch<lb/> dieser
+               anderen Prozesse. Die Umarbeitung aufs Anschauliche bleibt<lb/> hingegen der
+               Traumarbeit eigentümlich. Wenn diese Aufklärung<lb/> den Traum in eine Reihe mit den
+               Bildungen psychischer Er<lb break="no"/>krankung bringt, so wird es uns um so
+               wichtiger werden, die<lb/> wesentlichen Bedingungen solcher Vorgänge wie der
                Traumbildung<lb/> zu erfahren. Wir werden wahrscheinlich verwundert sein zu<lb/>
-               hören, daß weder Schlafzustand noch Krankheit zu diesen unent<lb break="no"/>behrlichen Bedingungen gehören. Eine ganze Anzahl von<lb/> Phänomenen des
-               Alltagslebens Gesunder, das Vergessen, Ver<lb break="no"/>sprechen, Vergreifen, und
-               eine gewisse Klasse von Irrtümern danken<lb/> einem analogen psychischen Mechanismus
-               wie der Traum und<lb/> die anderen Glieder der Reihe ihre Entstehung.<lb break="paragraph"/></p>
+               hören, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> weder Schlafzustand noch Krankheit zu diesen unent<lb break="no"/>behrlichen
+               Bedingungen gehören. Eine ganze Anzahl von<lb/> Phänomenen des Alltagslebens
+               Gesunder, das Vergessen, Ver<lb break="no"/>sprechen, Vergreifen, und eine gewisse
+               Klasse von <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Irrtümern</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Irrthümern</rdg>
+               </app> danken<lb/> einem analogen psychischen Mechanismus wie der Traum und<lb/> die
+               anderen Glieder der Reihe ihre Entstehung.<lb break="paragraph"/></p>
             <p>Der Kern des Problems liegt in der Verschiebung, der weitaus<lb break="paragraph"/><pb n="50" xml:id="page__a2f20311-c367-4985-a336-e3fda45e914b"/><fw type="pageNum">236</fw>auffälligsten unter den Einzelleistungen der Traumarbeit.
                Die<lb/> wesentliche Bedingung der Verschiebung lernt man bei eingehen<lb break="no"/>der Vertiefung in den Gegenstand als eine rein psychologische<lb/> kennen; sie ist
-               von der Art einer <hi rendition="#smallcaps">Motivierung</hi>. Man gerät<lb/> auf
-               ihre Spur, wenn man Erfahrungen würdigt, denen man bei<lb/> der Analyse von Träumen
-               nicht entgehen kann. Ich habe bei<lb/> der Analyse des Traumbeispiels auf Seite 198
-               in der Mitteilung<lb/> der Traumgedanken abbrechen müssen, weil sich unter
-               ihnen,<lb/> wie ich eingestand, solche fanden, die ich gerne vor Fremden<lb/> geheim
-               halte und ohne schwere Verletzung wichtiger Rücksichten<lb/> nicht mitteilen kann.
-               Ich fügte hinzu, es brächte gar keinen<lb/> Nutzen, wenn ich anstatt dieses Traumes
-               einen anderen zur Mit<lb break="no"/>teilung seiner Analyse auswählte; bei jedem
-               Traum, dessen Inhalt<lb/> dunkel oder verworren ist, würde ich auf Traumgedanken
-               stoßen,<lb/> die Geheimhaltung erfordern. Wenn ich aber für mich selbst die<lb/>
-               Analyse fortsetze, ohne Rücksicht auf die anderen, für die<lb/> ja ein so
-               persönliches Erlebnis wie mein Traum gar nicht<lb/> bestimmt sein kann, so lange ich
-               endlich bei Gedanken<lb/> an, die mich überraschen, die ich in mir nicht gekannt
-               habe,<lb/> die mir aber nicht nur<hi rendition="#smallcaps"> fremdartig</hi>, sondern
-               auch <hi rendition="#smallcaps">unan</hi><lb break="no"/><hi rendition="#smallcaps">genehm</hi> sind, und die ich darum energisch bestreiten möchte,<lb/> während die
+               von der Art einer <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml"><hi rendition="#smallcaps">Motivierung</hi></lem>
+                  <rdg wit="#sfe-1901-001__1901.xml"><hi rendition="#smallcaps">Motivirung</hi></rdg>
+               </app>. Man <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">gerät</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">geräth</rdg>
+               </app><lb/> auf ihre Spur, wenn man Erfahrungen würdigt, denen man bei<lb/> der
+               Analyse von Träumen nicht entgehen kann. Ich habe bei<lb/> der Analyse des
+               Traumbeispiels auf Seite <app>
+                  <lem wit="#sfe-1901-001__1925.xml">198</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">4</rdg>
+                  <rdg wit="#sfe-1901-001__1931.xml">191</rdg>
+               </app> in der <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Mitteilung</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Mittheilung</rdg>
+               </app><lb/> der Traumgedanken abbrechen müssen, weil sich unter ihnen,<lb/> wie ich
+               eingestand, solche fanden, die ich gerne vor Fremden<lb/>
+               <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">geheim halte</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">geheimhalte</rdg>
+               </app> und ohne schwere Verletzung wichtiger Rücksichten<lb/> nicht <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">mitteilen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">mittheilen</rdg>
+               </app> kann. Ich fügte hinzu, es brächte gar keinen<lb/> Nutzen, wenn ich anstatt
+               dieses Traumes einen <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">anderen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">andern</rdg>
+               </app> zur <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Mit<lb break="no"/>teilung</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Mittheilung</rdg>
+               </app> seiner Analyse auswählte; bei jedem Traum, dessen Inhalt<lb/> dunkel oder
+               verworren ist, würde ich auf Traumgedanken <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">stoßen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">stossen</rdg>
+               </app>,<lb/> die Geheimhaltung erfordern. Wenn ich aber für mich selbst die<lb/>
+               Analyse fortsetze, ohne Rücksicht auf die <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">anderen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Anderen</rdg>
+               </app>, für die<lb/> ja ein so persönliches <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Erlebnis</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Erlebniss</rdg>
+               </app> wie mein Traum gar nicht<lb/> bestimmt sein kann, so lange ich endlich bei
+               Gedanken<lb/> an, die mich überraschen, die ich in mir nicht gekannt habe,<lb/> die
+               mir aber nicht nur<hi rendition="#smallcaps"> fremdartig</hi>, sondern auch <hi rendition="#smallcaps">unan</hi><lb break="no"/><hi rendition="#smallcaps">genehm</hi> sind, und die ich darum energisch bestreiten möchte,<lb/> während die
                durch die Analyse laufende Gedankenverkettung sie<lb/> mir unerbittlich aufdrängt.
-               Ich kann diesem ganz allgemeinen<lb/> Sachverhalt gar nicht anders Rechnung tragen,
-               als durch die<lb/> Annahme, diese Gedanken seien wirklich in meinem Seelenleben<lb/>
-               vorhanden und im Besitz einer gewissen psychischen Intensität<lb/> oder Energie
-               gewesen, hätten sich aber in einer eigentümlichen<lb/> psychologischen Situation
-               befunden, der zufolge sie mir <hi rendition="#smallcaps">nicht<lb/> bewußt
-                  werden</hi> konnten. Ich heiße diesen besonderen Zustand<lb/> den der <hi rendition="#smallcaps">Verdrängung</hi>. Ich kann dann nicht umhin, zwischen<lb/>
-               der Dunkelheit des Trauminhaltes und dem Verdrängungszustand,<lb/> der <hi rendition="#smallcaps">Bewußtseinsunfähigkeit</hi>, einiger der Traumgedanken<lb/>
-               eine kausale Beziehung gelten zu lassen und zu schließen, daß der Traum dunkel sein
-               müsse, <hi rendition="smallcaps">damit er die verpönten<lb/> Traumgedanken nicht
-                  verrate</hi>. Ich komme so zum Begriffe<lb/> der <hi rendition="smallcaps">Traumentstellung</hi>, welche das Werk der Traumarbeit ist,<lb/> und der <hi rendition="smallcaps">Verstellung</hi>, der Absicht zu verbergen, dient. /&gt;</p>
+               Ich kann diesem ganz allgemeinen<lb/> Sachverhalt gar nicht anders <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Rechnung tragen,</lem>
+                  <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1901.xml #sfe-1901-001__1921.xml">Rechnung tragen</rdg>
+
+               </app> als durch die<lb/> Annahme, diese Gedanken seien wirklich in meinem
+               Seelenleben<lb/> vorhanden und im <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Besitz</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Besitze</rdg>
+               </app> einer gewissen psychischen Intensität<lb/> oder Energie gewesen, hätten sich
+               aber in einer <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">eigentümlichen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">eigenthümlichen</rdg>
+               </app><lb/> psychologischen Situation befunden, <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">der zufolge</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">derzufolge</rdg>
+               </app> sie mir <hi rendition="#smallcaps">nicht<lb/>
+                  <app>
+                     <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">bewußt</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">bewusst</rdg>
+                  </app> werden</hi> konnten. Ich <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">heiße</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">heisse</rdg>
+               </app> diesen besonderen Zustand<lb/> den der <hi rendition="#smallcaps">Verdrängung</hi>. Ich kann dann nicht umhin, zwischen<lb/> der Dunkelheit des
+               Trauminhaltes und dem Verdrängungszustand,<lb/> der <hi rendition="#smallcaps">Bewußtseinsunfähigkeit</hi>, einiger der Traumgedanken<lb/> eine kausale
+               Beziehung gelten zu lassen und zu <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">schließen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">schliessen</rdg>
+               </app>, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> der Traum dunkel sein müsse, <hi rendition="smallcaps">damit er die
+                  verpönten<lb/> Traumgedanken nicht <app>
+                     <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">verrate</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml">verrathe</rdg>
+                  </app></hi>. Ich komme so zum Begriffe<lb/> der <hi rendition="smallcaps">Traumentstellung</hi>, welche das Werk der Traumarbeit ist,<lb/> und der <hi rendition="smallcaps">Verstellung</hi>, der Absicht zu verbergen, dient.</p>
 
             <p>Ich will an dem zur Analyse ausgesuchten Traumbeispiel die<lb/> Probe machen und mich
                fragen, welches denn der Gedanke ist,<lb/> der sich in diesem Traum entstellt zur
                Geltung bringt, während<lb/> er unentstellt meinen schärfsten Widerspruch
-               herausfordern würde.<lb/> Ich erinnere mich, daß die kostenlose Wagenfahrt mich an
-               die<lb/> letzten kostspieligen Wagenfahrten mit einer Person meiner<lb/> Familie
-               gemahnt hat, daß sich als die Deutung des Traumes<lb/> ergab: Ich möchte einmal Liebe
-               kennen lernen, die mich nichts<lb/> kostet, und daß ich kurze Zeit vor dem Traum eine
-               größere<lb/> Geldausgabe für eben diese Person zu leisten hatte. In diesem<lb/>
-               Zusammenhang kann ich mich des Gedankens nicht erwehren,<lb/>
-               <hi rendition="#smallcaps">daß es mir um diese Ausgabe leid tut</hi>. Erst wenn
-               ich<lb/> diese Regung anerkenne, bekommt es einen Sinn, daß ich mir<lb/> im Traum
-               Liebe wünsche, die mir keine Ausgabe nötig macht.<lb/> Und doch kann ich mir ehrlich
-               sagen, daß ich bei der Ent<lb break="no"/>schließung, jene Summe aufzuwenden, nicht
-               einen Augenblick<lb/> geschwankt habe. Das Bedauern darüber, die Gegenströmung,
-               ist<lb/> mir nicht bewußt worden. Aus welchen Gründen nicht, dies<lb/> ist allerdings
-               eine andere, weitab führende Frage, deren mir<lb/> bekannte Beantwortung in einen
-               anderen Zusammenhang gehört.<lb break="paragraph"/></p>
+               herausfordern würde.<lb/> Ich erinnere mich, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> die kostenlose Wagenfahrt mich an die<lb/> letzten kostspieligen Wagenfahrten
+               mit einer Person meiner<lb/> Familie gemahnt hat, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> sich als die Deutung des Traumes<lb/> ergab: Ich möchte einmal Liebe <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">kennen lernen</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">kennenlernen</rdg>
+               </app>, die mich nichts<lb/> kostet, und <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> ich kurze Zeit vor dem Traum eine <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">größere</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">grössere</rdg>
+               </app><lb/> Geldausgabe für eben diese Person zu leisten hatte. In diesem<lb/>
+               Zusammenhang kann ich mich des Gedankens nicht <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">erwehren</lem>
+                  <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">entwehren</rdg>
+               </app>,<lb/>
+               <hi rendition="#smallcaps"><app>
+                     <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+                  </app> es mir um diese Ausgabe leid <app>
+                     <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">tut</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml">thut</rdg>
+                  </app></hi>. Erst wenn ich<lb/> diese Regung anerkenne, bekommt es einen Sinn, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> ich mir<lb/> im Traum Liebe wünsche, die mir keine Ausgabe <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">nötig</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">nöthig</rdg>
+               </app> macht.<lb/> Und doch kann ich mir ehrlich sagen, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> ich bei der <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Ent<lb break="no"/>schließung</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Entschliessung</rdg>
+               </app>, jene Summe aufzuwenden, nicht einen Augenblick<lb/> geschwankt habe. Das
+               Bedauern darüber, die Gegenströmung, ist<lb/> mir nicht <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">bewußt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">bewusst</rdg>
+               </app> worden. Aus welchen Gründen nicht, dies<lb/> ist allerdings eine andere,
+               weitab führende Frage, deren mir<lb/> bekannte Beantwortung in einen anderen
+               Zusammenhang gehört.<lb break="paragraph"/></p>
             <p>Wenn ich nicht einen eigenen Traum, sondern den einer<lb/> fremden Person der Analyse
-               unterziehe, so ist das Ergebnis das<lb/> nämliche; die Motive zur Überzeugung werden
-               aber geändert.<lb/> Ist es der Traum eines Gesunden, so bleibt mir kein anderes<lb/>
-               Mittel, ihn zur Anerkennung der gefundenen verdrängten Ideen<lb/> zu nötigen, als der
-               Zusammenhang der Traumgedanken, und er<lb/> mag sich immerhin gegen diese Anerkennung
-               sträuben. Handelt<lb/> es sich aber um einen neurotisch Leidenden, etwa um einen<lb/>
-               Hysteriker, so wird die Annahme des verdrängten Gedankens<lb break="paragraph"/><pb n="52" xml:id="page__c34d0402-8f03-4681-904d-f96b4788885f"/><fw type="pageNum">238</fw>für ihn zwingend durch den Zusammenhang dieses letzteren mit<lb/> seinen
-               Krankheitssymptomen und durch die Besserung, die er<lb/> bei dem Eintausch von
-               Symptomen gegen verdrängte Ideen<lb/> erfährt. Bei der Patientin z. B., von welcher
-               der letzte Traum<lb/> mit den drei Karten für 1 fl. 50 kr. herrührt, muß die
-               Analyse<lb/> annehmen, daß sie ihren Mann geringschätzt, daß sie bedauert, ihn<lb/>
-               geheiratet zu haben, daß sie ihn gerne gegen einen anderen vertauschen<lb/> möchte.
-               Sie behauptet freilich, daß sie ihren Mann liebt, daß<lb/> ihr Empfindungsleben von
-               dieser Geringschätzung (einen hundert<lb break="no"/>mal besseren!) nichts weiß, aber
-               all ihre Symptome führen zu<lb/> derselben Auflösung wie dieser Traum, und nachdem
-               die von<lb/> ihr verdrängten Erinnerungen an eine gewisse Zeit wieder<lb/> geweckt
-               worden sind, in welcher sie ihren Mann auch bewußt<lb/> nicht geliebt hat, sind diese
-               Symptome gelöst, und ihr Wider<lb break="no"/>stand gegen die Deutung des Traumes ist
-                  geschwunden.<lb break="paragraph"/></p>
+               unterziehe, so ist das Ergebnis das<lb/> nämliche; die Motive zur <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Überzeugung</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Ueberzeugung</rdg>
+               </app> werden aber geändert.<lb/> Ist es der Traum eines Gesunden, so bleibt mir kein
+               anderes<lb/> Mittel, ihn zur Anerkennung der gefundenen verdrängten Ideen<lb/> zu <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">nötigen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">nöthigen</rdg>
+               </app>, als der Zusammenhang der Traumgedanken, und er<lb/> mag sich immerhin gegen
+               diese Anerkennung sträuben. Handelt<lb/> es sich aber um einen neurotisch Leidenden,
+               etwa um einen<lb/> Hysteriker, so wird die Annahme des verdrängten Gedankens<lb break="paragraph"/><pb n="52" xml:id="page__c34d0402-8f03-4681-904d-f96b4788885f"/><fw type="pageNum">238</fw>für ihn zwingend durch den Zusammenhang dieses
+               letzteren mit<lb/> seinen Krankheitssymptomen und durch die Besserung, die er<lb/>
+               bei dem Eintausch von Symptomen gegen verdrängte Ideen<lb/> erfährt. Bei der
+               Patientin <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">z. B.,</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">zum Beispiel,</rdg>
+               </app>, von welcher der letzte Traum<lb/> mit den drei Karten für 1 fl. 50 kr.
+               herrührt, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">muß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">muss</rdg>
+               </app> die Analyse<lb/> annehmen, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> sie ihren Mann geringschätzt, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> sie bedauert, ihn<lb/>
+               <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">geheiratet</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">geheirathet</rdg>
+               </app> zu haben, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> sie ihn gerne gegen einen anderen vertauschen<lb/> möchte. Sie behauptet
+               freilich, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> sie ihren Mann liebt, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app><lb/> ihr Empfindungsleben von dieser Geringschätzung (einen <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">hundert<lb break="no"/>mal</lem>
+
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">100 mal</rdg>
+               </app> besseren!) nichts weiß, aber all ihre Symptome führen zu<lb/> derselben
+               Auflösung wie dieser Traum, und nachdem die von<lb/> ihr verdrängten Erinnerungen an <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">eine gewisse Zeit</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">die Zeit</rdg>
+               </app> wieder<lb/> geweckt worden sind, in welcher sie ihren Mann auch <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">bewußt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">bewusst</rdg>
+               </app><lb/> nicht geliebt hat, sind diese Symptome gelöst, und ihr Wider<lb break="no"/>stand gegen die Deutung des Traumes ist geschwunden.<lb break="paragraph"/></p>
 
 
 
 
             <pb n="53" xml:id="page__3e106b34-ee7f-47b2-821b-000d4f1d80e3"/>
             <fw type="pageNum">[239]</fw>
-            <p rendition="h1">IX<lb break="paragraph"/></p>
-            <p>Nachdem wir uns den Begriff der Verdrängung fixiert und<lb/> die Traumentstellung in
-               Beziehung zu verdrängtem psychischen<lb/> Material gesetzt haben, können wir das
-               Hauptergebnis, welches<lb/> die Analyse der Träume liefert, ganz allgemein
+            <p rendition="h1"><app>
+                  <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">IX</lem>
+                  <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">IX.</rdg>
+               </app><lb break="paragraph"/></p>
+            <p>Nachdem wir uns den Begriff der Verdrängung <app>
+               <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">fixiert</lem>
+               <rdg wit="#sfe-1901-001__1901.xml">fixirt</rdg>
+            </app> und<lb/> die Traumentstellung in
+               Beziehung zu <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">psychischen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">psychischem</rdg>
+               </app> psychischen<lb/> Material gesetzt haben, können wir das
+               <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Hauptergebnis</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Hanptergebniss</rdg>
+               </app>, welches<lb/> die Analyse der Träume liefert, ganz allgemein
                aussprechen. Von<lb/> den verständlichen und sinnvollen Träumen haben wir
-               erfahren,<lb/> daß sie unverhüllte Wunscherfüllungen sind, d. h. daß die Traum<lb break="no"/>situation in ihnen einen dem Bewußtsein bekannten, vom Tages<lb break="no"/>leben erübrigten, des Interesses wohl würdigen Wunsch als<lb/> erfüllt
-               darstellt. Über die dunkeln und verworrenen Träume<lb/> lehrt nun die Analyse etwas
+               erfahren,<lb/> <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> sie unverhüllte Wunscherfüllungen sind, d. h. <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> die Traum<lb break="no"/>situation in ihnen einen dem <app>
+                     <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Bewußtsein</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Bewusstsein</rdg>
+                  </app> bekannten, vom Tages<lb break="no"/>leben erübrigten, des Interesses wohl würdigen Wunsch als<lb/> erfüllt
+               darstellt. <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Über</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Ueber</rdg>
+               </app> die dunkeln und verworrenen Träume<lb/> lehrt nun die Analyse etwas
                ganz Analoges: die Traumsituation<lb/> stellt wiederum einen Wunsch als erfüllt dar,
-               der sich regel<lb break="no"/>mäßig aus den Traumgedanken erhebt, aber die
+               der sich <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">regel<lb break="no"/>mäßig </lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">regelmässig</rdg>
+               </app>aus den Traumgedanken erhebt, aber die
                Darstellung ist<lb/> eine unkenntliche, erst durch Zurückführung in der Analyse<lb/>
                aufzuklärende, und der Wunsch ist entweder selbst ein ver<lb break="no"/>drängter,
-               dem Bewußtsein fremder, oder er hängt doch innigst<lb/> mit verdrängten Gedanken
+               dem <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Bewußtsein</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Bewusstsein</rdg>
+               </app> fremder, oder er hängt doch innigst<lb/> mit verdrängten Gedanken
                zusammen, wird von solchen getragen.<lb/> Die Formel für diese Träume lautet also:
                   <hi rendition="#smallcaps">Sie sind ver</hi><lb break="no"/><hi rendition="#smallcaps">hüllte Erfüllungen von verdrängten Wünschen</hi>.<lb/> Es
-               ist dabei interessant zu bemerken, daß die Volksmeinung<lb/> recht behält, welche den
-               Traum durchaus die Zukunft verkünden<lb/> läßt. In Wahrheit ist die Zukunft, die uns
+               ist dabei interessant zu bemerken, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> die Volksmeinung<lb/> recht behält, welche den
+               Traum durchaus die Zukunft verkünden<lb/> <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">läßt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">lässt</rdg>
+               </app>. In Wahrheit ist die Zukunft, die uns
                der Traum zeigt,<lb/> nicht die, die eintreffen wird, sondern von der wir
-               möchten,<lb/> daß sie so einträfe. Die Volksseele verfährt hier, wie sie es auch<lb/>
+               möchten,<lb/> <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> sie so einträfe. Die Volksseele verfährt hier, wie sie es auch<lb/>
                sonst gewohnt ist: sie glaubt, was sie wünscht.<lb break="paragraph"/></p>
 
             <pb n="54" xml:id="page__42823d50-27aa-4e95-b42f-4f00678d90b8"/>
             <fw type="pageNum">240</fw>
-            <p>Nach ihrem Verhalten gegen die Wunscherfüllung teilen sich<lb/> die Träume in drei
+            <p>Nach ihrem Verhalten gegen die Wunscherfüllung <app>
+               <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">teilen</lem>
+               <rdg wit="#sfe-1901-001__1901.xml">theilen</rdg>
+            </app> sich<lb/> die Träume in drei
                Klassen. Erstens solche, die einen <hi rendition="#smallcaps">unver</hi><lb break="no"/><hi rendition="#smallcaps">drängten</hi> Wunsch <hi rendition="#smallcaps">unverhüllt</hi> darstellen; dies sind die<lb/> Träume von
                infantilem Typus, die beim Erwachsenen immer<lb/> seltener werden. Zweitens die
-               Träume, die einen <hi rendition="#smallcaps">verdrängten</hi><lb/> Wunsch <hi rendition="#smallcaps">verhüllt</hi> zum Ausdruck bringen; wohl die übergroße<lb/>
-               Mehrzahl aller unserer Träume, die zum Verständnis dann der<lb/> Analyse bedürfen.
+               Träume, die einen <hi rendition="#smallcaps">verdrängten</hi><lb/> Wunsch <hi rendition="#smallcaps">verhüllt</hi> zum Ausdruck bringen; wohl die <app>
+                     <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">übergroße</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">übergrosse</rdg>
+                  </app><lb/>
+               Mehrzahl aller unserer Träume, die zum <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Verständnis</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Verständniss</rdg>
+               </app> dann der<lb/> Analyse bedürfen.
                Drittens die Träume, die zwar einen <hi rendition="#smallcaps">ver</hi><lb break="no"/><hi rendition="#smallcaps">drängten</hi> Wunsch darstellen, aber <hi rendition="#smallcaps">ohne</hi> oder in unge<lb break="no"/>nügender Verhüllung.
-               Diese letzten Träume sind regelmäßig von<lb/>
+               Diese letzten Träume sind <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">regelmäßig</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">regelmässig</rdg>
+               </app> von<lb/>
                <hi rendition="#smallcaps">Angst</hi> begleitet, welche den Traum unterbricht. Die
                Angst ist<lb/> hier der Ersatz für die Traumentstellung; sie ist mir in den<lb/>
-               Träumen der zweiten Klasse durch die Traumarbeit erspart<lb/> worden. Es läßt sich
-               ohne allzugroße Schwierigkeit nachweisen,<lb/> daß derjenige Vorstellungsinhalt, der
+               Träumen der zweiten Klasse durch die Traumarbeit erspart<lb/> worden. Es <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">läßt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">lässt</rdg>
+               </app> sich
+               ohne <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">allzugroße</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">allzugrosse</rdg>
+               </app> Schwierigkeit nachweisen,<lb/> <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> derjenige Vorstellungsinhalt, der
                uns jetzt im Traume Angst<lb/> bereitet, einstmals ein Wunsch war und seither der
                Verdrängung<lb/> unterlegen ist.<lb break="paragraph"/></p>
-            <p>Es gibt auch klare Träume von peinlichem Inhalt, der aber<lb/> im Traum nicht
+            <p>Es <app>
+               <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">gibt</lem>
+               <rdg wit="#sfe-1901-001__1901.xml">giebt</rdg>
+            </app> auch klare Träume von peinlichem Inhalt, der aber<lb/> im Traum nicht
                peinlich empfunden wird. Man kann diese darum<lb/> nicht zu den Angstträumen rechnen;
-               sie haben aber immer dazu<lb/> gedient, die Bedeutungslosigkeit und den psychischen
-               Unwert der<lb/> Träume zu erweisen. Eine Analyse eines solchen Beispieles wird<lb/>
-               zeigen, daß es sich hier um <hi rendition="#smallcaps">gut verhüllte</hi> Erfüllungen
-                  ver<lb break="no"/>drängter Wünsche, also um Träume der zweiten Klasse,
-               handelt<lb/> und wird gleichzeitig die ausgezeichnete Eignung der Ver<lb break="no"/>schiebungsarbeit zur Verhüllung des Wunsches dartun.<lb break="paragraph"/></p>
-            <p>Ein Mädchen träumt, daß sie das jetzt einzige Kind ihrer<lb/> Schwester tot vor sich
+               sie haben aber immer dazu<lb/><app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">gedient,</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">gedient</rdg>
+               </app> die Bedeutungslosigkeit und den psychischen
+               <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Unwert</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Unwerth</rdg>
+               </app> der<lb/> Träume zu erweisen. Eine Analyse eines solchen <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Beispieles</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Beispiels</rdg>
+               </app>wird<lb/>
+               zeigen, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> es sich hier um <hi rendition="#smallcaps">gut verhüllte</hi> Erfüllungen
+               ver<lb break="no"/>drängter Wünsche, also um Träume der zweiten<app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Klasse,</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Klasse</rdg>
+               </app>
+               <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">handelt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1931.xml">handelt,</rdg>
+               </app><lb/> und wird gleichzeitig die ausgezeichnete Eignung der Ver<lb break="no"/>schiebungsarbeit zur Verhüllung des Wunsches <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">dartun</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">darthun</rdg>
+               </app>.<lb break="paragraph"/></p>
+            <p>Ein Mädchen träumt, <app>
+               <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+               <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+            </app> sie das jetzt einzige Kind ihrer<lb/> Schwester <app>
+               <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">tot</lem>
+               <rdg wit="#sfe-1901-001__1901.xml">todt</rdg>
+            </app> vor sich
                sieht in der nämlichen Umgebung, in der<lb/> sie vor einigen Jahren das erste Kind
                als Leiche sah. Sie emp<lb break="no"/>findet dabei keinen Schmerz, sträubt sich aber
-               natürlich gegen<lb/> die Auffassung, diese Situation entspreche einem Wunsche
+               natürlich gegen<lb/> die Auffassung, diese Situation entspreche einem <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Wunsche</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Wunsch</rdg>
+               </app>
                von<lb/> ihr. Dies wird auch nicht erfordert; aber an der Bahre jenes<lb/> Kindes hat
                sie vor Jahren den von ihr geliebten Mann zuletzt<lb break="paragraph"/><pb n="55" xml:id="page__9ec8e75b-c0d3-474f-96f8-15d3256e1eb9"/><fw type="pageNum">241</fw>gesehen und gesprochen; stürbe das zweite Kind, so würde sie<lb/> diesen
-               Mann gewiß wieder im Hause der Schwester treffen. Sie<lb/> sehnt sich nun nach dieser
-               Begegnung, sträubt sich aber gegen<lb/> dieses ihr Gefühl. Sie hat am Traumtage
+               Mann <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">gewiß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">gewiss</rdg>
+               </app> wieder im Hause der Schwester treffen. Sie<lb/> sehnt sich nun nach dieser
+               Begegnung, sträubt sich aber gegen<lb/> <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">dieses ihr Gefühl</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">diese Empfindung</rdg>
+               </app>. Sie hat am Traumtage
                selbst eine Eintrittskarte zu<lb/> einem Vortrage genommen, den der immer noch
                Geliebte ange<lb break="no"/>kündigt hat. Ihr Traum ist ein einfacher Ungeduldstraum,
-               wie<lb/> er sich gewöhnlich vor Reisen, Theaterbesuchen und ähnlichen<lb/> erwarteten
+               wie<lb/> er sich gewöhnlich vor Reisen, Theaterbesuchen <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">und ähnlichen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">u. dgl.</rdg>
+               </app><lb/> erwarteten
                Genüssen einstellt. Um ihr aber diese Sehnsucht zu<lb/> verbergen, ist die Situation
                auf die für eine freudige Empfindung<lb/> unpassendste Gelegenheit verschoben worden,
                die sich doch ein<lb break="no"/>mal in der Wirklichkeit bewährt hat. Man beachte
-               noch, daß<lb/> das Affektverhalten im Traume nicht dem vorgeschobenen, sondern<lb/>
-               dem wirklichen, aber zurückgehaltenen Trauminhalt angepaßt ist.<lb/> Die
-               Traumsituation greift dem lange ersehnten Wiedersehen vor;<lb/> sie bietet keine
-               Anknüpfung für eine schmerzliche Empfindung.<lb break="paragraph"/></p>
+               noch, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app><lb/> das Affektverhalten im Traume nicht dem vorgeschobenen, sondern<lb/>
+               dem wirklichen, aber zurückgehaltenen Trauminhalt <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">angepaßt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">angepasst</rdg>
+               </app> ist.<lb/> Die
+               Traumsituation greift dem lange ersehnten Wiedersehen <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">vor;</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">vor,</rdg>
+               </app><lb/> sie bietet keine
+               Anknüpfung für eine <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">schmerzliche</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">peinliche</rdg>
+               </app> Empfindung.<lb break="paragraph"/></p>
 
 
 
 
             <pb n="56" xml:id="page__3025ed59-b1ae-48bc-951d-85d273ef4bb0"/>
             <fw type="pageNum">[242]</fw>
-            <p rendition="h1">X<lb break="paragraph"/></p>
-            <p>Die Philosophen haben bisher keinen Anlaß gehabt, sich mit<lb/> einer Psychologie der
-               Verdrängung zu beschäftigen. Es ist also<lb/> gestattet, daß wir uns in erster
+            <p rendition="h1"><app>
+               <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">X</lem>
+               <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">X.</rdg>
+            </app><lb break="paragraph"/></p>
+            <p>Die Philosophen haben bisher keinen <app>
+               <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Anlaß</lem>
+               <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Anlass</rdg>
+            </app> gehabt, sich mit<lb/> einer Psychologie der
+               Verdrängung zu beschäftigen. Es ist also<lb/> gestattet, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> wir uns in erster
                Annäherung an den noch unbe<lb break="no"/>kannten Sachverhalt eine anschauliche
                Vorstellung vom Hergang<lb/> der Traumbildung schaffen. Das Schema, zu welchem wir
                nicht<lb/> allein vom Studium des Traumes her gelangen, ist zwar bereits<lb/>
-               ziemlich kompliziert; wir können aber mit einem einfacheren<lb/> unser Ausreichen
-               nicht finden. Wir nehmen an, daß es in unserem<lb/> seelischen Apparat zwei
-               gedankenbildende Instanzen gibt, deren<lb/> zweite das Vorrecht besitzt, daß ihre
-               Erzeugnisse den Zugang zum<lb/> Bewußtsein offen finden, während die Tätigkeit der
-               ersten Instanz<lb/> an sich unbewußt ist und nur über die zweite zum Bewußtsein<lb/>
-               gelangen kann. An der Grenze der beiden Instanzen, am Über<lb break="no"/>gang von
-               der ersten zur zweiten, befinde sich eine Zensur, welche<lb/> nur durchläßt, was ihr
-               angenehm ist, anderes aber zurückhält.<lb/> Dann befindet sich das von der Zensur
+               ziemlich <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">kompliziert</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">komplizirt</rdg>
+               </app>; wir können aber mit einem einfacheren<lb/> unser Ausreichen
+               nicht finden. Wir nehmen an, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> es in unserem<lb/> seelischen Apparat zwei
+               gedankenbildende Instanzen <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">gibt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">giebt</rdg>
+               </app>, deren<lb/> zweite das Vorrecht besitzt, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> ihre
+               Erzeugnisse den Zugang zum<lb/> <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Bewußtsein</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Bewusstsein</rdg>
+               </app> offen finden, während die <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Tätigkeit</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Thätigkeit</rdg>
+               </app> der
+               ersten Instanz<lb/> an sich <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">unbewußt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">unbewusst</rdg>
+               </app> ist und nur über die zweite zum <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Bewußtsein</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Bewusstsein</rdg>
+               </app><lb/>
+               gelangen kann. An der Grenze der beiden Instanzen, am <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Über<lb break="no"/>gang</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Uebergang</rdg>
+               </app> von
+               der ersten zur zweiten, befinde sich eine <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Zensur</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Censur</rdg>
+               </app>, welche<lb/> nur <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">durchläßt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">durchlässt</rdg>
+               </app>, was ihr
+               <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">angenehm</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">genehm</rdg>
+               </app> ist, anderes aber zurückhält.<lb/> Dann befindet sich das von der <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Zensur</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Censur</rdg>
+               </app>
                Abgewiesene, nach unserer<lb/> Definition, im Zustande der Verdrängung. Unter
                gewissen Bedin<lb break="no"/>gungen, deren eine der Schlafzustand ist, ändere sich
-               das Kräfte<lb break="no"/>verhältnis zwischen beiden Instanzen in solcher Weise, daß
+               das <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Kräfte<lb break="no"/>verhältnis</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Kräfteverhältniss</rdg>
+               </app> zwischen beiden Instanzen in solcher Weise, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app>
                das<lb/> Verdrängte nicht mehr ganz zurückgehalten werden kann. Im<lb/> Schlafzustand
-               geschehe dies etwa durch den Nachlaß der Zensur;<lb/> dann wird es dem bisher
-               Verdrängten gelingen, sich den Weg<lb/> zum Bewußtsein zu bahnen. Da die Zensur aber
-               niemals aufge<lb break="no"/>hoben, sondern bloß herabgesetzt ist, so wird es sich
-               dabei Ver<lb break="no"/><pb n="57" xml:id="page__6cebc947-d7eb-43ba-b248-e059d8ba6898"/><fw type="pageNum">243</fw>änderungen gefallen lassen müssen, welche seine Anstößigkeiten<lb/> mildern.
-               Was in solchem Falle bewußt wird, ist ein Kompromiß<lb/> zwischen dem von der einen
-               Instanz Beabsichtigten und dem von<lb/> der anderen Geforderten. <hi rendition="#smallcaps">Verdrängung — Nachlaß der<lb/> Zensur —
-                  Kompromißbildung</hi>, dies ist aber das Grund<lb break="no"/>schema für die
-               Entstehung sehr vieler anderer psychopathischer<lb/> Bildungen in gleicher Weise wie
-               für den Traum, und bei der<lb/> Kompromißbildung werden hier wie dort die Vorgänge
-               der Ver<lb break="no"/>dichtung und Verschiebung und die Inanspruchnahme oberfläch<lb break="no"/>licher Assoziationen beobachtet, welche wir bei der Traumarbeit<lb/>
-               kennen gelernt haben.<lb break="paragraph"/></p>
+               geschehe dies etwa durch den <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Nachlaß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Nachlass</rdg>
+               </app> der <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Zensur</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Censur</rdg>
+               </app>;<lb/> dann wird es dem bisher
+               Verdrängten gelingen, sich den Weg<lb/> zum <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Bewußtsein</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Bewusstsein</rdg>
+               </app> zu bahnen. Da die <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Zensur</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Censur</rdg>
+               </app> aber
+               niemals aufge<lb break="no"/>hoben, sondern <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">bloß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">bloss</rdg>
+               </app> herabgesetzt ist, so wird es sich
+               dabei Ver<lb break="no"/><pb n="57" xml:id="page__6cebc947-d7eb-43ba-b248-e059d8ba6898"/><fw type="pageNum">243</fw>änderungen gefallen lassen müssen, welche seine <app>
+                        <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Anstößigkeiten</lem>
+                        <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Anstössigkeiten</rdg>
+                     </app><lb/> mildern.
+               Was in solchem Falle <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">bewußt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">bewusst</rdg>
+               </app> wird, ist ein <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Kompromiß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1921.xml">Kompromiss</rdg>
+                  <rdg wit="#sfe-1901-001__1911.xml">Kompromis</rdg>
+               </app><lb/> zwischen dem von der einen
+               Instanz Beabsichtigten und dem von<lb/> der anderen Geforderten. <hi rendition="#smallcaps">Verdrängung — <app>
+                     <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Nachlaß</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Nachlass</rdg>
+                  </app> der<lb/> <app>
+                     <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Zensur</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml">Censur</rdg>
+                  </app> —
+                  <app>
+                     <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Kompromißbildung</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1921.xml">Kompromissbildung</rdg>
+                     <rdg wit="#sfe-1901-001__1911.xml">Kompromisbildung</rdg>
+                  </app></hi>, dies ist aber das Grund<lb break="no"/>schema für die
+               Entstehung <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">sehr vieler anderer psychopathischer</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">aller anderen psychopathischen</rdg>
+               </app><lb/> Bildungen in gleicher Weise wie
+               für den Traum, und bei der<lb/> <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Kompromißbildung</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1921.xml">Kompromissbildung</rdg>
+                  <rdg wit="#sfe-1901-001__1911.xml">Kompromisbildung</rdg>
+               </app> werden hier wie dort die Vorgänge
+               der Ver<lb break="no"/>dichtung und Verschiebung und die Inanspruchnahme oberfläch<lb break="no"/>licher <app>
+                     <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Assoziationen</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml">Associationen</rdg>
+                  </app> beobachtet, welche wir bei der Traumarbeit<lb/>
+               <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">kennen gelernt</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">kennengelernt</rdg>
+               </app> haben.<lb break="paragraph"/></p>
 
 
-            <p>Wir haben keinen Grund, uns das Element von Dämonismus<lb/> zu verhehlen, welches bei
+            <p>Wir haben keinen <app>
+               <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Grund,</lem>
+               <rdg wit="#sfe-1901-001__1901.xml">Grund</rdg>
+            </app> uns das Element von Dämonismus<lb/> zu verhehlen, welches bei
                der Aufstellung unserer Erklärung der<lb/> Traumarbeit mitgespielt hat. Wir haben den
-               Eindruck empfangen,<lb/> daß die Bildung der dunklen Träume so vor sich geht, <hi rendition="#smallcaps">als ob</hi><lb/> eine Person, die von einer zweiten
-               abhängig ist, etwas zu äußern<lb/> hätte, was dieser letzteren anzuhören unangenehm
-               sein muß, und<lb/> von diesem Gleichnis her haben wir den Begriff der <hi rendition="#smallcaps">Traum</hi><lb break="no"/><hi rendition="#smallcaps">entstellung</hi> und den der Zensur erfaßt und uns bemüht,<lb/> unseren Eindruck
-               in eine gewiß rohe, aber wenigstens anschau<lb break="no"/>liche psychologische
+               Eindruck empfangen,<lb/> <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> die Bildung der dunklen Träume so vor sich geht, <hi rendition="#smallcaps">als ob</hi><lb/> eine Person, die von einer zweiten
+               abhängig ist, etwas zu <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">äußern</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">äussern</rdg>
+               </app><lb/> hätte, was dieser letzteren anzuhören unangenehm
+               sein <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">muß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">muss</rdg>
+               </app>, und<lb/> von diesem <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Gleichnis</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Gleichniss</rdg>
+               </app> her haben wir den Begriff der <hi rendition="#smallcaps">Traum</hi><lb break="no"/><hi rendition="#smallcaps">entstellung</hi> und den der <app>
+                        <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Zensur erfaßt</lem>
+                        <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Zensur erfasst</rdg>
+                        <rdg wit="#sfe-1901-001__1901.xml">Censur erfasst</rdg>
+                     </app> und uns bemüht,<lb/> unseren Eindruck
+               in eine <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">gewiß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">gewiss</rdg>
+               </app> rohe, aber wenigstens anschau<lb break="no"/>liche psychologische
                Theorie zu übersetzen. Mit was immer bei<lb/> weiterer Klärung des Gegenstandes sich
-               unsere erste und zweite<lb/> Instanz wird identifizieren lassen, wir werden erwarten,
-               daß sich<lb/> ein Korrelat unserer Annahme bestätige, daß die zweite Instanz<lb/> den
-               Zugang zum Bewußtsein beherrscht und die erste vom<lb/> Bewußtsein absperren kann.<lb break="paragraph"/></p>
-            <p>Wenn der Schlafzustand überwunden ist, stellt sich die Zensur<lb/> rasch zur vollen
+               unsere erste und zweite<lb/> Instanz wird <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">identifizieren</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">identifiziren</rdg>
+               </app> lassen, wir werden erwarten,
+               <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> sich<lb/> ein Korrelat unserer Annahme bestätige, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> die zweite Instanz<lb/> den
+               Zugang zum <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Bewußtsein</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Bewusstsein</rdg>
+               </app> beherrscht und die erste vom<lb/> <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Bewußtsein</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Bewusstsein</rdg>
+               </app> absperren kann.<lb break="paragraph"/></p>
+            <p>Wenn der Schlafzustand überwunden ist, stellt sich die <app>
+               <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Zensur</lem>
+               <rdg wit="#sfe-1901-001__1901.xml">Censur</rdg>
+            </app><lb/> rasch zur vollen
                Höhe wieder her und kann jetzt wieder ver<lb break="no"/>nichten, was ihr während der
-               Zeit ihrer Schwäche abgerungen<lb/> worden ist. Daß das <hi rendition="#smallcaps">Vergessen</hi> des Traumes wenigstens <hi rendition="#smallcaps">zum<lb/>
-                  Teil</hi> diese Erklärung fordert, geht aus einer ungezählte Male<lb/> bestätigten
+               Zeit ihrer Schwäche abgerungen<lb/> worden ist. <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Dass</rdg>
+               </app> das <hi rendition="#smallcaps">Vergessen</hi> des Traumes wenigstens <app>
+                        <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml"><hi rendition="#smallcaps">zum<lb/>
+                              Teil</hi></lem>
+                        <rdg wit="#sfe-1901-001__1901.xml">Theil</rdg>
+                     </app>diese Erklärung fordert, geht aus einer ungezählte Male<lb/> bestätigten
                Erfahrung hervor. Während der Erzählung eines<lb/> Traumes oder während der Analyse
                desselben geschieht es<lb/>
-               <lb break="paragraph"/><pb n="58" xml:id="page__4f82b619-2499-4555-9eb2-0c7d3144f07e"/><fw type="pageNum">244</fw>nicht selten, daß plötzlich ein vergessen geglaubtes
-               Bruchstück<lb/> des Trauminhaltes wieder auftaucht. Dies dem Vergessen ent<lb break="no"/>rissene Stück enthält regelmäßig den besten und nächsten<lb/> Zugang
+               <lb break="paragraph"/><pb n="58" xml:id="page__4f82b619-2499-4555-9eb2-0c7d3144f07e"/><fw type="pageNum">244</fw>nicht selten, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> plötzlich ein vergessen geglaubtes
+               Bruchstück<lb/> des Trauminhaltes wieder auftaucht. Dies dem Vergessen ent<lb break="no"/>rissene Stück enthält <app>
+                     <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">regelmäßig</lem>
+                     <rdg wit="#sfe-1901-001__1901.xml">regelmässig</rdg>
+                  </app> den besten und nächsten<lb/> Zugang
                zur Bedeutung des Traumes. Es sollte wahrscheinlich<lb/> nur darum dem Vergessen, d.
                i. der neuerlichen Unterdrückung,<lb/> verfallen.<lb/>
                <lb break="paragraph"/></p>
@@ -3229,16 +3842,28 @@
 
             <pb n="59" xml:id="page__f76ebb07-fcf9-4166-8734-af80af8b2fe8"/>
             <fw type="pageNum">[245]</fw>
-            <p rendition="h1">XI<lb break="paragraph"/></p>
+            <p rendition="h1"><app>
+               <lem wit="#sfe-1901-01__1925.xml #sfe-1901-01__1931.xml">XI</lem>
+               <rdg wit="#sfe-1901-01__1901.xml #sfe-1901-01__1911.xml #sfe-1901-01__1921.xml">XI.</rdg>
+            </app><lb break="paragraph"/></p>
             <p>Wenn wir den Trauminhalt als Darstellung eines erfüllten<lb/> Wunsches auffassen und
-               seine Dunkelheit auf die Abänderungen<lb/> der Zensur an verdrängtem Material
+               seine Dunkelheit auf die Abänderungen<lb/> der <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Zensur</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Censur</rdg>
+               </app> an verdrängtem Material
                zurückführen, fällt es uns<lb/> auch nicht mehr schwer, die Funktion des Traumes zu
-               erschließen.<lb/> In seltsamem Gegensatz zu Redewendungen, welche den Schlaf<lb/>
+               <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">erschließen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">erschliessen</rdg>
+               </app>.<lb/> In seltsamem Gegensatz zu Redewendungen, welche den Schlaf<lb/>
                durch Träume stören lassen, müssen wir den <hi rendition="#smallcaps">Traum als
                   den<lb/> Hüter des Schlafes</hi> anerkennen. Für den Kindertraum dürfte<lb/>
                unsere Behauptung leicht Glauben finden.<lb break="paragraph"/></p>
             <p>Der Schlafzustand oder die psychische Schlafveränderung, worin<lb/> immer sie
-               bestehen mag, wird herbeigeführt durch den dem<lb/> Kind aufgenötigten oder auf Grund
+               bestehen mag, wird herbeigeführt durch den dem<lb/> Kind <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">aufgenötigten</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">aufgenöthigten</rdg>
+               </app> oder auf Grund
                von Müdigkeitssensationen<lb/> gefaßten Entschluß zu schlafen, und einzig ermöglicht
                durch die<lb/> Abhaltung von Reizen, welche dem psychischen Apparat andere<lb/> Ziele
                setzen könnten als das des Schlafens. Die Mittel, welche<lb/> dazu dienen, äußere
@@ -3259,95 +3884,291 @@
 
 
             <p>Der Erwachsene hat diese Unterscheidung gelernt, er hat auch<lb/> die Nutzlosigkeit
-               des Wünschens begriffen und durch fortgesetzte<lb/> Übung erreicht, seine Strebungen
-               aufzuschieben, bis sie auf langen<lb/> Umwegen über die Veränderung der Außenwelt
-               ihre Erledigung<lb/> finden können. Dem entsprechend sind auch die
-               Wunscherfüllungen<lb/> auf kurzem psychischen Weg bei ihm im Schlafe selten; ja,
-               es<lb/> ist selbst möglich, daß sie überhaupt nicht vorkommen, und daß<lb/> alles,
-               was uns nach der Art eines Kindertraumes gebildet zu sein<lb/> scheint, eine viel
-               kompliziertere Auflösung erfordert. Dafür aber<lb/> hat sich beim Erwachsenen — und
-               wohl bei jedem Vollsinnigen<lb/> ohne Ausnahme — eine Differenzierung des psychischen
-               Materiales<lb/> herausgebildet, die dem Kinde fehlte. Es ist eine psychische<lb/>
-               Instanz zustande gekommen, welche, durch die Lebenserfahrung<lb/> belehrt, einen
-               beherrschenden und hemmenden Einfluß auf die<lb/> seelischen Regungen mit
-               eifersüchtiger Strenge festhält, und die<lb/> durch ihre Stellung zum Bewußtsein und
-               zur willkürlichen<lb/> Motilität mit den größten Mitteln psychischer Macht
-               ausgestattet<lb/> ist. Ein Keil der kindlichen Regungen aber ist als
-               lebensunnütz<lb/> von dieser Instanz unterdrückt worden, und alles Gedanken<lb break="no"/>material, was von diesen abstammt, befindet sich im Zustande der<lb/>
-                  Verdrängung.<lb break="paragraph"/></p>
+               des Wünschens begriffen<app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1911.xml #sfe-1901-001__1931.xml #sfe-1901-001__1921.xml">und</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml"> und es</rdg>
+               </app>durch fortgesetzte<lb/>
+               <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Übung</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Uebung</rdg>
+               </app> erreicht, seine Strebungen aufzuschieben, bis sie auf langen<lb/> Umwegen über
+               die Veränderung der <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Außenwelt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Aussenwelt</rdg>
+               </app> ihre Erledigung<lb/> finden können. <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">Dem entsprechend</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">Dementsprechend</rdg>
+               </app> sind auch die Wunscherfüllungen<lb/> auf kurzem <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">psychischen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">psychischem</rdg>
+               </app> Weg bei ihm im Schlafe selten; <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">ja,</lem>
+                  <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1901.xml #sfe-1901-001__1921.xml">ja</rdg>
+               </app> es<lb/> ist selbst möglich, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> sie überhaupt nicht vorkommen, und <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app><lb/> alles, was uns nach der Art eines <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Kindertraumes</lem>
+                  <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Kindestraumes</rdg>
+               </app> gebildet zu sein<lb/> scheint, eine viel <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">kompliziertere</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">komplizirtere</rdg>
+               </app> Auflösung erfordert. Dafür aber<lb/> hat sich beim Erwachsenen — und wohl bei
+               jedem Vollsinnigen<lb/> ohne Ausnahme — eine <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Differenzierung</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Differenzirung</rdg>
+               </app> des psychischen Materiales<lb/> herausgebildet, die dem Kinde <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">fehlte</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">fehlt</rdg>
+               </app>. Es ist <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">eine</lem>
+                  <rdg wit="#sfe-1901-001__1911.xml">ein</rdg>
+               </app> psychische<lb/> Instanz <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">zustande</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">zu Stande</rdg>
+               </app> gekommen, welche, durch die Lebenserfahrung<lb/> belehrt, einen beherrschenden
+               und hemmenden <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Einfluß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Einfluss</rdg>
+               </app> auf die<lb/> seelischen Regungen mit eifersüchtiger Strenge festhält, und
+               die<lb/> durch ihre Stellung zum <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Bewußtsein</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Bewusstsein</rdg>
+               </app> und zur willkürlichen<lb/> Motilität mit den <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">größten</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">grössten</rdg>
+               </app> Mitteln psychischer Macht ausgestattet<lb/> ist. Ein <choice source="#sfe-1901-01__1925.xml">
+                  <sic>Keil</sic>
+                  <corr>Teil</corr>
+               </choice>
+               <app>
+                  <lem wit="#sfe-1901-001__1925.xml">Keil</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Theil</rdg>
+                  <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1931.xml">Teil</rdg>
+               </app> der kindlichen Regungen aber ist als lebensunnütz<lb/> von dieser Instanz
+               unterdrückt worden, und alles Gedanken<lb break="no"/>material, was von diesen
+               abstammt, befindet sich im Zustande der<lb/> Verdrängung.<lb break="paragraph"/></p>
             <p>Während sich nun die Instanz, in welcher wir unser normales<lb/> Ich erkennen, auf
-               den Wunsch zu schlafen, einstellt, scheint sie<lb/> durch die psychophysiologischen
-               Bedingungen des Schlafes genötigt,<lb break="paragraph"/><pb n="61" xml:id="page__760b6fff-11fe-45c0-a8fc-f0dc503727aa"/><fw type="pageNum">247</fw>an
+               den Wunsch zu <app>
+                  <lem wit="#sfe-1901-001__1925.xml">schlafen,</lem>
+                  <rdg wit="#sfe-1901-001__1921.xml #sfe-1901-001__1911.xml #sfe-1901-001__1931.xml #sfe-1901-001__1901.xml">schlafen</rdg>
+                  
+               </app> einstellt, scheint sie<lb/> durch die psychophysiologischen
+               Bedingungen des Schlafes <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">genötigt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">genöthigt</rdg>
+               </app>,<lb break="paragraph"/><pb n="61" xml:id="page__760b6fff-11fe-45c0-a8fc-f0dc503727aa"/><fw type="pageNum">247</fw>an
                der Energie nachzulassen, mit welcher sie bei Tag das Ver<lb break="no"/>drängte
-               niederzuhalten pflegte. Dieser Nachlaß selbst ist zwar harm<lb break="no"/>los; die
-               Erregungen der unterdrückten Kinderseele mögen sich<lb/> immerhin tummeln; infolge
-               des nämlichen Schlafzustandes finden<lb/> sie doch den Zugang zum Bewußtsein
-               erschwert und den zur<lb/> Motilität versperrt. Die Gefahr, daß der Schlaf durch sie
-               gestört<lb/> werde, muß aber abgewehrt werden. Nun müssen wir ja ohne<lb break="no"/>hin die Annahme zulassen, daß selbst im tiefen Schlaf ein Betrag<lb/> von freier
+               niederzuhalten pflegte. Dieser <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Nachlaß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Nachlass</rdg>
+               </app> selbst ist zwar harm<lb break="no"/>los; die
+               Erregungen der unterdrückten Kinderseele mögen sich<lb/> immerhin tummeln; <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">infolge</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">in Folge</rdg>
+               </app>
+               des nämlichen Schlafzustandes finden<lb/> sie doch den Zugang zum <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Bewußtsein</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Bewusstsein</rdg>
+               </app>
+               erschwert und den zur<lb/> Motilität versperrt. Die Gefahr, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> der Schlaf durch sie
+               gestört<lb/> werde, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">muß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">muss</rdg>
+               </app> aber abgewehrt werden. Nun müssen wir ja ohne<lb break="no"/>hin die Annahme zulassen, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> selbst im tiefen Schlaf ein Betrag<lb/> von freier
                Aufmerksamkeit als Wächter gegen Sinnesreize aufge<lb break="no"/>boten wird, welche
-               etwa das Erwachen rätlicher erscheinen lassen<lb/> als die Fortsetzung des Schlafes.
-               Es wäre sonst nicht zu erklären,<lb/> daß wir jederzeit durch Sinnesreize von
+               etwa das Erwachen <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">rätlicher</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">räthlicher</rdg>
+               </app> erscheinen lassen<lb/> als die Fortsetzung des Schlafes.
+               Es wäre sonst nicht zu erklären,<lb/> <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+               </app> wir jederzeit durch Sinnesreize von
                gewisser <hi rendition="#smallcaps">Qualität</hi> auf<lb break="no"/>zuwecken sind,
                wie bereits der alte Physiologe <hi rendition="#smallcaps">Burdach</hi> betonte,<lb/>
-               die Mutter z. B. durch das Wimmern ihres Kindes, der Müller<lb/> durch das
+               die Mutter<app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">z. B.</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">zum Beispiel</rdg>
+               </app> durch das Wimmern ihres Kindes, der Müller<lb/> durch das
                Stehenbleiben seiner Mühle, die meisten Menschen<lb/> durch den leisen Anruf bei
                ihrem Namen. Diese Wache haltende<lb/> Aufmerksamkeit wendet sich nun auch den
                inneren Wunsch<lb break="no"/>reizen aus dem Verdrängten zu und bildet mit ihnen den
-               Traum,<lb/> der als Kompromiß gleichzeitig beide Instanzen befriedigt. Der<lb/> Traum
+               Traum,<lb/> der als <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Kompromiß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1921.xml">Kompromiss</rdg>
+                  <rdg wit="#sfe-1901-001__1911.xml">Kompromis</rdg>
+               </app> gleichzeitig beide Instanzen befriedigt. <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Der<lb/> Traum</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Dieser</rdg>
+               </app>
                schafft eine Art von psychischer Erledigung für den<lb/> unterdrückten oder mit Hilfe
                des Verdrängten geformten Wunsch,<lb/> indem er ihn als erfüllt hinstellt; er genügt
                aber auch der<lb/> anderen Instanz, indem er die Fortsetzung des Schlafes
                gestattet.<lb/> Unser Ich benimmt sich dabei gerne wie ein Kind, es schenkt<lb/> den
-               Traumbildern Glauben, als ob es sagen wollte: Ja, ja, du<lb/> hast recht, aber laß
-               mich schlafen. Die Geringschätzung, die wir,<lb/> erwacht, dem Traume
+               Traumbildern Glauben, als ob es sagen wollte: Ja, ja, du<lb/> hast <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">recht</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Recht</rdg>
+               </app>, aber <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">laß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">lass</rdg>
+               </app>
+               mich schlafen. Die Geringschätzung, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">die wir,erwacht,</lem>
+                  <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1901.xml #sfe-1901-001__1921.xml">die wir erwacht</rdg>
+                  
+               </app><lb/> erwacht, dem Traume
                entgegenbringen, und die sich auf die Ver<lb break="no"/>worrenheit und scheinbare
                Unlogik des Traumes beruft, ist wahr<lb break="no"/>scheinlich nichts anderes als das
-               Urteil unseres schlafenden Ichs<lb/> über die Regungen aus dem Verdrängten, das sich
+               <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Urteil</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Urtheil</rdg>
+               </app> unseres schlafenden Ichs<lb/> über die Regungen aus dem Verdrängten, das sich
                mit besserem<lb/> Rechte auf die motorische Ohnmacht dieser Schlafstörer stützt.<lb/>
-               Dies geringschätzige Urteil wird uns mitunter selbst im Schlafe<lb/> bewußt; wenn der
-               Trauminhalt allzusehr über die Zensur hinaus<lb break="no"/></p>
+               Dies geringschätzige <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Urteil</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Urtheil</rdg>
+               </app> wird uns mitunter selbst im Schlafe<lb/> <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">bewußt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">bewusst</rdg>
+               </app>; wenn der
+               Trauminhalt allzusehr über die <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Zensur</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Censur</rdg>
+               </app> hinaus<lb break="no"/>geht, denken wir: Es ist ja nur ein Traum — und schlafen<lb/>
+               weiter.</p>
 
 
 
 
 
             <p>Es ist kein Einwand gegen diese Auffassung, wenn es auch<lb/> für den Traum
-               Grenzfälle gibt, in denen er seine Funktion, den<lb/> Schlaf vor Unterbrechung zu
+               Grenzfälle <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">gibt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">giebt</rdg>
+               </app>, in denen er seine Funktion, den<lb/> Schlaf vor Unterbrechung zu
                bewahren, nicht mehr festhalten<lb/> kann — wie beim Angsttraum — und sie gegen die
                andere<lb/> ihn rechtzeitig aufzuheben, vertauscht. Er verfährt dabei auch<lb/> nur
-               wie der gewissenhafte Nachtwächter, der zunächst seine<lb/> Pflicht tut, indem er
+               wie der gewissenhafte Nachtwächter, der zunächst seine<lb/> Pflicht <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">tut</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">thut</rdg>
+               </app>, indem er
                Störungen zur Ruhe bringt, um die<lb/> Bürgerschaft nicht zu wecken, dann aber seine
                Pflicht damit fort<lb break="no"/>setzt, die Bürgerschaft selbst zu wecken, wenn ihm
                die Ursachen<lb/> der Störung bedenklich scheinen und er mit ihnen allein nicht<lb/>
                fertig wird.<lb break="paragraph"/></p>
             <p>Besonders deutlich wird eine solche Funktion des Traumes,<lb/> wenn an den
-               Schlafenden ein Anreiz zu Sinnesempfindungen<lb/> herantritt. Daß Sinnesreize,
-               während des Schlafzustandes angebracht,<lb/> den Inhalt der Träume beeinflussen, ist
-               allgemein bekannt, läßt<lb/> sich experimentell nachweisen und gehört zu den
-               wenigen<lb/> sicheren, aber arg überschätzten, Ergebnissen der ärztlichen<lb/>
+               Schlafenden ein Anreiz zu Sinnesempfindungen<lb/> herantritt. <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Daß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Dass</rdg>
+               </app><app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Sinnesreize,</lem>
+                  <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1901.xml #sfe-1901-001__1921.xml">Sinnesreize</rdg>
+                  
+               </app>
+               während des Schlafzustandes<app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">angebracht,</lem>
+                  <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1901.xml #sfe-1901-001__1921.xml">angebracht</rdg>
+                  
+               </app><lb/> den Inhalt der Träume beeinflussen, ist
+               allgemein bekannt, <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">läßt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">lässt</rdg>
+               </app><lb/> sich experimentell nachweisen und gehört zu den
+               wenigen<lb/> sicheren, aber arg<app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">überschätzten,</lem>
+                  <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1901.xml #sfe-1901-001__1921.xml">überschätzten</rdg>
+                  
+               </app> Ergebnissen der ärztlichen<lb/>
                Forschung über den Traum. Es hat sich aber an diese Ermitt<lb break="no"/>lung ein
-               bisher unlösbares Rätsel geknüpft. Der Sinnesreiz, den<lb/> der Experimentator auf
-               den Schlafenden einwirken läßt, erscheint<lb/> im Traume nämlich nicht richtig
-               erkannt, sondern unterliegt<lb/> irgend einer von unbestimmt vielen Deutungen, deren
-                  Deter<lb break="no"/>minierung der psychischen Willkür überlassen schien.
-               Psychische<lb/> Willkür gibt es natürlich nicht. Der Schlafende kann gegen<lb/> einen
-               Sinnenreiz von außen auf mehrfache Weise reagieren.<lb/> Entweder er erwacht oder es
+               bisher unlösbares <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Rätsel</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Räthsel</rdg>
+               </app> geknüpft. Der Sinnesreiz, den<lb/> der Experimentator auf
+               den Schlafenden einwirken <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">läßt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">lässt</rdg>
+               </app>, erscheint<lb/> im Traume nämlich nicht richtig
+               erkannt, sondern unterliegt<lb/> <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">irgend einer</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">irgendeiner</rdg>
+               </app> von unbestimmt vielen Deutungen, deren
+               <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Deter<lb break="no"/>minierung</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Determinirung</rdg>
+               </app> der psychischen Willkür überlassen schien.
+               Psychische<lb/> Willkür <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">gibt</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">giebt</rdg>
+               </app> es natürlich nicht. Der Schlafende kann gegen<lb/> einen
+               Sinnenreiz von <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">außen</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">aussen</rdg>
+               </app> auf mehrfache Weise <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">reagieren</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">reagiren</rdg>
+               </app>.<lb/> Entweder er <app>
+                  <lem wit="#sfe-1901-001__1931.xml #sfe-1901-001__1925.xml">erwacht</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">erwacht,</rdg>
+               </app> oder es
                gelingt ihm, den Schlaf trotzdem<lb/> fortzusetzen. Im letzteren Falle kann er sich
-               des Traumes<lb/> bedienen, um den äußeren Reiz fortzuschaffen, und zwar<lb/> wiederum
-               auf mehr als eine Weise. Er kann z. B. den Reiz<lb/> aufheben, indem er eine
-               Situation träumt, die mit ihm ganz<lb/> und gar unverträglich ist. So benahm sich z.
-               B. ein Schläfer,<lb break="paragraph"/><pb n="63" xml:id="page__f9847357-8da7-4934-bc96-5787a8f6b91a"/><fw type="pageNum">249</fw>den ein schmerzhafter Abszeß am Perineum stören wollte. Er<lb/> träumte, daß
-               er auf einem Pferd reite, benutzte dabei den Brei<lb break="no"/>umschlag, der ihm
+               des Traumes<lb/> bedienen, um den <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">äußeren</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">äusseren</rdg>
+               </app> Reiz fortzuschaffen, und zwar<lb/> wiederum
+               auf mehr als eine Weise. Er kann <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">z. B.</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">zum Beispiel</rdg>
+               </app> den Reiz<lb/> aufheben, indem er eine
+               Situation träumt, die mit ihm ganz<lb/> und gar unverträglich ist. So benahm sich <app>
+                  <lem wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml">z. B.</lem>
+                  <rdg wit="#sfe-1901-001__1931.xml">zum Beispiel</rdg>
+               </app> ein Schläfer,<lb break="paragraph"/><pb n="63" xml:id="page__f9847357-8da7-4934-bc96-5787a8f6b91a"/><fw type="pageNum">249</fw>den ein schmerzhafter <app>
+                        <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Abszeß</lem>
+                        <rdg wit="#sfe-1901-001__1901.xml">Abscess</rdg>
+                        <rdg wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">Abszess</rdg>
+                     </app> am Perineum stören wollte. Er<lb/> träumte, <app>
+                        <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">daß</lem>
+                        <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">dass</rdg>
+                     </app>
+               er auf einem <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">Pferd</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">Pferde</rdg>
+               </app> reite, benutzte dabei den Brei<lb break="no"/>umschlag, der ihm
                den Schmerz lindern sollte, als Sattel und<lb/> kam so über die Störung hinweg. Oder
-               aber, was der häufigere<lb/> Fall ist, der äußere Reiz erfährt eine Umdeutung, die
+               aber, was der häufigere<lb/> Fall ist, der <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">äußere</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">äussere</rdg>
+               </app> Reiz erfährt eine Umdeutung, die
                ihn in<lb/> den Zusammenhang eines eben auf seine Erfüllung lauernden<lb/>
                verdrängten Wunsches einfügt, ihn so seiner Realität beraubt<lb/> und wie ein Stück
-               des psychischen Materials behandelt. So träumt<lb/> jemand, er habe ein Lustspiel
+               des psychischen Materials behandelt. So träumt<lb/> <app>
+                  <lem wit="#sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">jemand</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml">Jemand</rdg>
+               </app>, er habe ein Lustspiel
                geschrieben, das eine bestimmte<lb/> Grundidee verkörpert, es werde im Theater
                aufgeführt, der<lb/> erste Akt sei vorüber und finde rasenden Beifall. Es wird<lb/>
-               fürchterlich geklatscht . . . Es muß hier dem Träumer gelungen<lb/> sein, seinen
+               fürchterlich geklatscht . . . Es <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">muß</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">muss</rdg>
+               </app> hier dem Träumer gelungen<lb/> sein, seinen
                Schlaf über die Störung hinaus zu verlängern, denn<lb/> als er erwachte, hörte er das
-               Geräusch nicht mehr, urteilte<lb/> aber mit gutem Recht, es müßte ein Teppich oder
+               Geräusch nicht mehr, <app>
+                  <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">urteilte</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml">urtheilte</rdg>
+               </app><lb/> aber mit gutem Recht, es <app>
+                  <lem wit="#sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">müßte</lem>
+                  <rdg wit="#sfe-1901-001__1901.xml #sfe-1901-001__1911.xml #sfe-1901-001__1921.xml">müsste</rdg>
+               </app> ein Teppich oder
                Betten<lb/> geklopft worden sein. — Die Träume, die sich unmittelbar vor<lb/> dem
                Wecken durch ein lautes Geräusch einstellen, haben alle<lb/> noch den Versuch
                gemacht, den erwarteten Weckreiz durch eine<lb/> andere Erklärung abzuleugnen und den
