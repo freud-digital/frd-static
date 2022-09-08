@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="sfe-1905-001.xml" prev="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006__1904.xml" next="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001__1905.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="sfe-1905-001.xml" prev="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -887,16 +887,16 @@
                Fälle von Psycho<lb break="no"/>neurosen Erfreuliches zu leisten.<lb break="paragraph"/></p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_49">
-               <persName>Eckstein, Emma</persName>
+   <back><listPerson><person xml:id="frd_person_40">
+               <persName>Deutsch, Felix</persName>
                <birth>
-                  <date>1865</date>
+                  <date>1884</date>
                </birth>
                <death>
-                   <date>1924</date>
+                   <date>1964</date>
                </death>
-               <idno type="gnd">https://d-nb.info/gnd/1021283231</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               <idno type="gnd">https://d-nb.info/gnd/123979390</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_51">
                <persName>Ehrenstein, Albert</persName>
                <birth>
@@ -907,16 +907,16 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118688227</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_40">
-               <persName>Deutsch, Felix</persName>
+            <person xml:id="frd_person_49">
+               <persName>Eckstein, Emma</persName>
                <birth>
-                  <date>1884</date>
+                  <date>1865</date>
                </birth>
                <death>
-                   <date>1964</date>
+                   <date>1924</date>
                </death>
-               <idno type="gnd">https://d-nb.info/gnd/123979390</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               <idno type="gnd">https://d-nb.info/gnd/1021283231</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_41">
                <persName>Deutsch, Helene</persName>
                <birth>
@@ -926,7 +926,7 @@
                    <date>1982</date>
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118524968</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
                L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>

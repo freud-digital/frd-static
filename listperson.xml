@@ -88,7 +88,7 @@
                    <date>1964</date>
                </death>
                <idno type="gnd">https://d-nb.info/gnd/123979390</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_41">
                <persName>Deutsch, Helene</persName>
                <birth>
@@ -98,7 +98,7 @@
                    <date>1982</date>
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118524968</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
                L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_49">
                <persName>Eckstein, Emma</persName>
