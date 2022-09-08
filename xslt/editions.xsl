@@ -325,15 +325,8 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="tei:lb">
-        <xsl:choose>
-            <xsl:when test="@break = 'paragraph' and following-sibling::*[1]/name() = 'pb'">
-                <xsl:text> </xsl:text><br/>
-            </xsl:when>
-            <xsl:otherwise>
-                <br/>
-            </xsl:otherwise>
-        </xsl:choose>
+    <xsl:template match="tei:lb[not(@break)]">
+        <br/>
         <xsl:if test="ancestor::tei:p">
             <a>
                 <xsl:variable name="para" as="xs:int">
@@ -372,6 +365,17 @@
                 <xsl:value-of select="$lines"/>
             </a>  
         </xsl:if>
+    </xsl:template>
+    <xsl:template match="tei:lb[@break='paragraph']">
+        <xsl:choose>
+            <xsl:when test="following-sibling::tei:pb">
+                <xsl:text>[/]</xsl:text>
+                <br/>
+            </xsl:when>
+            <xsl:otherwise>
+                <br/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:lb[@break='no']">
         <xsl:choose>
@@ -440,7 +444,7 @@
     </xsl:template>
     <xsl:template match="tei:fw">
         <span class="{@type}" style="position: relative;
-            padding-right: 8.3em;
+            padding-right: 11.3em;
             margin-left: -10em;">
             <xsl:apply-templates/>
         </span>
