@@ -592,6 +592,11 @@
                     <xsl:text>italic</xsl:text>
                 </xsl:attribute>
             </xsl:when>
+            <xsl:when test="@rendition = '#italics'">
+                <xsl:attribute name="class">
+                    <xsl:text>italic</xsl:text>
+                </xsl:attribute>
+            </xsl:when>
             <xsl:when test="@rendition = '#smallcaps'">
                 <xsl:attribute name="class">
                     <xsl:text>smallcaps</xsl:text>
