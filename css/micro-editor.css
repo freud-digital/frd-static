@@ -1,0 +1,175 @@
+/* ############################
+ * ############################
+ * EDITIONS view properties 
+ * ###########################*/
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.i-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.i-slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .i-slider {
+
+}
+
+input:focus + .i-slider {
+    box-shadow: 0 0 1px #f1f1f1;
+}
+
+input:checked + .i-slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.i-slider.round {
+    border-radius: 20px;
+}
+
+.i-slider.round:before {
+    border-radius: 50%;
+}
+
+/* inline elements */
+
+.unclear[alt]::after {
+    opacity: 0;
+    content: "";
+}
+
+.unclear[alt] {
+    position: relative;
+    /*text-decoration: underline dotted;*/  
+}
+
+.unclear[alt]:hover::after,
+.unclear[alt]:focus::after {
+    content: attr(alt);
+    position: absolute;
+    left: -50px;
+    top: 25px;
+    width: auto;
+    white-space: nowrap;
+    background-color: #f1f1f1;
+    border-radius: .25rem;
+    font-size: 16px;
+    padding: 3px 5px;
+    z-index: 99;
+    transition: opacity  0s linear 1s;
+    opacity: 1;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.whitespace {
+    
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.red {
+    background-color: #ffe6e6;
+}
+
+.blue {
+    background-color: #e1d4ff;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.grey {
+    background-color: #f1f1f1;
+}
+
+.green {
+    background-color: #c9ffcf;
+}
+.yellow {
+    background-color: #FFFF99;
+}
+.pink {
+    background-color: #FF99FA;
+}
+
+#clear-link {
+    padding: .5em 1em;
+}
+
+.badge-item {
+    border-radius: .25rem;
+}
+
+/* font styles and sizes */
+
+.times-new-roman {
+    font-family: 'Times New Roman', serif !important;  
+}
+.courier-new {
+    font-family: 'Courier New', monospace !important;  
+}
+
+.arial-serif {
+    font-family: 'Arial', serif !important;
+}
+
+.font-size-26 {
+     font-size: 26px !important;
+}
+
+.font-size-22 {
+     font-size: 22px !important;
+}
+
+.font-size-18 {
+     font-size: 18px !important;
+}
+
+.font-size-14 {
+     font-size: 14px !important;
+}

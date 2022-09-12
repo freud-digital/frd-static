@@ -68,31 +68,23 @@ body {
 
 .linenumbers {
     font-size: 12px;
-    position:relative;
-    padding-right:1.5em;
-    margin-left:-1em;
-    bottom:2em;
+    position: absolute;
+    margin-left: -5.5em;
+    margin-top: -1.8em;
 }
-
-.place {
-    background-color: #FBE1A8;
-}
-
-.person {
-    background-color: #BBFBA8;
-}
-
-.kw {
-    background-color: #A8FBF6;
-}
-
-.dream {
-    background-color: #F5A8F9;
-}
-
 
 .linenumbersVisible {
     color: #444;
+}
+
+.fade {
+    display: none;
+}
+
+.pageNum {
+    position: relative;
+    padding-right: 11.3em;
+    margin-left: -10em;
 }
 
 .linenumbersTransparent {
@@ -101,7 +93,7 @@ body {
 
 .paranum {
     font-size: 12px;
-    margin-left: -5em;
+    /*margin-left: -5em;*/
 }
 
 .em {
