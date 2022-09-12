@@ -23,6 +23,6 @@
         <outputFolder>static-search</outputFolder>
     </params>
     <rules>
-        <rule match="text()[not(ancestor::div[@data-index='true'])]" weight="0"/>
+        <rule match="text()[not(ancestor::div[@class='yes-index'])]" weight="0"/>
     </rules>
 </config>

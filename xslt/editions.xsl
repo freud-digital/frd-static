@@ -155,9 +155,10 @@
                                 </div>
                                 <xsl:for-each select=".//tei:body/tei:div">
                                     <div class="row text-middle">
-                                        <div class="col-md-6 text-re">                                           
-                                            <xsl:apply-templates/>
-                                           
+                                        <div class="col-md-6 text-re">
+                                            <div class="yes-index">
+                                                <xsl:apply-templates/>
+                                            </div>
                                             <hr/>
                                             <div class="editorial-notes">
                                                 <xsl:for-each select=".//tei:note[@type='e']">
