@@ -114,16 +114,21 @@
                                         </xsl:for-each>
                                     </div>
                                     <div class="about-text-hidden fade">
-                                        <xsl:for-each select="//tei:titleStmt/tei:editor">
-                                            <ul style="padding-bottom:1em;padding-left:0;">
-                                                <label><strong>Herausgeberinnen</strong></label>
+                                        <ul style="padding-bottom:1em;padding-left:0;text-align:center;">
+                                        <label><strong>Mitwirkende und Aufgabenbereiche</strong></label>
+                                            <xsl:for-each select="//tei:editionStmt/tei:respStmt">                                                
+                                                <xsl:for-each select="./tei:resp">
+                                                    <li style="list-style:none;">
+                                                        <strong><xsl:apply-templates/></strong>
+                                                    </li>
+                                                </xsl:for-each>
                                                 <xsl:for-each select="./tei:name">
                                                     <li style="list-style:none;">
                                                         <xsl:apply-templates/>
                                                     </li>
                                                 </xsl:for-each>
-                                            </ul>
-                                        </xsl:for-each>
+                                            </xsl:for-each>
+                                        </ul>
                                         <xsl:for-each select="//tei:sourceDesc/tei:listWit">
                                             <ul style="padding-bottom:1em;padding-left:0;">
                                                 <label><strong>Textzeugen</strong></label>                                                
@@ -135,6 +140,11 @@
                                                 </xsl:for-each>
                                             </ul>
                                         </xsl:for-each>
+                                    </div>
+                                    <div style="padding-bottom:1em;" class="about-text-hidden fade">
+                                        <label><strong>Zitiervorschlag</strong></label>
+                                        <br/>
+                                        ... <a id="citation-url" href="{document-uri(/)}"><xsl:value-of select="document-uri(/)"/></a>
                                     </div>
                                     <div>
                                         <a href="#" id="show-text">mehr anzeigen</a>

@@ -9,7 +9,7 @@ var annot =  {
             html_class: "person",
             css_class: "psn",
             hide: false,
-            chg_citation: 1,
+            chg_citation: "citation-url",
             features: {
                 all: false,
                 class: "single-feature"
@@ -23,7 +23,7 @@ var annot =  {
             html_class: "place",
             css_class: "plc",
             hide: false,
-            chg_citation: 1,
+            chg_citation: "citation-url",
             features: {
                 all: false,
                 class: "single-feature"
@@ -37,7 +37,7 @@ var annot =  {
             html_class: "kw",
             css_class: "keyword",
             hide: false,
-            chg_citation: 1,
+            chg_citation: "citation-url",
             features: {
                 all: false,
                 class: "single-feature"
@@ -51,7 +51,7 @@ var annot =  {
             html_class: "dream",
             css_class: "drm",
             hide: false,
-            chg_citation: 1,
+            chg_citation: "citation-url",
             features: {
                 all: false,
                 class: "single-feature"
@@ -65,7 +65,7 @@ var annot =  {
             html_class: "txtv",
             css_class: "text-variant",
             hide: false,
-            chg_citation: 1,
+            chg_citation: "citation-url",
             features: {
                 all: false,
                 class: "single-feature"
@@ -79,7 +79,7 @@ var annot =  {
             html_class: "undefined",
             css_class: "undefined",
             hide: false,
-            chg_citation: 1,
+            chg_citation: "citation-url",
             features: {
                 all: true,
                 class: "all-features"
@@ -102,7 +102,7 @@ var family = {
             opt: "select-font",
             title: "Font family",
             urlparam: "font",
-            chg_citation: 1,
+            chg_citation: "citation-url",
             fonts: {
                 default: "default",
                 font1: "Times-New-Roman",
@@ -124,7 +124,7 @@ var fullscreen = {
             opt: "edition-fullsize",
             title: "Anzeige erweitern",
             urlparam: "fullscreen",
-            chg_citation: 1,
+            chg_citation: "citation-url",
             hide: {
                 hidden: true,
                 class_to_hide: "hide-reading"
@@ -145,7 +145,7 @@ var fontsize = {
             opt: "select-fontsize",
             title: "Font size",
             urlparam: "fontsize",
-            chg_citation: 1,
+            chg_citation: "citation-url",
             sizes: {
                 default: "default",
                 font_size_14: "14",
