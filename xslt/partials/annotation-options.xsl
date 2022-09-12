@@ -48,6 +48,9 @@
                                 <td style="vertical-align:middle;justify-content:center;width:10%;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;border-right: 1px dashed #dedede;">  
                                     <annotation-slider opt="text-variant"></annotation-slider>
                                 </td>
+                                <td style="vertical-align:middle;justify-content:center;width:10%;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;border-right: 1px dashed #dedede;">  
+                                    <annotation-slider opt="break"></annotation-slider>
+                                </td>
                             </tr>      
                         </tbody>
                     </table>   

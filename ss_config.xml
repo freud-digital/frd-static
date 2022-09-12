@@ -4,7 +4,7 @@
         <searchFile>./html/search.html</searchFile>
         <recurse>false</recurse>
         <linkToFragmentId>true</linkToFragmentId>
-        <scrollToTextFragment>false</scrollToTextFragment>
+        <scrollToTextFragment>true</scrollToTextFragment>
         <phrasalSearch>true</phrasalSearch>
         <wildcardSearch>true</wildcardSearch>
         <createContexts>true</createContexts>

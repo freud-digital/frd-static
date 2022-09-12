@@ -394,9 +394,9 @@
         </p>
     </xsl:template>
     <xsl:template match="tei:lb[not(@break) or @break='e']">
-        <br/>
+        <br class="break" style="display:none;"/>
         <xsl:if test="ancestor::tei:p">
-            <a>
+            <a style="display:none;">
                 <xsl:variable name="para" as="xs:int">
                     <xsl:number level="any" from="tei:body" count="tei:p"/>
                 </xsl:variable>
@@ -412,7 +412,7 @@
                 <xsl:choose>
                     <xsl:when test="($lines mod 5) = 0">
                         <xsl:attribute name="class">
-                            <xsl:text>linenumbersVisible linenumbers</xsl:text>
+                            <xsl:text>linenumbersVisible linenumbers break</xsl:text>
                         </xsl:attribute>
                         <xsl:attribute name="data-lbnr">
                             <xsl:value-of select="$lines"/>
@@ -420,7 +420,7 @@
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:attribute name="class">
-                            <xsl:text>linenumbersTransparent linenumbers</xsl:text>
+                            <xsl:text>linenumbersTransparent linenumbers break</xsl:text>
                         </xsl:attribute>
                     </xsl:otherwise>
                 </xsl:choose>            
@@ -437,9 +437,9 @@
     <xsl:template match="tei:lb[@break='paragraph']">
         <xsl:choose>
             <xsl:when test="following-sibling::tei:pb">
-                <xsl:text>[/]</xsl:text>
-                <br/>
-                <a class="linenumbers">
+                <span class="break" style="display:none;">[/]</span>
+                <br class="break" style="display:none;"/>
+                <a style="display:none;">
                     <xsl:variable name="para" as="xs:int">
                         <xsl:number level="any" from="tei:body" count="tei:p"/>
                     </xsl:variable>
@@ -455,7 +455,7 @@
                     <xsl:choose>
                         <xsl:when test="($lines mod 5) = 0">
                             <xsl:attribute name="class">
-                                <xsl:text>linenumbersVisible linenumbers</xsl:text>
+                                <xsl:text>linenumbersVisible linenumbers break</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="data-lbnr">
                                 <xsl:value-of select="$lines"/>
@@ -463,7 +463,7 @@
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:attribute name="class">
-                                <xsl:text>linenumbersTransparent linenumbers</xsl:text>
+                                <xsl:text>linenumbersTransparent linenumbers break</xsl:text>
                             </xsl:attribute>
                         </xsl:otherwise>
                     </xsl:choose>   
@@ -477,8 +477,8 @@
                 </a>
             </xsl:when>
             <xsl:otherwise>
-                <br/>
-                <a class="linenumbers">
+                <br class="break" style="display:none;"/>
+                <a style="display:none;">
                     <xsl:variable name="para" as="xs:int">
                         <xsl:number level="any" from="tei:body" count="tei:p"/>
                     </xsl:variable>
@@ -494,7 +494,7 @@
                     <xsl:choose>
                         <xsl:when test="($lines mod 5) = 0">
                             <xsl:attribute name="class">
-                                <xsl:text>linenumbersVisible linenumbers</xsl:text>
+                                <xsl:text>linenumbersVisible linenumbers break</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="data-lbnr">
                                 <xsl:value-of select="$lines"/>
@@ -502,7 +502,7 @@
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:attribute name="class">
-                                <xsl:text>linenumbersTransparent linenumbers</xsl:text>
+                                <xsl:text>linenumbersTransparent linenumbers break</xsl:text>
                             </xsl:attribute>
                         </xsl:otherwise>
                     </xsl:choose>   
@@ -520,19 +520,17 @@
     <xsl:template match="tei:lb[@break='no']">
         <xsl:choose>
             <xsl:when test="following-sibling::*[1]/name() = 'pb'">
-                <xsl:text>-</xsl:text>
-                <span class="pb-merged">
-                    <xsl:text>[/]</xsl:text>
-                </span>
-                <br/>
+                <span class="break" style="display:none;">-</span>
+                <span class="pb-merged break" style="display:none;">[/]</span>
+                <br class="break" style="display:none;"/>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:text>-</xsl:text>
-                <br/>
+                <span class="break" style="display:none;">-</span>
+                <br class="break" style="display:none;"/>
             </xsl:otherwise>
         </xsl:choose>
         <xsl:if test="ancestor::tei:p">
-            <a class="linenumbers">
+            <a style="display:none;">
                 <xsl:variable name="para" as="xs:int">
                     <xsl:number level="any" from="tei:body" count="tei:p"/>
                 </xsl:variable>
@@ -548,7 +546,7 @@
                 <xsl:choose>
                     <xsl:when test="($lines mod 5) = 0">
                         <xsl:attribute name="class">
-                            <xsl:text>linenumbersVisible linenumbers</xsl:text>
+                            <xsl:text>linenumbersVisible linenumbers break</xsl:text>
                         </xsl:attribute>
                         <xsl:attribute name="data-lbnr">
                             <xsl:value-of select="$lines"/>
@@ -556,7 +554,7 @@
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:attribute name="class">
-                            <xsl:text>linenumbersTransparent linenumbers</xsl:text>
+                            <xsl:text>linenumbersTransparent linenumbers break</xsl:text>
                         </xsl:attribute>
                     </xsl:otherwise>
                 </xsl:choose>   
@@ -567,8 +565,7 @@
                     <xsl:text>0</xsl:text>
                 </xsl:if>
                 <xsl:value-of select="$lines"/>
-            </a>  
-            <xsl:text> </xsl:text>
+            </a>
         </xsl:if>
     </xsl:template>
     <xsl:template match="tei:pb">
@@ -577,13 +574,13 @@
                 
             </xsl:when>
             <xsl:otherwise>
-                <br/>
-                <br/>
+                <br class="break" style="display:none;"/>
+                <br class="break" style="display:none;"/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:fw">
-        <span class="{@type}">
+        <span class="{@type} break" style="display:none;">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
