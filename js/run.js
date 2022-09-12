@@ -2,6 +2,20 @@ var annot =  {
     title: "Text Annotations",
     variants: [
         {
+            opt: "break",
+            opt_slider: "break-slider",
+            title: "Zeilen- und Seitenumbrüche",
+            color: "black",
+            html_class: "break",
+            css_class: "undefined",
+            hide: true,
+            chg_citation: "citation-url",
+            features: {
+                all: false,
+                class: "single-feature"
+            }
+        },
+        {
             opt: "person",
             opt_slider: "person-slider",
             title: "Persons",
