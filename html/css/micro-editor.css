@@ -154,6 +154,10 @@ input:checked + .i-slider:before {
     font-family: 'Courier New', monospace !important;  
 }
 
+.text-re {
+    font-family: 'Courier New', monospace !important;  
+}
+
 .arial-serif {
     font-family: 'Arial', serif !important;
 }

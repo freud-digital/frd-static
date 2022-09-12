@@ -155,7 +155,7 @@
                                 </div>
                                 <xsl:for-each select=".//tei:body/tei:div">
                                     <div class="row text-middle">
-                                        <div class="col-md-8 text-re">                                           
+                                        <div class="col-md-6 text-re">                                           
                                             <xsl:apply-templates/>
                                            
                                             <hr/>
