@@ -7,7 +7,7 @@
     version="2.0">
     <xsl:template match="/" name="html_footer">
         
-        <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: auto;">
+        <div class="wrapper fundament-default-footer hide-reading" id="wrapper-footer-full" style="margin-top: auto;">
             <div class="container" id="footer-full-content" tabindex="-1">
                 <div class="footer-separator">
                     <i data-feather="message-circle"></i> CONTACT
@@ -74,7 +74,7 @@
             </div>
         </div>
         <!-- #wrapper-footer-full -->
-        <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;" >
+        <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;" >
             <a href="imprint.html">Impressum/Imprint</a> | <a href="{$github_url}"><i data-feather="github"></i></a>
         </div>
         <script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script>

@@ -34,7 +34,7 @@
     </xsl:template>
     
     <xsl:template match="tei:app">
-        <xsl:apply-templates select="tei:lem"/>
+        <span class="txtv"><xsl:apply-templates select="tei:lem"/></span>
         <xsl:element name="a">
             <xsl:attribute name="name">
                 <xsl:text>app_anchor__</xsl:text>

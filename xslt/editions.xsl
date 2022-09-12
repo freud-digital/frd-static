@@ -13,10 +13,11 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/osd-container.xsl"/>
-    <xsl:import href="./partials/tei-facsimile.xsl"/>
+    <!--<xsl:import href="./partials/tei-facsimile.xsl"/>-->
     <xsl:import href="./partials/person.xsl"/>
     <xsl:import href="./partials/place.xsl"/>
     <xsl:import href="./partials/org.xsl"/>
+    <xsl:import href="./partials/annotation-options.xsl"/>
 
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"/>
@@ -50,7 +51,7 @@
                     
                     <div class="container-fluid" style="max-width:100%;">                        
                         <div class="card" data-index="true">
-                            <div class="card-header">
+                            <div class="card-header hide-reading">
                                 <div class="row">
                                     <div class="col-md-2">
                                         <xsl:if test="ends-with($prev,'.html')">
@@ -104,7 +105,7 @@
                                     </xsl:for-each>
                                 </ul>
                                 -->
-                                <div class="col-md-8" style="margin:0 auto;justify-content:center;font-style:italic;">
+                                <div class="col-md-8 hide-reading" style="margin:0 auto;justify-content:center;font-style:italic;">
                                     <h3>Über das Werk</h3>
                                     <div style="padding-bottom:1em;">
                                         <xsl:for-each select="//tei:notesStmt/tei:note[@type='e']">
@@ -139,8 +140,9 @@
                                         <a href="#" id="show-text">mehr anzeigen</a>
                                     </div>
                                 </div>
-                                
-
+                                <div style="margin-top:2em;">
+                                    <xsl:call-template name="annotation-options"/>
+                                </div>
                                 <xsl:for-each select=".//tei:body/tei:div">
                                     <div class="row text-middle">
                                         <div class="col-md-8 text-re">                                           
@@ -327,6 +329,8 @@
                 });
                 
             </script>
+            <script src="js/bundle/de-editor.min.js"></script>
+            <script src="js/run.js"></script>
         </html>
     </xsl:template>
 
@@ -355,7 +359,7 @@
                 </xsl:element>                
             </xsl:when>
             <xsl:otherwise>
-                <p class="indentedP" id="{generate-id()}">
+                <p class="yes-index indentedP" id="{generate-id()}">
                     <xsl:apply-templates/>
                 </p>
             </xsl:otherwise>
@@ -374,7 +378,7 @@
             </xsl:attribute>        
             <xsl:text>§ </xsl:text><xsl:value-of select="$para"/>
         </a>
-        <p class="indentedP" id="{generate-id()}">
+        <p class="yes-index indentedP" id="{generate-id()}">
             <xsl:apply-templates/>
         </p>
     </xsl:template>
