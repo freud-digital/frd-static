@@ -944,28 +944,7 @@
             </p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_40">
-               <persName>Deutsch, Felix</persName>
-               <birth>
-                  <date>1884</date>
-               </birth>
-               <death>
-                   <date>1964</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/123979390</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_41">
-               <persName>Deutsch, Helene</persName>
-               <birth>
-                  <date>1884</date>
-               </birth>
-               <death>
-                   <date>1982</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/118524968</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            </listPerson><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
+   <back><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
           <monogr>
             <title level="m">Studien über Hysterie</title>
             <idno type="callNumber">I-176203</idno>
@@ -986,5 +965,26 @@
             </imprint>
           </monogr>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
-        </listBibl></back></text>
+        </listBibl><listPerson><person xml:id="frd_person_40">
+               <persName>Deutsch, Felix</persName>
+               <birth>
+                  <date>1884</date>
+               </birth>
+               <death>
+                   <date>1964</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/123979390</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_41">
+               <persName>Deutsch, Helene</persName>
+               <birth>
+                  <date>1884</date>
+               </birth>
+               <death>
+                   <date>1982</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/118524968</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            </listPerson></back></text>
 </TEI>
