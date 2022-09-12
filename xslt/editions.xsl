@@ -36,7 +36,7 @@
 
     <xsl:template match="/">
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type='manifestation'][1]/text()"/>
+            <xsl:value-of select=".//tei:titleStmt/tei:title[@type='manifestation'][1]/text()"/>
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
@@ -89,6 +89,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
+                                <!--
                                 <h2>Textzeugen</h2>
                                 <ul>
                                     <xsl:for-each select=".//tei:listWit//tei:witness">
@@ -102,9 +103,47 @@
                                         </li>
                                     </xsl:for-each>
                                 </ul>
+                                -->
+                                <div class="col-md-8" style="margin:0 auto;justify-content:center;font-style:italic;">
+                                    <h3>Über das Werk</h3>
+                                    <div style="padding-bottom:1em;">
+                                        <xsl:for-each select="//tei:notesStmt/tei:note[@type='e']">
+                                            <label><strong><xsl:value-of select="./tei:title"/></strong></label>
+                                            <p><xsl:value-of select="./tei:p"/></p>
+                                        </xsl:for-each>
+                                    </div>
+                                    <div class="about-text-hidden fade">
+                                        <xsl:for-each select="//tei:titleStmt/tei:editor">
+                                            <ul style="padding-bottom:1em;padding-left:0;">
+                                                <label><strong>Herausgeberinnen</strong></label>
+                                                <xsl:for-each select="./tei:name">
+                                                    <li style="list-style:none;">
+                                                        <xsl:apply-templates/>
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </xsl:for-each>
+                                        <xsl:for-each select="//tei:sourceDesc/tei:listWit">
+                                            <ul style="padding-bottom:1em;padding-left:0;">
+                                                <label><strong>Textzeugen</strong></label>                                                
+                                                <xsl:for-each select="./tei:witness">                                                    
+                                                    <li style="list-style:none;">
+                                                        <label><strong><xsl:value-of select="./tei:idno"/></strong></label>
+                                                        <xsl:value-of select="./text()[not(parent::tei:idno)]"/>
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </xsl:for-each>
+                                    </div>
+                                    <div>
+                                        <a href="#" id="show-text">mehr anzeigen</a>
+                                    </div>
+                                </div>
+                                
+
                                 <xsl:for-each select=".//tei:body/tei:div">
                                     <div class="row text-middle">
-                                        <div class="col-md-6 text-re">                                           
+                                        <div class="col-md-8 text-re">                                           
                                             <xsl:apply-templates/>
                                            
                                             <hr/>
@@ -159,16 +198,15 @@
                                                                             <xsl:variable name="witId">
                                                                                 <xsl:value-of select="substring-after(., '#')"/>
                                                                             </xsl:variable>
-                                                                            
-                                                                            ]<xsl:element name="a">
-                                                                                <xsl:attribute name="title"><xsl:value-of select="string-join($listWit//tei:witness[@xml:id=$witId]//text())"/></xsl:attribute>
+                                                                            <xsl:text> ] </xsl:text>
+                                                                            <xsl:element name="a">
+                                                                                <xsl:attribute name="title"><xsl:value-of select="normalize-space(string-join($listWit//tei:witness[@xml:id=$witId]//text()))"/></xsl:attribute>
                                                                                 <xsl:attribute name="href">
                                                                                     <xsl:value-of select="replace($witId, '.xml', '.html')"/>
                                                                                 </xsl:attribute>
                                                                                 <xsl:value-of select="$listWit//tei:witness[@xml:id=$witId]/tei:idno/text()"/>
                                                                             </xsl:element>
                                                                         </xsl:for-each>
-                                                                        
                                                                     </li>
                                                                 </xsl:for-each>
                                                             </ul>
@@ -273,7 +311,22 @@
                     </xsl:for-each>
                     <xsl:call-template name="html_footer"/>
                 </div>
-            </body>     
+            </body> 
+            <script type="text/javascript">
+                
+                $('#show-text').click(function () {
+                    if ($('.about-text-hidden').hasClass('fade') == true) {
+                        $('.about-text-hidden').removeClass('fade')
+                        .addClass('active');
+                        $(this).html('weniger anzeigen');
+                    } else {
+                        $('.about-text-hidden').removeClass('active')
+                        .addClass('fade');
+                        $(this).html('mehr anzeigen');
+                    }  
+                });
+                
+            </script>
         </html>
     </xsl:template>
 
@@ -325,7 +378,7 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="tei:lb[not(@break)]">
+    <xsl:template match="tei:lb[not(@break) or @break='e']">
         <br/>
         <xsl:if test="ancestor::tei:p">
             <a>
@@ -371,9 +424,81 @@
             <xsl:when test="following-sibling::tei:pb">
                 <xsl:text>[/]</xsl:text>
                 <br/>
+                <a class="linenumbers">
+                    <xsl:variable name="para" as="xs:int">
+                        <xsl:number level="any" from="tei:body" count="tei:p"/>
+                    </xsl:variable>
+                    <xsl:variable name="lines" as="xs:int">
+                        <xsl:number level="any" from="tei:body"/>
+                    </xsl:variable>
+                    <xsl:attribute name="href">
+                        <xsl:text>#</xsl:text><xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="name">
+                        <xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines"/>
+                    </xsl:attribute>
+                    <xsl:choose>
+                        <xsl:when test="($lines mod 5) = 0">
+                            <xsl:attribute name="class">
+                                <xsl:text>linenumbersVisible linenumbers</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="data-lbnr">
+                                <xsl:value-of select="$lines"/>
+                            </xsl:attribute>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:attribute name="class">
+                                <xsl:text>linenumbersTransparent linenumbers</xsl:text>
+                            </xsl:attribute>
+                        </xsl:otherwise>
+                    </xsl:choose>   
+                    <xsl:if test="$lines lt 10">
+                        <xsl:text>00</xsl:text>
+                    </xsl:if>
+                    <xsl:if test="$lines lt 100 and $lines >= 10">
+                        <xsl:text>0</xsl:text>
+                    </xsl:if>
+                    <xsl:value-of select="$lines"/>
+                </a>
             </xsl:when>
             <xsl:otherwise>
                 <br/>
+                <a class="linenumbers">
+                    <xsl:variable name="para" as="xs:int">
+                        <xsl:number level="any" from="tei:body" count="tei:p"/>
+                    </xsl:variable>
+                    <xsl:variable name="lines" as="xs:int">
+                        <xsl:number level="any" from="tei:body"/>
+                    </xsl:variable>
+                    <xsl:attribute name="href">
+                        <xsl:text>#</xsl:text><xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="name">
+                        <xsl:value-of select="ancestor::tei:div/@xml:id"/><xsl:text>__p</xsl:text><xsl:value-of select="$para"/><xsl:text>__lb</xsl:text><xsl:value-of select="$lines"/>
+                    </xsl:attribute>
+                    <xsl:choose>
+                        <xsl:when test="($lines mod 5) = 0">
+                            <xsl:attribute name="class">
+                                <xsl:text>linenumbersVisible linenumbers</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="data-lbnr">
+                                <xsl:value-of select="$lines"/>
+                            </xsl:attribute>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:attribute name="class">
+                                <xsl:text>linenumbersTransparent linenumbers</xsl:text>
+                            </xsl:attribute>
+                        </xsl:otherwise>
+                    </xsl:choose>   
+                    <xsl:if test="$lines lt 10">
+                        <xsl:text>00</xsl:text>
+                    </xsl:if>
+                    <xsl:if test="$lines lt 100 and $lines >= 10">
+                        <xsl:text>0</xsl:text>
+                    </xsl:if>
+                    <xsl:value-of select="$lines"/>
+                </a>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -443,9 +568,7 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:fw">
-        <span class="{@type}" style="position: relative;
-            padding-right: 11.3em;
-            margin-left: -10em;">
+        <span class="{@type}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>

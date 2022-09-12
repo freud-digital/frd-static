@@ -24,14 +24,15 @@
                     <div class="container-fluid">
                         <div class="card">
                             <div class="card-header">
-                                <h1>Table of Contents</h1>
+                                <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
                             <div class="card-body">
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Werk</th>
-                                            <th scope="col">Dateinname</th>                                            
+                                            <th scope="col">Edition</th>
+                                            <th scope="col">Signatur</th>
+                                            <th scope="col">Datum</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -42,27 +43,27 @@
                                             <xsl:variable name="html_name">
                                                 <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
                                             </xsl:variable>
-                                            <xsl:if test="not(contains($full_path, '__'))">
-                                                <tr>
-                                                    <td>
-                                                        <a>
-                                                            <xsl:attribute name="href">                                                
-                                                                <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
-                                                            </xsl:attribute>
-                                                            <xsl:value-of select=".//tei:title[@type='work']/tei:rs/text()"/>
-                                                        </a>
-                                                    </td>
-                                                    <td>
-                                                        <a>
-                                                            <xsl:attribute name="href">                                                
-                                                                <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
-                                                            </xsl:attribute>
+                                            <tr>
+                                                <td>
+                                                    <a>
+                                                        <xsl:attribute name="href">                                                
+                                                            <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select=".//tei:titleStmt/tei:title[@type='work']"/>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a>
+                                                        <xsl:attribute name="href">                                                
                                                             <xsl:value-of select="$html_name"/>
-                                                        </a>
-                                                    </td>  
-                                                     
-                                                </tr>          
-                                            </xsl:if>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select="replace($html_name, '.html', '')"/>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of select="//tei:profileDesc//tei:date[@type='a']/@when"/>
+                                                </td>
+                                            </tr>
                                         </xsl:for-each>
                                     </tbody>
                                 </table>
@@ -79,33 +80,5 @@
                 </div>
             </body>
         </html>
-    </xsl:template>
-    <xsl:template match="tei:div//tei:head">
-        <h2 id="{generate-id()}"><xsl:apply-templates/></h2>
-    </xsl:template>
-    
-    <xsl:template match="tei:p">
-        <p id="{generate-id()}"><xsl:apply-templates/></p>
-    </xsl:template>
-    
-    <xsl:template match="tei:list">
-        <ul id="{generate-id()}"><xsl:apply-templates/></ul>
-    </xsl:template>
-    
-    <xsl:template match="tei:item">
-        <li id="{generate-id()}"><xsl:apply-templates/></li>
-    </xsl:template>
-    <xsl:template match="tei:ref">
-        <xsl:choose>
-            <xsl:when test="starts-with(data(@target), 'http')">
-                <a>
-                    <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
-                    <xsl:value-of select="."/>
-                </a>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:apply-templates/>
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>

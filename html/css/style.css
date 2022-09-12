@@ -68,10 +68,9 @@ body {
 
 .linenumbers {
     font-size: 12px;
-    position:relative;
-    padding-right:1.5em;
-    margin-left:-1em;
-    bottom:2em;
+    position: absolute;
+    margin-left: -5.5em;
+    margin-top: -1.8em;
 }
 
 .place {
@@ -95,13 +94,23 @@ body {
     color: #444;
 }
 
+.fade {
+    display: none;
+}
+
+.pageNum {
+    position: relative;
+    padding-right: 11.3em;
+    margin-left: -10em;
+}
+
 .linenumbersTransparent {
     color: transparent;
 }
 
 .paranum {
     font-size: 12px;
-    margin-left: -5em;
+    /*margin-left: -5em;*/
 }
 
 .em {
