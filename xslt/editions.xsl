@@ -340,7 +340,7 @@
                 });
                 
             </script>
-            <script src="js/bundle/de-editor.min.js"></script>
+            <script src="https://unpkg.com/de-micro-editor@0.1.0/dist/de-editor.min.js"></script>
             <script src="js/run.js"></script>
         </html>
     </xsl:template>

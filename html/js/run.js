@@ -1,4 +1,4 @@
-var options = {
+var editor = new LoadEditor({
     aot:  {
         title: "Text Annotations",
         variants: [
@@ -190,7 +190,4 @@ var options = {
         active_class: "active",
         html_class: "custom-select"
     }
-}
-var editor = new LoadEditor(options);
-editor.cookie();
-editor.build();
+});
