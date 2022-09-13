@@ -5,7 +5,7 @@ var annot =  {
             opt: "break",
             opt_slider: "break-slider",
             title: "Zeilen- und Seitenumbrüche",
-            color: "black",
+            color: "lightgrey",
             html_class: "break",
             css_class: "undefined",
             hide: true,
@@ -60,7 +60,7 @@ var annot =  {
         {
             opt: "dream",
             opt_slider: "dream-slider",
-            title: "Dreams",
+            title: "Träume",
             color: "pink",
             html_class: "dream",
             css_class: "drm",
@@ -75,9 +75,23 @@ var annot =  {
             opt: "text-variant",
             opt_slider: "text-variant-slider",
             title: "Textvarianten",
-            color: "yellow",
+            color: "blueisch",
             html_class: "txtv",
             css_class: "text-variant",
+            hide: false,
+            chg_citation: "citation-url",
+            features: {
+                all: false,
+                class: "single-feature"
+            }
+        },
+        {
+            opt: "editorial-notes",
+            opt_slider: "editorial-notes-slider",
+            title: "Stellenkommentare",
+            color: "orange",
+            html_class: "e-notes",
+            css_class: "editorial-notes",
             hide: false,
             chg_citation: "citation-url",
             features: {

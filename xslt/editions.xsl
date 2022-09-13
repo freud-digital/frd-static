@@ -641,6 +641,9 @@
             <xsl:attribute name="href">
                 <xsl:text>#editorial_note_target__</xsl:text><xsl:number level="any" format="001" count="tei:note[@type='e']"/>
             </xsl:attribute>
+            <xsl:attribute name="class">
+                <xsl:text>e-notes</xsl:text>
+            </xsl:attribute>
             <sup><xsl:number level="any" format="001" count="tei:note[@type='e']"/></sup>
         </xsl:element>
     </xsl:template>
