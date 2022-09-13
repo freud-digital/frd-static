@@ -130,11 +130,17 @@ input:checked + .i-slider:before {
 .green {
     background-color: #c9ffcf;
 }
-.yellow {
-    background-color: #FFFF99;
+.blueisch {
+    background-color: #A1FFFB;
 }
 .pink {
     background-color: #FF99FA;
+}
+.lightgrey {
+    
+}
+.orange {
+    background-color: #FFDE74;
 }
 
 #clear-link {
