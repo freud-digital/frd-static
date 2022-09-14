@@ -13,7 +13,7 @@
 
 /* Hide default HTML checkbox */
 .switch input {
-    opacity: 0;
+    /* opacity: 0; */
     width: 0;
     height: 0;
 }
@@ -149,6 +149,15 @@ input:checked + .i-slider:before {
 
 .badge-item {
     border-radius: .25rem;
+}
+.slider-number::after {
+    content: "(" attr(data) ")";
+    color: #444;
+    display: block;
+    width: 50px;
+    position: absolute;
+    top: 1.5em;
+    right: 2em;
 }
 
 /* font styles and sizes */

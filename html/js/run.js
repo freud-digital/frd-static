@@ -19,7 +19,7 @@ var editor = new LoadEditor({
             {
                 opt: "person",
                 opt_slider: "person-slider",
-                title: "Persons",
+                title: "Personen",
                 color: "red",
                 html_class: "person",
                 css_class: "psn",
@@ -33,7 +33,7 @@ var editor = new LoadEditor({
             {
                 opt: "place",
                 opt_slider: "place-slider",
-                title: "Places",
+                title: "Orte",
                 color: "blue",
                 html_class: "place",
                 css_class: "plc",
@@ -47,7 +47,7 @@ var editor = new LoadEditor({
             {
                 opt: "keyword",
                 opt_slider: "keyword-slider",
-                title: "Keywords",
+                title: "Schlagworte",
                 color: "green",
                 html_class: "kw",
                 css_class: "keyword",
@@ -125,11 +125,11 @@ var editor = new LoadEditor({
         }
     },
     ff: {
-        name: "Change font family",
+        name: "Schriftarten ändern",
         variants:  [
             {
                 opt: "select-font",
-                title: "Font family",
+                title: "Schriftarten",
                 urlparam: "font",
                 chg_citation: "citation-url",
                 fonts: {
@@ -147,7 +147,7 @@ var editor = new LoadEditor({
         html_class: "custom-select"
     },
     fs: {
-        name: "Create full size mode",
+        name: "Anzeige erweitern",
         variants:  [
             {
                 opt: "edition-fullsize",
@@ -168,11 +168,11 @@ var editor = new LoadEditor({
         }
     },
     fos: {
-        name: "Change font size",
+        name: "Schriftgröße ändern",
         variants:  [
             {
                 opt: "select-fontsize",
-                title: "Font size",
+                title: "Schriftgrößen",
                 urlparam: "fontsize",
                 chg_citation: "citation-url",
                 sizes: {
