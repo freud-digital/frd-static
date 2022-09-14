@@ -24,9 +24,10 @@
                     <div class="container-fluid">
                         <div class="card">
                             <div class="card-header">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
+                                <h1><xsl:value-of select="$doc_title"/></h1>                                
                             </div>
                             <div class="card-body">
+                                <h2>Historisch Kritisch</h2>
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
@@ -36,7 +37,50 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <xsl:for-each select="collection('../data/editions')//tei:TEI">
+                                        <xsl:for-each select="collection('../data/editions/critical')//tei:TEI">
+                                            <xsl:variable name="full_path">
+                                                <xsl:value-of select="document-uri(/)"/>
+                                            </xsl:variable>
+                                            <xsl:variable name="html_name">
+                                                <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
+                                            </xsl:variable>
+                                            <tr>
+                                                <td>
+                                                    <a>
+                                                        <xsl:attribute name="href">                                                
+                                                            <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select=".//tei:titleStmt/tei:title[@type='work']"/>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a>
+                                                        <xsl:attribute name="href">                                                
+                                                            <xsl:value-of select="$html_name"/>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select="replace($html_name, '.html', '')"/>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of select="//tei:profileDesc//tei:date[@type='a']/@when"/>
+                                                </td>
+                                            </tr>
+                                        </xsl:for-each>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="card-body">
+                                <h2>OCR Korrektur</h2>
+                                <table class="table table-striped display" id="tocTable2" style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Edition</th>
+                                            <th scope="col">Signatur</th>
+                                            <th scope="col">Datum</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <xsl:for-each select="collection('../data/editions/plain')//tei:TEI">
                                             <xsl:variable name="full_path">
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>
@@ -74,7 +118,12 @@
                     <xsl:call-template name="html_footer"/>
                     <script>
                         $(document).ready(function () {
-                            createDataTable('tocTable')
+                            createDataTable('tocTable');
+                        });
+                    </script>
+                    <script>
+                        $(document).ready(function () {
+                            createDataTable('tocTable2');
                         });
                     </script>
                 </div>
