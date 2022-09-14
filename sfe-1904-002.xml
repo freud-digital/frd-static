@@ -944,28 +944,7 @@
             </p>
          </div>
       </body>
-   <back><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
-          <monogr>
-            <title level="m">Studien über Hysterie</title>
-            <idno type="callNumber">I-176203</idno>
-            <author>
-              <forename>Josef</forename>
-              <surname>Breuer</surname>
-            </author>
-            <author>
-              <forename>Sigmund</forename>
-              <surname>Freud</surname>
-            </author>
-            <imprint>
-              <pubPlace>Leipzig Wien</pubPlace>
-              <publisher>Deuticke</publisher>
-              <date>1895</date>
-              <note type="accessed">2022-07-19T11:05:41Z</note>
-              <note type="url">http://phaidra.univie.ac.at/o:350215</note>
-            </imprint>
-          </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
-        </listBibl><listPerson><person xml:id="frd_person_41">
+   <back><listPerson><person xml:id="frd_person_41">
                <persName>Deutsch, Helene</persName>
                <birth>
                   <date>1884</date>
@@ -986,5 +965,26 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/123979390</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            </listPerson></back></text>
+            </listPerson><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
+          <monogr>
+            <title level="m">Studien über Hysterie</title>
+            <idno type="callNumber">I-176203</idno>
+            <author>
+              <forename>Josef</forename>
+              <surname>Breuer</surname>
+            </author>
+            <author>
+              <forename>Sigmund</forename>
+              <surname>Freud</surname>
+            </author>
+            <imprint>
+              <pubPlace>Leipzig Wien</pubPlace>
+              <publisher>Deuticke</publisher>
+              <date>1895</date>
+              <note type="accessed">2022-07-19T11:05:41Z</note>
+              <note type="url">http://phaidra.univie.ac.at/o:350215</note>
+            </imprint>
+          </monogr>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
+        </listBibl></back></text>
 </TEI>
