@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="sfe-1904-006.xml" prev="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml" next="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -121,18 +121,14 @@
                      </editor>
                      <date when="2022">2022</date>
                      <idno type="signature">1904-006/1904</idno>
-                     <idno type="url"
-                        >https://www.freud-edition.net/werke/rezension-von-lowenfeld-leopold-die-psychischen-zwangserscheinungen/druckversion</idno>
-                     <idno type="api"
-                        >https://www.freud-edition.net/jsonapi/node/manifestation/1d377a06-1508-4e62-87c2-ef264a39d522</idno>
+                     <idno type="url">https://www.freud-edition.net/werke/rezension-von-lowenfeld-leopold-die-psychischen-zwangserscheinungen/druckversion</idno>
+                     <idno type="api">https://www.freud-edition.net/jsonapi/node/manifestation/1d377a06-1508-4e62-87c2-ef264a39d522</idno>
                      <relatedItem type="work">
                         <bibl xml:id="bibl__4b6869f3-e463-4498-9fa2-b0a6e55b7882">
                            <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
                               L[eopold] ›Die psychischen Zwangserscheinungen‹</title>
-                           <idno type="url"
-                              >https://www.freud-edition.net/werke/freud-sigmund/rezension-von-lowenfeld-leopold-die-psychischen-zwangserscheinungen</idno>
-                           <idno type="api"
-                              >https://www.freud-edition.net/jsonapi/werk/4b6869f3-e463-4498-9fa2-b0a6e55b7882</idno>
+                           <idno type="url">https://www.freud-edition.net/werke/freud-sigmund/rezension-von-lowenfeld-leopold-die-psychischen-zwangserscheinungen</idno>
+                           <idno type="api">https://www.freud-edition.net/jsonapi/werk/4b6869f3-e463-4498-9fa2-b0a6e55b7882</idno>
                         </bibl>
                      </relatedItem>
                   </bibl>
@@ -141,8 +137,7 @@
                   <msDesc>
                      <msIdentifier>
                         <repository>IPU</repository>
-                        <idno type="api"
-                           >https://www.freud-edition.net/jsonapi/taxonomy_term/archive/0fd1eab6-5292-468c-8d35-10d7345ea492</idno>
+                        <idno type="api">https://www.freud-edition.net/jsonapi/taxonomy_term/archive/0fd1eab6-5292-468c-8d35-10d7345ea492</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -186,16 +181,10 @@
                   <title>Freudsche Psychoanalytische Methode</title> ist eine „Mitteilung des
                Autors“, wie in Klammern im Untertitel angeführt wird, und wurde von Freud selbst
                verfasst. Zuvor erschien 1901 Freuds Schrift <title>Über den Traum</title> in der
-               Reihe <title>Grenzfragen des Nerven- und Seelenlebens</title> , welche von <rs
-                  type="person" ref="frd_person_41">Leopold Löwenfeld</rs> und<rs type="person"
-                  ref="frd_person_44"> Hans Kurella</rs> herausgegeben wurde. Ein Blick auf das <ref
-                  target="https://archive.org/details/Freud_1901_Ueber_Traum/page/n1/mode/2up"
-                     ><term>Inhaltsverzeichnis</term></ref> der Reihe zeigt die thematischen und
+               Reihe <title>Grenzfragen des Nerven- und Seelenlebens</title> , welche von <rs type="person" ref="frd_person_41">Leopold Löwenfeld</rs> und<rs type="person" ref="frd_person_44"> Hans Kurella</rs> herausgegeben wurde. Ein Blick auf das <ref target="https://archive.org/details/Freud_1901_Ueber_Traum/page/n1/mode/2up"><term>Inhaltsverzeichnis</term></ref> der Reihe zeigt die thematischen und
                personellen Verschränkungen auf dem Gebiet von Traumforschung, Sexual- und
                Psychopathologie, aus welchen sich die Psychoanalyse konsolidierte.</p>
-            <p>Das <title>Journal für Psychologie und Neurologie</title> wurde von <rs type="person"
-                  ref="frd_person_42">August Forel</rs> und <rs type="person" ref="frd_person_43"
-                  >Oskar Vogt</rs> seit 1902 herausgegeben und führte anfangs zusätzlich noch die
+            <p>Das <title>Journal für Psychologie und Neurologie</title> wurde von <rs type="person" ref="frd_person_42">August Forel</rs> und <rs type="person" ref="frd_person_43">Oskar Vogt</rs> seit 1902 herausgegeben und führte anfangs zusätzlich noch die
                Bandzählung der Vorgängerzeitschrift unter dem Titel <title>Zeitschrift für
                   Hypnotismus</title> am Titelblatt. Hier hatte Freud bereits 1893 den Artikel
                   <title>Ein Fall von hypnotischer Heilung nebst Bemerkungen über die Entstehung
@@ -210,14 +199,10 @@
 
             <pb n="1" xml:id="page__1ad9f2fe-736e-4fec-8115-70b81251c7a6"/>
             <fw type="pageNum">190</fw>
-            <p rendition="h1"><title>REFERATE ÜBER BÜCHER UND AUFSÄTZE.<lb break="paragraph"
-                  /></title></p>
+            <p rendition="h1"><title>REFERATE ÜBER BÜCHER UND AUFSÄTZE.<lb break="paragraph"/></title></p>
             <p><hi rendition="#bold">Löwenfeld</hi>. <hi rendition="#smallcaps">Die psychischen
-                     Zwangs<lb break="no"/>erscheinungen.</hi> J. F. Bergmann, 1904.<lb
-                  break="paragraph"/></p>
-            <p>Das vorliegende Werk von <rs type="person" ref="frd_person_41"><hi
-                     rendition="#smallcaps">Löwenfeld</hi></rs><note type="e" resp="#chuber"
-                     ><term>Löwenfeld</term> Leopold Löwenfeld (1847-1923), Mediziner, wirkte vor
+                     Zwangs<lb break="no"/>erscheinungen.</hi> J. F. Bergmann, 1904.<lb break="paragraph"/></p>
+            <p>Das vorliegende Werk von <rs type="person" ref="frd_person_41"><hi rendition="#smallcaps">Löwenfeld</hi></rs><note type="e" resp="#chuber"><term>Löwenfeld</term> Leopold Löwenfeld (1847-1923), Mediziner, wirkte vor
                   allem in München als Nervenarzt. Er beschäftigte sich mit Hypnose,
                   Zwangsphänomenen und Sexualpathologie, veröffentlichte aber auch zu Somnabulismus,
                   Spiritismus und Dummheit. </note> ,<lb/> das unter dem Titel „Die psychischen
@@ -237,81 +222,65 @@
                Darstellung eines schon ungezählte Male<lb/> behandelten Gegenstandes gewandt,
                sondern<lb/> ein noch wenig erforschtes Gebiet ordnend<lb/> und sichtend in Angriff
                genommen hat.<lb break="paragraph"/></p>
-            <p>Die Schwierigkeiten, die sich unter<lb/> solchen Umständen dem Bearbeiter entgegen<lb
-                  break="no"/>stellen, sind von nicht gewöhnlicher Art.<lb/> Alle Definitionen sind
+            <p>Die Schwierigkeiten, die sich unter<lb/> solchen Umständen dem Bearbeiter entgegen<lb break="no"/>stellen, sind von nicht gewöhnlicher Art.<lb/> Alle Definitionen sind
                schwankend, über die<lb/> Abgrenzungen ist Einigkeit noch nicht erzielt<lb/> worden.
                Was <hi rendition="#smallcaps">Löwenfeld</hi> als „psychischen<lb/> Zwang“ behandelt,
                geht weit über den Um<lb break="no"/>fang der sog. Zwangsvorstellungskrankheit<lb/>
-               hinaus und schließt noch die Phobien, einen<lb/> Teil der Abulien<note type="e"
-                  resp="#chuber"><term>Abulien</term>Abulie, griech. krankhafte
+               hinaus und schließt noch die Phobien, einen<lb/> Teil der Abulien<note type="e" resp="#chuber"><term>Abulien</term>Abulie, griech. krankhafte
                   Willensschwäche.</note> und sämtliche neurotische<lb/> Angstzustände, auch die
                Anfälle von „in<lb break="no"/>haltsloser“ Angst, mit ein. Für den Leser<lb/> des
                Buches ergibt sich so ein unerwarteter<lb/> Gewinn, für den Autor aber stellt sich
                die<lb/> Unmöglichkeit her, über Mechanismus, Ätio<lb break="no"/>logie und Verlauf
-               der „psychischen <rs type="keyword" ref="frd_kw_3393">Zwangs<lb break="no"
-                  />erscheinungen</rs>“ etwas allgemein Zutreffendes<lb/> auszusagen, da die in
+               der „psychischen <rs type="keyword" ref="frd_kw_3393">Zwangs<lb break="no"/>erscheinungen</rs>“ etwas allgemein Zutreffendes<lb/> auszusagen, da die in
                ihrem Wesen dispa<lb break="no"/>raten Affektionen sich auch in all diesen<lb/>
                Momenten weit von einander entfernen.<lb break="paragraph"/></p>
             <p><hi rendition="#smallcaps">Löwenfeld</hi> hält seine, nach des Ref.<lb/> Meinung
                künstliche, Einheit durch die De<lb break="no"/>finition des psychischen Zwanges
                zusammen,<lb/> als dessen Grundcharakter er die „Immobi<lb break="no"/>lität“, den
-               Mangel der Verdrängbarkeit durch<lb/> Willenseinflüsse betrachtet. Aber er aner<lb
-                  break="no"/>kennt auch — gewiß mit Recht — Zwangs<lb break="no"/>empfindungen und
+               Mangel der Verdrängbarkeit durch<lb/> Willenseinflüsse betrachtet. Aber er aner<lb break="no"/>kennt auch — gewiß mit Recht — Zwangs<lb break="no"/>empfindungen und
                Zwangsaffekte, während<lb/> wir gewohnt sind, von unserer normalen<lb/>
                Willenstätigkeit nur die Verdrängung von<lb/> Vorstellungen und
                Vorstellungskomplexen,<lb/> nicht auch die Aufhebung von Empfindungen<lb/> oder
                Gefühlen zu fordern. Wer an einem<lb/> Angstanfall leidet, pflegt zu klagen, daß
                er<lb/> sich so schlecht fühlt, nicht aber sich zu<lb/> verwundern, daß er einen
                „Zwang“ nicht<lb/> beseitigen kann. Bei konsequenter Anwen<lb break="no"/>dung seines
-               Kriteriums hätte der Autor<lb/> übrigens auch ein gutes Stück der hysteri<lb
-                  break="no"/>schen Symptomatologie mitbehandeln müssen,<lb/> welchem der Charakter
+               Kriteriums hätte der Autor<lb/> übrigens auch ein gutes Stück der hysteri<lb break="no"/>schen Symptomatologie mitbehandeln müssen,<lb/> welchem der Charakter
                der Immobilität, der<lb/> Unverdrängbarkeit durch Willenseinflüsse in<lb/>
                ausgeprägtester Weise zukommt.<lb break="paragraph"/></p>
             <p>Es war daher vielleicht nicht zweck<lb break="no"/>mäßig, den Begriff „Zwang“ in
                seinem logi<lb break="no"/>schen Sinne zur Abgrenzung zu benützen. Es<lb/> ist aber
                schwierig, derzeit etwas Besseres an<lb/> die Stelle zu setzen. In Wirklichkeit ist
                die<lb/> innere Verschiedenheit der vom Autor zu<lb break="no"/>sammengefaßten
-               Affektionen leichter zu<lb/> ahnen und aus gewissen Anzeichen zu er<lb break="no"
-               />raten als klarzulegen. Die richtigen Unter<lb break="no"/>scheidungen dürften sich
+               Affektionen leichter zu<lb/> ahnen und aus gewissen Anzeichen zu er<lb break="no"/>raten als klarzulegen. Die richtigen Unter<lb break="no"/>scheidungen dürften sich
                erst angeben lassen,<lb/> wenn der psychologische Mechanismus der<lb/> einzelnen
                Formen genauer bekannt ge<lb break="no"/>worden ist. Im Mittelpunkte aller auf
                die<lb/> Auffassung der Zwangsphänomene bezüg<lb break="no"/>lichen Fragen steht das
-               Problem der neuro<lb break="no"/>tischen <rs type="keyword" ref="frd_kw_134"
-                  >Angst</rs>. Mit der Aufklärung, woher<lb/> diese Angst stammt, und unter welchen
+               Problem der neuro<lb break="no"/>tischen <rs type="keyword" ref="frd_kw_134">Angst</rs>. Mit der Aufklärung, woher<lb/> diese Angst stammt, und unter welchen
                   Be<lb break="no"/>dingungen sie auftritt, wäre der Schüssel<lb/> zum Verständnis
-               der <rs type="keyword" ref="frd_kw_2139">Psychoneurosen</rs> ge<lb break="no"
-               />wonnen. Ref. kann nur bedauern, daß der<lb/> Autor auch diesmal der von ihm [Ref.]
+               der <rs type="keyword" ref="frd_kw_2139">Psychoneurosen</rs> ge<lb break="no"/>wonnen. Ref. kann nur bedauern, daß der<lb/> Autor auch diesmal der von ihm [Ref.]
                   auf<lb break="no"/>gestellten Formel nicht beigetreten ist, welche<lb/> aussagt,
                daß die neurotische Angst somati<lb break="no"/>scher Herkunft ist, aus dem
-               Sexualleben<lb/> stammt und einer verwandelten <rs type="keyword" ref="frd_kw_1605"
-                  >Libido</rs> ent<lb break="no"/>spricht. Die Richtigkeit oder wenigstens<lb/> den
+               Sexualleben<lb/> stammt und einer verwandelten <rs type="keyword" ref="frd_kw_1605">Libido</rs> ent<lb break="no"/>spricht. Die Richtigkeit oder wenigstens<lb/> den
                heuristischen Wert dieser Aufstellung<lb/> versuchte Ref. seinerzeit [1895] an dem
-                  Bei<lb break="no"/>spiel seiner „Angstneurose“ zu erweisen<note type="e"
-                  resp="#chuber"><term>versuchte Ref. seinerzeit [1895] am Beispiel der
-                     „Angstneurose“ zu erweisen </term>Freud verweist hier auf den Aufsatz <title
-                     ref="#zotero_WP5QCST7">„Über die Berechtigung, von der Neurasthenie einen
+                  Bei<lb break="no"/>spiel seiner „Angstneurose“ zu erweisen<note type="e" resp="#chuber"><term>versuchte Ref. seinerzeit [1895] am Beispiel der
+                     „Angstneurose“ zu erweisen </term>Freud verweist hier auf den Aufsatz <title ref="#zotero_WP5QCST7">„Über die Berechtigung, von der Neurasthenie einen
                      bestimmten Symptomenkomplex als ‚Angstneurose‘ abzutrennen“</title> aus dem
                   Neurologischen Centralblatt, 14. Jg. (1895), Nr. 2, S. 50-66. </note> .<lb/>
                <hi rendition="#smallcaps">Löwenfeld</hi> wendet gegen diese Ableitung<lb/> der Angst
                ein, daß sich sexuelle Schädlich<lb break="no"/>keiten nicht in der Ätiologie aller
                Fälle von<lb/>
-               <rs type="keyword" ref="frd_kw_144">Angstneurose</rs>, sondern nur bei etwa 75%<lb
-                  break="paragraph"/><pb n="2" xml:id="page__3cc111da-0b8e-4bbf-b78f-bdb161a90dc5"
-                  /><fw type="pageNum">191</fw>nachweisen lassen. Ref. akzeptiert diese<lb/> Zahl;
+               <rs type="keyword" ref="frd_kw_144">Angstneurose</rs>, sondern nur bei etwa 75%<lb break="paragraph"/><pb n="2" xml:id="page__3cc111da-0b8e-4bbf-b78f-bdb161a90dc5"/><fw type="pageNum">191</fw>nachweisen lassen. Ref. akzeptiert diese<lb/> Zahl;
                er möchte sich aber gegen den nahe<lb break="no"/>liegenden Vorwurf verwahren, daß er
                einer<lb/> Theorie zuliebe gegen die Beobachtung ver<lb break="no"/>blendet wurde.
                Ref. hat die Fälle von Angst<lb break="no"/>neurose ohne sexuelle Ätiologie bereits
                1895<lb/> gekannt und gewürdigt, denn er sagt aus<lb break="no"/>drücklich in dem
-               erwähnten Aufsatz über<lb/> die Angstneurose<note><term type="e" resp="#chuber"
-                     >Aufsatz über die Angstneurose</term>Aus dem Aufsatz <title>Über die
+               erwähnten Aufsatz über<lb/> die Angstneurose<note><term type="e" resp="#chuber">Aufsatz über die Angstneurose</term>Aus dem Aufsatz <title>Über die
                      Berechtigung, von der Neurasthenie einen bestimmten Symptomenkomplex als
-                     „Angstneurose“ abzutrennen</title>, S. 58. </note>: <quote
-                  source="#zotero_WP5QCST7">„Die letzte der anzu<lb break="no"/>führenden
+                     „Angstneurose“ abzutrennen</title>, S. 58. </note>: <quote source="#zotero_WP5QCST7">„Die letzte der anzu<lb break="no"/>führenden
                   ätiologischen Bedingungen scheint<lb/> zunächst überhaupt nicht sexueller Natur
                   zu<lb/> sein. Die Angstneurose entsteht, und zwar<lb/> bei beiden Geschlechtern,
                   auch durch das<lb/> Moment der Überarbeitung, erschöpfender<lb/> Anstrengung z. B.
-                  nach Nachtwachen, Kranken<lb break="no"/>pflegen und selbst nach schweren Krank<lb
-                     break="no"/>heiten.“</quote> Diese Stelle pflegen Kritiker im<lb/> Interesse
+                  nach Nachtwachen, Kranken<lb break="no"/>pflegen und selbst nach schweren Krank<lb break="no"/>heiten.“</quote> Diese Stelle pflegen Kritiker im<lb/> Interesse
                der Vereinfachung zu übersehen.<lb break="paragraph"/></p>
 
 
@@ -320,9 +289,7 @@
                Inkonsequenz des<lb/> Ref. oder ein Mißverständnis seiner Kritiker<lb/>
                unausweichlich. Es ist nicht schwer, das<lb/> letztere aufzuzeigen. Ref. hat
                Ätiologie und<lb/> Mechanismus begrifflich scharf geschieden,<lb/> was seine Kritiker
-               nicht tun. Er meint, bei<lb/> der Angstneurose sei die <hi rendition="#smallcaps"
-                  >Ätiologie</hi> des<lb/> Krankheitsfalles nicht durchwegs eine sexu<lb break="no"
-               />elle Schädlichkeit, wohl aber betreffe der<lb/>
+               nicht tun. Er meint, bei<lb/> der Angstneurose sei die <hi rendition="#smallcaps">Ätiologie</hi> des<lb/> Krankheitsfalles nicht durchwegs eine sexu<lb break="no"/>elle Schädlichkeit, wohl aber betreffe der<lb/>
                <hi rendition="#smallcaps">Mechanismus</hi> der Störung regelmäßig die<lb/>
                Sexualität. Diese Unterscheidung läuft auf<lb/> die gewiß nicht unwahrscheinliche
                Annahme<lb/> hinaus, daß die organisch-sexuellen Vor<lb break="no"/>gänge ebensowohl
@@ -330,8 +297,7 @@
                tiefgreifende allgemeine Noxen <note><term type="e" resp="#chuber">Noxen</term>mediz.
                   Ausdruck für Umständen oder Stoffe, die Schaden auslösen.</note>eine Störung<lb/>
                erfahren können, ähnlich wie z. B. die Vor<lb break="no"/>gänge der
-               Verdauungstätigkeit einerseits von<lb/> den Ingesten <note><term type="e"
-                     resp="#chuber">Ingesten</term> sg. Ingesta, aufgenommene Nahrung</note>aus,
+               Verdauungstätigkeit einerseits von<lb/> den Ingesten <note><term type="e" resp="#chuber">Ingesten</term> sg. Ingesta, aufgenommene Nahrung</note>aus,
                andererseits durch allge<lb break="no"/>meine toxische Erkrankungen, Kachexien
                      <note><term type="e" resp="#chuber">Kachexien</term>griech. Kachexie,
                   krankhafte Abmagerung</note><lb/> und Blutveränderungen krankhaft verändert<lb/>
@@ -341,22 +307,40 @@
                anstatt<lb/> einer Abnahme der Libido; er weiß aber,<lb/> daß bei diesen nichts
                anderes als ein<lb/> Oszillieren zwischen libidinöser und in Angst<lb/> (teilweise)
                verwandelter Erregung vorliegt.<lb break="paragraph"/></p>
-            <p>Unter den Ursachen der Angstneurose<lb/> hebt <hi rendition="#smallcaps"
-                  >Löwenfeld</hi> ferner Schrecken und<lb/> andere emotionelle Noxen hervor. Ref.
+            <p>Unter den Ursachen der Angstneurose<lb/> hebt <hi rendition="#smallcaps">Löwenfeld</hi> ferner Schrecken und<lb/> andere emotionelle Noxen hervor. Ref.
                muß<lb/> nach seinen Untersuchungsergebnissen viel<lb break="no"/>mehr behaupten, daß
-               diese sehr häufig vor<lb/> kommenden Fälle durchwegs die Reaktionen<lb/> der <rs
-                  type="keyword" ref="frd_kw_1224">Hysterie</rs> ergeben, also dieser Neurose<lb/>
+               diese sehr häufig vor<lb/> kommenden Fälle durchwegs die Reaktionen<lb/> der <rs type="keyword" ref="frd_kw_1224">Hysterie</rs> ergeben, also dieser Neurose<lb/>
                zuzurechnen sind.<lb break="paragraph"/></p>
             <p>Es ist unmöglich im Rahmen eines Re<lb break="no"/>ferates auszuführen, welche Fülle
                von Mit<lb break="no"/>teilungen und Anregungen das Buch von<lb/>
-               <hi rendition="#smallcaps">Löwenfeld</hi> über die psychischen Zwangs<lb break="no"
-               />erscheinungen enthält. Wir dürfen hoffen,<lb/> daß seine Veröffentlichung eine
+               <hi rendition="#smallcaps">Löwenfeld</hi> über die psychischen Zwangs<lb break="no"/>erscheinungen enthält. Wir dürfen hoffen,<lb/> daß seine Veröffentlichung eine
                   außer<lb break="no"/>ordentliche Steigerung des Interesses für<lb/> diese
                merkwürdigen und praktisch bedeut<lb break="no"/>samen Erkrankungsformen zur Folge
-               haben<lb/> wird. Sigm. <hi rendition="#smallcaps">Freud</hi> (Wien).<lb
-                  break="paragraph"/></p>
+               haben<lb/> wird. Sigm. <hi rendition="#smallcaps">Freud</hi> (Wien).<lb break="paragraph"/></p>
 
          </div>
       </body>
-   </text>
+   <back><listPerson><person xml:id="frd_person_43">
+               <persName>Vogt, Oskar</persName>
+               <idno type="gnd">https://d-nb.info/gnd/11881866X</idno>
+               <note type="bio">Neurologe; mit  der Neurologin Cécile Vogt für die gemeinsame Pionierarbeit in der lokalisatorischen Hirnforschung bekannt.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_41">
+               <persName>Löwenfeld, Leopold</persName>
+               <idno type="gnd">https://d-nb.info/gnd/117168815</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_42">
+               <persName>Forel, August</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118534327</idno>
+               <note type="bio">(1848-1931) schweiz. Psychiater. 1879 bis 1898 Direktor der Psychiatrischen Universitätsklinik Zürich ("Burghölzli"), in dieser Funktion der Vorgänger von Eugen Bleuler.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_44">
+               <persName>Kurella, Hans</persName>
+               <idno type="gnd">https://d-nb.info/gnd/116616105</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+            </listPerson></back></text>
 </TEI>

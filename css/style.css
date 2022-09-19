@@ -110,6 +110,11 @@ body {
     font-size: smaller;
 }
 
+.sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
 .inlinequote {
     font-style: italic;
 }
