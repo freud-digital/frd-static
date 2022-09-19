@@ -115,6 +115,10 @@ body {
     font-size: smaller;
 }
 
+.external, .interal {
+    text-decoration: underline;
+}
+
 .inlinequote {
     font-style: italic;
 }
