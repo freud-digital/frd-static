@@ -117,7 +117,9 @@
                                     <div style="padding-bottom:1em;">
                                         <xsl:for-each select="//tei:notesStmt/tei:note[@type='e']">
                                             <label><strong><xsl:value-of select="./tei:title"/></strong></label>
-                                            <p><xsl:value-of select="./tei:p"/></p>
+                                            <xsl:for-each select="./tei:p">
+                                                <p><xsl:apply-templates/></p>
+                                            </xsl:for-each>
                                         </xsl:for-each>
                                     </div>
                                     <div class="about-text-hidden fade">

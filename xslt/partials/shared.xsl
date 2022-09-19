@@ -81,16 +81,60 @@
         <del><xsl:apply-templates/></del>
     </xsl:template>
     
-    <xsl:template match="tei:rs[@ref or @key]">
-        <span class="{tokenize(@ref, '_')[2]}{tokenize(@key, '_')[2]}">
+    <xsl:template match="tei:rs[@ref]">
+        <span class="{tokenize(@ref, '_')[2]}">
             <xsl:element name="a">
+                <xsl:attribute name="href">#</xsl:attribute>
                 <xsl:attribute name="data-toggle">modal</xsl:attribute>
                 <xsl:attribute name="data-target">
-                    <xsl:value-of select="data(@ref)"/>
-                    <!-- <xsl:value-of select="concat('#', @key)"/> -->
+                    <xsl:value-of select="@ref"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:rs[@key]">
+        <span class="{tokenize(@key, '_')[2]}">
+            <xsl:element name="a">
+                <xsl:attribute name="href">#</xsl:attribute>
+                <xsl:attribute name="data-toggle">modal</xsl:attribute>
+                <xsl:attribute name="data-target">
+                    <xsl:value-of select="concat('#', @key)"/>
+                </xsl:attribute>
+                <xsl:value-of select="."/>
+            </xsl:element>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref[@target]">
+        <xsl:choose>
+            <xsl:when test="contains(@target, '#')">
+                <span class="internal">
+                    <a data-target="{@target}" data-toogle="modal">
+                        (<xsl:apply-templates/>)
+                    </a>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="external">
+                    <a href="{@target}" target="_blank">
+                        <xsl:apply-templates/>
+                    </a>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="tei:date">
+        <span class="date">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:quote">
+        <span class="quote">
+            "<xsl:apply-templates/>"
         </span>
     </xsl:template>
     
