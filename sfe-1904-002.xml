@@ -2,15 +2,15 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="work" level="a">Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title>
-            <title type="manifestation" level="a" sameAs="#guiding_manifestation">Die Freudsche psychoanalytische Methode (1904-002/1925)</title>
-            <title type="series" level="s">Sigmund Freud: Historisch-kritische Ausgabe (HKA)</title>
+            <title type="work" level="a">Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title>
+            <title type="manifestation" level="a">Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title>
+            <title type="series" level="s">Sigmund Freud Edition: Digitale Historisch-Kritische
+               Gesamtausgabe</title>
             <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
-            <editor>
-               <name ref="ORCID?" xml:id="chuber">Huber, Christian</name>
-               <name ref="ORCID?" xml:id="kkaufmann">Kaufmann, Kira</name>
-               <name ref="ORCID?" xml:id="mrohrwasser">Rohrwasser, Michael</name>
-            </editor>
+            <editor><name>Huber, Christian</name><name>Kaufmann, Kira</name><name>Rohrwasser,
+                  Michael</name></editor>
             <funder>
                <name>FWF Der Wissenschaftsfond.</name>
                <address>
@@ -27,183 +27,131 @@
             <edition>Sigmund Freud: Historisch-kritische Ausgabe (HKA)</edition>
             <respStmt>
                <resp>Editionsrichtlinien</resp>
-               <name sameAs="#chuber">Huber, Christian</name>
-               <name sameAs="#kkaufmann">Kaufmann, Kira</name>
-               <name sameAs="#mrohrwasser">Rohrwasser, Michael</name>
+               <name>Huber, Christian</name>
+               <name>Kaufmann, Kira</name>
+               <name>Rohrwasser, Michael</name>
             </respStmt>
             <respStmt>
                <resp>Diplomatische Umschrift, Lektorat</resp>
-               <name sameAs="#chuber">Huber, Christian</name>
-               <name sameAs="#kkaufmann">Kaufmann, Kira</name>
-               <name xml:id="sliepold">Liepold, Sophie</name>
+               <name>Fuchs, Laura</name>
+               <name>Huber, Christian</name>
+               <name>Kaufmann, Kira</name>
+               <name>Liepold, Sophie</name>
+               <name>Wimmer, Philipp</name>
             </respStmt>
             <respStmt>
                <resp>Kritischer Apparat</resp>
-               <name sameAs="#chuber">Huber, Christian</name>
-               <name sameAs="#kkaufmann">Kaufmann, Kira</name>
-               <name sameAs="#mrohrwasser">Rohrwasser, Michael</name>
+               <name>Huber, Christian</name>
+               <name>Kaufmann, Kira</name>
+               <name>Rohrwasser, Michael</name>
             </respStmt>
             <respStmt>
                <resp>Kommentar</resp>
-               <name sameAs="#chuber">Huber, Christian</name>
-               <name sameAs="#kkaufmann">Kaufmann, Kira</name>
-               <name sameAs="#mrohrwasser">Rohrwasser, Michael</name>
+               <name>Huber, Christian</name>
+               <name>Kaufmann, Kira</name>
+               <name>Rohrwasser, Michael</name>
             </respStmt>
             <respStmt>
-               <resp>TEI Datenmodell und Schema ODD</resp>
-               <name xml:id="pandorfer">Andorfer, Peter</name>
-               <name xml:id="dstoxreiter">Stoxreiter, Daniel</name>
+               <resp>TEI Schema ODD</resp>
+               <name>Andorfer, Peter</name>
+               <name>Stoxreiter, Daniel</name>
             </respStmt>
             <respStmt>
                <resp>Datenexport aus Drupal und TEI Serialisierung</resp>
-               <name sameAs="#pandorfer">Andorfer, Peter</name>
-               <name sameAs="#dstoxreiter">Stoxreiter, Daniel</name>
+               <name>Andorfer, Peter</name>
+               <name>Stoxreiter, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2022">2022</date>
-            <idno type="URL">...</idno>
-            <idno type="hdl">...</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
-                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten</p>
-                  <p>Bearbeiten — das Material remixen, verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar kommerziell.</p>
-                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Sie sich an die Lizenzbedingungen halten. Unter folgenden Bedingungen:</p>
-                  <p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
-                     Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstütze
-                     gerade Sie oder Ihre Nutzung besonders.</p>
-                  <p>Keine weiteren Einschränkungen — Sie dürfen keine zusätzlichen Klauseln oder technische Verfahren einsetzen,
-                     die anderen rechtlich irgendetwas untersagen, was die Lizenz erlaubt.</p>
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
+                     vervielfältigen und weiterverbreiten</p>
+                  <p>Bearbeiten — das Material remixen, verändern und darauf aufbauen und zwar für
+                     beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Sie sich an die
+                     Lizenzbedingungen halten. Unter folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen, einen
+                     Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden. Diese
+                     Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, allerdings
+                     nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstütze gerade Sie
+                     oder Ihre Nutzung besonders.</p>
+                  <p>Keine weiteren Einschränkungen — Sie dürfen keine zusätzlichen Klauseln oder
+                     technische Verfahren einsetzen, die anderen rechtlich irgendetwas untersagen,
+                     was die Lizenz erlaubt.</p>
                   <p>Hinweise:</p>
-                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich solcher Teile des Materials, die gemeinfrei sind, oder soweit Ihre Nutzungshandlungen durch Ausnahmen und
-                     Schranken des Urheberrechts gedeckt sind.</p>
-                  <p>Es werden keine Garantien gegeben und auch keine Gewähr geleistet.
-                     Die Lizenz verschafft Ihnen möglicherweise nicht alle Erlaubnisse,
-                     die Sie für die jeweilige Nutzung brauchen.
-                     Es können beispielsweise andere Rechte wie Persönlichkeits- undDatenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend beschränken.</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich solcher Teile des
+                     Materials, die gemeinfrei sind, oder soweit Ihre Nutzungshandlungen durch
+                     Ausnahmen und Schranken des Urheberrechts gedeckt sind.</p>
+                  <p>Es werden keine Garantien gegeben und auch keine Gewähr geleistet. Die Lizenz
+                     verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
+                     jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
+                     Persönlichkeits- undDatenschutzrechte zu beachten sein, die Ihre Nutzung des
+                     Materials entsprechend beschränken.</p>
                </licence>
             </availability>
          </publicationStmt>
          <notesStmt>
             <note type="e">
                <title>Textentstehung und Publikationsgeschichte</title>
-               <p>
-                  Als „Mitteilung des Autors“, wie in Klammern im
-                  Untertitel angegeben wird, wurde der kurze Text <rs type="bibl" ref="#bibl-1904-002-1">Über die Freud’sche
-                     Psychoanalytische Methode</rs> zuerst in <rs type="person" ref="frd_person_41"> Leopold Löwenfelds</rs> Band über <rs type="bibl" ref="zotero_VRCW8N9U">Psychische Zwangserscheinungen</rs> veröffentlicht,
-                  welcher <date when="1904">1904</date> von Freud rezensiert wurde (vgl. hier 1904-006).
-                  Zuvor war Freuds Schrift <ref target="#">Über den Traum</ref> (<date when="1901">1901</date>) 
-                  in der Reihe <rs type="bibl" ref="#">Grenzfragen des
-                  Nerven- und Seelenlebens</rs> publiziert worden, welche von Leopold
-                  Löwenfeld und <rs type="person" ref="frd_person_44">Hans Kurella</rs>
-                  herausgegeben wurde.Ein Blick auf das <ref target="https://archive.org/details/Freud_1901_Ueber_Traum/page/n1/mode/2up"><term>Inhaltsverzeichnis</term></ref> der Reihe zeigt die thematischen und
+               <p> Als „Mitteilung des Autors“, wie in Klammern im Untertitel angegeben wird, wurde
+                  der kurze Text <rs type="bibl" ref="#bibl-1904-002-1904">Über die Freud’sche
+                     Psychoanalytische Methode</rs> zuerst in <rs type="person" ref="frd_person_41">
+                     Leopold Löwenfelds</rs> Band über <rs type="bibl" ref="zotero_VRCW8N9U">Psychische Zwangserscheinungen</rs> veröffentlicht, welcher <date when="1904">1904</date> von Freud rezensiert wurde (vgl. hier 1904-006). Zuvor war Freuds
+                  Schrift <ref target="#">Über den Traum</ref> (<date when="1901">1901</date>) in
+                  der Reihe <rs type="bibl" ref="#">Grenzfragen des Nerven- und Seelenlebens</rs>
+                  publiziert worden, welche von Leopold Löwenfeld und <rs type="person" ref="frd_person_44">Hans Kurella</rs> herausgegeben wurde.Ein Blick auf das
+                     <ref target="https://archive.org/details/Freud_1901_Ueber_Traum/page/n1/mode/2up"><term>Inhaltsverzeichnis</term></ref> der Reihe zeigt die thematischen und
                   personellen Verschränkungen auf dem Gebiet der frühen Traumforschung, Sexual- und
-                  Psychopathologie um <date when="1900">1900</date>.
-                  Auf eine fachliche Kontroverse im Jahr <date when="1895">1895</date> zwischen
-                  Freud und Löwenfeld die Angstneurose betreffend, verweist Tögel, diese konnte aber
-                  beigelegt werden (Vgl. Freud: <rs type="bibl" ref="#zotero_H9GTRDRF">Zur Kritik der
-                  „Angstneurose“</rs>, in Wiener klinische Rundschau, 9. Jg. (1885), Nr.
-                  27, S. 417-419, Nr. 28, S. 435-437, Nr. 29, S. 451-452)(<rs type="bibl" ref="#zotero_SPXBCFRG">Tögel, Bd. 9, S. 111</rs>). 
-                  Der Erstveröffentlichung des Textes <rs type="bibl" ref="#bibl-1904-002-1">Über die Freud’sche Psychoanalytischen
-                  Methode</rs> war nach Ende des Beitrags ein Kommentar von Löwenfeld
-                  beigegeben.              
-                  Löwenfeld berücksichtigte die Psychoanalyse als Verfahren im Kontext der
-                  Zwangserkrankungen, denen er sich eingehend widmete, war allerdings der Meinung,
-                  dass Freud seine Methode seit den Studien über Hysterie aus dem Jahr <date when="1895">1895</date> so
-                  grundlegend verändert habe, dass diese <quote>keine
-                  Vorstellung von dem Wesen der Methode mehr geben</quote>
-                  <ref target="#zotero_M9TAGAWQ">Löwenfeld, Zwangserscheinungen, S. 545</ref> können. So
-                  entschied er sich, Freud selbst zu Wort kommen zu lassen und leitet mit einem Dank
-                  zu Freuds Ausführungen über: <quote>Mit Rücksicht auf
-                  diese Sachlage bin ich, da eine anderweitige Publikation über den Gegenstand
-                  nicht vorliegt, dem Autor sehr verpflichtet, dass er mir auf Ersuchen
-                  nachstehendes Exposé über die gegenwärtige Gestaltung seines Verfahrens zur
-                  Veröffentlichung an dieser Stelle überliess.</quote>
-                  <ref target="#zotero_M9TAGAWQ">Löwenfeld, Zwangserscheinungen, ebd.</ref>
-                  Ab <date when="1911">1911?</date> wurde der Text <rs type="bibl" ref="#bibl_pub_002 #bibl_pub_003 #bibl_pub_004 #bibl_pub_005">Über die Freud’sche Psychoanalytische Methode in die
-                     Sammlung kleiner Schriften zur Neurosenlehre</rs> aufgenommen.
-               </p>
+                  Psychopathologie um <date when="1900">1900</date>. Auf eine fachliche Kontroverse
+                  im Jahr <date when="1895">1895</date> zwischen Freud und Löwenfeld die
+                  Angstneurose betreffend, verweist Tögel, diese konnte aber beigelegt werden (Vgl.
+                  Freud: <rs type="bibl" ref="#zotero_H9GTRDRF">Zur Kritik der „Angstneurose“</rs>,
+                  in Wiener klinische Rundschau, 9. Jg. (1885), Nr. 27, S. 417-419, Nr. 28, S.
+                  435-437, Nr. 29, S. 451-452)(<rs type="bibl" ref="#zotero_SPXBCFRG">Tögel, Bd. 9,
+                     S. 111</rs>). Der Erstveröffentlichung des Textes <rs type="bibl" ref="#bibl-1904-002-1904">Über die Freud’sche Psychoanalytischen Methode</rs>
+                  war nach Ende des Beitrags ein Kommentar von Löwenfeld beigegeben. Löwenfeld
+                  berücksichtigte die Psychoanalyse als Verfahren im Kontext der Zwangserkrankungen,
+                  denen er sich eingehend widmete, war allerdings der Meinung, dass Freud seine
+                  Methode seit den Studien über Hysterie aus dem Jahr <date when="1895">1895</date>
+                  so grundlegend verändert habe, dass diese <quote>keine Vorstellung von dem Wesen
+                     der Methode mehr geben</quote>
+                  <ref target="#zotero_M9TAGAWQ">Löwenfeld, Zwangserscheinungen, S. 545</ref>
+                  können. So entschied er sich, Freud selbst zu Wort kommen zu lassen und leitet mit
+                  einem Dank zu Freuds Ausführungen über: <quote>Mit Rücksicht auf diese Sachlage
+                     bin ich, da eine anderweitige Publikation über den Gegenstand nicht vorliegt,
+                     dem Autor sehr verpflichtet, dass er mir auf Ersuchen nachstehendes Exposé über
+                     die gegenwärtige Gestaltung seines Verfahrens zur Veröffentlichung an dieser
+                     Stelle überliess.</quote>
+                  <ref target="#zotero_M9TAGAWQ">Löwenfeld, Zwangserscheinungen, ebd.</ref> Ab <date when="1911">1911?</date> wurde der Text <rs type="bibl" ref="#bibl-1904-002-1906 #bibl-1904-002-1920 #bibl-1904-002-1911 #bibl-1904-002-1922">Über die Freud’sche Psychoanalytische Methode in die Sammlung kleiner
+                     Schriften zur Neurosenlehre</rs> aufgenommen. </p>
+            </note>
+            <note type="comment_intern">
+               <p>OCR korr., 1-8, SL</p>
+               <p>2. OCR korr. KK</p>
+               <p>3. Korr. CH</p>
             </note>
          </notesStmt>
          <sourceDesc>
             <listBibl>
                <head>Publikationsgeschichte</head>
-               <biblStruct xml:id="bibl-1904-002-1">
+               <biblStruct xml:id="bibl-1904-002-1920">
                   <analytic>
-                     <title type="main">Die Freud’sche psychoanalytische Methode</title>
+                     <title type="manifestation">Die Freudsche psychoanalytische Methode</title>
                      <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
                   </analytic>
                   <monogr>
-                     <title type="main">Die psychischen Zwangserscheinungen</title>
-                     <title type="sub">Auf klinischer Grundlage dargestellt</title>
+                     <title type="publication">Sammlung kleiner Schriften zur Neurosenlehre</title>
+                     <title type="publication-sub">[Sammlung kleiner Schriften zur Neurosenlehre aus
+                        den Jahren 1893-1906]</title>
+                     <title type="publication-short">SKSN 1 (3. Auflage)</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person" ref="#">Leopold Löwenfeld</name>
-                     </respStmt>
-                     <imprint>
-                        <pubPlace>Wiesbaden</pubPlace>
-                        <date when="1904-01-01">1904-01-01</date>
-                     </imprint>
-                     <extent>551 Seiten</extent>
-                  </monogr>
-               </biblStruct>
-               <biblStruct xml:id="bibl_pub_002">
-                  <analytic>
-                     <title type="main">Die Freudsche psychoanalytische Methode</title>
-                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
-                  </analytic>
-                  <monogr>
-                     <title type="main">Sammlung kleiner Schriften zur Neurosenlehre</title>
-                     <title type="sub">[Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren 1893-1906]</title>
-                     <title type="short">SKSN 1</title>
-                     <respStmt>
-                        <resp>Herausgegeben von</resp>
-                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</name>
-                     </respStmt>
-                     <imprint>
-                        <pubPlace>Wien</pubPlace>
-                        <date when="1906-01-01">1906-01-01</date>
-                     </imprint>
-                     <extent>224 Seiten</extent>
-                     <biblScope unit="volume">1. Folge</biblScope>
-                  </monogr>
-               </biblStruct>
-               <biblStruct xml:id="bibl-1904-002-3">
-                  <analytic>
-                     <title type="main">Die Freudsche psychoanalytische Methode</title>
-                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
-                  </analytic>
-                  <monogr>
-                     <title type="main">Sammlung kleiner Schriften zur Neurosenlehre</title>
-                     <title type="sub">[Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren 1893-1906]</title>
-                     <title type="short">SKSN 1 (2. Auflage)</title>
-                     <respStmt>
-                        <resp>Herausgegeben von</resp>
-                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</name>
-                     </respStmt>
-                     <imprint>
-                        <pubPlace>Wien</pubPlace>
-                        <date when="1911-01-01">1911-01-01</date>
-                     </imprint>
-                     <extent>219 Seiten</extent>
-                     <biblScope unit="volume">1. Folge</biblScope>
-                     <biblScope unit="issue">2. unveränderte Auflage</biblScope>
-                  </monogr>
-               </biblStruct>
-               <biblStruct xml:id="bibl-1904-002-4">
-                  <analytic>
-                     <title type="main">Die Freudsche psychoanalytische Methode</title>
-                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
-                  </analytic>
-                  <monogr>
-                     <title type="main">Sammlung kleiner Schriften zur Neurosenlehre</title>
-                     <title type="sub">[Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren 1893-1906]</title>
-                     <title type="short">SKSN 1 (3. Auflage)</title>
-                     <respStmt>
-                        <resp>Herausgegeben von</resp>
-                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</name>
+                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
+                           Sigmund</name>
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
@@ -214,18 +162,105 @@
                      <biblScope unit="issue">3. unveränderte Auflage</biblScope>
                   </monogr>
                </biblStruct>
-               <biblStruct xml:id="bibl-1904-002-5">
+               <biblStruct xml:id="bibl-1904-002-1906">
                   <analytic>
-                     <title type="main">Die Freudsche psychoanalytische Methode</title>
+                     <title type="manifestation">Die Freudsche psychoanalytische Methode</title>
                      <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
                   </analytic>
                   <monogr>
-                     <title type="main">Sammlung kleiner Schriften zur Neurosenlehre</title>
-                     <title type="sub">[Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren 1893-1906]</title>
-                     <title type="short">SKSN 1 (4. Auflage)</title>
+                     <title type="publication">Sammlung kleiner Schriften zur Neurosenlehre</title>
+                     <title type="publication-sub">[Sammlung kleiner Schriften zur Neurosenlehre aus
+                        den Jahren 1893-1906]</title>
+                     <title type="publication-short">SKSN 1</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</name>
+                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
+                           Sigmund</name>
+                     </respStmt>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1906-01-01">1906-01-01</date>
+                     </imprint>
+                     <extent>224 Seiten</extent>
+                     <biblScope unit="volume">1. Folge</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct xml:id="bibl-1904-002-1904">
+                  <analytic>
+                     <title type="manifestation">Die Freud’sche psychoanalytische Methode</title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+                  <monogr>
+                     <title type="publication">Die psychischen Zwangserscheinungen</title>
+                     <title type="publication-sub">Auf klinischer Grundlage dargestellt</title>
+                     <title type="publication-short"/>
+                     <imprint>
+                        <pubPlace>Wiesbaden</pubPlace>
+                        <date when="1904-01-01">1904-01-01</date>
+                     </imprint>
+                     <extent>551 Seiten</extent>
+                  </monogr>
+               </biblStruct>
+               <biblStruct xml:id="bibl-1904-002-1911">
+                  <analytic>
+                     <title type="manifestation">Die Freudsche psychoanalytische Methode</title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+                  <monogr>
+                     <title type="publication">Sammlung kleiner Schriften zur Neurosenlehre</title>
+                     <title type="publication-sub">[Sammlung kleiner Schriften zur Neurosenlehre aus
+                        den Jahren 1893-1906]</title>
+                     <title type="publication-short">SKSN 1 (2. Auflage)</title>
+                     <respStmt>
+                        <resp>Herausgegeben von</resp>
+                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
+                           Sigmund</name>
+                     </respStmt>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1911-01-01">1911-01-01</date>
+                     </imprint>
+                     <extent>219 Seiten</extent>
+                     <biblScope unit="volume">1. Folge</biblScope>
+                     <biblScope unit="issue">2. unveränderte Auflage</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct xml:id="bibl-1904-002-1924">
+                  <analytic>
+                     <title type="manifestation">Die Freudsche psychoanalytische Methode</title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+                  <monogr>
+                     <title type="publication">Zur Technik der Psychoanalyse und zur
+                        Metapsychologie</title>
+                     <title type="publication-sub"/>
+                     <title type="publication-short"/>
+                     <respStmt>
+                        <resp>Herausgegeben von</resp>
+                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
+                           Sigmund</name>
+                     </respStmt>
+                     <imprint>
+                        <pubPlace>Zürich</pubPlace>
+                        <date when="1924-01-01">1924-01-01</date>
+                     </imprint>
+                     <extent>10 Seiten</extent>
+                  </monogr>
+               </biblStruct>
+               <biblStruct xml:id="bibl-1904-002-1922">
+                  <analytic>
+                     <title type="manifestation">Die Freudsche psychoanalytische Methode</title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+                  <monogr>
+                     <title type="publication">Sammlung kleiner Schriften zur Neurosenlehre</title>
+                     <title type="publication-sub">[Sammlung kleiner Schriften zur Neurosenlehre aus
+                        den Jahren 1893-1906]</title>
+                     <title type="publication-short">SKSN 1 (4. Auflage)</title>
+                     <respStmt>
+                        <resp>Herausgegeben von</resp>
+                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
+                           Sigmund</name>
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
@@ -236,45 +271,7 @@
                      <biblScope unit="issue">4. unveränderte Auflage</biblScope>
                   </monogr>
                </biblStruct>
-               <biblStruct xml:id="bibl-1904-002-6">
-                  <analytic>
-                     <title type="main">Die Freudsche psychoanalytische Methode</title>
-                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
-                  </analytic>
-                  <monogr>
-                     <title type="main">Zur Technik der Psychoanalyse und zur Metapsychologie</title>
-                     <respStmt>
-                        <resp>Herausgegeben von</resp>
-                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</name>
-                     </respStmt>
-                     <imprint>
-                        <pubPlace>Zürich</pubPlace>
-                        <date when="1924-01-01">1924-01-01</date>
-                     </imprint>
-                     <extent>10 Seiten</extent>
-                  </monogr>
-               </biblStruct>
-               <biblStruct xml:id="bibl-1904-002-7" sameAs="#guiding_manifestation">
-                  <analytic>
-                     <title type="main">Die Freudsche psychoanalytische Methode</title>
-                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
-                  </analytic>
-                  <monogr>
-                     <title type="main">Gesammelte Schriften von Sigm. Freud</title>
-                     <title type="short">GS 6</title>
-                     <respStmt>
-                        <resp>Herausgegeben von</resp>
-                        <name type="person" ref="#p__348d6af3-824c-4e43-bdc0-f8bca83c2819">Storfer, A.J.</name>
-                     </respStmt>
-                     <imprint>
-                        <pubPlace>Zürich</pubPlace>
-                        <date when="1925-01-01">1925-01-01</date>
-                     </imprint>
-                     <extent>10 Seiten</extent>
-                     <biblScope unit="volume">6. Band</biblScope>
-                  </monogr>
-               </biblStruct>
-               <biblStruct xml:id="guiding_manifestation">
+               <biblStruct xml:id="bibl-1904-002-1925" type="guidingManifestation">
                   <analytic>
                      <title type="manifestation">Die Freudsche psychoanalytische Methode</title>
                      <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
@@ -285,7 +282,8 @@
                      <title type="publication-short">GS 6</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person" ref="#p__348d6af3-824c-4e43-bdc0-f8bca83c2819">Storfer, A.J.</name>
+                        <name type="person" ref="#p__348d6af3-824c-4e43-bdc0-f8bca83c2819">Storfer,
+                           A.J.</name>
                      </respStmt>
                      <imprint>
                         <pubPlace>Zürich</pubPlace>
@@ -301,23 +299,30 @@
                            <title type="main">Sigmund Freud Edition</title>
                            <editor>Diercks, Christine</editor>
                            <editor>Rohrwasser, Michael</editor>
+                           <idno type="url">https://www.freud-edition.net</idno>
                         </series>
-                        <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                        <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
+                           Sigmund</author>
                         <respStmt>
-                           <resp>Konzept für die Edition und die Datenbank, Richtlinien, Quellenforschung,
-                              Signaturen, Referenzsystem</resp>
+                           <resp>Herausgegeben von</resp>
+                           <name>Diercks, Christine</name>
+                           <name>Rohrwasser, Michael</name>
+                        </respStmt>
+                        <respStmt>
+                           <resp>Konzept für die Edition und die Datenbank, Richtlinien,
+                              Quellenforschung, Signaturen, Referenzsystem</resp>
                            <name>Diercks, Christine</name>
                         </respStmt>
                         <respStmt>
-                           <resp>Quellenforschung, Digitalisierung der Datenquellen, Bildbearbeitung,
-                              Faksimile-Ausgabe, Bibliografie</resp>
+                           <resp>Quellenforschung, Digitalisierung der Datenquellen,
+                              Bildbearbeitung, Faksimile-Ausgabe, Bibliografie</resp>
                            <name>Blatow, Arkadi</name>
                         </respStmt>
                         <respStmt>
                            <resp>Diplomatische Umschrift, Lektorat</resp>
-                           <name sameAs="#chuber">Huber, Christian</name>
-                           <name sameAs="#kkaufmann">Kaufmann, Kira</name>
-                           <name sameAs="#sliepold">Liepold, Sophie</name>
+                           <name>Huber, Christian</name>
+                           <name>Kaufmann, Kira</name>
+                           <name>Liepold, Sophie</name>
                         </respStmt>
                         <date when="2022">2022</date>
                         <idno type="signature">1904-002/1925</idno>
@@ -325,7 +330,8 @@
                         <idno type="api">https://www.freud-edition.net/jsonapi/node/manifestation/b973fb31-a413-4c3a-9793-67e634cc3c9c</idno>
                         <relatedItem type="work">
                            <bibl xml:id="bibl__1197f64d-a3f2-4400-a42b-2923ebbc58aa">
-                              <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title>
+                              <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+                                 psychoanalytische Methode</title>
                               <idno type="url">https://www.freud-edition.net/werke/freud-sigmund/die-freudsche-psychoanalytische-methode</idno>
                               <idno type="api">https://www.freud-edition.net/jsonapi/node/werk/1197f64d-a3f2-4400-a42b-2923ebbc58aa</idno>
                            </bibl>
@@ -342,8 +348,7 @@
                         <physDesc>
                            <objectDesc>
                               <supportDesc>
-                                 <support>
-                                    Buch aus <material>Papier</material> in Druckschrift .
+                                 <support> Buch aus <material>Papier</material> in Druckschrift .
                                  </support>
                               </supportDesc>
                            </objectDesc>
@@ -359,61 +364,54 @@
                </biblStruct>
             </listBibl>
             <listWit>
-               <witness xml:id="sfe-1904-002__1904.xml" sameAs="#bibl-1904-002-1"><idno>E</idno>: Die Freud’sche
-                  psychoanalytische Methode. In: Loewenfeld, Leopold : Die psychischen
-                  Zwangserscheinungen. Auf klinischer Grundlage dargestellt. Wiesbaden: Bergmann
-                  1904, S. 545 – 551. </witness>
-               <witness xml:id="sfe-1904-002__1906.xml" sameAs="#bibl-1904-002-2"><idno>S1</idno>: Die Freud’sche
-                  psychoanalytische Methode. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften
-                  zur Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 1. Auflage. Leipzig, Wien: Deuticke 1906, S.
-                  218-224.</witness>
-               <witness xml:id="sfe-1904-002__1911.xml" sameAs="#bibl-1904-002-3"><idno>S2</idno>: Die Freudsche
-                  psychoanalytische Methode. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften
-                  zur Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 2. unveränderte Auflage. Leipzig, Wien: Deuticke 1911, S.
-                  213-219.</witness>
-               <witness xml:id="sfe-1904-002__1920.xml" sameAs="#bibl-1904-002-4"><idno>S3</idno>: Die Freudsche
-                  psychoanalytische Methode. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften
-                  zur Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 3. unveränderte Auflage. Leipzig, Wien: Deuticke 1920, S.
-                  213-219.</witness>
-               <witness xml:id="sfe-1904-002__1922.xml" sameAs="#bibl-1904-002-5"><idno>S4</idno>: Die Freudsche
-                  psychoanalytische Methode. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften
-                  zur Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 4. unveränderte Auflage. Leipzig, Wien: Deuticke 1922, S.
-                  213-219.</witness>
-               <witness xml:id="sfe-1904-002__1924.xml" sameAs="#bibl-1904-002-6"><idno>S5</idno>: Die Freudsche
-                  psychoanalytische Methode. In: Freud, Sigmund (Hg.): Zur Technik der Psychoanalyse
-                  und zur Metapsychologie. Leipzig, Wien, Zürich: Internationaler Psychoanalytischer
-                  Verlag 1924, S. 3-10.</witness>
-               <witness xml:id="sfe-1904-002__1925.xml" sameAs="#bibl-1904-002-7"><idno>C</idno>: Die Freudsche
-                  psychoanalytische Methode. In: Freud, Sigmund; Freud, Anna (Hg.); Storfer, A. J.
-                  (Hg.): Gesammelte Schriften. 6. Band. Leipzig, Wien, Zürich: Internationaler
-                  Psychoanalytischer Verlag 1925, S. 3-10.</witness>
+               <witness xml:id="sfe-1904-002__1904.xml" sameAs="#bibl-1904-002-1904"><idno>E</idno>:
+                  Die Freud’sche psychoanalytische Methode. In: Loewenfeld, Leopold : Die
+                  psychischen Zwangserscheinungen. Auf klinischer Grundlage dargestellt. Wiesbaden:
+                  Bergmann 1904, S. 545 – 551. </witness>
+               <witness xml:id="sfe-1904-002__1906.xml" sameAs="#bibl-1904-002-1906"><idno>S1</idno>: Die Freud’sche psychoanalytische Methode. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 1. Auflage. Leipzig, Wien:
+                  Deuticke 1906, S. 218-224.</witness>
+               <witness xml:id="sfe-1904-002__1911.xml" sameAs="#bibl-1904-002-1911"><idno>S2</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 2. unveränderte Auflage.
+                  Leipzig, Wien: Deuticke 1911, S. 213-219.</witness>
+               <witness xml:id="sfe-1904-002__1920.xml" sameAs="#bibl-1904-002-1920"><idno>S3</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 3. unveränderte Auflage.
+                  Leipzig, Wien: Deuticke 1920, S. 213-219.</witness>
+               <witness xml:id="sfe-1904-002__1922.xml" sameAs="#bibl-1904-002-1922"><idno>S4</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 4. unveränderte Auflage.
+                  Leipzig, Wien: Deuticke 1922, S. 213-219.</witness>
+               <witness xml:id="sfe-1904-002__1924.xml" sameAs="#bibl-1904-002-1924"><idno>S5</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+                  (Hg.): Zur Technik der Psychoanalyse und zur Metapsychologie. Leipzig, Wien,
+                  Zürich: Internationaler Psychoanalytischer Verlag 1924, S. 3-10.</witness>
+               <witness xml:id="sfe-1904-002__1925.xml" sameAs="#bibl-1904-002-1925"><idno>C</idno>:
+                  Die Freudsche psychoanalytische Methode. In: Freud, Sigmund; Freud, Anna (Hg.);
+                  Storfer, A. J. (Hg.): Gesammelte Schriften. 6. Band. Leipzig, Wien, Zürich:
+                  Internationaler Psychoanalytischer Verlag 1925, S. 3-10.</witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="smallcaps" scheme="css" selector="hi">font-variant:small-caps;letter-spacing:8px;</rendition>
+            <rendition xml:id="em" scheme="css" selector="hi">font-style:italic;</rendition>
+            <rendition xml:id="bold" scheme="css" selector="hi">font-weight:bold;</rendition>
+            <rendition xml:id="footnote-index" scheme="css" selector="hi">vertical-align:sub;font-size:smaller;</rendition>
+            <rendition xml:id="sub" scheme="css" selector="hi">vertical-align:sub;font-size:smaller;</rendition>
+            <rendition xml:id="marginalie_place" selector="p">TBA</rendition>
+            <rendition xml:id="title" selector="p[@class='title']">Haupttitle des
+               Dokuments</rendition>
+            <rendition xml:id="h1" selector="p[@class='h1']">Titel eines Paragraphen</rendition>
+         </tagsDecl>
+      </encodingDesc>
       <profileDesc>
-         <creation>
-            <date type="a" when="1925">1925</date>
-         </creation>
          <langUsage>
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="#dstoxreiter" when="2022-08-01">TEI serialization Download script "download_work.py"</change>
-         <change who="#kkaufmann #chuber" when="2022-08-05">Varianten eingefügt.</change>
-         <change who="#kkaufmann #chuber" when="2022-08-09">Stellenkommentare eingefügt.</change>
-         <change who="#kkaufmann #chuber" when="2022-08-12">Angaben zur Textentstehung und Publikationsgeschichte.</change>
-         <change who="#kkaufmann #chuber" when="2022-08-23">Inhaltliche Auszeichnung von Schlagwörtern und Personen als reference strint (rs).</change>
-         <change who="#kkaufmann #chuber" when="2022-08-25">Überprüfung und Korrekturen.</change>
-         <change who="#dstoxreiter" when="2022-08-29">TEI Serialisierung Update mit api crawler v2.0.1.
-            Download Skript "download_work.py"</change>
-         <change who="#dstoxreiter" when="2022-09-08">Drei Versionen von Publikationen in publicationStmt 
-            (Digital Edition, Archiv und Publikationsgeschichte) erstellt. Note type editorial erstellt und Information zur Textentstehung hinzugefügt.</change>
-      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -425,20 +423,20 @@
                   <app>
                      <lem wit="#sfe-1904-002__1904.xml #sfe-1904-002__1906.xml">DIE FREUD’SCHE</lem>
                      <rdg wit="#sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Freudsche</rdg>
-               </app><lb/> PSYCHOANALYTISCHE METHODE<lb break="paragraph"/>
-               </title>
+                  </app><lb/> PSYCHOANALYTISCHE METHODE </title>
             </p>
             <p>„Die eigentümliche Methode der Psychotherapie, die <hi rendition="#smallcaps">Freud</hi><lb/> ausübt und als <app>
-                     <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml"><rs type="keyword" ref="#frd_kw_2113">Psychoanalyse</rs></lem>
-                     <rdg wit="#sfe-1904-002__1904.xml">Psycho-Analyse</rdg>
-                  </app> bezeichnet, ist aus dem sogenannten<lb/><rs type="keyword" ref="#frd_kw_3415">kathartischen Verfahren</rs> hervorgegangen,
+                  <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml"><rs type="keyword" ref="#frd_kw_2113">Psychoanalyse</rs></lem>
+                  <rdg wit="#sfe-1904-002__1904.xml">Psycho-Analyse</rdg>
+               </app> bezeichnet, ist aus dem sogenannten<lb/>
+               <rs type="keyword" ref="#frd_kw_3415">kathartischen Verfahren</rs> hervorgegangen,
                über welches er seiner<lb break="no"/>zeit in den „Studien über Hysterie“ 1895 in
                Gemeinschaft mit<lb/>
                <rs type="person" ref="#frd_person_40">J. <hi rendition="#smallcaps">Breuer</hi></rs><note type="e" resp="#kkaufmann"><term>Breuer</term> Josef Breuer
                   (1842-1925), österr. Internist und Physiologe, veröffentl. gem. mit Freud u.a.
                      <title ref="#zotero__V9N337QB">Studien über Hysterie</title> .</note> berichtet
-               hat. Die<rs type="keyword" ref="#frd_kw_3415">kathartische
-                  Therapie</rs> war eine<lb/> Erfindung <hi rendition="#smallcaps"><app>
+               hat. Die <rs type="keyword" ref="#frd_kw_3415">kathartische Therapie</rs> war
+               eine<lb/> Erfindung <hi rendition="#smallcaps"><app>
                      <lem wit="#sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Breuers</lem>
                      <rdg wit="#sfe-1904-002__1904.xml #sfe-1904-002__1906.xml">Breuer’s</rdg>
                   </app></hi>, der mit ihrer Hilfe zuerst etwa ein Dezen<lb break="no"/>nium vorher
@@ -450,7 +448,7 @@
                wieder auf und erprobte es an einer <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">größeren</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">grösseren</rdg>
-               </app> Anzahl<lb/> von Kranken.<lb break="paragraph"/></p>
+               </app> Anzahl<lb/> von Kranken.</p>
             <p>Das kathartische Verfahren setzte voraus, <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">daß</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">dass</rdg>
@@ -478,7 +476,7 @@
                Erinnerungen,<lb/> Gedanken und Impulse auf, die in seinem <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Bewußtsein</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">Bewusstsein</rdg>
-               </app> bisher<lb/> ausgefallen waren, und wenn er diese seine seelischen Vorgänge<lb break="paragraph"/><pb n="2" xml:id="page__7e4855dc-ea7c-4a7b-916e-25d621460232"/><fw type="pageNum">4</fw>unter intensiven <app>
+               </app> bisher<lb/> ausgefallen waren, und wenn er diese seine seelischen Vorgänge <pb n="2" xml:id="page__7e4855dc-ea7c-4a7b-916e-25d621460232"/><fw type="pageNum">4</fw>unter intensiven <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Affektäußerungen</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">Affektäusserungen</rdg>
                </app> dem Arzte mitgeteilt hatte,<lb/> war das Symptom überwunden, die Wiederkehr
@@ -493,9 +491,9 @@
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Bewußtsein</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">Bewusstsein</rdg>
                </app> gelangten psychischen Vorgängen stehe, also eine Umwandlung<lb/>
-               („Konversion“) der letzteren darstelle. Die therapeutische Wirk<lb break="no"/>samkeit ihres Verfahrens erklärten sie sich aus der <rs type="keyword" ref="frd_kw_9">Abfuhr</rs> des<lb/> bis dahin gleichsam „eingeklemmten“ Affektes, der an den
-                  unter<lb break="no"/>drückten seelischen Aktionen gehaftet hatte („Abreagieren“).
-               Das<lb/> einfache Schema des therapeutischen<app>
+               („Konversion“) der letzteren darstelle. Die therapeutische Wirk<lb break="no"/>samkeit ihres Verfahrens erklärten sie sich aus der <rs type="keyword" ref="frd_kw_9">Abfuhr</rs> des<lb/> bis dahin gleichsam „eingeklemmten“ Affektes,
+               der an den unter<lb break="no"/>drückten seelischen Aktionen gehaftet hatte
+               („Abreagieren“). Das<lb/> einfache Schema des therapeutischen<app>
                   <lem wit="#sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Eingriffes</lem>
                   <rdg wit="#sfe-1904-002__1904.xml #sfe-1904-002__1906.xml">Eingriffs</rdg>
                </app> komplizierte sich<lb/> aber nahezu <app>
@@ -506,7 +504,7 @@
                   <rdg wit="#sfe-1904-002__1904.xml">dass</rdg>
                </app> nicht ein einzelner<lb/> („traumatischer“) Eindruck, sondern meist eine schwer
                zu über<lb break="no"/>sehende Reihe von solchen an der Entstehung des Symptoms<lb/>
-               beteiligt sei.<lb break="paragraph"/></p>
+               beteiligt sei.</p>
 
 
             <p>Der Hauptcharakter der kathartischen Methode, der sie <app>
@@ -530,7 +528,7 @@
                </app> als dem bisherigen <app>
                   <lem wit="#sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Verlaufe</lem>
                   <rdg wit="#sfe-1904-002__1904.xml #sfe-1904-002__1906.xml">Verlauf</rdg>
-               </app> zu bringen, der in die Symptombildung eingemündet hat.<lb break="paragraph"/></p>
+               </app> zu bringen, der in die Symptombildung eingemündet hat.</p>
             <p>Die Abänderungen, welche <hi rendition="#smallcaps">Freud</hi> an dem kathartischen
                   Ver<lb break="no"/>fahren <hi rendition="#smallcaps"><app>
                      <lem wit="#sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Breuers</lem>
@@ -540,10 +538,10 @@
                der früheren<lb/> nicht <app>
                   <lem wit="#sfe-1904-002__1925.xml #sfe-1904-002__1924.xml #sfe-1904-002__1904.xml">widersprechenden</lem>
                   <rdg wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml">widersprechenden,</rdg>
-               </app> Auffassung der therapeutischen Arbeit<lb/> genötigt.<lb break="paragraph"/></p>
+               </app> Auffassung der therapeutischen Arbeit<lb/> genötigt.</p>
             <p>Hatte die kathartische Methode bereits auf die <rs type="keyword" ref="#frd_kw_2631">Suggestion</rs><lb/> verzichtet, so unternahm <hi rendition="#smallcaps">Freud</hi> den weiteren Schritt, auch die<lb/> Hypnose aufzugeben. Er behandelt
                   gegenwärtig<note type="e" resp="#kkaufmann"><term>gegenwärtig</term> Zur Zeit der
-                  Entstehung des Textes: 1904</note> seine Kranken,<lb break="paragraph"/><pb n="3" xml:id="page__2e11f984-bba9-4fa4-bbc9-4b9faf02db24"/><fw type="pageNum">5</fw>indem er sie ohne andersartige Beeinflussung eine bequeme<lb/> Rückenlage auf
+                  Entstehung des Textes: 1904</note> seine Kranken, <pb n="3" xml:id="page__2e11f984-bba9-4fa4-bbc9-4b9faf02db24"/><fw type="pageNum">5</fw>indem er sie ohne andersartige Beeinflussung eine bequeme<lb/> Rückenlage auf
                einem Ruhebett einnehmen <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">läßt</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">lässt</rdg>
@@ -562,7 +560,7 @@
                also<lb/> wie ein Gespräch zwischen zwei gleich wachen Personen, von<lb/> denen die
                eine sich jede Muskelanstrengung und jeden ablenken<lb break="no"/>den Sinneseindruck
                erspart, die sie in der Konzentration ihrer<lb/> Aufmerksamkeit auf ihre eigene
-               seelische Tätigkeit stören könnten.<lb break="paragraph"/></p>
+               seelische Tätigkeit stören könnten.</p>
 
 
             <p>Da das <app>
@@ -593,7 +591,7 @@
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">ließ</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">liess</rdg>
                </app>. Wenn für diesen Aus<lb break="no"/>fall kein Ersatz zu schaffen war, konnte
-               auch von einer thera<lb break="no"/>peutischen Einwirkung keine Rede sein.<lb break="paragraph"/></p>
+               auch von einer thera<lb break="no"/>peutischen Einwirkung keine Rede sein.</p>
             <p>Einen solchen völlig ausreichenden Ersatz fand nun <hi rendition="#smallcaps">Freud</hi><lb/> in den Einfällen der Kranken, <app>
                   <lem wit="#sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">das heißt</lem>
                   <rdg wit="#sfe-1904-002__1904.xml #sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml">d. h.</rdg>
@@ -606,14 +604,11 @@
                </app> „wie man es etwa in<lb/> einem <app>
                   <lem wit="#sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml"><rs type="keyword" ref="frd_kw_3416">Gespräche</rs></lem>
                   <rdg wit="#sfe-1904-002__1904.xml #sfe-1904-002__1906.xml">Gespräch</rdg>
-               </app>
-               tut, bei welchem man aus dem
-               Hundertsten in<lb/> das Tausendste <app>
+               </app> tut, bei welchem man aus dem Hundertsten in<lb/> das Tausendste <app>
                   <lem wit="#sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">gerät.“</lem>
                   <rdg wit="#sfe-1904-002__1904.xml #sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml">gerät“.</rdg>
-               </app> Er schärft ihnen, ehe er sie zur detaillierten<lb/> Erzählung ihrer
-               <rs type="keyword" ref="frd_kw_1468">Krankengeschichte</rs> auffordert, ein, alles mit zu<lb/> sagen, was ihnen dabei durch den
-               Kopf geht, auch wenn sie<lb break="paragraph"/><pb n="4" xml:id="page__5b8b2c55-7ea3-4d51-b989-112dedc3d064"/><fw type="pageNum">6</fw>meinen, es sei unwichtig, oder es gehöre nicht dazu, oder es sei<lb/>
+               </app> Er schärft ihnen, ehe er sie zur detaillierten<lb/> Erzählung ihrer <rs type="keyword" ref="frd_kw_1468">Krankengeschichte</rs> auffordert, ein, alles mit
+               zu<lb/> sagen, was ihnen dabei durch den Kopf geht, auch wenn sie <pb n="4" xml:id="page__5b8b2c55-7ea3-4d51-b989-112dedc3d064"/><fw type="pageNum">6</fw>meinen, es sei unwichtig, oder es gehöre nicht dazu, oder es sei<lb/>
                unsinnig. Mit besonderem <app>
                   <lem wit="#sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Nachdrucke</lem>
                   <rdg wit="#sfe-1904-002__1904.xml #sfe-1904-002__1906.xml">Nachdruck</rdg>
@@ -636,10 +631,9 @@
                </app><lb/> zeitliche Beziehungen verwirrt oder Kausalzusammenhänge zer<lb break="no"/>rissen worden sind, so <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">daß</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">dass</rdg>
-               </app> sich unbegreifliche Effekte ergeben.<lb/> Ohne <rs type="keyword" ref="frd_kw_112">Amnesie</rs> irgend einer Art gibt
-               es keine neurotische Kranken<lb break="no"/>geschichte. Drängt man den Erzählenden,
-               diese Lücken seines<lb/> Gedächtnisses durch angestrengte Arbeit der Aufmerksamkeit
-                  aus<lb break="no"/>zufüllen, so merkt man, <app>
+               </app> sich unbegreifliche Effekte ergeben.<lb/> Ohne <rs type="keyword" ref="frd_kw_112">Amnesie</rs> irgend einer Art gibt es keine neurotische
+                  Kranken<lb break="no"/>geschichte. Drängt man den Erzählenden, diese Lücken
+               seines<lb/> Gedächtnisses durch angestrengte Arbeit der Aufmerksamkeit aus<lb break="no"/>zufüllen, so merkt man, <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">daß</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">dass</rdg>
                </app> die <app>
@@ -664,7 +658,7 @@
                   <rdg wit="#sfe-1904-002__1904.xml">heisst</rdg>
                </app> und als dessen Motiv er<lb/> Unlustgefühle erkennt. Die psychischen Kräfte,
                welche diese Ver<lb break="no"/>drängung herbeigeführt haben, meint er in dem <hi rendition="#smallcaps"><rs type="keyword" ref="#frd_kw_3235">Widerstand</rs></hi>,<lb/> der sich gegen die Wiederherstellung erhebt, zu
-                  verspüren.<lb break="paragraph"/></p>
+               verspüren.</p>
 
 
             <p>Das Moment des Widerstandes ist eines der Fundamente seiner<lb/> Theorie geworden.
@@ -676,37 +670,36 @@
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">),</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">)</rdg>
                </app> als Entstellungen derselben infolge des gegen<lb/> ihre Reproduktion
-               bestehenden Widerstandes.<lb break="paragraph"/></p>
+               bestehenden Widerstandes.</p>
             <p>Je größer <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">größer</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">grösser</rdg>
-               </app> der Widerstand, desto ausgiebiger diese <rs type="keyword" ref="#frd_kw_658">Entstellung</rs>.<lb/> In dieser Beziehung der unbeabsichtigten
-               Einfälle zum ver<lb break="no"/>drängten psychischen Material ruht nun ihr Wert für
-               die thera<lb break="no"/><pb n="5" xml:id="page__066d3723-12a1-4708-8bde-56a5c43b8e51"/><fw type="pageNum">7</fw>peutische Technik. Wenn man ein Verfahren besitzt, welches<lb/> ermöglicht,
-               von den Einfällen aus zu dem Verdrängten, von den<lb/> Entstellungen zum Entstellten
-               zu gelangen, so kann man auch<lb/> ohne Hypnose das früher <app>
+               </app> der Widerstand, desto ausgiebiger diese <rs type="keyword" ref="#frd_kw_658">Entstellung</rs>.<lb/> In dieser Beziehung der unbeabsichtigten Einfälle zum
+                  ver<lb break="no"/>drängten psychischen Material ruht nun ihr Wert für die
+                  thera<lb break="no"/><pb n="5" xml:id="page__066d3723-12a1-4708-8bde-56a5c43b8e51"/><fw type="pageNum">7</fw>peutische Technik. Wenn man ein Verfahren besitzt,
+               welches<lb/> ermöglicht, von den Einfällen aus zu dem Verdrängten, von den<lb/>
+               Entstellungen zum Entstellten zu gelangen, so kann man auch<lb/> ohne Hypnose das
+               früher <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml"><rs type="keyword" ref="#frd_kw_2913">Unbewußte</rs></lem>
                   <rdg wit="#sfe-1904-002__1904.xml">unbewusste</rdg>
                </app> im Seelenleben dem<lb/>
                <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Bewußtsein</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">Bewusstsein</rdg>
-               </app> zugänglich machen.<lb break="paragraph"/></p>
+               </app> zugänglich machen.</p>
 
 
-            <p><hi rendition="#smallcaps">Freud</hi> hat darauf eine <hi rendition="#smallcaps"><rs type="keyword" ref="#frd_kw_3417">Deutungskunst</rs></hi>
-                ausgebildet, welcher<lb/>
-               diese Leistung zufällt, die gleichsam aus den Erzen der unbeab<lb break="no"/>sichtigten Einfälle den Metallgehalt an verdrängten Gedanken<lb/> darstellen soll.
-               Objekt dieser Deutungsarbeit sind nicht allein die<lb/> Einfälle <app>
+            <p><hi rendition="#smallcaps">Freud</hi> hat darauf eine <hi rendition="#smallcaps"><rs type="keyword" ref="#frd_kw_3417">Deutungskunst</rs></hi> ausgebildet,
+               welcher<lb/> diese Leistung zufällt, die gleichsam aus den Erzen der unbeab<lb break="no"/>sichtigten Einfälle den Metallgehalt an verdrängten Gedanken<lb/>
+               darstellen soll. Objekt dieser Deutungsarbeit sind nicht allein die<lb/> Einfälle <app>
                   <lem wit="#sfe-1904-002__1904.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">des</lem>
                   <rdg wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml">der</rdg>
-               </app> Kranken, sondern auch seine <rs type="keyword" ref="#frd_kw_2750">Träume</rs>, die den<lb/> direktesten Zugang zur Kenntnis des <app>
+               </app> Kranken, sondern auch seine <rs type="keyword" ref="#frd_kw_2750">Träume</rs>,
+               die den<lb/> direktesten Zugang zur Kenntnis des <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Unbewußten</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">Unbewussten</rdg>
-               </app>
-               eröffnen, seine<lb/>
-               unbeabsichtigten, wie planlosen Handlungen (Symptomhandlungen)<lb/> und die Irrungen
-               seiner Leistungen im Alltagsleben <app>
+               </app> eröffnen, seine<lb/> unbeabsichtigten, wie planlosen Handlungen
+               (Symptomhandlungen)<lb/> und die Irrungen seiner Leistungen im Alltagsleben <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">(Versprechen,</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">Versprechen,</rdg>
                </app>
@@ -714,8 +707,7 @@
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">dgl.</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">dergl.</rdg>
                </app>). Die Details dieser Deutungs- oder Über<lb break="no"/>setzungstechnik sind
-               von <hi rendition="#smallcaps">Freud</hi> noch nicht veröffentlicht
-                     worden<note type="e" resp="#kkaufmann"><term>noch nicht veröffentlicht worden</term><bibl xml:id="zotero_MX3Z9673">Zur Psychopathologie des Alltagslebens</bibl>
+               von <hi rendition="#smallcaps">Freud</hi> noch nicht veröffentlicht worden<note type="e" resp="#kkaufmann"><term>noch nicht veröffentlicht worden</term><bibl xml:id="zotero_MX3Z9673">Zur Psychopathologie des Alltagslebens</bibl>
                   erscheint 1904.</note>.<lb/> Es sind nach seinen Andeutungen eine Reihe von
                empirisch<lb/> gewonnenen Regeln, wie aus den Einfällen das <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">unbewußte</lem>
@@ -731,7 +723,7 @@
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml"> „<bibl xml:id="zotero_JKI7TNM4">Traumdeutung</bibl> “,</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">die „Traumdeutung“</rdg>
                </app> 1900 von <hi rendition="#smallcaps">Freud</hi> publiziert, ist als
-               Vorläufer<lb/> einer solchen Einführung in die Technik anzusehen.<lb break="paragraph"/></p>
+               Vorläufer<lb/> einer solchen Einführung in die Technik anzusehen.</p>
             <p>Man könnte aus diesen Andeutungen über die Technik der<lb/> psychoanalytischen
                Methode <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">schließen</lem>
@@ -761,7 +753,7 @@
                   <lem wit="#sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">darum</lem>
                   <rdg wit="#sfe-1904-002__1904.xml #sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml">dagegen</rdg>
                </app> nur unvoll<lb break="no"/>ständige Auskünfte und nur vorübergehende
-                  Erfolge.<lb break="paragraph"/></p>
+               Erfolge.</p>
 
 
             <p>Die Aufgabe, welche die psychoanalytische Methode zu lösen<lb/> bestrebt ist, <app>
@@ -812,7 +804,7 @@
                Allgemeinzustandes, während<lb/> die Symptome, aber mit geminderter Bedeutung für den <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Kranken,</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">Kranken</rdg>
-               </app><lb/> fortbestehen können, ohne ihn zu einem Kranken zu stempeln.<lb break="paragraph"/></p>
+               </app><lb/> fortbestehen können, ohne ihn zu einem Kranken zu stempeln.</p>
             <p>Das therapeutische Verfahren <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">bleibt,</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">bleibt</rdg>
@@ -820,8 +812,10 @@
                <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">abgesehen,</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">abgesehen</rdg>
-               </app> das nämliche für alle Symptombilder der vielgestaltigen<lb/><rs type="keyword" ref="#frd_kw_1224">Hysterie</rs> und ebenso für alle Ausbildungen der <rs type="keyword" ref="frd_kw_3397">Zwangsneurose</rs>.<lb/> Von einer unbeschränkten
-               Anwendbarkeit desselben ist aber keine<lb/> Rede. Die Natur der <app>
+               </app> das nämliche für alle Symptombilder der vielgestaltigen<lb/>
+               <rs type="keyword" ref="#frd_kw_1224">Hysterie</rs> und ebenso für alle Ausbildungen
+               der <rs type="keyword" ref="frd_kw_3397">Zwangsneurose</rs>.<lb/> Von einer
+               unbeschränkten Anwendbarkeit desselben ist aber keine<lb/> Rede. Die Natur der <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">psychoanalytischen</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">psycho-analytischen</rdg>
                </app> Methode schafft Indikationen und Gegenanzeigen sowohl von <app>
@@ -834,9 +828,9 @@
                Psychoanalyse sind die chronischen Fälle von<lb/> Psychoneurosen mit wenig
                stürmischen oder gefahrdrohenden<lb/> Symptomen, also zunächst alle Arten der
                Zwangsneurose,<lb/> Zwangsdenken und Zwangshandeln, und Fälle von Hysterie, in<lb/>
-               denen Phobien und Abulien <note type="e" resp="#kkaufmann"><term>Abulien</term>Abulie, griech. krankhafte
-                  Willensschwäche</note> die Hauptrolle spielen, weiterhin<lb/> aber auch alle
-               somatischen Ausprägungen der Hysterie, <app>
+               denen Phobien und Abulien <note type="e" resp="#kkaufmann"><term>Abulien</term>Abulie, griech. krankhafte Willensschwäche</note> die
+               Hauptrolle spielen, weiterhin<lb/> aber auch alle somatischen Ausprägungen der
+               Hysterie, <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">insoferne</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">insofern</rdg>
                </app><lb/>
@@ -854,7 +848,7 @@
                   <lem wit="#sfe-1904-002__1911.xml #sfe-1904-002__1924.xml #sfe-1904-002__1906.xml #sfe-1904-002__1925.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml">zeitigt</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">zeitigt,</rdg>
                </app> und auf die Fortdauer<lb/> der Symptome eine Zeitlang keine Rücksicht nehmen
-                  kann.<lb break="paragraph"/></p>
+               kann.</p>
 
 
             <p>An die Person, die man mit Vorteil der Psychoanalyse unter<lb break="no"/>ziehen
@@ -885,7 +879,7 @@
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">lang,</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">lang</rdg>
                </app> und die Fähigkeit, psychische Vorgänge rückgängig zu<lb/> machen, beginnt zu
-                  erlahmen.<lb break="paragraph"/></p>
+               erlahmen.</p>
 
             <pb n="8" xml:id="page__e28fcbfa-388c-4698-a1ff-2b81aa895f3a"/>
             <fw type="pageNum">10</fw>
@@ -926,11 +920,30 @@
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">lassen.“</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">lassen“.</rdg>
                </app>
-               <lb break="paragraph"/>
             </p>
          </div>
       </body>
-   <back><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
+   <back><listPerson><person xml:id="frd_person_44">
+               <persName>Kurella, Hans</persName>
+               <idno type="gnd">https://d-nb.info/gnd/116616105</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_40">
+               <persName>Breuer, Josef</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118515225</idno>
+               <note type="bio">(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_41">
+               <persName>Löwenfeld, Leopold</persName>
+               <idno type="gnd">https://d-nb.info/gnd/117168815</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            </listPerson><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
           <monogr>
             <title level="m">Studien über Hysterie</title>
             <idno type="callNumber">I-176203</idno>
@@ -950,21 +963,7 @@
               <note type="url">http://phaidra.univie.ac.at/o:350215</note>
             </imprint>
           </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
-        </listBibl><listPerson><person xml:id="frd_person_41">
-               <persName>Löwenfeld, Leopold</persName>
-               <idno type="gnd">https://d-nb.info/gnd/117168815</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_44">
-               <persName>Kurella, Hans</persName>
-               <idno type="gnd">https://d-nb.info/gnd/116616105</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_40">
-               <persName>Breuer, Josef</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118515225</idno>
-               <note type="bio">(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            </listPerson></back></text>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
+        </listBibl></back></text>
 </TEI>

@@ -2,15 +2,14 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Über Psychotherapie (1905-001/1925)</title>
-            <title type="short">GS 6</title>
-            <title type="sub">Sigmund Freud Edition: Digitale Historisch-Kritische
+            <title type="work" level="a">Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title>
+            <title type="manifestation" level="a">Über Psychotherapie (1905-001/1925)</title>
+            <title type="series" level="s">Sigmund Freud Edition: Digitale Historisch-Kritische
                Gesamtausgabe</title>
             <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
-            <editor>
-               <name>Diercks, Christine</name>
-               <name>Rohrwasser, Michael</name>
-            </editor>
+            <editor><name>Huber, Christian</name><name>Kaufmann, Kira</name><name>Rohrwasser,
+                  Michael</name></editor>
             <funder>
                <name>FWF Der Wissenschaftsfond.</name>
                <address>
@@ -24,28 +23,37 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>Sigmund Freud Edition: Digitale Historisch-Kritische Gesamtausgabe</edition>
+            <edition>Sigmund Freud: Historisch-kritische Ausgabe (HKA)</edition>
             <respStmt>
-               <resp>Konzept für die Edition und die Datenbank, Richtlinien, Quellenforschung,
-                  Signaturen, Referenzsystem</resp>
-               <name>Diercks, Christine</name>
-            </respStmt>
-            <respStmt>
-               <resp>Quellenforschung, Digitalisierung der Datenquellen, Bildbearbeitung,
-                  Faksimile-Ausgabe, Bibliografie</resp>
-               <name>Blatow, Arkadi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Diplomatische Umschrift, Lektorat</resp>
-               <name>Blatow, Arkadi</name>
-               <name>Diercks, Christine</name>
+               <resp>Editionsrichtlinien</resp>
                <name>Huber, Christian</name>
                <name>Kaufmann, Kira</name>
                <name>Rohrwasser, Michael</name>
             </respStmt>
             <respStmt>
-               <resp>Technische Umsetzung der Datenbank und der digitalen Instrumente</resp>
-               <name>Roedelius, Julian</name>
+               <resp>Diplomatische Umschrift, Lektorat</resp>
+               <name>Fuchs, Laura</name>
+               <name>Huber, Christian</name>
+               <name>Kaufmann, Kira</name>
+               <name>Liepold, Sophie</name>
+               <name>Wimmer, Philipp</name>
+            </respStmt>
+            <respStmt>
+               <resp>Kritischer Apparat</resp>
+               <name>Huber, Christian</name>
+               <name>Kaufmann, Kira</name>
+               <name>Rohrwasser, Michael</name>
+            </respStmt>
+            <respStmt>
+               <resp>Kommentar</resp>
+               <name>Huber, Christian</name>
+               <name>Kaufmann, Kira</name>
+               <name>Rohrwasser, Michael</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema ODD</resp>
+               <name>Andorfer, Peter</name>
+               <name>Stoxreiter, Daniel</name>
             </respStmt>
             <respStmt>
                <resp>Datenexport aus Drupal und TEI Serialisierung</resp>
@@ -85,114 +93,297 @@
                </licence>
             </availability>
          </publicationStmt>
-         <seriesStmt xml:id="bibl__240e92d7-cdf2-4502-b6ff-7a1cbdbdfcba">
-            <title type="work">Freud, Sigmund (1905-001; 1905a [1904]): Über Psychotherapie</title>
-            <title type="sub">Sigmund Freud Edition: Digitale Historisch-Kritische
-               Gesamtausgabe</title>
-            <idno type="url">https://www.freud-edition.net/ueber-psychotherapie</idno>
-            <idno type="api">https://www.freud-edition.net/jsonapi/werk/240e92d7-cdf2-4502-b6ff-7a1cbdbdfcba</idno>
-         </seriesStmt>
+         <notesStmt>
+            <note type="comment_intern">
+               <p>OCR korr., SL, S. 1-14</p>
+               <p>2. Korr. CH</p>
+            </note>
+         </notesStmt>
          <sourceDesc>
             <listBibl>
-               <bibl xml:id="bibl__62258388-9c35-4aed-b7e4-d0088ff3e6e8">
-                  <title type="manifestation">Über Psychotherapie</title>
-                  <title type="short">GS 6</title>
-                  <title type="sub">Sigmund Freud Edition: Digitale Historisch-Kritische
-                     Gesamtausgabe</title>
-                  <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
-                  <editor>
-                     <name>Blatow, Arkadi</name>
-                     <name>Diercks, Christine</name>
-                     <name>Huber, Christian</name>
-                     <name>Kaufmann, Kira</name>
-                     <name>Rohrwasser, Michael</name>
-                  </editor>
-                  <date when="2022">2022</date>
-                  <idno type="signature">1905-001/1925</idno>
-                  <idno type="url">https://www.freud-edition.net/werke/uber-psychotherapie/druckversion-4</idno>
-                  <idno type="api">https://www.freud-edition.net/jsonapi/node/manifestation/62258388-9c35-4aed-b7e4-d0088ff3e6e8</idno>
-               </bibl>
-            </listBibl>
-            <msDesc>
-               <msIdentifier>
-                  <repository>IPU</repository>
-                  <idno type="api">https://www.freud-edition.net/jsonapi/taxonomy_term/archive/0fd1eab6-5292-468c-8d35-10d7345ea492</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <bibl>
+               <head>Publikationsgeschichte</head>
+               <biblStruct xml:id="bibl-1905-001-1922">
+                  <analytic>
+                     <title type="manifestation">Über Psychotherapie </title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+                  <monogr>
+                     <title type="publication">Sammlung kleiner Schriften zur Neurosenlehre</title>
+                     <title type="publication-sub">[Sammlung kleiner Schriften zur Neurosenlehre aus
+                        den Jahren 1893-1906]</title>
+                     <title type="publication-short">SKSN 1 (4. Auflage)</title>
+                     <respStmt>
+                        <resp>Herausgegeben von</resp>
+                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
+                           Sigmund</name>
+                     </respStmt>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1922-01-01">1922-01-01</date>
+                     </imprint>
+                     <extent>212 Seiten</extent>
+                     <biblScope unit="volume">1. Folge</biblScope>
+                     <biblScope unit="issue">4. unveränderte Auflage</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct xml:id="bibl-1905-001-1906">
+                  <analytic>
+                     <title type="manifestation">Über Psychotherapie </title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+                  <monogr>
+                     <title type="publication">Sammlung kleiner Schriften zur Neurosenlehre</title>
+                     <title type="publication-sub">[Sammlung kleiner Schriften zur Neurosenlehre aus
+                        den Jahren 1893-1906]</title>
+                     <title type="publication-short">SKSN 1</title>
+                     <respStmt>
+                        <resp>Herausgegeben von</resp>
+                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
+                           Sigmund</name>
+                     </respStmt>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1906-01-01">1906-01-01</date>
+                     </imprint>
+                     <extent>217 Seiten</extent>
+                     <biblScope unit="volume">1. Folge</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct xml:id="bibl-1905-001-1924">
+                  <analytic>
+                     <title type="manifestation">Über Psychotherapie</title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+                  <monogr>
+                     <title type="publication">Zur Technik der Psychoanalyse und zur
+                        Metapsychologie</title>
+                     <title type="publication-sub"/>
+                     <title type="publication-short"/>
+                     <respStmt>
+                        <resp>Herausgegeben von</resp>
+                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
+                           Sigmund</name>
+                     </respStmt>
+                     <imprint>
+                        <pubPlace>Zürich</pubPlace>
+                        <date when="1924-01-01">1924-01-01</date>
+                     </imprint>
+                     <extent>24 Seiten</extent>
+                  </monogr>
+               </biblStruct>
+               <biblStruct xml:id="bibl-1905-001-1911">
+                  <analytic>
+                     <title type="manifestation">Über Psychotherapie </title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+                  <monogr>
+                     <title type="publication">Sammlung kleiner Schriften zur Neurosenlehre</title>
+                     <title type="publication-sub">[Sammlung kleiner Schriften zur Neurosenlehre aus
+                        den Jahren 1893-1906]</title>
+                     <title type="publication-short">SKSN 1 (2. Auflage)</title>
+                     <respStmt>
+                        <resp>Herausgegeben von</resp>
+                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
+                           Sigmund</name>
+                     </respStmt>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1911-01-01">1911-01-01</date>
+                     </imprint>
+                     <extent>212 Seiten</extent>
+                     <biblScope unit="volume">1. Folge</biblScope>
+                     <biblScope unit="issue">2. unveränderte Auflage</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct xml:id="bibl-1905-001-1905">
+                  <analytic>
+                     <title type="manifestation">Über Psychotherapie</title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+                  <monogr>
+                     <title type="publication">Wiener Medizinische Presse</title>
+                     <title type="publication-sub">Organ für praktische Ärzte</title>
+                     <title type="publication-short"/>
+                     <respStmt>
+                        <resp>Herausgegeben von</resp>
+                        <name type="person" ref="#p__0d516366-f075-42af-96db-8ff19680b170">Bum,
+                           Anton</name>
+                     </respStmt>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1905-01-01">1905-01-01</date>
+                     </imprint>
+                     <extent>16 Seiten</extent>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="year">46</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct xml:id="bibl-1905-001-1905.2">
+                  <analytic>
+                     <title type="manifestation">Über Psychotherapie</title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+               </biblStruct>
+               <biblStruct xml:id="bibl-1905-001-1920">
+                  <analytic>
+                     <title type="manifestation">Über Psychotherapie </title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+                  <monogr>
+                     <title type="publication">Sammlung kleiner Schriften zur Neurosenlehre</title>
+                     <title type="publication-sub">[Sammlung kleiner Schriften zur Neurosenlehre aus
+                        den Jahren 1893-1906]</title>
+                     <title type="publication-short">SKSN 1 (3. Auflage)</title>
+                     <respStmt>
+                        <resp>Herausgegeben von</resp>
+                        <name type="person" ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
+                           Sigmund</name>
+                     </respStmt>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1920-01-01">1920-01-01</date>
+                     </imprint>
+                     <extent>212 Seiten</extent>
+                     <biblScope unit="volume">1. Folge</biblScope>
+                     <biblScope unit="issue">3. unveränderte Auflage</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct xml:id="bibl-1905-001-1925" type="guidingManifestation">
+                  <analytic>
+                     <title type="manifestation">Über Psychotherapie</title>
+                     <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
+                  </analytic>
+                  <monogr>
+                     <title type="publication">Gesammelte Schriften von Sigm. Freud</title>
+                     <title type="publication-sub"/>
+                     <title type="publication-short">GS 6</title>
+                     <respStmt>
+                        <resp>Herausgegeben von</resp>
+                        <name type="person" ref="#p__348d6af3-824c-4e43-bdc0-f8bca83c2819">Storfer,
+                           A.J.</name>
+                     </respStmt>
+                     <imprint>
+                        <pubPlace>Zürich</pubPlace>
+                        <date when="1925-01-01">1925-01-01</date>
+                     </imprint>
+                     <extent>24 Seiten</extent>
+                     <biblScope unit="volume">6. Band</biblScope>
+                  </monogr>
+                  <relatedItem type="digitisedVersion">
+                     <bibl xml:id="bibl__62258388-9c35-4aed-b7e4-d0088ff3e6e8">
                         <title>Über Psychotherapie</title>
+                        <series>
+                           <title type="main">Sigmund Freud Edition</title>
+                           <editor>Diercks, Christine</editor>
+                           <editor>Rohrwasser, Michael</editor>
+                           <idno type="url">https://www.freud-edition.net</idno>
+                        </series>
                         <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud,
                            Sigmund</author>
-                        <date when="1925-01-01">1925-01-01</date>
-                        <name>Text in Werkausgabe</name>
-                        <bibl xml:id="bibl__0a4abdfe-7148-4e6e-a367-91194009eb1c">
-                           <title type="main">Gesammelte Schriften von Sigm. Freud</title>
-                           <title type="short">GS 6</title>
-                           <pubPlace>Zürich</pubPlace>
-                           <date when="1925-01-01">1925-01-01</date>
-                           <biblScope unit="volume">6. Band</biblScope>
-                           <biblScope unit="page" to="24">24</biblScope>
-                           <editor ref="#p__348d6af3-824c-4e43-bdc0-f8bca83c2819">Storfer,
-                              A.J.</editor>
-                           <idno type="api">https://www.freud-edition.net/jsonapi/node/bibliography/0a4abdfe-7148-4e6e-a367-91194009eb1c</idno>
-                           <name>Werkausgabe</name>
-                        </bibl>
+                        <respStmt>
+                           <resp>Herausgegeben von</resp>
+                           <name>Diercks, Christine</name>
+                           <name>Rohrwasser, Michael</name>
+                        </respStmt>
+                        <respStmt>
+                           <resp>Konzept für die Edition und die Datenbank, Richtlinien,
+                              Quellenforschung, Signaturen, Referenzsystem</resp>
+                           <name>Diercks, Christine</name>
+                        </respStmt>
+                        <respStmt>
+                           <resp>Quellenforschung, Digitalisierung der Datenquellen,
+                              Bildbearbeitung, Faksimile-Ausgabe, Bibliografie</resp>
+                           <name>Blatow, Arkadi</name>
+                        </respStmt>
+                        <respStmt>
+                           <resp>Diplomatische Umschrift, Lektorat</resp>
+                           <name>Huber, Christian</name>
+                           <name>Kaufmann, Kira</name>
+                           <name>Liepold, Sophie</name>
+                        </respStmt>
+                        <date when="2022">2022</date>
+                        <idno type="signature">1905-001/1925</idno>
+                        <idno type="url">https://www.freud-edition.net/werke/uber-psychotherapie/druckversion-4</idno>
+                        <idno type="api">https://www.freud-edition.net/jsonapi/node/manifestation/62258388-9c35-4aed-b7e4-d0088ff3e6e8</idno>
+                        <relatedItem type="work">
+                           <bibl xml:id="bibl__240e92d7-cdf2-4502-b6ff-7a1cbdbdfcba">
+                              <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+                                 Psychotherapie</title>
+                              <idno type="url">https://www.freud-edition.net/ueber-psychotherapie</idno>
+                              <idno type="api">https://www.freud-edition.net/jsonapi/node/werk/240e92d7-cdf2-4502-b6ff-7a1cbdbdfcba</idno>
+                           </bibl>
+                        </relatedItem>
                      </bibl>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc>
-                     <supportDesc>
-                        <support> Buch aus <material>Papier</material> in Druckschrift . </support>
-                     </supportDesc>
-                  </objectDesc>
-                  <handDesc>
-                     <p>Druckschrift </p>
-                  </handDesc>
-                  <typeDesc>
-                     <p>Druckversion</p>
-                  </typeDesc>
-               </physDesc>
-            </msDesc>
+                  </relatedItem>
+                  <relatedItem type="exemplar">
+                     <msDesc>
+                        <msIdentifier>
+                           <repository>IPU</repository>
+                           <idno type="IPU">Freud_1925_Gesammelte_Schriften_VI_Ich_Psychologie</idno>
+                           <idno type="api">https://www.freud-edition.net/jsonapi/taxonomy_term/archive/0fd1eab6-5292-468c-8d35-10d7345ea492</idno>
+                        </msIdentifier>
+                        <physDesc>
+                           <objectDesc>
+                              <supportDesc>
+                                 <support> Buch aus <material>Papier</material> in Druckschrift .
+                                 </support>
+                              </supportDesc>
+                           </objectDesc>
+                           <handDesc>
+                              <p>Druckschrift </p>
+                           </handDesc>
+                           <typeDesc>
+                              <p>Druckversion</p>
+                           </typeDesc>
+                        </physDesc>
+                     </msDesc>
+                  </relatedItem>
+               </biblStruct>
+            </listBibl>
             <listWit>
-               <witness xml:id="sfe-1905-001__1905.xml">sfe-1905-001__1905.xml<idno>E</idno>: Über
-                  Psychotherapie. In: Wiener Medizinische Presse. Organ für praktische Ärzte 46, 1,
-                  1905.</witness>
-               <witness xml:id="sfe-1905-001__1905_2.xml">sfe-1905-001__1905_2.xml<idno>J</idno>:
-                  Über Psychotherapie [Separatdruck]. Aus: Wiener Medizinische Presse. Organ für
-                  praktische Ärzte 46, 1, 1905.</witness>
-               <witness xml:id="sfe-1905-001__1906.xml">sfe-1905-001__1906.xml<idno>S1</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur
-                  Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 1. Auflage. Leipzig, Wien: Deuticke 1906, S.
-                  205-217.</witness>
-               <witness xml:id="sfe-1905-001__1911.xml">sfe-1905-001__1911.xml<idno>S2</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur
-                  Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 2. unveränderte Auflage. Leipzig, Wien: Deuticke 1911, S.
-                  201-212.</witness>
-               <witness xml:id="sfe-1905-001__1920.xml">sfe-1905-001__1920.xml<idno>S3</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur
-                  Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 3. unveränderte Auflage. Leipzig, Wien: Deuticke 1920, S.
-                  201-212.</witness>
-               <witness xml:id="sfe-1905-001__1922.xml">sfe-1905-001__1922.xml<idno>S4</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur
-                  Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 4. unveränderte Auflage, Leipzig, Wien: Franz Deuticke 1922,
-                  S. 201-212.</witness>
-               <witness xml:id="sfe-1905-001__1924.xml">sfe-1905-001__1924.xml<idno>S5</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund (Hg.): Zur Technik der Psychoanalyse und zur
-                  Metapsychologie. Leipzig, Wien, Zürich: Internationaler Psychoanalytischer Verlag
-                  1924, S. 11-24.</witness>
-               <witness xml:id="sfe-1905-001__1925.xml">sfe-1905-001__1925.xml<idno>C</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund; Freud, Anna; Storfer, A.J. (Hg.): Gesammelte
-                  Schriften von Sigm. Freud. 6. Band, Leipzig, Wien, Zürich: Internationaler
-                  Psychoanalytischer Verlag 1925, S. 11-24</witness>
-                       </listWit>
+               <witness xml:id="sfe-1905-001__1905.xml" sameAs="#bibl-1905-001-1905">sfe-1905-001__1905.xml<idno>E</idno>: Über Psychotherapie. In: Wiener
+                  Medizinische Presse. Organ für praktische Ärzte 46, 1, 1905.</witness>
+               <witness xml:id="sfe-1905-001__1905_2.xml" sameAs="#bibl-1905-001-1905_2">sfe-1905-001__1905_2.xml<idno>J</idno>: Über Psychotherapie [Separatdruck].
+                  Aus: Wiener Medizinische Presse. Organ für praktische Ärzte 46, 1, 1905.</witness>
+               <witness xml:id="sfe-1905-001__1906.xml" sameAs="#bibl-1905-001-1906">sfe-1905-001__1906.xml<idno>S1</idno>: Über Psychotherapie. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 1. Auflage. Leipzig, Wien:
+                  Deuticke 1906, S. 205-217.</witness>
+               <witness xml:id="sfe-1905-001__1911.xml" sameAs="#bibl-1905-001-1911">sfe-1905-001__1911.xml<idno>S2</idno>: Über Psychotherapie. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 2. unveränderte Auflage.
+                  Leipzig, Wien: Deuticke 1911, S. 201-212.</witness>
+               <witness xml:id="sfe-1905-001__1920.xml" sameAs="#bibl-1905-001-1920">sfe-1905-001__1920.xml<idno>S3</idno>: Über Psychotherapie. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 3. unveränderte Auflage.
+                  Leipzig, Wien: Deuticke 1920, S. 201-212.</witness>
+               <witness xml:id="sfe-1905-001__1922.xml" sameAs="#bibl-1905-001-1922">sfe-1905-001__1922.xml<idno>S4</idno>: Über Psychotherapie. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 4. unveränderte Auflage,
+                  Leipzig, Wien: Franz Deuticke 1922, S. 201-212.</witness>
+               <witness xml:id="sfe-1905-001__1924.xml" sameAs="#bibl-1905-001-1924">sfe-1905-001__1924.xml<idno>S5</idno>: Über Psychotherapie. In: Freud, Sigmund
+                  (Hg.): Zur Technik der Psychoanalyse und zur Metapsychologie. Leipzig, Wien,
+                  Zürich: Internationaler Psychoanalytischer Verlag 1924, S. 11-24.</witness>
+               <witness xml:id="sfe-1905-001__1925.xml" sameAs="#bibl-1905-001-1925">sfe-1905-001__1925.xml<idno>C</idno>: Über Psychotherapie. In: Freud, Sigmund;
+                  Freud, Anna; Storfer, A.J. (Hg.): Gesammelte Schriften von Sigm. Freud. 6. Band,
+                  Leipzig, Wien, Zürich: Internationaler Psychoanalytischer Verlag 1925, S.
+                  11-24</witness>
+            </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="smallcaps" scheme="css" selector="hi">font-variant:small-caps;letter-spacing:8px;</rendition>
+            <rendition xml:id="em" scheme="css" selector="hi">font-style:italic;</rendition>
+            <rendition xml:id="bold" scheme="css" selector="hi">font-weight:bold;</rendition>
+            <rendition xml:id="footnote-index" scheme="css" selector="hi">vertical-align:sub;font-size:smaller;</rendition>
+            <rendition xml:id="sub" scheme="css" selector="hi">vertical-align:sub;font-size:smaller;</rendition>
+            <rendition xml:id="marginalie_place" selector="p">TBA</rendition>
+            <rendition xml:id="title" selector="p[@class='title']">Haupttitle des
+               Dokuments</rendition>
+            <rendition xml:id="h1" selector="p[@class='h1']">Titel eines Paragraphen</rendition>
+         </tagsDecl>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="de">Deutsch</language>
@@ -201,8 +392,8 @@
    </teiHeader>
    <text>
       <body>
-         
-         
+
+
          <div>
             <pb n="1" xml:id="page__b9473681-9963-4a1a-8b9f-93476fcd57dc"/>
             <fw type="pageNum">[11]</fw>
@@ -210,7 +401,7 @@
             <p><hi rendition="#em">Vortrag, gehalten im Wiener Medizinischen Doktorenkollegium am
                   12. Dezember 1904; zuerst erschienen in der „Wiener Medizinischen Presse“, 1905,
                   Nr. 1, dann in der Ersten Folge der „Sammlung kleiner Schriften zur
-                  Neurosenlehre“.</hi><lb break="paragraph"/></p>
+                  Neurosenlehre“.</hi></p>
             <p>Meine Herren! Es sind ungefähr <app>
                   <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">acht</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">8</rdg>
@@ -254,7 +445,7 @@
                nicht bis zu einem gewissen Grade Rechnung tragen<lb/> würde, und keinen
                Fachgenossen, der nicht zum mindesten ein<lb/> Stück weit mit dieser Lehre ginge. Und
                doch mögen diese Sätze<lb/> und diese Termini, solange sie noch frisch waren,
-               befremdend<lb/> genug geklungen haben!<lb break="paragraph"/></p>
+               befremdend<lb/> genug geklungen haben!</p>
             <pb n="2" xml:id="page__4edd5abf-bac9-4bf3-8e30-18c5540308c3"/>
             <fw type="pageNum">12</fw>
             <p>Ich kann nicht dasselbe von dem therapeutischen Verfahren<lb/> sagen, das
@@ -289,9 +480,9 @@
                dem<lb/> lehrreichen Werke von <rs type="person" ref="#frd_person_41"><hi rendition="#smallcaps"><app>
                         <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Löwenfeld</lem>
                         <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">LÖWENFELD</rdg>
-                     </app></hi></rs><note type="e" resp="#chuber"><term>Löwenfeld</term>Leopold Löwenfeld (1847–1923), dt.
-                  Psychiater und Sexualpathologe</note> (Lehrbuch der gesamten<lb/> Psychotherapie)
-               können Sie nachlesen, <app>
+                     </app></hi></rs><note type="e" resp="#chuber"><term>Löwenfeld</term>Leopold
+                  Löwenfeld (1847–1923), dt. Psychiater und Sexualpathologe</note> (Lehrbuch der
+               gesamten<lb/> Psychotherapie) können Sie nachlesen, <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">welche</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">welches</rdg>
                </app> die Methoden der<lb/> primitiven und der antiken Medizin waren. Sie werden
@@ -302,7 +493,7 @@
                zum Zwecke der Heilung in den Zustand der<lb/> „gläubigen Erwartung“, der uns heute
                noch das nämliche leistet.<lb/> Auch nachdem die Ärzte andere Heilmittel aufgefunden
                haben,<lb/> sind psychotherapeutische Bestrebungen der einen oder der anderen<lb/>
-               Art in der Medizin niemals untergegangen.<lb break="paragraph"/></p>
+               Art in der Medizin niemals untergegangen.</p>
             <p>Fürs <app>
                   <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">zweite</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">Zweite</rdg>
@@ -311,7 +502,7 @@
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">andere,</lem>
                   <rdg wit="#sfe-1905-001__1922.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml">andere</rdg>
                </app> beim Heilungsvorgang sehr in Betracht kommende<lb/> Partei — nämlich die
-               Kranken — nicht die Absicht hat, auf sie<lb break="paragraph"/><pb n="3" xml:id="page__9e692491-df34-4886-b159-7932cf37f1c0"/><fw type="pageNum">13</fw>zu
+               Kranken — nicht die Absicht hat, auf sie <pb n="3" xml:id="page__9e692491-df34-4886-b159-7932cf37f1c0"/><fw type="pageNum">13</fw>zu
                verzichten. Sie wissen, welche Aufklärungen wir hierüber<lb/> der Schule von
                   Nancy<note type="e" resp="#chuber"><term>Schule von Nancy</term>
                   Hypnoseorientierte Psychotherapie-Schule in Nancy, von Liébault in Nancy 1882
@@ -319,25 +510,26 @@
                   Suggestionstherapie war.</note> (<hi rendition="#smallcaps"><rs type="person" ref="#frd_person_49"><app>
                         <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Liébault</lem>
                         <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">LIEBAULT</rdg>
-                     </app></rs></hi><note type="e" resp="#chuber"><term>Liébeault</term>Ambroise-Auguste Liébeault
-                  (1823-1904), frz. Arzt und Psychiater, Vertreter der Suggestionstherapie, mit
-                  Bernheim Begründer der Schule von Nancy.</note>, <rs type="person" ref="#frd_person_46"><hi rendition="#smallcaps"><app>
+                     </app></rs></hi><note type="e" resp="#chuber"><term>Liébeault</term>Ambroise-Auguste Liébeault (1823-1904), frz. Arzt und
+                  Psychiater, Vertreter der Suggestionstherapie, mit Bernheim Begründer der Schule
+                  von Nancy.</note>, <rs type="person" ref="#frd_person_46"><hi rendition="#smallcaps"><app>
                         <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Bernheim</lem>
                         <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">BERNHEIM</rdg>
-                  </app></hi></rs><note type="e" resp="#chuber"><term>Bernheim</term>Hippolyte Marie Bernheim
-                  (1840-1919), frz. Internist, Psychiater und Neurologe, Vertreter der
-                  Suggestionstherapie, Mitglied der Schule von Nancy. Freud übersetzt von ihm ins
-                  Dt.: Die Suggestion und ihre Heilwirkung. Leipzig/Wien 1888 und Neue Studien über
-                  Hypnotismus, Suggestion und Psychotherapie. Leipzig/Wien 1892.</note>) verdanken.
-               Ein<lb/> von der psychischen Disposition der Kranken abhängiger Faktor<lb/> tritt,
-               ohne daß wir es beabsichtigen, zur Wirkung eines jeden<lb/> vom Arzte eingeleiteten
-               Heilverfahrens hinzu, meist im begün<lb break="no"/>stigenden, oft auch im hemmenden
-               Sinne. Wir haben für diese<lb/> Tatsache das Wort „Suggestion“ anzuwenden gelernt, und<lb/>
+                     </app></hi></rs><note type="e" resp="#chuber"><term>Bernheim</term>Hippolyte
+                  Marie Bernheim (1840-1919), frz. Internist, Psychiater und Neurologe, Vertreter
+                  der Suggestionstherapie, Mitglied der Schule von Nancy. Freud übersetzt von ihm
+                  ins Dt.: Die Suggestion und ihre Heilwirkung. Leipzig/Wien 1888 und Neue Studien
+                  über Hypnotismus, Suggestion und Psychotherapie. Leipzig/Wien 1892.</note>)
+               verdanken. Ein<lb/> von der psychischen Disposition der Kranken abhängiger
+               Faktor<lb/> tritt, ohne daß wir es beabsichtigen, zur Wirkung eines jeden<lb/> vom
+               Arzte eingeleiteten Heilverfahrens hinzu, meist im begün<lb break="no"/>stigenden,
+               oft auch im hemmenden Sinne. Wir haben für diese<lb/> Tatsache das Wort „Suggestion“
+               anzuwenden gelernt, und<lb/>
                <rs type="person" ref="#frd_person_48"><hi rendition="#smallcaps"><app>
                         <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Moebius</lem>
                         <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">MOEBIUS</rdg>
-               </app></hi></rs><note type="e" resp="#chuber"><term>Moebius</term>Paul Julius Moebius (1853-1907), dt.
-                  Neurologe und Psychiater.</note> hat uns <app>
+                     </app></hi></rs><note type="e" resp="#chuber"><term>Moebius</term>Paul Julius
+                  Moebius (1853-1907), dt. Neurologe und Psychiater.</note> hat uns <app>
                   <lem wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">gelehrt</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml">belehrt</rdg>
                </app>, daß die Unverläßlichkeit, die wir an<lb/> so manchen unserer Heilmethoden
@@ -352,7 +544,7 @@
                es dann nicht ein berechtigtes Streben<lb/> des Arztes, sich dieses Faktors zu
                bemächtigen, sich seiner mit<lb/> Absicht zu bedienen, ihn zu lenken und zu
                verstärken? Nichts<lb/> anderes als dies ist es, was die wissenschaftliche
-               Psychotherapie<lb/> Ihnen zumutet.<lb break="paragraph"/></p>
+               Psychotherapie<lb/> Ihnen zumutet.</p>
             <p>Zu dritt, meine Herren Kollegen, will ich Sie auf die altbe<lb break="no"/>kannte
                Erfahrung verweisen, daß gewisse <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Leiden,</lem>
@@ -372,30 +564,30 @@
                <rs type="person" ref="#frd_person_50"><hi rendition="#smallcaps"><app>
                         <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Vischer</lem>
                         <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">VISCHER</rdg>
-               </app></hi></rs><note type="e" resp="#chuber"><term>Vischer</term>Friedrich Theodor Vischer
-                  (1807–1887), deutscher Literaturwissenschaftler, Philosoph, Schriftsteller und
-                  Politiker, 1848 gewähltes Mitglied der Frankfurter Nationalversammlung. Freud
-                  zitiert mehrfach aus seinem Werk, vor allem aus seiner Faustparodie (1862) und
-                  seinem Roman Auch einer (1879). Zitat aus: Faust. Der Tragödie dritter Teil. Treu
-                  im Geiste des zweiten Teils des Goetheschen Faust, gedichtet von Deutobold
-                  Symbolizetti Allegoriowitsch Mystifizinski (I/4, Lieschen).</note> in seiner
-               Faustparodie (Faust, der Tragödie III. Teil)<lb/> klassischen Ausdruck geliehen
-                  hat:<lb break="paragraph"/></p>
+                     </app></hi></rs><note type="e" resp="#chuber"><term>Vischer</term>Friedrich
+                  Theodor Vischer (1807–1887), deutscher Literaturwissenschaftler, Philosoph,
+                  Schriftsteller und Politiker, 1848 gewähltes Mitglied der Frankfurter
+                  Nationalversammlung. Freud zitiert mehrfach aus seinem Werk, vor allem aus seiner
+                  Faustparodie (1862) und seinem Roman Auch einer (1879). Zitat aus: Faust. Der
+                  Tragödie dritter Teil. Treu im Geiste des zweiten Teils des Goetheschen Faust,
+                  gedichtet von Deutobold Symbolizetti Allegoriowitsch Mystifizinski (I/4,
+                  Lieschen).</note> in seiner Faustparodie (Faust, der Tragödie III. Teil)<lb/>
+               klassischen Ausdruck geliehen hat:</p>
             <q>
-               <p><span class="inlinequote">„Ich weiß, das Physikalische<lb/> Wirkt öfters aufs
-                     Moralische.“</span><lb break="paragraph"/></p>
+               <p><quote type="inlinequote">„Ich weiß, das Physikalische<lb/> Wirkt öfters aufs
+                     Moralische.“</quote></p>
             </q>
-            <note type="e" resp="#chuber"><term>„Ich weiß, das Physikalische<lb/> Wirkt öfters aufs Moralische.“</term>Zitat
-               aus: Faust. Der Tragödie dritter Teil. Treu im Geiste des zweiten Teils des
-               Goetheschen Faust, gedichtet von Deutobold Symbolizetti Allegoriowitsch Mystifizinski
-               (I/4, Lieschen).</note>
+            <note type="e" resp="#chuber"><term>„Ich weiß, das Physikalische<lb/> Wirkt öfters aufs
+                  Moralische.“</term>Zitat aus: Faust. Der Tragödie dritter Teil. Treu im Geiste des
+               zweiten Teils des Goetheschen Faust, gedichtet von Deutobold Symbolizetti
+               Allegoriowitsch Mystifizinski (I/4, Lieschen).</note>
             <pb n="4" xml:id="page__3ad2b8d2-35ad-4e59-85c9-89572dde77e2"/>
             <fw type="pageNum">14</fw>
             <p>Aber sollte es nicht adäquater sein und häufiger zutreffen, daß<lb/> man aufs
                Moralische eines Menschen mit moralischen, <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">das heißt</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">d. h.</rdg>
-               </app> psychischen Mitteln einwirken kann?<lb break="paragraph"/></p>
+               </app> psychischen Mitteln einwirken kann?</p>
             <p>Es gibt viele Arten und Wege der Psychotherapie. Alle sind<lb/> gut, die zum <app>
                   <lem wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Ziel</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml">Ziele</rdg>
@@ -433,13 +625,13 @@
                   <lem wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">hinauszuführen</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml">hinaus zu führen</rdg>
                </app> und uns den<lb/> Weg zu noch anderen Arten therapeutischer Beeinflussung zu
-                  weisen.<lb break="paragraph"/></p>
+               weisen.</p>
             <p>In <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Bezug</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">bezug</rdg>
                </app> auf diese kathartische oder analytische Methode der<lb/> Psychotherapie
                gestatten Sie mir nun, einige Irrtümer zu ver<lb break="no"/>bessern und einige
-               Aufklärungen zu geben.<lb break="paragraph"/></p>
+               Aufklärungen zu geben.</p>
             <pb n="5" xml:id="page__2294de35-26ef-4fab-a871-0b99a9be1021"/>
             <fw type="pageNum">15</fw>
             <p><hi rendition="#em">a)</hi> Ich merke, daß diese Methode sehr häufig mit der hypno<lb break="no"/>tischen Suggestivbehandlung verwechselt wird, merke es daran,<lb/> daß
@@ -465,10 +657,11 @@
                <hi rendition="#em">per via di levare</hi> gefaßt hat. Die Malerei, sagt <hi rendition="#smallcaps"><app>
                      <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Leonardo</lem>
                      <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">LEONARDO</rdg>
-                  </app></hi><note type="e" resp="#chuber"><term>Leonardo da Vinci</term>Leonardo da Vinci (1452-1519),
-                  ital. Maler, Bildhauer, Architekt, Anatom und Universalgelehrter.</note>,<lb/>
-               arbeitet <hi rendition="#em">per via di porre</hi>; sie setzt nämlich Farbenhäufchen
-               hin,<lb/> wo sie früher nicht waren, auf die <app>
+                  </app></hi><note type="e" resp="#chuber"><term>Leonardo da Vinci</term>Leonardo da
+                  Vinci (1452-1519), ital. Maler, Bildhauer, Architekt, Anatom und
+                  Universalgelehrter.</note>,<lb/> arbeitet <hi rendition="#em">per via di
+                  porre</hi>; sie setzt nämlich Farbenhäufchen hin,<lb/> wo sie früher nicht waren,
+               auf die <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">nichtfarbige</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">nicht farbige</rdg>
                </app> Leinwand; die<lb/> Skulptur dagegen geht <hi rendition="#em">per via di
@@ -494,13 +687,13 @@
                </app> bedeutende Förderung gebracht. Ich habe die Suggestionstechnik<lb/> und mit
                ihr die Hypnose so frühzeitig aufgegeben, weil ich<lb/> daran verzweifelte, die
                Suggestion so stark und so haltbar zu<lb/> machen, wie es für die dauernde Heilung
-               notwendig wäre. In<lb/> allen schweren Fällen sah ich die darauf gelegte
-                  Suggestion<lb break="paragraph"/><pb n="6" xml:id="page__d3b8585d-eacb-4112-b965-08c3b8e07fa7"/><fw type="pageNum">16</fw>wieder abbröckeln, und dann war das Kranksein oder ein dasselbe<lb/>
+               notwendig wäre. In<lb/> allen schweren Fällen sah ich die darauf gelegte Suggestion
+                  <pb n="6" xml:id="page__d3b8585d-eacb-4112-b965-08c3b8e07fa7"/><fw type="pageNum">16</fw>wieder abbröckeln, und dann war das Kranksein oder ein dasselbe<lb/>
                Ersetzendes wieder da. Außerdem mache ich dieser Technik den<lb/> Vorwurf, daß sie
                uns die Einsicht in das psychische Kräftespiel<lb/> verhüllt, z. B. uns den <hi rendition="#smallcaps">Widerstand</hi> nicht erkennen läßt, mit<lb/> dem die
                Kranken an ihrer Krankheit festhalten, mit dem sie sich<lb/> also auch gegen die
                Genesung sträuben, und der doch allein das<lb/> Verständnis ihres Benehmens im Leben
-                  ermöglicht.<lb break="paragraph"/></p>
+               ermöglicht.</p>
             <p><hi rendition="#em">b)</hi> Es scheint mir der Irrtum unter den Kollegen weit ver<lb break="no"/>breitet zu sein, daß die Technik der Forschung nach den Krank<lb break="no"/>heitsanlässen und die Beseitigung der Erscheinungen durch diese<lb/>
                Erforschung leicht und selbstverständlich sei. Ich schließe dies<lb/> daraus, daß
                noch keiner von den vielen, die sich für meine<lb/> Therapie interessieren und
@@ -527,28 +720,26 @@
                der so behandelte Kranke dabei eher zu Schaden als zum<lb/> Vorteil käme. Das
                seelische Instrument ist nämlich nicht gar<lb/> leicht zu spielen. Ich muß bei
                solchen Anlässen an die Rede<lb/> eines weltberühmten Neurotikers denken, der
-               freilich nie in der<lb break="paragraph"/><pb n="7" xml:id="page__fc1cf226-dcb8-4251-8f20-8e308513ecae"/><fw type="pageNum">17</fw>Behandlung eines Arztes gestanden, der nur in der Phantasie<lb/> eines
-               Dichters gelebt hat. Ich meine den Prinzen <hi rendition="#smallcaps">Hamlet</hi>
-               von<lb/> Dänemark. Der König hat die beiden Höflinge Rosenkranz und<lb/> Güldenstern
-               über ihn geschickt, um ihn auszuforschen, ihm das<lb/> Geheimnis seiner Verstimmung
-               zu entreißen. Er wehrt sie ab;<lb/> da werden Flöten auf die Bühne gebracht. Hamlet
-               nimmt eine<lb/> Flöte und bittet den einen seiner Quäler, auf ihr zu spielen, es<lb/>
-               sei so leicht wie lügen. Der Höfling weigert sich, denn er kennt<lb/> keinen Griff,
-               und da er zu dem Versuch des Flötenspiels nicht<lb/> zu bewegen ist, bricht Hamlet
-               endlich los: „<span class="inlinequote">Nun seht ihr, welch<lb/> ein nichtswürdiges
-                  Ding ihr aus mir macht? Ihr wollt auf mir<lb/> spielen; ihr wollt in das Herz
-                  meines Geheimnisses dringen; ihr<lb/> wollt mich von meiner tiefsten Note bis zum
-                  Gipfel meiner<lb/> Stimme hinauf prüfen, und in diesem kleinen Instrument
-                  hier<lb/> ist viel Musik, eine vortreffliche Stimme, dennoch könnt ihr es<lb/>
-                  nicht zum Sprechen bringen. <hi rendition="#smallcaps">Wetter, denkt ihr, daß
-                     ich<lb/> leichter zu spielen <app>
+               freilich nie in der <pb n="7" xml:id="page__fc1cf226-dcb8-4251-8f20-8e308513ecae"/><fw type="pageNum">17</fw>Behandlung eines Arztes gestanden, der nur in der
+               Phantasie<lb/> eines Dichters gelebt hat. Ich meine den Prinzen <hi rendition="#smallcaps">Hamlet</hi> von<lb/> Dänemark. Der König hat die beiden
+               Höflinge Rosenkranz und<lb/> Güldenstern über ihn geschickt, um ihn auszuforschen,
+               ihm das<lb/> Geheimnis seiner Verstimmung zu entreißen. Er wehrt sie ab;<lb/> da
+               werden Flöten auf die Bühne gebracht. Hamlet nimmt eine<lb/> Flöte und bittet den
+               einen seiner Quäler, auf ihr zu spielen, es<lb/> sei so leicht wie lügen. Der Höfling
+               weigert sich, denn er kennt<lb/> keinen Griff, und da er zu dem Versuch des
+               Flötenspiels nicht<lb/> zu bewegen ist, bricht Hamlet endlich los: „<quote type="inlinequote">Nun seht ihr, welch<lb/> ein nichtswürdiges Ding ihr aus mir
+                  macht? Ihr wollt auf mir<lb/> spielen; ihr wollt in das Herz meines Geheimnisses
+                  dringen; ihr<lb/> wollt mich von meiner tiefsten Note bis zum Gipfel meiner<lb/>
+                  Stimme hinauf prüfen, und in diesem kleinen Instrument hier<lb/> ist viel Musik,
+                  eine vortreffliche Stimme, dennoch könnt ihr es<lb/> nicht zum Sprechen bringen.
+                     <hi rendition="#smallcaps">Wetter, denkt ihr, daß ich<lb/> leichter zu spielen <app>
                         <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">bin,</lem>
                         <rdg wit="#sfe-1905-001__1922.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml">bin</rdg>
                      </app> als eine Flöte? Nennt mich<lb/> was für ein Instrument ihr wollt, ihr
                      könnt mich<lb/> zwar verstimmen, aber nicht auf mir <app>
                         <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">spielen.“ (</lem>
                         <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">spielen &gt;“ (</rdg>
-                     </app></hi></span>“<lb/> (III. Akt, 2<app>
+                     </app></hi></quote>“<lb/> (III. Akt, 2<app>
                   <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">.)</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">.).</rdg>
                   <rdg wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">).</rdg>
@@ -569,10 +760,11 @@
                man<lb/> bequemere Heilmethoden in Anwendung bringt, <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">so lange</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">solange</rdg>
-               </app> man<lb break="paragraph"/><pb n="8" xml:id="page__5441cd37-8ef4-4f8c-992f-cea9d59f1ffe"/><fw type="pageNum">18</fw>eben die Aussicht hat, mit diesen letzteren etwas zu erreichen.<lb/> Auf
-               diesen Punkt kommt es allein an; erzielt man mit dem<lb/> mühevolleren und
-               langwierigeren Verfahren erheblich mehr als<lb/> mit dem kurzen und leichten, so ist
-               das erstere trotz alledem<lb/> gerechtfertigt. Denken Sie, meine Herren, um wieviel die<lb/>
+               </app> man <pb n="8" xml:id="page__5441cd37-8ef4-4f8c-992f-cea9d59f1ffe"/><fw type="pageNum">18</fw>eben die Aussicht hat, mit diesen letzteren etwas zu
+               erreichen.<lb/> Auf diesen Punkt kommt es allein an; erzielt man mit dem<lb/>
+               mühevolleren und langwierigeren Verfahren erheblich mehr als<lb/> mit dem kurzen und
+               leichten, so ist das erstere trotz alledem<lb/> gerechtfertigt. Denken Sie, meine
+               Herren, um wieviel die<lb/>
                <hi rendition="#smallcaps">Finsen</hi>therapie des Lupus unbequemer und kostspieliger
                ist als<lb/> das früher gebräuchliche Ätzen und Schaben, und doch bedeutet<lb/> es
                einen großen Fortschritt, bloß weil es mehr leistet; es heilt<lb/> nämlich den Lupus
@@ -600,19 +792,19 @@
                gefürchteten <app>
                   <lem wit="#sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1906.xml #sfe-1905-001__1925.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml">Allgemeinleiden</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">Allgemeinleiden,</rdg>
-               </app> zurücksteht.<lb break="paragraph"/></p>
+               </app> zurücksteht.</p>
             <p><hi rendition="#em">d)</hi> Die Indikationen und Gegenanzeigen dieser Behandlung
                sind<lb/> infolge der vielen praktischen Beschränkungen, die meine Tätigkeit<lb/>
                betroffen haben, kaum <app>
                   <lem wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">endgültig</lem>
                   <rdg wit="#sfe-1905-001__1906.xml">endgiltig</rdg>
                </app> anzugeben. Indes will ich ver<lb break="no"/>suchen, einige Punkte mit Ihnen
-               zu erörtern:<lb break="paragraph"/></p>
+               zu erörtern:</p>
             <p><app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">1)</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">1.</rdg>
                </app> Man übersehe nicht über die Krankheit den sonstigen<lb/> Wert einer Person und
-               weise Kranke zurück, welche nicht einen<lb break="paragraph"/><pb n="9" xml:id="page__848540a1-e3e4-4b30-a9ab-2004caf1859c"/><fw type="pageNum">19</fw>gewissen Bildungsgrad und einen einigermaßen verläßlichen<lb/> Charakter
+               weise Kranke zurück, welche nicht einen <pb n="9" xml:id="page__848540a1-e3e4-4b30-a9ab-2004caf1859c"/><fw type="pageNum">19</fw>gewissen Bildungsgrad und einen einigermaßen verläßlichen<lb/> Charakter
                besitzen. Man darf nicht vergessen, daß es auch Gesunde<lb/> gibt, die nichts taugen,
                und daß man nur allzu leicht geneigt<lb/> ist, bei solchen minderwertigen Personen
                alles, was sie existenz<lb break="no"/>unfähig macht, auf die Krankheit zu schieben,
@@ -638,7 +830,7 @@
                Behandlung<lb/> ankommt, die Erziehbarkeit, werden wir noch von einem <app>
                   <lem wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">anderen</lem>
                   <rdg wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">andern</rdg>
-               </app><lb/> Gesichtspunkte würdigen müssen.<lb break="paragraph"/></p>
+               </app><lb/> Gesichtspunkte würdigen müssen.</p>
             <p><app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">2)</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">2.</rdg>
@@ -650,7 +842,7 @@
                ausgeübt wird,<lb/> ungeeignet. Ich halte es für durchaus nicht ausgeschlossen,
                daß<lb/> man bei geeigneter Abänderung des Verfahrens sich über diese<lb/>
                Gegenindikation hinaussetzen und so eine Psychotherapie der<lb/> Psychosen in Angriff
-               nehmen könne.<lb break="paragraph"/></p>
+               nehmen könne.</p>
             <p><app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">3)</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">3.</rdg>
@@ -667,13 +859,13 @@
                pflegt, auf welche die Therapie<lb/> rechnet — alte Leute sind nicht mehr <app>
                   <lem wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">erziehbar —</lem>
                   <rdg wit="#sfe-1905-001__1906.xml">erziehbar </rdg>
-               </app> und als<lb break="paragraph"/><pb n="10" xml:id="page__bff729d4-43c7-41be-a6b5-e64c42bed6fb"/><fw type="pageNum">20</fw><app>
+               </app> und als <pb n="10" xml:id="page__bff729d4-43c7-41be-a6b5-e64c42bed6fb"/><fw type="pageNum">20</fw><app>
                   <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">anderseits</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">andrerseits</rdg>
                </app> das Material, welches durchzuarbeiten ist, die<lb/> Behandlungsdauer ins
                Unabsehbare verlängert. Die Altersgrenze<lb/> nach unten ist nur individuell zu
                bestimmen; jugendliche<lb/> Personen noch vor der Pubertät sind oft ausgezeichnet
-               zu<lb/> beeinflussen.<lb break="paragraph"/></p>
+               zu<lb/> beeinflussen.</p>
             <p><app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">4)</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">4.</rdg>
@@ -681,7 +873,7 @@
                Beseitigung drohender Erscheinungen handelt,<lb/> also <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">zum Beispiel</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">z. B.</rdg>
-               </app> bei einer hysterischen Anorexie.<lb break="paragraph"/></p>
+               </app> bei einer hysterischen Anorexie.</p>
             <p>Sie werden nun den Eindruck gewonnen haben, daß das<lb/> Anwendungsgebiet der
                analytischen Psychotherapie ein sehr<lb/> beschränktes ist, da Sie eigentlich nichts <app>
                   <lem wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">anderes</lem>
@@ -694,7 +886,7 @@
                Resterscheinungen, das große Gebiet der Zwangszustände und<lb/> Abulien <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">und dergleichen</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">u. dgl</rdg>
-               </app>.<lb break="paragraph"/></p>
+               </app>.</p>
             <p>Erfreulich ist es, daß man gerade den wertvollsten und sonst<lb/><app>
                   <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">höchstentwickelten</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">höchst
@@ -707,7 +899,7 @@
                <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">irgendwelche</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">irgend welche</rdg>
-               </app> andere Behandlung sicherlich gar nichts zustande<lb/> gebracht.<lb break="paragraph"/></p>
+               </app> andere Behandlung sicherlich gar nichts zustande<lb/> gebracht.</p>
             <p><hi rendition="#em"><app>
                      <lem wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">e</lem>
                      <rdg wit="#sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">c</rdg>
@@ -720,10 +912,11 @@
                analytischen Kur ein Schaden für den Kranken nicht zu<lb/> befürchten ist. Anders
                wird vielleicht urteilen, wer als Laie gewohnt<lb/> ist, alles, was sich in einem
                Krankheitsfalle begibt, der Behandlung<lb/> zur Last zu legen. Es ist ja nicht lange
-               her, daß unseren<lb break="paragraph"/><pb n="11" xml:id="page__3b44e68a-176b-41b1-8c3a-1f1414c0d6d4"/><fw type="pageNum">21</fw>Wasserheilanstalten ein ähnliches Vorurteil entgegenstand. So<lb/> mancher,
-               dem man riet, eine solche Anstalt aufzusuchen, wurde<lb/> bedenklich, weil er einen
-               Bekannten gehabt hatte, der als Ner<lb break="no"/>vöser in die Anstalt kam und dort
-               verrückt wurde. Es handelte<lb/> sich, wie Sie erraten, um Fälle von beginnender <app>
+               her, daß unseren <pb n="11" xml:id="page__3b44e68a-176b-41b1-8c3a-1f1414c0d6d4"/><fw type="pageNum">21</fw>Wasserheilanstalten ein ähnliches Vorurteil entgegenstand.
+               So<lb/> mancher, dem man riet, eine solche Anstalt aufzusuchen, wurde<lb/>
+               bedenklich, weil er einen Bekannten gehabt hatte, der als Ner<lb break="no"/>vöser in
+               die Anstalt kam und dort verrückt wurde. Es handelte<lb/> sich, wie Sie erraten, um
+               Fälle von beginnender <app>
                   <lem wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">allgemeiner</lem>
                   <rdg wit="#sfe-1905-001__1922.xml">allgemeinen</rdg>
                </app><lb/> Paralyse, die man im Anfangsstadium noch in einer Wasserheil<lb break="no"/>anstalt unterbringen <app>
@@ -751,7 +944,7 @@
                </app> sein dürfte. Ich bin ganz überzeugt, <app>
                   <lem wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">daß</lem>
                   <rdg wit="#sfe-1905-001__1911.xml">das</rdg>
-               </app> er sich unter<lb/> anderen Bedingungen kritischer erwiesen hätte.<lb break="paragraph"/></p>
+               </app> er sich unter<lb/> anderen Bedingungen kritischer erwiesen hätte.</p>
             <p><hi rendition="#em">f)</hi> Zum Schlusse, meine Herren Kollegen, muß ich mir
                sagen,<lb/> es geht doch nicht an, Ihre Aufmerksamkeit so lange zugunsten<lb/> der
                analytischen Psychotherapie in Anspruch zu nehmen, ohne<lb/> Ihnen zu sagen, worin
@@ -761,15 +954,16 @@
                </app> und worauf sie<lb/> sich gründet. Ich kann es zwar, da ich kurz sein muß, nur
                mit<lb/> einer Andeutung tun. Diese Therapie ist also auf die Einsicht<lb/>
                gegründet, daß unbewußte Vorstellungen — besser: die Unbe<lb break="no"/>wußtheit
-               gewisser seelischer Vorgänge — die nächste Ursache<lb break="paragraph"/><pb n="12" xml:id="page__c74f97f2-2e2d-40d2-8d72-3954e2585966"/><fw type="pageNum">22</fw>der
+               gewisser seelischer Vorgänge — die nächste Ursache <pb n="12" xml:id="page__c74f97f2-2e2d-40d2-8d72-3954e2585966"/><fw type="pageNum">22</fw>der
                krankhaften Symptome ist. Eine solche Überzeugung ver<lb break="no"/>treten wir
                gemeinsam mit der französischen Schule <rs type="person" ref="#frd_person_47">(<app>
                      <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Janet</lem>
                      <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">JANET</rdg>
-               </app></rs><note type="e" resp="#chuber"><term>Janet</term>Pierre-Marie-Félix Janet (1859-1947), frz.
-                  Philosoph, Psychologe, Psychiater und Psychotherapeut, Begründer der dynamischen
-                  Psychiatrie, bedeutender Psychotraumatologe.</note>), die<lb/> übrigens in arger
-               Schematisierung das hysterische Symptom auf<lb/> die unbewußte <hi rendition="#em"><app>
+                  </app></rs><note type="e" resp="#chuber"><term>Janet</term>Pierre-Marie-Félix
+                  Janet (1859-1947), frz. Philosoph, Psychologe, Psychiater und Psychotherapeut,
+                  Begründer der dynamischen Psychiatrie, bedeutender Psychotraumatologe.</note>),
+               die<lb/> übrigens in arger Schematisierung das hysterische Symptom auf<lb/> die
+               unbewußte <hi rendition="#em"><app>
                      <lem wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">idée</lem>
                      <rdg wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">Idée</rdg>
                   </app> fixe</hi> zurückführt. Fürchten Sie nun nicht,<lb/> daß wir dabei zu tief
@@ -795,7 +989,7 @@
                </app>, daß die somatische und affektive Wirkung der bewußt<lb/> gewordenen Regung
                niemals so groß werden kann wie die der<lb/> unbewußten. Wir beherrschen alle unsere
                Regungen doch nur<lb/> dadurch, daß wir unsere höchsten, mit Bewußtsein
-               verbundenen<lb/> Seelenleistungen auf sie wenden.<lb break="paragraph"/></p>
+               verbundenen<lb/> Seelenleistungen auf sie wenden.</p>
             <p>Sie können aber auch einen anderen Gesichtspunkt für das<lb/> Verständnis der
                psychoanalytischen Behandlung wählen. Die Auf<lb break="no"/>deckung und Übersetzung
                des Unbewußten geht unter beständigem<lb/>
@@ -805,10 +999,9 @@
                Seelenleben des Kranken greifen Sie nun ein; gelingt<lb/> es Ihnen, den Kranken dazu
                zu bringen, daß er aus Motiven<lb/> besserer Einsicht etwas akzeptiert, was er
                zufolge der automati<lb break="no"/>schen Unlustregulierung bisher zurückgewiesen
-               (verdrängt) hat,<lb break="paragraph"/><pb n="13" xml:id="page__41205749-004f-480c-9bdf-513de131798a"/><fw type="pageNum">23</fw>so
-               haben Sie ein Stück Erziehungsarbeit an ihm geleistet. Es ist<lb/> ja schon
-               Erziehung, wenn Sie einen Menschen, der nicht gern<lb/> früh morgens das Bett
-               verläßt, dazu bewegen, es doch zu tun.<lb/> Als eine solche <hi rendition="#smallcaps">Nacherziehung zur Überwindung<lb/> innerer Widerstände</hi>
+               (verdrängt) hat, <pb n="13" xml:id="page__41205749-004f-480c-9bdf-513de131798a"/><fw type="pageNum">23</fw>so haben Sie ein Stück Erziehungsarbeit an ihm geleistet. Es
+               ist<lb/> ja schon Erziehung, wenn Sie einen Menschen, der nicht gern<lb/> früh
+               morgens das Bett verläßt, dazu bewegen, es doch zu tun.<lb/> Als eine solche <hi rendition="#smallcaps">Nacherziehung zur Überwindung<lb/> innerer Widerstände</hi>
                können Sie nun die psychoanalytische<lb/> Behandlung ganz allgemein auffassen. In
                keinem Punkte aber ist<lb/> solche Nacherziehung bei den Nervösen mehr vonnöten
                als<lb/> betreffs des seelischen <app>
@@ -823,7 +1016,7 @@
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">wichtige,</lem>
                   <rdg wit="#sfe-1905-001__1922.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml">wichtige</rdg>
                </app> an den Arzt zu stellende Anforderung. Er muß nicht<lb/> nur selbst ein
-               integrer Charakter sein — „<span class="inlinequote">das Moralische ver<lb break="no"/>steht sich ja von selbst</span>“, wie die Hauptperson in <rs type="person" ref="#frd_person_50"><app>
+               integrer Charakter sein — „<quote type="inlinequote">das Moralische ver<lb break="no"/>steht sich ja von selbst</quote>“, wie die Hauptperson in <rs type="person" ref="#frd_person_50"><app>
                      <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Th. </lem>
                      <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">TH.</rdg>
                   </app>
@@ -831,15 +1024,14 @@
                      <lem wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Vischers</lem>
                      <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">VISCHERs</rdg>
                      <rdg wit="#sfe-1905-001__1906.xml">Vischer’s</rdg>
-                  </app><lb/></rs>
-               „Auch Einer“ zu sagen <app>
+                  </app><lb/></rs> „Auch Einer“ zu sagen <app>
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">pflegt; —</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">pflegt —;</rdg>
                </app> er muß auch für seine eigene<lb/> Person die Mischung von Lüsternheit und
                Prüderie überwunden<lb/> haben, mit welcher leider so viele <app>
                   <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">andere</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml">Andere</rdg>
-               </app> den sexuellen Pro<lb break="no"/>blemen entgegenzutreten gewohnt sind.<lb break="paragraph"/></p>
+               </app> den sexuellen Pro<lb break="no"/>blemen entgegenzutreten gewohnt sind.</p>
             <p>Hier ist vielleicht der Platz für eine weitere Bemerkung. Ich<lb/> weiß, daß meine
                Betonung der Rolle des Sexuellen für die Ent<lb break="no"/>stehung der
                Psychoneurosen in weiteren Kreisen bekannt geworden<lb/> ist. Ich weiß aber auch, daß
@@ -880,28 +1072,25 @@
                   <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">hervor</lem>
                   <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905_2.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">hervor,</rdg>
                </app> und darum kann der Rat der sexuellen Betätigung bei<lb/> den Psychoneurosen
-               eigentlich nur selten als guter Rat<lb/> bezeichnet werden.<lb break="paragraph"/></p>
+               eigentlich nur selten als guter Rat<lb/> bezeichnet werden.</p>
             <p>Lassen Sie mich mit dieser abwehrenden Bemerkung schließen.<lb/> Wir wollen hoffen,
                daß Ihr von jedem feindseligen Vorurteil<lb/> gereinigtes Interesse für die
                Psychotherapie uns darin unterstützen<lb/> wird, auch in der Behandlung der schweren
-               Fälle von Psycho<lb break="no"/>neurosen Erfreuliches zu leisten.<lb break="paragraph"/></p>
+               Fälle von Psycho<lb break="no"/>neurosen Erfreuliches zu leisten.</p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_48">
-               <persName>Moebius, Paul Julius</persName>
+   <back><listPerson><person xml:id="frd_person_50">
+               <persName>Vischer, Friedrich Theodor</persName>
                <birth>
-                  <date>1853</date>
+                  <date>1807</date>
                </birth>
                <death>
-                   <date>1907</date>
+                   <date>1887</date>
                </death>
-               <idno type="gnd">https://d-nb.info/gnd/117080330</idno>
-               <note type="bio">Paul Julius Moebius (1853-1907), dt. Neurologe und Psychiater.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_45">
-               <persName>Reder, Albert Ritter von Schellmann</persName>
-               <idno type="gnd">https://d-nb.info/gnd/1055432205</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               <idno type="gnd">https://d-nb.info/gnd/11862721X</idno>
+               <note type="bio">Friedrich Theodor Vischer (1807–1887), deutscher Literaturwissenschaftler, Philosoph, Schriftsteller und Politiker, 1848 gewähltes Mitglied der Frankfurter Nationalversammlung. Freud zitiert mehrfach aus seinem Werk, vor allem aus seiner Faustparodie (1862) und seinem Roman Auch einer (1879).</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_51">
                <persName>Leonardo, da Vinci</persName>
                <birth>
@@ -912,34 +1101,8 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118640445</idno>
                <note type="bio">Leonardo da Vinci (1452-1519), ital. Maler, Bildhauer, Architekt, Anatom und Universalgelehrter.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_40">
-               <persName>Breuer, Josef</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118515225</idno>
-               <note type="bio">(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_46">
-               <persName>Bernheim, Hippolyte</persName>
-               <birth>
-                  <date>1840</date>
-               </birth>
-               <death>
-                   <date>1919</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/126790795</idno>
-               <note type="bio">(1840-1919), frz. Internist, Psychiater und Neurologe, Vertreter der Suggestionstherapie, Mitglied der Schule von Nancy. Freud übersetzt von ihm ins Dt.: Die Suggestion und ihre Heilwirkung. Leipzig/Wien 1888 und Neue Studien über Hypnotismus, Suggestion und Psychotherapie. Leipzig/Wien 1892.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_50">
-               <persName>Vischer, Friedrich Theodor</persName>
-               <birth>
-                  <date>1807</date>
-               </birth>
-               <death>
-                   <date>1887</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/11862721X</idno>
-               <note type="bio">Friedrich Theodor Vischer (1807–1887), deutscher Literaturwissenschaftler, Philosoph, Schriftsteller und Politiker, 1848 gewähltes Mitglied der Frankfurter Nationalversammlung. Freud zitiert mehrfach aus seinem Werk, vor allem aus seiner Faustparodie (1862) und seinem Roman Auch einer (1879).</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_47">
                <persName>Janet, Pierre</persName>
                <birth>
@@ -950,7 +1113,27 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118775928</idno>
                <note type="bio">Pierre-Marie-Félix Janet (1859-1947), frz. Philosoph, Psychologe, Psychiater und Psychotherapeut, Begründer der dynamischen Psychiatrie, bedeutender Psychotraumatologe.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_41">
+               <persName>Löwenfeld, Leopold</persName>
+               <idno type="gnd">https://d-nb.info/gnd/117168815</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_46">
+               <persName>Bernheim, Hippolyte</persName>
+               <birth>
+                  <date>1840</date>
+               </birth>
+               <death>
+                   <date>1919</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/126790795</idno>
+               <note type="bio">(1840-1919), frz. Internist, Psychiater und Neurologe, Vertreter der Suggestionstherapie, Mitglied der Schule von Nancy. Freud übersetzt von ihm ins Dt.: Die Suggestion und ihre Heilwirkung. Leipzig/Wien 1888 und Neue Studien über Hypnotismus, Suggestion und Psychotherapie. Leipzig/Wien 1892.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_49">
                <persName>Liébeault, Ambroise-Auguste</persName>
                <birth>
@@ -961,11 +1144,31 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/117671673</idno>
                <note type="bio">Ambroise-Auguste Liébeault (1823-1904), frz. Arzt und Psychiater, Vertreter der Suggestionstherapie, mit Bernheim Begründer der Schule von Nancy.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_41">
-               <persName>Löwenfeld, Leopold</persName>
-               <idno type="gnd">https://d-nb.info/gnd/117168815</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_40">
+               <persName>Breuer, Josef</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118515225</idno>
+               <note type="bio">(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_45">
+               <persName>Reder, Albert Ritter von Schellmann</persName>
+               <idno type="gnd">https://d-nb.info/gnd/1055432205</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_48">
+               <persName>Moebius, Paul Julius</persName>
+               <birth>
+                  <date>1853</date>
+               </birth>
+               <death>
+                   <date>1907</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/117080330</idno>
+               <note type="bio">Paul Julius Moebius (1853-1907), dt. Neurologe und Psychiater.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>
