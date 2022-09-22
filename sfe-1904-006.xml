@@ -102,11 +102,11 @@
                         Methode</hi></rs> ist eine „Mitteilung des Autors“, wie in Klammern im
                   Untertitel angeführt wird, und wurde von Freud selbst verfasst. Zuvor erschien
                   1901 Freuds Schrift <rs type="bibl" ref="#zotero_7XC58JJ2"><hi rendition="#em">Über den Traum</hi></rs> in der Reihe <hi rendition="#em">Grenzfragen des
-                     Nerven- und Seelenlebens</hi>, welche von <rs type="person" ref="frd_person_41">Leopold Löwenfeld</rs> und <rs type="person" ref="frd_person_44">Hans
+                     Nerven- und Seelenlebens</hi>, welche von <rs type="person" ref="#frd_person_41">Leopold Löwenfeld</rs> und <rs type="person" ref="#frd_person_44">Hans
                      Kurella</rs> herausgegeben wurde. Ein Blick auf das <ref target="https://archive.org/details/Freud_1901_Ueber_Traum/page/n1/mode/2up"><term>Inhaltsverzeichnis</term></ref> der Reihe zeigt die thematischen und
                   personellen Verschränkungen auf dem Gebiet von Traumforschung, Sexual- und
                   Psychopathologie, aus welchen sich die Psychoanalyse konsolidierte.</p>
-               <p>Das <hi rendition="#em">Journal für Psychologie und Neurologie</hi> wurde von <rs type="person" ref="frd_person_42">August Forel</rs> und <rs type="person" ref="frd_person_43">Oskar Vogt</rs> seit 1902 herausgegeben und führte anfangs
+               <p>Das <hi rendition="#em">Journal für Psychologie und Neurologie</hi> wurde von <rs type="person" ref="frd_person_42">August Forel</rs> und <rs type="person" ref="#frd_person_43">Oskar Vogt</rs> seit 1902 herausgegeben und führte anfangs
                   zusätzlich noch die Bandzählung der Vorgängerzeitschrift unter dem Titel <hi rendition="#em">Zeitschrift für Hypnotismus</hi> am Titelblatt. Hier hatte
                   Freud bereits 1893 den Artikel <rs type="bibl" ref="#zotero_T9TAU766"><hi rendition="#em">Ein Fall von hypnotischer Heilung nebst Bemerkungen über die
                         Entstehung hysterischer Symptome durch den „Gegenwillen“</hi></rs>
@@ -367,30 +367,31 @@
 
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_42">
-               <persName>Forel, August</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118534327</idno>
-               <note type="bio">(1848-1931) schweiz. Psychiater. 1879 bis 1898 Direktor der Psychiatrischen Universitätsklinik Zürich ("Burghölzli"), in dieser Funktion der Vorgänger von Eugen Bleuler.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_43">
+   <back><listPerson><person xml:id="frd_person_43">
                <persName>Vogt, Oskar</persName>
                <idno type="gnd">https://d-nb.info/gnd/11881866X</idno>
                <note type="bio">Neurologe; mit  der Neurologin Cécile Vogt für die gemeinsame Pionierarbeit in der lokalisatorischen Hirnforschung bekannt.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
                L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_44">
-               <persName>Kurella, Hans</persName>
-               <idno type="gnd">https://d-nb.info/gnd/116616105</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
-               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+            <person xml:id="frd_person_42">
+               <persName>Forel, August</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118534327</idno>
+               <note type="bio">(1848-1931) schweiz. Psychiater. 1879 bis 1898 Direktor der Psychiatrischen Universitätsklinik Zürich ("Burghölzli"), in dieser Funktion der Vorgänger von Eugen Bleuler.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
                L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_41">
                <persName>Löwenfeld, Leopold</persName>
                <idno type="gnd">https://d-nb.info/gnd/117168815</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
                psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
                L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
                Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_44">
+               <persName>Kurella, Hans</persName>
+               <idno type="gnd">https://d-nb.info/gnd/116616105</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>

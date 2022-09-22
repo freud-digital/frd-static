@@ -52,12 +52,8 @@
                <name>Rohrwasser, Michael</name>
             </respStmt>
             <respStmt>
-               <resp>TEI Schema ODD</resp>
-               <name>Andorfer, Peter</name>
-               <name>Stoxreiter, Daniel</name>
-            </respStmt>
-            <respStmt>
-               <resp>Datenexport aus Drupal und TEI Serialisierung</resp>
+               <resp>Datenexport aus Drupal und TEI Serialisierung, TEI Schema ODD und technische
+                  Umsetzung der Webapplikation.</resp>
                <name>Andorfer, Peter</name>
                <name>Stoxreiter, Daniel</name>
             </respStmt>
@@ -99,11 +95,11 @@
                <title>Textentstehung und Publikationsgeschichte</title>
                <p> Als „Mitteilung des Autors“, wie in Klammern im Untertitel angegeben wird, wurde
                   der kurze Text <rs type="bibl" ref="#bibl-1904-002-1904">Über die Freud’sche
-                     Psychoanalytische Methode</rs> zuerst in <rs type="person" ref="frd_person_41">
-                     Leopold Löwenfelds</rs> Band über <rs type="bibl" ref="zotero_VRCW8N9U">Psychische Zwangserscheinungen</rs> veröffentlicht, welcher <date when="1904">1904</date> von Freud rezensiert wurde (vgl. hier 1904-006). Zuvor war Freuds
-                  Schrift <ref target="#">Über den Traum</ref> (<date when="1901">1901</date>) in
-                  der Reihe <rs type="bibl" ref="#">Grenzfragen des Nerven- und Seelenlebens</rs>
-                  publiziert worden, welche von Leopold Löwenfeld und <rs type="person" ref="frd_person_44">Hans Kurella</rs> herausgegeben wurde.Ein Blick auf das
+                     Psychoanalytische Methode</rs> zuerst in <rs type="person" ref="#frd_person_41">
+                     Leopold Löwenfelds</rs> Band über <rs type="bibl" ref="#zotero_VRCW8N9U">Psychische Zwangserscheinungen</rs> veröffentlicht, welcher <date when="1904">1904</date> von Freud rezensiert wurde (vgl. hier 1904-006). Zuvor war Freuds
+                  Schrift <rs type="bibl" ref="#zotero__7XC58JJ2">Über den Traum</rs> (<date when="1901">1901</date>) in
+                  der Reihe Grenzfragen des Nerven- und Seelenlebens
+                  publiziert worden, welche von Leopold Löwenfeld und <rs type="person" ref="#frd_person_44">Hans Kurella</rs> herausgegeben wurde.Ein Blick auf das
                      <ref target="https://archive.org/details/Freud_1901_Ueber_Traum/page/n1/mode/2up"><term>Inhaltsverzeichnis</term></ref> der Reihe zeigt die thematischen und
                   personellen Verschränkungen auf dem Gebiet der frühen Traumforschung, Sexual- und
                   Psychopathologie um <date when="1900">1900</date>. Auf eine fachliche Kontroverse
@@ -128,11 +124,6 @@
                      Stelle überliess.</quote>
                   <ref target="#zotero_M9TAGAWQ">Löwenfeld, Zwangserscheinungen, ebd.</ref> Ab <date when="1911">1911?</date> wurde der Text <rs type="bibl" ref="#bibl-1904-002-1906 #bibl-1904-002-1920 #bibl-1904-002-1911 #bibl-1904-002-1922">Über die Freud’sche Psychoanalytische Methode in die Sammlung kleiner
                      Schriften zur Neurosenlehre</rs> aufgenommen. </p>
-            </note>
-            <note type="comment_intern">
-               <p>OCR korr., 1-8, SL</p>
-               <p>2. OCR korr. KK</p>
-               <p>3. Korr. CH</p>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -364,30 +355,30 @@
                </biblStruct>
             </listBibl>
             <listWit>
-               <witness xml:id="sfe-1904-002__1904.xml" sameAs="#bibl-1904-002-1904"><idno>E</idno>:
+               <witness xml:id="sfe-1904-002__1904.xml" corresp="#bibl-1904-002-1904"><idno>E</idno>:
                   Die Freud’sche psychoanalytische Methode. In: Loewenfeld, Leopold : Die
                   psychischen Zwangserscheinungen. Auf klinischer Grundlage dargestellt. Wiesbaden:
                   Bergmann 1904, S. 545 – 551. </witness>
-               <witness xml:id="sfe-1904-002__1906.xml" sameAs="#bibl-1904-002-1906"><idno>S1</idno>: Die Freud’sche psychoanalytische Methode. In: Freud, Sigmund
+               <witness xml:id="sfe-1904-002__1906.xml" corresp="#bibl-1904-002-1906"><idno>S1</idno>: Die Freud’sche psychoanalytische Methode. In: Freud, Sigmund
                   (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
                   zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 1. Auflage. Leipzig, Wien:
                   Deuticke 1906, S. 218-224.</witness>
-               <witness xml:id="sfe-1904-002__1911.xml" sameAs="#bibl-1904-002-1911"><idno>S2</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+               <witness xml:id="sfe-1904-002__1911.xml" corresp="#bibl-1904-002-1911"><idno>S2</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
                   (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
                   zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 2. unveränderte Auflage.
                   Leipzig, Wien: Deuticke 1911, S. 213-219.</witness>
-               <witness xml:id="sfe-1904-002__1920.xml" sameAs="#bibl-1904-002-1920"><idno>S3</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+               <witness xml:id="sfe-1904-002__1920.xml" corresp="#bibl-1904-002-1920"><idno>S3</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
                   (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
                   zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 3. unveränderte Auflage.
                   Leipzig, Wien: Deuticke 1920, S. 213-219.</witness>
-               <witness xml:id="sfe-1904-002__1922.xml" sameAs="#bibl-1904-002-1922"><idno>S4</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+               <witness xml:id="sfe-1904-002__1922.xml" corresp="#bibl-1904-002-1922"><idno>S4</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
                   (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
                   zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 4. unveränderte Auflage.
                   Leipzig, Wien: Deuticke 1922, S. 213-219.</witness>
-               <witness xml:id="sfe-1904-002__1924.xml" sameAs="#bibl-1904-002-1924"><idno>S5</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+               <witness xml:id="sfe-1904-002__1924.xml" corresp="#bibl-1904-002-1924"><idno>S5</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
                   (Hg.): Zur Technik der Psychoanalyse und zur Metapsychologie. Leipzig, Wien,
                   Zürich: Internationaler Psychoanalytischer Verlag 1924, S. 3-10.</witness>
-               <witness xml:id="sfe-1904-002__1925.xml" sameAs="#bibl-1904-002-1925"><idno>C</idno>:
+               <witness xml:id="sfe-1904-002__1925.xml" corresp="#bibl-1904-002-1925"><idno>C</idno>:
                   Die Freudsche psychoanalytische Methode. In: Freud, Sigmund; Freud, Anna (Hg.);
                   Storfer, A. J. (Hg.): Gesammelte Schriften. 6. Band. Leipzig, Wien, Zürich:
                   Internationaler Psychoanalytischer Verlag 1925, S. 3-10.</witness>
@@ -406,6 +397,23 @@
                Dokuments</rendition>
             <rendition xml:id="h1" selector="p[@class='h1']">Titel eines Paragraphen</rendition>
          </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="frdhka" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/$1">
+               <p>Editionsregister</p>
+            </prefixDef>
+            <prefixDef ident="lit" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/register/literatur.xml#$1">
+               <p>Literaturverzeichnis</p>
+            </prefixDef>
+            <prefixDef ident="prs" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/register/personen.xml#$1">
+               <p>Personenregister</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/register/orte.xml#$1">
+               <p>Ortsregister</p>
+            </prefixDef>
+            <prefixDef ident="drm" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/register/traeume.xml#$1">
+               <p>Traumregister</p>
+            </prefixDef>
+         </listPrefixDef>
       </encodingDesc>
       <profileDesc>
          <langUsage>
@@ -923,27 +931,7 @@
             </p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_44">
-               <persName>Kurella, Hans</persName>
-               <idno type="gnd">https://d-nb.info/gnd/116616105</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
-               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_41">
-               <persName>Löwenfeld, Leopold</persName>
-               <idno type="gnd">https://d-nb.info/gnd/117168815</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
-               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
-               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_40">
-               <persName>Breuer, Josef</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118515225</idno>
-               <note type="bio">(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
-               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
-               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            </listPerson><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
+   <back><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
           <monogr>
             <title level="m">Studien über Hysterie</title>
             <idno type="callNumber">I-176203</idno>
@@ -965,5 +953,26 @@
           </monogr>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
                psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
-        </listBibl></back></text>
+        </listBibl><listPerson><person xml:id="frd_person_40">
+               <persName>Breuer, Josef</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118515225</idno>
+               <note type="bio">(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_41">
+               <persName>Löwenfeld, Leopold</persName>
+               <idno type="gnd">https://d-nb.info/gnd/117168815</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_44">
+               <persName>Kurella, Hans</persName>
+               <idno type="gnd">https://d-nb.info/gnd/116616105</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+            </listPerson></back></text>
 </TEI>
