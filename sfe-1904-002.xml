@@ -923,13 +923,12 @@
             </p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_40">
-               <persName>Breuer, Josef</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118515225</idno>
-               <note type="bio">(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
+   <back><listPerson><person xml:id="frd_person_44">
+               <persName>Kurella, Hans</persName>
+               <idno type="gnd">https://d-nb.info/gnd/116616105</idno>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
-               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
-               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_41">
                <persName>Löwenfeld, Leopold</persName>
                <idno type="gnd">https://d-nb.info/gnd/117168815</idno>
@@ -937,12 +936,13 @@
                psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
                L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
                Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_44">
-               <persName>Kurella, Hans</persName>
-               <idno type="gnd">https://d-nb.info/gnd/116616105</idno>
+            <person xml:id="frd_person_40">
+               <persName>Breuer, Josef</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118515225</idno>
+               <note type="bio">(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
-               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             </listPerson><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
           <monogr>
             <title level="m">Studien über Hysterie</title>
