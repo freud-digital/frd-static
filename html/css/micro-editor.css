@@ -192,3 +192,44 @@ input:checked + .i-slider:before {
 .font-size-14 {
      font-size: 14px !important;
 }
+
+/*media queries for responsive design on smartphones*/
+/*                                                  */
+/*                                                  */
+/* Small devices (landscape phones, 576px and up) */ 
+@media (max-width: 576px) {
+    .navBarLetters .table tbody tr {
+        display: grid;
+    }
+    .navBarLetters .table tbody tr td {
+        width: 100% !important;
+        text-align: center !important;
+        border: none !important;
+        margin: .5em auto;
+        justify-content: space-between;
+        display: flex;
+        padding: 0 .5em;
+    }
+    .navBarLetters .table tbody tr td:nth-child(-n+1) {
+        display: none !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .navBarLetters .table tbody tr {
+        display: grid;
+    }
+    .navBarLetters .table tbody tr td {
+        width: 100% !important;
+        text-align: center !important;
+        border: none !important;
+        margin: .5em auto;
+        justify-content: space-between;
+        display: flex;
+        padding: 0 .5em;
+    }
+    .navBarLetters .table tbody tr td:nth-child(-n+1) {
+        display: none !important;
+    }
+}
