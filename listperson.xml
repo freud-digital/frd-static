@@ -19,7 +19,7 @@
             <person xml:id="frd_person_1">
                <persName>Artemidoros aus Daldis</persName>
                <idno type="gnd">https://d-nb.info/gnd/1089126093</idno>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_2">
                <persName>Baumgarten, Alfred</persName>
                <idno type="gnd">https://d-nb.info/gnd/135629969</idno>
@@ -40,7 +40,7 @@
             <person xml:id="frd_person_6">
                <persName>Binz, Carl</persName>
                <idno type="gnd">https://d-nb.info/gnd/116184280</idno>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_7">
                <persName>Burlingham, Dorothy</persName>
                <birth>
@@ -160,7 +160,7 @@
                    <date>1928</date>
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118533975</idno>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_19">
                <persName>Foulkes, S. H.</persName>
                <birth>
@@ -193,7 +193,7 @@
                    </placeName>
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118535315</idno>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_22">
                <persName>Friedjung, Josef Karl</persName>
                <birth>
@@ -220,7 +220,7 @@
                   <date>1749</date>
                </birth>
                <idno type="gnd">https://d-nb.info/gnd/118540238</idno>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_25">
                <persName>Gomperz, Elise</persName>
                <birth>
@@ -328,7 +328,7 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/104330236</idno>
                <note type="bio">(1825-1889), deutscher Philosoph und Psychologe.</note>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_36">
                <persName>Schubert, Gotthilf Heinrich</persName>
                <birth>
@@ -339,7 +339,7 @@
                </death>
                <idno type="gnd">http://lobid.org/gnd/118610937</idno>
                <note type="bio">(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_37">
                <persName>Silberer, Herbert</persName>
                <birth>
@@ -359,7 +359,7 @@
             <person xml:id="frd_person_38">
                <persName>Volkelt, Johannes</persName>
                <idno type="gnd">https://d-nb.info/gnd/118627724</idno>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_39">
                <persName>Wichmann, Ralf</persName>
                <idno type="gnd">https://d-nb.info/gnd/1055370242</idno>
@@ -484,7 +484,7 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/1089690460</idno>
                <note type="bio">Camillo Sante de Sanctis (1862-1935), ital. Arzt, Psychiater und Psychologe.</note>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_53">
                <persName>Burdach, Karl Friedrich</persName>
                <birth>
@@ -495,7 +495,7 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/119498170</idno>
                <note type="bio">Karl Friedrich Burdach (1776-1847) deutscher Anatom und Physiologe.</note>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_54">
                <persName>Auer von Welsbach, Carl, Freiherr von</persName>
                <birth>
@@ -506,7 +506,7 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118651013</idno>
                <note type="bio">(1858-1929) österr. Chemiker und Erfinder</note>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_55">
                <persName>Galton, Francis</persName>
                <birth>
@@ -517,7 +517,7 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118702610</idno>
                <note type="bio">Francis Galton (1822-1911), engl. Naturforscher und Eugeniker</note>
-            </person>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1901-001; 1901a): Über den Traum</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
          </listPerson>
       </body>
    </text>
