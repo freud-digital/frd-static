@@ -1079,43 +1079,7 @@
                Fälle von Psycho<lb break="no"/>neurosen Erfreuliches zu leisten.</p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_50">
-               <persName>Vischer, Friedrich Theodor</persName>
-               <birth>
-                  <date>1807</date>
-               </birth>
-               <death>
-                   <date>1887</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/11862721X</idno>
-               <note type="bio">Friedrich Theodor Vischer (1807–1887), deutscher Literaturwissenschaftler, Philosoph, Schriftsteller und Politiker, 1848 gewähltes Mitglied der Frankfurter Nationalversammlung. Freud zitiert mehrfach aus seinem Werk, vor allem aus seiner Faustparodie (1862) und seinem Roman Auch einer (1879).</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
-               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_47">
-               <persName>Janet, Pierre</persName>
-               <birth>
-                  <date>1859</date>
-               </birth>
-               <death>
-                   <date>1947</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/118775928</idno>
-               <note type="bio">Pierre-Marie-Félix Janet (1859-1947), frz. Philosoph, Psychologe, Psychiater und Psychotherapeut, Begründer der dynamischen Psychiatrie, bedeutender Psychotraumatologe.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
-               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_49">
-               <persName>Liébeault, Ambroise-Auguste</persName>
-               <birth>
-                  <date>1823</date>
-               </birth>
-               <death>
-                   <date>1904</date>
-               </death>
-               <idno type="gnd">https://d-nb.info/gnd/117671673</idno>
-               <note type="bio">Ambroise-Auguste Liébeault (1823-1904), frz. Arzt und Psychiater, Vertreter der Suggestionstherapie, mit Bernheim Begründer der Schule von Nancy.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
-               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_51">
+   <back><listPerson><person xml:id="frd_person_51">
                <persName>Leonardo, da Vinci</persName>
                <birth>
                   <date>1452</date>
@@ -1125,6 +1089,26 @@
                </death>
                <idno type="gnd">https://d-nb.info/gnd/118640445</idno>
                <note type="bio">Leonardo da Vinci (1452-1519), ital. Maler, Bildhauer, Architekt, Anatom und Universalgelehrter.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_41">
+               <persName>Löwenfeld, Leopold</persName>
+               <idno type="gnd">https://d-nb.info/gnd/117168815</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
+               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_50">
+               <persName>Vischer, Friedrich Theodor</persName>
+               <birth>
+                  <date>1807</date>
+               </birth>
+               <death>
+                   <date>1887</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/11862721X</idno>
+               <note type="bio">Friedrich Theodor Vischer (1807–1887), deutscher Literaturwissenschaftler, Philosoph, Schriftsteller und Politiker, 1848 gewähltes Mitglied der Frankfurter Nationalversammlung. Freud zitiert mehrfach aus seinem Werk, vor allem aus seiner Faustparodie (1862) und seinem Roman Auch einer (1879).</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
                Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_48">
@@ -1139,18 +1123,12 @@
                <note type="bio">Paul Julius Moebius (1853-1907), dt. Neurologe und Psychiater.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
                Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_41">
-               <persName>Löwenfeld, Leopold</persName>
-               <idno type="gnd">https://d-nb.info/gnd/117168815</idno>
+            <person xml:id="frd_person_40">
+               <persName>Breuer, Josef</persName>
+               <idno type="gnd">https://d-nb.info/gnd/118515225</idno>
+               <note type="bio">(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
-               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-               L[eopold] ›Die psychischen Zwangserscheinungen‹</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
-               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_45">
-               <persName>Reder, Albert Ritter von Schellmann</persName>
-               <idno type="gnd">https://d-nb.info/gnd/1055432205</idno>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
                Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             <person xml:id="frd_person_46">
                <persName>Bernheim, Hippolyte</persName>
@@ -1164,12 +1142,34 @@
                <note type="bio">(1840-1919), frz. Internist, Psychiater und Neurologe, Vertreter der Suggestionstherapie, Mitglied der Schule von Nancy. Freud übersetzt von ihm ins Dt.: Die Suggestion und ihre Heilwirkung. Leipzig/Wien 1888 und Neue Studien über Hypnotismus, Suggestion und Psychotherapie. Leipzig/Wien 1892.</note>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
                Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-            <person xml:id="frd_person_40">
-               <persName>Breuer, Josef</persName>
-               <idno type="gnd">https://d-nb.info/gnd/118515225</idno>
-               <note type="bio">(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1904-002; 1904a): Die Freudsche
-               psychoanalytische Methode</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+            <person xml:id="frd_person_49">
+               <persName>Liébeault, Ambroise-Auguste</persName>
+               <birth>
+                  <date>1823</date>
+               </birth>
+               <death>
+                   <date>1904</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/117671673</idno>
+               <note type="bio">Ambroise-Auguste Liébeault (1823-1904), frz. Arzt und Psychiater, Vertreter der Suggestionstherapie, mit Bernheim Begründer der Schule von Nancy.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_47">
+               <persName>Janet, Pierre</persName>
+               <birth>
+                  <date>1859</date>
+               </birth>
+               <death>
+                   <date>1947</date>
+               </death>
+               <idno type="gnd">https://d-nb.info/gnd/118775928</idno>
+               <note type="bio">Pierre-Marie-Félix Janet (1859-1947), frz. Philosoph, Psychologe, Psychiater und Psychotherapeut, Begründer der dynamischen Psychiatrie, bedeutender Psychotraumatologe.</note>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
+               Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+            <person xml:id="frd_person_45">
+               <persName>Reder, Albert Ritter von Schellmann</persName>
+               <idno type="gnd">https://d-nb.info/gnd/1055432205</idno>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Freud, Sigmund (1905-001; 1905a [1904]): Über
                Psychotherapie</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
             </listPerson></back></text>
 </TEI>
