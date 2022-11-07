@@ -154,11 +154,8 @@ var editor = new LoadEditor({
                 title: "Anzeige erweitern",
                 urlparam: "fullscreen",
                 chg_citation: "citation-url",
-                hide: {
-                    hidden: true,
-                    class_to_hide: "hide-reading"
-
-                }
+                hide: "hide-reading",
+                hidden: "fade"
             }
         ],
         active_class: "active",
