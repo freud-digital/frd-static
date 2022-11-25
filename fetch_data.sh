@@ -7,6 +7,8 @@ rm -rf ./data/indices
 mkdir ./data/indices
 rm -rf ./data/tmp
 mkdir ./data/tmp
+rm -rf ./html/geo
+mkdir ./html/geo
 rm master.zip
 rm -rf ./frd-data-main
 
@@ -22,6 +24,7 @@ rm -rf ./frd-data-main
 wget https://github.com/freud-digital/frd-entities/archive/refs/heads/main.zip
 unzip main
 mv ./frd-entities-main/out/*.xml ./data/indices
+mv ./frd-entities-main/out/*.geojson ./html/geo
 
 rm main.zip
 rm -rf ./frd-entities-main

@@ -8,6 +8,7 @@ data/indices
 html/static-search
 /TEI-Stylesheets
 lunr.js
+/html/geo
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
