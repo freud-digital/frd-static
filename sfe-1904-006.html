@@ -12,8 +12,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" href="css/micro-editor.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script></head>
+      <link rel="stylesheet" href="css/micro-editor.css" type="text/css" /><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script></head>
    <body class="page" onload="createIndex()">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar hide-reading" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
@@ -27,7 +26,9 @@
                               <li class="nav-item dropdown-submenu"><a title="Personen" href="listperson.html" class="nav-link">Personen</a></li>
                               <li class="nav-item dropdown-submenu"><a title="Personen" href="listbibl.html " class="nav-link">Literaturverzeichnis</a></li>
                               <li class="nav-item dropdown-submenu"><a title="Orte" href="listplace.html" class="nav-link">Orte</a></li>
-                              <li class="nav-item dropdown-submenu"><a title="Orte" href="listorg.html" class="nav-link">Institutionen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Institutionen" href="listorg.html" class="nav-link">Institutionen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Schlagworte" href="listkey.html" class="nav-link">Schlagworte</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Träume" href="listdream.html" class="nav-link">Träume</a></li>
                            </ul>
                         </li>
                         <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>
@@ -334,125 +335,11 @@
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="frd_person_44">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Kurella, Hans <a href="frd_person_44.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body">
-                        <table class="table" id="bibl_detail_table">
-                           <tbody>
-                              <tr>
-                                 <th>
-                                    Name
-                                    </th>
-                                 <td>Kurella, Hans</td>
-                              </tr>
-                              <tr>
-                                 <th>
-                                    Geburtstag                            
-                                    </th>
-                                 <td></td>
-                              </tr>
-                              <tr>
-                                 <th>
-                                    Todestag
-                                    </th>
-                                 <td></td>
-                              </tr>
-                              <tr>
-                                 <th>
-                                    Permalink
-                                    </th>
-                                 <td><a target="_blank" href="https://d-nb.info/gnd/116616105">https://d-nb.info/gnd/116616105</a></td>
-                              </tr>
-                              <tr>
-                                 <th>
-                                    Erwähnt in
-                                    </th>
-                                 <td>
-                                    <ul style="padding-left: 0;">
-                                       <li style="list-style:none;padding-bottom:.5em;">Freud, Sigmund (1904-002; 1904a): Die Freudsche
-                                          psychoanalytische Methode <a href="sfe-1904-002.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                       <li style="list-style:none;padding-bottom:.5em;">Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-                                          L[eopold] ›Die psychischen Zwangserscheinungen‹ <a href="sfe-1904-006.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                    </ul>
-                                 </td>
-                              </tr>
-                           </tbody>
-                        </table>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="frd_person_41">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Löwenfeld, Leopold <a href="frd_person_41.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body">
-                        <table class="table" id="bibl_detail_table">
-                           <tbody>
-                              <tr>
-                                 <th>
-                                    Name
-                                    </th>
-                                 <td>Löwenfeld, Leopold</td>
-                              </tr>
-                              <tr>
-                                 <th>
-                                    Geburtstag                            
-                                    </th>
-                                 <td></td>
-                              </tr>
-                              <tr>
-                                 <th>
-                                    Todestag
-                                    </th>
-                                 <td></td>
-                              </tr>
-                              <tr>
-                                 <th>
-                                    Permalink
-                                    </th>
-                                 <td><a target="_blank" href="https://d-nb.info/gnd/117168815">https://d-nb.info/gnd/117168815</a></td>
-                              </tr>
-                              <tr>
-                                 <th>
-                                    Erwähnt in
-                                    </th>
-                                 <td>
-                                    <ul style="padding-left: 0;">
-                                       <li style="list-style:none;padding-bottom:.5em;">Freud, Sigmund (1904-002; 1904a): Die Freudsche
-                                          psychoanalytische Methode <a href="sfe-1904-002.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                       <li style="list-style:none;padding-bottom:.5em;">Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-                                          L[eopold] ›Die psychischen Zwangserscheinungen‹ <a href="sfe-1904-006.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                       <li style="list-style:none;padding-bottom:.5em;">Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-                                          L[eopold] ›Die psychischen Zwangserscheinungen‹ <a href="sfe-1904-006.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                       <li style="list-style:none;padding-bottom:.5em;">Freud, Sigmund (1905-001; 1905a [1904]): Über
-                                          Psychotherapie <a href="sfe-1905-001.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                    </ul>
-                                 </td>
-                              </tr>
-                           </tbody>
-                        </table>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="frd_person_43">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Vogt, Oskar <a href="frd_person_43.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Oskar Vogt <a href="frd_person_43.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
                      <div class="card-body">
@@ -462,7 +349,10 @@
                                  <th>
                                     Name
                                     </th>
-                                 <td>Vogt, Oskar</td>
+                                 <td>
+                                    
+                                    
+                                    </td>
                               </tr>
                               <tr>
                                  <th>
@@ -488,8 +378,66 @@
                                     </th>
                                  <td>
                                     <ul style="padding-left: 0;">
-                                       <li style="list-style:none;padding-bottom:.5em;">Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-                                          L[eopold] ›Die psychischen Zwangserscheinungen‹ <a href="sfe-1904-006.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                       <li style="list-style:none;padding-bottom:.5em;">Rezension von: Löwenfeld, L[eopold] ›Die
+                                          psychischen Zwangserscheinungen‹ (1904-006/1904) <a href="sfe-1904-006.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                    </ul>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="frd_person_44">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Hans Kurella <a href="frd_person_44.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body">
+                        <table class="table" id="bibl_detail_table">
+                           <tbody>
+                              <tr>
+                                 <th>
+                                    Name
+                                    </th>
+                                 <td>
+                                    
+                                    
+                                    </td>
+                              </tr>
+                              <tr>
+                                 <th>
+                                    Geburtstag                            
+                                    </th>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <th>
+                                    Todestag
+                                    </th>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <th>
+                                    Permalink
+                                    </th>
+                                 <td><a target="_blank" href="https://d-nb.info/gnd/116616105">https://d-nb.info/gnd/116616105</a></td>
+                              </tr>
+                              <tr>
+                                 <th>
+                                    Erwähnt in
+                                    </th>
+                                 <td>
+                                    <ul style="padding-left: 0;">
+                                       <li style="list-style:none;padding-bottom:.5em;">Die Freudsche psychoanalytische Methode
+                                          (1904-002/1925) <a href="sfe-1904-002.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                       <li style="list-style:none;padding-bottom:.5em;">Rezension von: Löwenfeld, L[eopold] ›Die
+                                          psychischen Zwangserscheinungen‹ (1904-006/1904) <a href="sfe-1904-006.html"><i class="fas fa-external-link-alt"></i></a></li>
                                     </ul>
                                  </td>
                               </tr>
@@ -505,7 +453,7 @@
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Forel, August <a href="frd_person_42.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">August Forel <a href="frd_person_42.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
                      <div class="card-body">
@@ -515,7 +463,10 @@
                                  <th>
                                     Name
                                     </th>
-                                 <td>Forel, August</td>
+                                 <td>
+                                    
+                                    
+                                    </td>
                               </tr>
                               <tr>
                                  <th>
@@ -541,8 +492,69 @@
                                     </th>
                                  <td>
                                     <ul style="padding-left: 0;">
-                                       <li style="list-style:none;padding-bottom:.5em;">Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-                                          L[eopold] ›Die psychischen Zwangserscheinungen‹ <a href="sfe-1904-006.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                       <li style="list-style:none;padding-bottom:.5em;">Rezension von: Löwenfeld, L[eopold] ›Die
+                                          psychischen Zwangserscheinungen‹ (1904-006/1904) <a href="sfe-1904-006.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                    </ul>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="frd_person_41">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Leopold Löwenfeld <a href="frd_person_41.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body">
+                        <table class="table" id="bibl_detail_table">
+                           <tbody>
+                              <tr>
+                                 <th>
+                                    Name
+                                    </th>
+                                 <td>
+                                    
+                                    
+                                    </td>
+                              </tr>
+                              <tr>
+                                 <th>
+                                    Geburtstag                            
+                                    </th>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <th>
+                                    Todestag
+                                    </th>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <th>
+                                    Permalink
+                                    </th>
+                                 <td><a target="_blank" href="https://d-nb.info/gnd/117168815">https://d-nb.info/gnd/117168815</a></td>
+                              </tr>
+                              <tr>
+                                 <th>
+                                    Erwähnt in
+                                    </th>
+                                 <td>
+                                    <ul style="padding-left: 0;">
+                                       <li style="list-style:none;padding-bottom:.5em;">Die Freudsche psychoanalytische Methode
+                                          (1904-002/1925) <a href="sfe-1904-002.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                       <li style="list-style:none;padding-bottom:.5em;">Rezension von: Löwenfeld, L[eopold] ›Die
+                                          psychischen Zwangserscheinungen‹ (1904-006/1904) <a href="sfe-1904-006.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                       <li style="list-style:none;padding-bottom:.5em;">Rezension von: Löwenfeld, L[eopold] ›Die
+                                          psychischen Zwangserscheinungen‹ (1904-006/1904) <a href="sfe-1904-006.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                       <li style="list-style:none;padding-bottom:.5em;">Über Psychotherapie (1905-001/1925) <a href="sfe-1905-001.html"><i class="fas fa-external-link-alt"></i></a></li>
                                     </ul>
                                  </td>
                               </tr>
@@ -605,7 +617,8 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="imprint.html">Impressum/Imprint</a> | <a href="https://github.com/freud-digital/frd-static"><i data-feather="github"></i></a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="imprint.html">Impressum/Imprint</a> | <a href="https://github.com/freud-digital/frd-static"><i data-feather="github"></i></a></div>
+      </div>
    </body><script type="text/javascript">
                 
                 $('#show-text').click(function () {
@@ -620,4 +633,4 @@
                     }  
                 });
                 
-            </script><script src="https://unpkg.com/de-micro-editor@0.2.0/dist/de-editor.min.js"></script><script src="js/run.js"></script></html>
+            </script><script src="https://unpkg.com/de-micro-editor@0.2.2/dist/de-editor.min.js"></script><script src="js/run.js"></script></html>
