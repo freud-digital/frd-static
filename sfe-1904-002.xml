@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="sfe-1904-002.xml" prev="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml" next="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://freud-digital.github.io/frd-static" xml:id="sfe-1904-002.xml" prev="https://freud-digital.github.io/frd-static/sfe-1901-001.xml" next="https://freud-digital.github.io/frd-static/sfe-1904-006.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -940,8 +940,8 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q101822</idno>
                   <note/>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_40">
                   <persName>
                      <forename>Josef</forename>
@@ -951,7 +951,7 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q84430</idno>
                   <note>(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_41">
                   <persName>
                      <forename>Leopold</forename>
@@ -961,9 +961,9 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q1727246</idno>
                   <note>Leopold Löwenfeld (1847-1923), Mediziner, wirkte vor allem in München als Nervenarzt. Er beschäftigte sich mit Hypnose, Zwangsphänomenen und Sexualpathologie, veröffentlichte aber auch zu Somnabulismus, Spiritismus und Dummheit.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                </listPerson><listBibl><biblStruct type="book" xml:id="zotero__7XC58JJ2" corresp="http://zotero.org/groups/4690432/items/7XC58JJ2">
           <monogr>
             <title level="m">Über den Traum</title>
@@ -982,7 +982,7 @@
             <biblScope unit="volume">8</biblScope>
           </series>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
         <biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
           <monogr>
             <title level="m">Studien über Hysterie</title>
@@ -1004,6 +1004,6 @@
             </imprint>
           </monogr>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
         </listBibl></back></text>
 </TEI>

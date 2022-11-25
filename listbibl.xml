@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="listbibl.xml" next="https://id.acdh.oeaw.ac.at/freud-hka/listdream.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://freud-digital.github.io/frd-static" xml:id="listbibl.xml" next="https://freud-digital.github.io/frd-static/listdream.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -853,7 +853,7 @@
             <biblScope unit="volume">8</biblScope>
           </series>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
         <biblStruct type="journalArticle" xml:id="zotero__J8VUJQGR" corresp="http://zotero.org/groups/4690432/items/J8VUJQGR">
           <analytic>
             <title level="a">Über den Gegensinn der Urworte</title>
@@ -992,7 +992,7 @@
             </imprint>
           </monogr>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
         <biblStruct type="book" xml:id="zotero__M9TAGAWQ" corresp="http://zotero.org/groups/4690432/items/M9TAGAWQ">
           <monogr>
             <title level="m">Die psychischen Zwangserscheinungen: auf klinischer Grundlage dargestellt</title>

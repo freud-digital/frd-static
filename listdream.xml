@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="listdream.xml" prev="https://id.acdh.oeaw.ac.at/freud-hka/listbibl.xml" next="https://id.acdh.oeaw.ac.at/freud-hka/listkey.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://freud-digital.github.io/frd-static" xml:id="listdream.xml" prev="https://freud-digital.github.io/frd-static/listbibl.xml" next="https://freud-digital.github.io/frd-static/listkey.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>

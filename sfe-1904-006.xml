@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="sfe-1904-006.xml" prev="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml" next="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://freud-digital.github.io/frd-static" xml:id="sfe-1904-006.xml" prev="https://freud-digital.github.io/frd-static/sfe-1904-002.xml" next="https://freud-digital.github.io/frd-static/sfe-1905-001.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -367,17 +367,7 @@
 
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_43">
-                  <persName>
-                     <forename>Oskar</forename>
-                     <surname>Vogt</surname>
-                  </persName>
-                  <idno type="GND">https://d-nb.info/gnd/11881866X</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q63007</idno>
-                  <note>Neurologe; mit  der Neurologin Cécile Vogt für die gemeinsame Pionierarbeit in der lokalisatorischen Hirnforschung bekannt.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_44">
+   <back><listPerson><person xml:id="frd_person_44">
                   <persName>
                      <forename>Hans</forename>
                      <surname>Kurella</surname>
@@ -386,8 +376,8 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q101822</idno>
                   <note/>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_42">
                   <persName>
                      <forename>August</forename>
@@ -397,7 +387,17 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q22530</idno>
                   <note>(1848-1931) schweiz. Psychiater. 1879 bis 1898 Direktor der Psychiatrischen Universitätsklinik Zürich ("Burghölzli"), in dieser Funktion der Vorgänger von Eugen Bleuler.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_43">
+                  <persName>
+                     <forename>Oskar</forename>
+                     <surname>Vogt</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/11881866X</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q63007</idno>
+                  <note>Neurologe; mit  der Neurologin Cécile Vogt für die gemeinsame Pionierarbeit in der lokalisatorischen Hirnforschung bekannt.</note>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_41">
                   <persName>
                      <forename>Leopold</forename>
@@ -407,8 +407,8 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q1727246</idno>
                   <note>Leopold Löwenfeld (1847-1923), Mediziner, wirkte vor allem in München als Nervenarzt. Er beschäftigte sich mit Hypnose, Zwangsphänomenen und Sexualpathologie, veröffentlichte aber auch zu Somnabulismus, Spiritismus und Dummheit.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                </listPerson></back></text>
 </TEI>

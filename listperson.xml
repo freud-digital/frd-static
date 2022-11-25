@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="listperson.xml" prev="https://id.acdh.oeaw.ac.at/freud-hka/listorg.xml" next="https://id.acdh.oeaw.ac.at/freud-hka/listplace.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://freud-digital.github.io/frd-static" xml:id="listperson.xml" prev="https://freud-digital.github.io/frd-static/listorg.xml" next="https://freud-digital.github.io/frd-static/listplace.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -59,7 +59,7 @@
                   </persName>
                   <idno type="GND">https://d-nb.info/gnd/1089126093</idno>
                   <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_2">
                   <persName>
                      <forename>Alfred</forename>
@@ -104,7 +104,7 @@
                   <idno type="GND">https://d-nb.info/gnd/116184280</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q90228</idno>
                   <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_7">
                   <persName>
                      <forename>Dorothy</forename>
@@ -283,7 +283,7 @@
                   <idno type="GND">https://d-nb.info/gnd/118533975</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q68726</idno>
                   <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_19">
                   <persName>
                      <forename>S. H.</forename>
@@ -330,7 +330,7 @@
                   <idno type="GND">https://d-nb.info/gnd/118535315</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q9215</idno>
                   <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_22">
                   <persName>
                      <forename>Josef Karl</forename>
@@ -372,7 +372,7 @@
                   <idno type="GND">https://d-nb.info/gnd/118540238</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q5879</idno>
                   <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_25">
                   <persName>
                      <forename>Elise</forename>
@@ -533,7 +533,7 @@
                   <idno type="GND">https://d-nb.info/gnd/104330236</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q3813028</idno>
                   <note>(1825-1889), deutscher Philosoph und Psychologe.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_36">
                   <persName>
                      <forename>Gotthilf Heinrich</forename>
@@ -548,7 +548,7 @@
                   <idno type="GND">http://lobid.org/gnd/118610937</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q66704</idno>
                   <note>(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_37">
                   <persName>
                      <forename>Herbert</forename>
@@ -578,7 +578,7 @@
                   <idno type="GND">https://d-nb.info/gnd/118627724</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q74318</idno>
                   <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_39">
                   <persName>
                      <forename>Ralf</forename>
@@ -596,7 +596,7 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q84430</idno>
                   <note>(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_41">
                   <persName>
                      <forename>Leopold</forename>
@@ -606,9 +606,9 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q1727246</idno>
                   <note>Leopold Löwenfeld (1847-1923), Mediziner, wirkte vor allem in München als Nervenarzt. Er beschäftigte sich mit Hypnose, Zwangsphänomenen und Sexualpathologie, veröffentlichte aber auch zu Somnabulismus, Spiritismus und Dummheit.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_42">
                   <persName>
                      <forename>August</forename>
@@ -618,7 +618,7 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q22530</idno>
                   <note>(1848-1931) schweiz. Psychiater. 1879 bis 1898 Direktor der Psychiatrischen Universitätsklinik Zürich ("Burghölzli"), in dieser Funktion der Vorgänger von Eugen Bleuler.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_43">
                   <persName>
                      <forename>Oskar</forename>
@@ -628,7 +628,7 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q63007</idno>
                   <note>Neurologe; mit  der Neurologin Cécile Vogt für die gemeinsame Pionierarbeit in der lokalisatorischen Hirnforschung bekannt.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_44">
                   <persName>
                      <forename>Hans</forename>
@@ -638,8 +638,8 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q101822</idno>
                   <note/>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_45">
                   <persName>
                      <forename>Albert Ritter von Schellmann</forename>
@@ -648,7 +648,7 @@
                   <idno type="GND">https://d-nb.info/gnd/1055432205</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q112365639</idno>
                   <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_46">
                   <persName>
                      <forename>Hippolyte</forename>
@@ -663,7 +663,7 @@
                   <idno type="GND">https://d-nb.info/gnd/126790795</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q661050</idno>
                   <note>(1840-1919), frz. Internist, Psychiater und Neurologe, Vertreter der Suggestionstherapie, Mitglied der Schule von Nancy. Freud übersetzt von ihm ins Dt.: Die Suggestion und ihre Heilwirkung. Leipzig/Wien 1888 und Neue Studien über Hypnotismus, Suggestion und Psychotherapie. Leipzig/Wien 1892.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_47">
                   <persName>
                      <forename>Pierre</forename>
@@ -678,7 +678,7 @@
                   <idno type="GND">https://d-nb.info/gnd/118775928</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q328758</idno>
                   <note>Pierre-Marie-Félix Janet (1859-1947), frz. Philosoph, Psychologe, Psychiater und Psychotherapeut, Begründer der dynamischen Psychiatrie, bedeutender Psychotraumatologe.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_48">
                   <persName>
                      <forename>Paul Julius</forename>
@@ -693,7 +693,7 @@
                   <idno type="GND">https://d-nb.info/gnd/117080330</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q62402</idno>
                   <note>Paul Julius Moebius (1853-1907), dt. Neurologe und Psychiater.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_49">
                   <persName>
                      <forename>Ambroise-Auguste</forename>
@@ -708,7 +708,7 @@
                   <idno type="GND">https://d-nb.info/gnd/117671673</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q767213</idno>
                   <note>Ambroise-Auguste Liébeault (1823-1904), frz. Arzt und Psychiater, Vertreter der Suggestionstherapie, mit Bernheim Begründer der Schule von Nancy.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_50">
                   <persName>
                      <forename>Friedrich Theodor</forename>
@@ -723,7 +723,7 @@
                   <idno type="GND">https://d-nb.info/gnd/11862721X</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q651</idno>
                   <note>Friedrich Theodor Vischer (1807–1887), deutscher Literaturwissenschaftler, Philosoph, Schriftsteller und Politiker, 1848 gewähltes Mitglied der Frankfurter Nationalversammlung. Freud zitiert mehrfach aus seinem Werk, vor allem aus seiner Faustparodie (1862) und seinem Roman Auch einer (1879).</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_51">
                   <persName>
                      <forename>da Vinci</forename>
@@ -738,7 +738,7 @@
                   <idno type="GND">https://d-nb.info/gnd/118640445</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q762</idno>
                   <note>Leonardo da Vinci (1452-1519), ital. Maler, Bildhauer, Architekt, Anatom und Universalgelehrter.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_52">
                   <persName>
                      <forename>Sante</forename>
@@ -753,7 +753,7 @@
                   <idno type="GND">https://d-nb.info/gnd/1089690460</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q3656095</idno>
                   <note>Camillo Sante de Sanctis (1862-1935), ital. Arzt, Psychiater und Psychologe.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_53">
                   <persName>
                      <forename>Karl Friedrich</forename>
@@ -768,7 +768,7 @@
                   <idno type="GND">https://d-nb.info/gnd/119498170</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q215645</idno>
                   <note>Karl Friedrich Burdach (1776-1847) deutscher Anatom und Physiologe.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_54">
                   <persName>
                      <forename>Carl</forename>
@@ -783,7 +783,7 @@
                   <idno type="GND">https://d-nb.info/gnd/118651013</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q89390</idno>
                   <note>(1858-1929) österr. Chemiker und Erfinder</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_55">
                   <persName>
                      <forename>Francis</forename>
@@ -798,7 +798,7 @@
                   <idno type="GND">https://d-nb.info/gnd/118702610</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q191026</idno>
                   <note>Francis Galton (1822-1911), engl. Naturforscher und Eugeniker</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_56">
                   <persName>
                      <forename>Joseph-Remi-Léopold</forename>
@@ -834,7 +834,7 @@
                   <idno type="GND">https://d-nb.info/gnd/11883018X</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q3042226</idno>
                   <note>Ehefrau Sigmund Freuds, geb. Bernays</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_60">
                   <persName>
                      <forename>Moritz von</forename>
@@ -843,7 +843,7 @@
                   <idno type="GND">https://d-nb.info/gnd/118612271</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q551901</idno>
                   <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_63">
                   <persName>
                      <forename>Adalbert</forename>
@@ -852,7 +852,7 @@
                   <idno type="GND">https://d-nb.info/gnd/142373672</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q804815</idno>
                   <note>Veröffentlichte unter dem Pseudonym Balduin Groller</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/freud-hka/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_64">
                   <persName>
                      <forename>Wilhelm</forename>
