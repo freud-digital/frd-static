@@ -2,6 +2,9 @@
 <project basedir="." name="tei2html">
     <property name="index" value="./data/meta/about.xml"/>
     <property name="target" value="./html"/>
+    <property name="indices" value="./data/indices"/>
+    <property name="xsl_indices" value="./xslt/indices.xsl"/>
+    <property name="xsl_entities" value="./xslt/entities.xsl"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
         <fileset dir="${target}" includes="*.xml"/>
@@ -36,19 +39,29 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="./data/indices/listperson.xml" out="${target}/listperson.html" style="./xslt/listperson.xsl">
+    <xslt style="${xsl_entities}"  basedir="${indices}" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="./data/indices/listplace.xml" out="${target}/listplace.html" style="./xslt/listplace.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <xslt in="./data/indices/listbibl.xml" out="${target}/listbibl.html" style="./xslt/listbibl.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <xslt in="./data/indices/listorg.xml" out="${target}/listorg.html" style="./xslt/listorg.xsl">
+    <delete>
+        <fileset dir="${target}" includes="listbibl.html"/>
+    </delete>
+    <delete>
+        <fileset dir="${target}" includes="listplace.html"/>
+    </delete>
+    <delete>
+        <fileset dir="${target}" includes="listperson.html"/>
+    </delete>
+    <delete>
+        <fileset dir="${target}" includes="listorg.html"/>
+    </delete>
+    <delete>
+        <fileset dir="${target}" includes="listkey.html"/>
+    </delete>
+    <delete>
+        <fileset dir="${target}" includes="listdream.html"/>
+    </delete>
+    <xslt style="${xsl_indices}"  basedir="${indices}" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>

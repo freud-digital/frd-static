@@ -4,48 +4,22 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     version="2.0" exclude-result-prefixes="xsl tei xs">
     
-    <xsl:template match="tei:person" name="person_detail">
+    <xsl:template match="tei:item" name="keyword_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000" />
         <xsl:variable name="selfLink">
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
         <div class="card-body">
-            <table class="table" id="bibl_detail_table">
+            <table class="table" id="keyword_detail_table">
                 <tbody>
                     <tr>
                         <th>
-                            Name
+                            Schalgwort
                         </th>
                         <td>
-                            <xsl:value-of select=".//tei:persName/text()"/>
+                            <xsl:value-of select=".//tei:term/text()"/>
                         </td>
                     </tr>                    
-                    <tr>
-                        <th>
-                            Geburtstag                            
-                        </th>
-                        <td>
-                            <xsl:value-of select=".//tei:birth/tei:date/text()"/>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            Todestag
-                        </th>
-                        <td>                            
-                            <xsl:value-of select=".//tei:death/tei:date/text()"/>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            Permalink
-                        </th>
-                        <td>
-                            <a target="_blank" href="{.//tei:idno[@type='GND']/text()}">
-                                <xsl:value-of select=".//tei:idno[@type='GND']/text()"/>
-                            </a>
-                        </td>
-                    </tr>
                     <tr>
                         <th>
                             Erwähnt in

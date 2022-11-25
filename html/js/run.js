@@ -184,5 +184,6 @@ var editor = new LoadEditor({
         ],
         active_class: "active",
         html_class: "custom-select"
-    }
+    },
+    up: true
 });

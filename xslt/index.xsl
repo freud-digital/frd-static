@@ -54,7 +54,7 @@
                     
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <a href="listperson.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <!--<div class="card-body">
@@ -68,7 +68,7 @@
                                     </div>                                     
                                 </a>                                    
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <a href="listbibl.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <!--<div class="card-body">
@@ -82,7 +82,7 @@
                                     </div>                                     
                                 </a>                                    
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <a href="listplace.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <!--<div class="card-body">
@@ -96,7 +96,10 @@
                                     </div>                                     
                                 </a>                                    
                             </div>
-                            <div class="col-md-3">
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
                                 <a href="listorg.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <!--<div class="card-body">
@@ -105,6 +108,34 @@
                                         <div class="card-header">                                            
                                             <h5>
                                                 <i class="fas fa-university"></i>  Institutionenregister
+                                            </h5>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>                                    
+                            </div>
+                            <div class="col-md-4">
+                                <a href="listkey.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <!--<div class="card-body">
+                                            <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
+                                        </div>-->
+                                        <div class="card-header">                                            
+                                            <h5>
+                                                <i class="fas fa-university"></i>  Schlagworte Register
+                                            </h5>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>                                    
+                            </div>
+                            <div class="col-md-4">
+                                <a href="listdream.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <!--<div class="card-body">
+                                            <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
+                                        </div>-->
+                                        <div class="card-header">                                            
+                                            <h5>
+                                                <i class="fas fa-university"></i>  Träume Register
                                             </h5>                                            
                                         </div>
                                     </div>                                     
