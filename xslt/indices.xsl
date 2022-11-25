@@ -84,7 +84,7 @@
                         <script type="text/javascript" src="js/dt-panes.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
-                                createDataTable('listperson', 'Search:', [5, 6, 7, 8, 9, 10], [0, 1, 2, 3, 4], [9, 10]);
+                                createDataTable('listperson', 'Search:', [3, 4, 5, 6, 7, 8], [0, 1, 2], false);
                             });
                         </script>
                     </xsl:when>
@@ -93,7 +93,7 @@
                         <script src="js/leaflet.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
-                                leafletDatatable('listplace', [5, 6, 7, 8], [0, 1, 2, 3, 4]);
+                                leafletDatatable('listplace', [5, 6, 8], [0, 1, 2, 3, 4, 7]);
                             });
                         </script>
                     </xsl:when>
@@ -101,7 +101,7 @@
                         <script type="text/javascript" src="js/dt-panes.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
-                                createDataTable('listbibl', 'Search:', [1, 2, 5], [0, 3, 4], false);
+                                createDataTable('listbibl', 'Search:', [1, 2, 3, 4, 6], [0, 3, 4, 5], false);
                             });
                         </script>
                     </xsl:when>
@@ -170,12 +170,6 @@
                          <th>
                              Mentioned in papers count
                          </th>
-                         <th>
-                             Birth year
-                         </th>
-                         <th>
-                             Death year
-                         </th>
                      </tr>
                  </thead>
                  <tbody>
@@ -205,10 +199,10 @@
                                 </a>
                             </td>
                             <td>
-                                <xsl:value-of select="./tei:birth/tei:date/@when-iso"/>
+                                <xsl:value-of select="./tei:birth/tei:date"/>
                             </td>
                             <td>
-                                <xsl:value-of select="./tei:death/tei:date/@when-iso"/>
+                                <xsl:value-of select="./tei:death/tei:date"/>
                             </td>
                             <td>
                                 <a href="{./tei:birth/tei:settlement/@key}.html" target="_blank">
@@ -225,12 +219,6 @@
                             </td>
                             <td>
                                 <xsl:value-of select="count(./tei:listEvent/tei:event)"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="tokenize(./tei:birth/tei:date/@when-iso, '-')[1]"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="tokenize(./tei:death/tei:date/@when-iso, '-')[1]"/>
                             </td>
                         </tr>
                      </xsl:for-each>
@@ -440,9 +428,7 @@
                                 <ul>
                                     <xsl:for-each select="./tei:monogr/tei:author">
                                         <li>
-                                            <a href="{substring-after(@ref, '#')}.html">
-                                                <xsl:value-of select="./tei:persName"/>
-                                            </a>
+                                            <xsl:value-of select="concat(./tei:surname, ', ', ./tei:forename)"/>
                                         </li>
                                     </xsl:for-each>    
                                 </ul>

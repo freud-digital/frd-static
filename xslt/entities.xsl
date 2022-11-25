@@ -395,9 +395,7 @@
                                                             <ul>
                                                                 <xsl:for-each select="./tei:monogr/tei:author">
                                                                     <li>
-                                                                        <a href="{substring-after(@ref, '#')}.html">
-                                                                            <xsl:value-of select="./tei:persName"/>
-                                                                        </a>        
+                                                                        <xsl:value-of select="concat(./tei:surname, ', ', ./tei:forename)"/>       
                                                                     </li>
                                                                 </xsl:for-each>
                                                             </ul>
