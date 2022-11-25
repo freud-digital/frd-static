@@ -39,8 +39,8 @@ done
 rm -rf ./frd-working-data-main
 
 
-add-attributes -g "./data/editions/critical/*.xml" -b "https://id.acdh.oeaw.ac.at/freud-hka"
-add-attributes -g "./data/indices/*.xml" -b "https://id.acdh.oeaw.ac.at/freud-hka"
+add-attributes -g "./data/editions/critical/*.xml" -b "https://freud-digital.github.io/frd-static"
+add-attributes -g "./data/indices/*.xml" -b "https://freud-digital.github.io/frd-static"
 
 denormalize-indices -f "./data/editions/critical/*.xml" -i "./data/indices/*.xml" -m ".//*[@ref]/@ref | .//*/@source" -x ".//tei:titleStmt/tei:title[@type='manifestation']/text()"
 
