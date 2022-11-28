@@ -5,7 +5,7 @@ var editor = new LoadEditor({
             {
                 opt: "break",
                 opt_slider: "break-slider",
-                title: "Zeilen- und Seitenumbrüche",
+                title: "Zeilenumbrüche",
                 color: "lightgrey",
                 html_class: "break",
                 css_class: "undefined",
@@ -49,8 +49,8 @@ var editor = new LoadEditor({
                 opt_slider: "keyword-slider",
                 title: "Schlagworte",
                 color: "green",
-                html_class: "kw",
-                css_class: "keyword",
+                html_class: "keyword",
+                css_class: "kw",
                 hide: false,
                 chg_citation: "citation-url",
                 features: {
@@ -65,6 +65,20 @@ var editor = new LoadEditor({
                 color: "pink",
                 html_class: "dream",
                 css_class: "drm",
+                hide: false,
+                chg_citation: "citation-url",
+                features: {
+                    all: false,
+                    class: "single-feature"
+                }
+            },
+            {
+                opt: "org",
+                opt_slider: "org-slider",
+                title: "Institutionen",
+                color: "oragen",
+                html_class: "org",
+                css_class: "og",
                 hide: false,
                 chg_citation: "citation-url",
                 features: {

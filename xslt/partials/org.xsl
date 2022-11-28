@@ -12,25 +12,7 @@
         
         <div class="card-body">
             <table class="table" id="org_detail_table">
-                <tbody>
-                    <tr>
-                        <th>
-                            Name
-                        </th>
-                        <td>
-                            <xsl:value-of select=".//tei:orgName/text()"/>
-                        </td>
-                    </tr>                    
-                    <tr>
-                        <th>
-                            GND ID
-                        </th>
-                        <td>
-                            <a target="_blank" href="{.//tei:idno[@type='GND']/text()}">
-                                <xsl:value-of select=".//tei:idno[@type='GND']/text()"/>
-                            </a>
-                        </td>
-                    </tr>
+                <tbody>             
                     <tr>
                         <th>
                             Wikidata ID
@@ -65,17 +47,14 @@
                             </ul>
                         </td>                        
                     </tr>
-                    <xsl:if test="count(.//tei:event) gt $showNumberOfMentions + 1">
-                        <tr>
-                            <th>
-                                ...
-                            </th>
-                            <td>
-                                Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a> für eine vollständige Auflistung
-                            </td>  
-                        </tr>
-                        
-                    </xsl:if>
+                    <tr>
+                        <th>
+                            ...
+                        </th>
+                        <td>
+                            Für mehr Informationen, klicke <a href="{$selfLink}">hier</a>.
+                        </td>  
+                    </tr>
                 </tbody>
             </table>
         </div>

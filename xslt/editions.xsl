@@ -159,9 +159,11 @@
                                         <a href="#" id="show-text">mehr anzeigen</a>
                                     </div>
                                 </div>
+                                
                                 <div style="margin-top:2em;">
                                     <xsl:call-template name="annotation-options"/>
                                 </div>
+                                
                                 <xsl:for-each select=".//tei:body/tei:div">
                                     <div class="row text-middle">
                                         <div class="col-md-6 text-re">
@@ -236,12 +238,8 @@
                                                     </div>
                                                 </xsl:for-each>
                                             </div>
-                                            
-                                            
                                         </div>
                                     </div>
-                                        
-                                    
                                 </xsl:for-each>
                             </div>
                         </div>                       
@@ -331,6 +329,42 @@
                             </div>
                         </div>
                     </xsl:for-each>
+                    <xsl:for-each select=".//tei:back//tei:item[@xml:id]">
+                        <xsl:variable name="xmlId">
+                            <xsl:value-of select="data(./@xml:id)"/>
+                        </xsl:variable>
+                        
+                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{$xmlId}">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">
+                                            <xsl:value-of select="normalize-space(string-join(
+                                                if (contains(ancestor::tei:TEI//tei:teiheader//tei:titleStmt/tei:title[@type='main'], 'Träume')) then (./tei:name) else (./tei:term)
+                                                ))"/>
+                                            <xsl:text> </xsl:text>
+                                            <a href="{concat($xmlId, '.html')}">
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <xsl:call-template name="place_detail">
+                                            <xsl:with-param name="showNumberOfMentions" select="5"/>
+                                        </xsl:call-template>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </xsl:for-each>
+                    
+                    <!--<div class="back">
+                        <xsl:apply-templates select="//tei:back"/>
+                    </div>-->
+                    
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body> 
@@ -673,6 +707,375 @@
     <xsl:template match="tei:term">
         <xsl:apply-templates/>]
     </xsl:template>
-    
-    
+    <xsl:template match="tei:rs">
+        <xsl:choose>
+            <xsl:when test="count(tokenize(@ref, ' ')) > 1">
+                <xsl:choose>
+                    <xsl:when test="@type='person'">
+                        <span class="persons">
+                            <xsl:apply-templates/>
+                            <xsl:for-each select="tokenize(@ref, ' ')">
+                                <sup class="entity" data-toggle="modal" data-target="{.}">
+                                    <xsl:value-of select="position()"/>
+                                </sup>
+                                <xsl:if test="position() != last()">
+                                    <sup>/</sup>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </span>
+                    </xsl:when>
+                    <xsl:when test="@type='place'">
+                        <span class="places">
+                            <xsl:apply-templates/>
+                            <xsl:for-each select="tokenize(@ref, ' ')">
+                                <sup class="entity" data-toggle="modal" data-target="{.}">
+                                    <xsl:value-of select="position()"/>
+                                </sup>
+                                <xsl:if test="position() != last()">
+                                    <sup>/</sup>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </span>
+                    </xsl:when>
+                    <xsl:when test="@type='org'">
+                        <span class="orgs">
+                            <xsl:apply-templates/>
+                            <xsl:for-each select="tokenize(@ref, ' ')">
+                                <sup class="entity" data-toggle="modal" data-target="{.}">
+                                    <xsl:value-of select="position()"/>
+                                </sup>
+                                <xsl:if test="position() != last()">
+                                    <sup>/</sup>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </span>
+                    </xsl:when>
+                    <xsl:when test="@type='bibl'">
+                        <span class="bibl">
+                            <xsl:apply-templates/>
+                            <xsl:for-each select="tokenize(@ref, ' ')">
+                                <sup class="entity" data-toggle="modal" data-target="{.}">
+                                    <xsl:value-of select="position()"/>
+                                </sup>
+                                <xsl:if test="position() != last()">
+                                    <sup>/</sup>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </span>
+                    </xsl:when>
+                    <xsl:when test="@type='dream'">
+                        <span class="dream">
+                            <xsl:apply-templates/>
+                            <xsl:for-each select="tokenize(@ref, ' ')">
+                                <sup class="entity" data-toggle="modal" data-target="{.}">
+                                    <xsl:value-of select="position()"/>
+                                </sup>
+                                <xsl:if test="position() != last()">
+                                    <sup>/</sup>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </span>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:choose>
+                    <xsl:when test="@type='person'">
+                        <span class="person entity" data-toggle="modal" data-target="{@ref}">
+                            <xsl:apply-templates/>
+                        </span>
+                    </xsl:when>
+                    <xsl:when test="@type='place'">
+                        <span class="place entity" data-toggle="modal" data-target="{@ref}">
+                            <xsl:apply-templates/>
+                        </span>
+                    </xsl:when>
+                    <xsl:when test="@type='org'">
+                        <span class="org entity" data-toggle="modal" data-target="{@ref}">
+                            <xsl:apply-templates/>
+                        </span>
+                    </xsl:when>
+                    <xsl:when test="@type='bibl'">
+                        <span class="bibl entity" data-toggle="modal" data-target="{@ref}">
+                            <xsl:apply-templates/>
+                        </span>
+                    </xsl:when>
+                    <xsl:when test="@type='dream'">
+                        <span class="dream entity" data-toggle="modal" data-target="{@ref}">
+                            <xsl:apply-templates/>
+                        </span>
+                    </xsl:when>
+                    <xsl:when test="@type='keyword'">
+                        <span class="keyword entity" data-toggle="modal" data-target="{@ref}">
+                            <xsl:apply-templates/>
+                        </span>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+<!--    <xsl:template match="tei:listPerson">
+        <xsl:for-each select="./tei:person">
+            <div class="modal fade" id="{@xml:id}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="{concat(./tei:persName/tei:surname, ', ', ./tei:persName/tei:forename)}" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel"><xsl:value-of select="concat(./tei:persName/tei:surname, ', ', ./tei:persName/tei:forename)"/></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            Birth
+                                        </th>
+                                        <td>
+                                            <xsl:value-of select="./tei:birth/tei:date/@when-iso"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Death
+                                        </th>
+                                        <td>
+                                            <xsl:value-of select="./tei:death/tei:date/@when-iso"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            GND
+                                        </th>
+                                        <td>
+                                            <a href="{./tei:idno[@type='GND']}" target="_blank">
+                                                <xsl:value-of select="./tei:idno[@type='GND']"/>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Read more
+                                        </th>
+                                        <td>
+                                            <a href="{concat(@xml:id, '.html')}">
+                                                Detail Page
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xsl:for-each>
+    </xsl:template>
+    <xsl:template match="tei:listPlace">
+        <xsl:for-each select="./tei:place">
+            <div class="modal fade" id="{@xml:id}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="{if(./tei:settlement) then(./tei:settlement/tei:placeName) else (./tei:placeName)}" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel"><xsl:value-of select="if(./tei:settlement) then(./tei:settlement/tei:placeName) else (./tei:placeName)"/></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            Country
+                                        </th>
+                                        <td>
+                                            <xsl:value-of select="./tei:country"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Geonames ID
+                                        </th>
+                                        <td>
+                                            <a href="{./tei:idno[@type='GEONAMES']}" target="_blank">
+                                                <xsl:value-of select="tokenize(./tei:idno[@type='GEONAMES'], '/')[4]"/>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Read more
+                                        </th>
+                                        <td>
+                                            <a href="{concat(@xml:id, '.html')}">
+                                                Detail Page
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xsl:for-each>
+    </xsl:template>
+    <xsl:template match="tei:listOrg">
+        <xsl:for-each select="./tei:org">
+            <div class="modal fade" id="{@xml:id}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="{./tei:orgName}" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel"><xsl:value-of select="./tei:orgName"/></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            Wikidata ID
+                                        </th>
+                                        <td>
+                                            <a href="{./tei:idno[@type='WIKIDATA']}" target="_blank">
+                                                <xsl:value-of select="tokenize(./tei:idno[@type='WIKIDATA'], '/')[last()]"/>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Read more
+                                        </th>
+                                        <td>
+                                            <a href="{concat(@xml:id, '.html')}">
+                                                Detail Page
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xsl:for-each>
+    </xsl:template>
+    <xsl:template match="tei:listBibl">
+        <xsl:for-each select="./tei:bibl">
+            <div class="modal fade" id="{@xml:id}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="{./tei:title}" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel"><xsl:value-of select="./tei:title"/></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table>
+                                <tbody>
+                                    
+                                    <tr>
+                                        <th>
+                                            Author(s)
+                                        </th>
+                                        <td>
+                                            <ul>
+                                                <xsl:for-each select="./tei:author">
+                                                    <li>
+                                                        <a href="{@xml:id}.html">
+                                                            <xsl:value-of select="./tei:persName"/>
+                                                        </a>
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Date
+                                        </th>
+                                        <td>
+                                            <xsl:value-of select="./tei:date/@when"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Wikidata ID
+                                        </th>
+                                        <td>
+                                            <a href="{./tei:idno[@type='WIKIDATA']}" target="_blank">
+                                                <xsl:value-of select="tokenize(./tei:idno[@type='WIKIDATA'], '/')[last()]"/>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Read more
+                                        </th>
+                                        <td>
+                                            <a href="{concat(@xml:id, '.html')}">
+                                                Detail Page
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xsl:for-each>
+    </xsl:template>
+    <xsl:template match="tei:list[@type='index']">
+        <xsl:for-each select="./tei:item">
+            <div class="modal fade" id="{@xml:id}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="{./tei:title}" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel"><xsl:value-of select="if (contains(ancestor::tei:TEI//tei:teiheader//tei:titleStmt/tei:title[@type='main'], 'Träume')) then (./tei:name) else (./tei:term)"/></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table>
+                                <tbody>
+                                    <xsl:if test="contains(ancestor::tei:TEI//tei:teiheader//tei:titleStmt/tei:title[@type='main'], 'Träume')">
+                                        <tr>
+                                            <th>
+                                                Kategorie
+                                            </th>
+                                            <td>
+                                                <xsl:value-of select="./tei:term"/>
+                                            </td>
+                                        </tr>
+                                    </xsl:if>
+                                    <tr>
+                                        <th>
+                                            Mehr Details
+                                        </th>
+                                        <td>
+                                            <a href="{concat(@xml:id, '.html')}">
+                                                hier
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xsl:for-each>
+    </xsl:template>-->
 </xsl:stylesheet>

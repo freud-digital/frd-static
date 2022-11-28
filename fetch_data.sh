@@ -38,7 +38,6 @@ for f in  $(find -path "./frd-working-data-main/werke/*/*.xml" | grep __); do
 done
 rm -rf ./frd-working-data-main
 
-
 add-attributes -g "./data/editions/critical/*.xml" -b "https://freud-digital.github.io/frd-static"
 add-attributes -g "./data/indices/*.xml" -b "https://freud-digital.github.io/frd-static"
 

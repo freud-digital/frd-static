@@ -11,15 +11,7 @@
         </xsl:variable>
         <div class="card-body">
             <table class="table" id="keyword_detail_table">
-                <tbody>
-                    <tr>
-                        <th>
-                            Schalgwort
-                        </th>
-                        <td>
-                            <xsl:value-of select=".//tei:term/text()"/>
-                        </td>
-                    </tr>                    
+                <tbody>                  
                     <tr>
                         <th>
                             Erwähnt in
@@ -44,17 +36,14 @@
                             </ul>
                         </td>                        
                     </tr>
-                    <xsl:if test="count(.//tei:event) gt $showNumberOfMentions + 1">
-                        <tr>
-                            <th>
-                                ...
-                            </th>
-                            <td>
-                                Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a> für eine vollständige Auflistung
-                            </td>  
-                        </tr>
-                        
-                    </xsl:if>
+                    <tr>
+                        <th>
+                            ...
+                        </th>
+                        <td>
+                            Für mehr Informationen, klicke <a href="{$selfLink}">hier</a>.
+                        </td>  
+                    </tr>
                 </tbody>
             </table>
         </div>

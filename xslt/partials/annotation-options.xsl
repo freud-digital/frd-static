@@ -18,43 +18,50 @@
                     <table class="table" style="margin-bottom:0;">
                         <tbody>           
                             <tr>         
-                                <td style="width:3%;border: 1px dashed #dedede;">
+                                <td style="width:3%;height:100px;border: 1px dashed #dedede;">
                                     <full-size opt="edition-fullsize"></full-size> 
                                 </td>
                                 <!--<td style="text-align:center;width:5%;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;"> 
                                     <image-switch opt="edition-switch"></image-switch>
                                 </td>-->
-                                <td style="text-align:left;width:7%;border: 1px dashed #dedede;border-right: 2px dashed #dedede;"> 
+                                <td style="text-align:left;width:12%;height:100px;border: 1px dashed #dedede;border-right: 2px dashed #dedede;"> 
                                     <font-size opt="select-fontsize"></font-size> 
                                 </td>
-                                <td style="text-align:left;width:10%;border: 1px dashed #dedede;border-right: 2px dashed #dedede;">
+                                <td style="text-align:left;width:15%;height:100px;border: 1px dashed #dedede;border-right: 2px dashed #dedede;">
                                     <font-family opt="select-font"></font-family> 
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:10%;border: 1px dashed #dedede;">   
+                                <td style="text-align:right;vertical-align:middle;width:17.5%;height:100px;border: 1px dashed #dedede;">   
                                     <annotation-slider opt="text-features"></annotation-slider> 
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:10%;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
+                                <td style="text-align:right;vertical-align:middle;width:17.5%;height:100px;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
                                     <annotation-slider opt="person"></annotation-slider>  
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:10%;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">   
+                                <td style="text-align:right;vertical-align:middle;width:17.5%;height:100px;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">   
                                     <annotation-slider opt="place"></annotation-slider>  
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:10%;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
+                                <td style="text-align:right;vertical-align:middle;width:17.5%;height:100px;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;border-right: 1px dashed #dedede;">     
                                     <annotation-slider opt="keyword"></annotation-slider>      
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:10%;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
+                            </tr>
+                            <tr>
+                                <td style="height:100px;border: 1px dashed #dedede;"></td>
+                                <td style="height:100px;border: 1px dashed #dedede;border-right: 2px dashed #dedede;"></td>
+                                <td style="height:100px;text-align:right;vertical-align:middle;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
+                                    <annotation-slider opt="org"></annotation-slider>      
+                                </td>
+                                <td style="height:100px;text-align:right;vertical-align:middle;;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
                                     <annotation-slider opt="dream"></annotation-slider>      
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:10%;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
+                                <td style="height:100px;text-align:right;vertical-align:middle;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
                                     <annotation-slider opt="editorial-notes"></annotation-slider>      
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:10%;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;border-right: 1px dashed #dedede;">  
+                                <td style="height:100px;text-align:right;vertical-align:middle;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">  
                                     <annotation-slider opt="text-variant"></annotation-slider>
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:10%;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;border-right: 1px dashed #dedede;">  
+                                <td style="height:100px;text-align:right;vertical-align:middle;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;border-right: 1px dashed #dedede;">  
                                     <annotation-slider opt="break"></annotation-slider>
                                 </td>
-                            </tr>      
+                            </tr>
                         </tbody>
                     </table>   
                 </div>

@@ -14,24 +14,6 @@
                 <tbody>
                     <tr>
                         <th>
-                            Traum
-                        </th>
-                        <td>
-                            <xsl:value-of select=".//tei:name/text()"/>
-                        </td>
-                    </tr>
-                    <xsl:if test=".//tei:term/text()">
-                        <tr>
-                            <th>
-                                Kategorie
-                            </th>
-                            <td>
-                                <xsl:value-of select=".//tei:term/text()"/>
-                            </td>
-                        </tr>
-                    </xsl:if>
-                    <tr>
-                        <th>
                             Erwähnt in
                         </th>
                         <td>
@@ -54,17 +36,14 @@
                             </ul>
                         </td>                        
                     </tr>
-                    <xsl:if test="count(.//tei:event) gt $showNumberOfMentions + 1">
-                        <tr>
-                            <th>
-                                ...
-                            </th>
-                            <td>
-                                Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a> für eine vollständige Auflistung
-                            </td>  
-                        </tr>
-                        
-                    </xsl:if>
+                    <tr>
+                        <th>
+                            ...
+                        </th>
+                        <td>
+                            Für mehr Informationen, klicke <a href="{$selfLink}">hier</a>.
+                        </td>  
+                    </tr>
                 </tbody>
             </table>
         </div>

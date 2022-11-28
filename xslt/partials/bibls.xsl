@@ -14,74 +14,12 @@
                 <tbody>
                     <tr>
                         <th>
-                            Titel
-                        </th>
-                        <td>
-                            <xsl:value-of select=".//tei:title[@level='m']/text()"/>
-                        </td>
-                    </tr>
-                    <xsl:if test=".//tei:title[@level='short']/text()">
-                        <tr>
-                            <th>
-                                Kurztitel
-                            </th>
-                            <td>
-                                <xsl:value-of select=".//tei:title[@level='short']/text()"/>
-                            </td>
-                        </tr>
-                    </xsl:if>
-                    <tr>
-                        <th>
-                            Autoren
-                        </th>
-                        <td>
-                            <ul style="padding-left: 0;">
-                                <xsl:for-each select=".//tei:author">
-                                    <li style="list-style:none;padding-bottom:.5em;"><xsl:value-of select="./tei:surname/text()"/>, <xsl:value-of select="./tei:forename/text()"/></li>
-                                </xsl:for-each>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            Ort
-                        </th>
-                        <td>
-                            <xsl:value-of select=".//tei:imprint/tei:pubPlace/text()"/>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            Verlag
-                        </th>
-                        <td>
-                            <xsl:value-of select=".//tei:imprint/tei:publisher/text()"/>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            Datum
-                        </th>
-                        <td>
-                            <xsl:value-of select=".//tei:imprint/tei:date/text()"/>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
                             Permalink
                         </th>
                         <td>
                             <a target="_blank" href="{.//tei:imprint/tei:note[@type='url']/text()}">
                                 <xsl:value-of select=".//tei:imprint/tei:note[@type='url']/text()"/>
                             </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            Hinzugefügt am
-                        </th>
-                        <td>
-                            <xsl:value-of select=".//tei:imprint/tei:note[@type='accessed']/text()"/>
                         </td>
                     </tr>
                     <tr>
@@ -108,17 +46,14 @@
                             </ul>
                         </td>                        
                     </tr>
-                    <xsl:if test="count(.//tei:event) gt $showNumberOfMentions + 1">
-                        <tr>
-                            <th>
-                                ...
-                            </th>
-                            <td>
-                                Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a> für eine vollständige Auflistung
-                            </td>  
-                        </tr>
-                                                  
-                    </xsl:if>
+                    <tr>
+                        <th>
+                            ...
+                        </th>
+                        <td>
+                            Für mehr Informationen, klicke <a href="{$selfLink}">hier</a>.
+                        </td>  
+                    </tr>
                 </tbody>
             </table>              
             
