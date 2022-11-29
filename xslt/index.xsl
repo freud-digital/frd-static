@@ -107,7 +107,7 @@
                                         </div>-->
                                         <div class="card-header">                                            
                                             <h5>
-                                                <i class="fas fa-university"></i>  Institutionenregister
+                                                <i class="fa fa-building"></i>  Institutionenregister
                                             </h5>                                            
                                         </div>
                                     </div>                                     
@@ -121,7 +121,7 @@
                                         </div>-->
                                         <div class="card-header">                                            
                                             <h5>
-                                                <i class="fas fa-university"></i>  Schlagworte Register
+                                                <i class="fa fa-key"></i>  Schlagworte Register
                                             </h5>                                            
                                         </div>
                                     </div>                                     
@@ -135,7 +135,7 @@
                                         </div>-->
                                         <div class="card-header">                                            
                                             <h5>
-                                                <i class="fas fa-university"></i>  Träume Register
+                                                <i class="far fa-unicorn"></i>  Träume Register
                                             </h5>                                            
                                         </div>
                                     </div>                                     

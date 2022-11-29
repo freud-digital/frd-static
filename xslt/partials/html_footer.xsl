@@ -75,7 +75,7 @@
         </div>
         <!-- #wrapper-footer-full -->
         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;" >
-            <a href="imprint.html">Impressum/Imprint</a> | <a href="{$github_url}"><i data-feather="github"></i></a>
+            <a href="imprint.html">Impressum/Imprint</a> | <a href="{$github_url}"><i class="fab fa-github"></i></a>
         </div>
     </xsl:template>
 </xsl:stylesheet>
