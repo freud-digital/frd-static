@@ -931,40 +931,7 @@
             </p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_44">
-                  <persName>
-                     <forename>Hans</forename>
-                     <surname>Kurella</surname>
-                  </persName>
-                  <idno type="GND">https://d-nb.info/gnd/116616105</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q101822</idno>
-                  <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_40">
-                  <persName>
-                     <forename>Josef</forename>
-                     <surname>Breuer</surname>
-                  </persName>
-                  <idno type="GND">https://d-nb.info/gnd/118515225</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q84430</idno>
-                  <note>(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_41">
-                  <persName>
-                     <forename>Leopold</forename>
-                     <surname>Löwenfeld</surname>
-                  </persName>
-                  <idno type="GND">https://d-nb.info/gnd/117168815</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q1727246</idno>
-                  <note>Leopold Löwenfeld (1847-1923), Mediziner, wirkte vor allem in München als Nervenarzt. Er beschäftigte sich mit Hypnose, Zwangsphänomenen und Sexualpathologie, veröffentlichte aber auch zu Somnabulismus, Spiritismus und Dummheit.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></person>
-               </listPerson><listBibl><biblStruct type="book" xml:id="zotero__7XC58JJ2" corresp="http://zotero.org/groups/4690432/items/7XC58JJ2">
+   <back><listBibl><biblStruct type="book" xml:id="zotero__7XC58JJ2" corresp="http://zotero.org/groups/4690432/items/7XC58JJ2">
           <monogr>
             <title level="m">Über den Traum</title>
             <author>
@@ -1005,5 +972,38 @@
           </monogr>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
-        </listBibl></back></text>
+        </listBibl><listPerson><person xml:id="frd_person_44">
+                  <persName>
+                     <forename>Hans</forename>
+                     <surname>Kurella</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116616105</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q101822</idno>
+                  <note/>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_40">
+                  <persName>
+                     <forename>Josef</forename>
+                     <surname>Breuer</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/118515225</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q84430</idno>
+                  <note>(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_41">
+                  <persName>
+                     <forename>Leopold</forename>
+                     <surname>Löwenfeld</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/117168815</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q1727246</idno>
+                  <note>Leopold Löwenfeld (1847-1923), Mediziner, wirkte vor allem in München als Nervenarzt. Er beschäftigte sich mit Hypnose, Zwangsphänomenen und Sexualpathologie, veröffentlichte aber auch zu Somnabulismus, Spiritismus und Dummheit.</note>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               </listPerson></back></text>
 </TEI>
