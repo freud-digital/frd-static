@@ -135,7 +135,7 @@
                                         </div>-->
                                         <div class="card-header">                                            
                                             <h5>
-                                                <i class="far fa-unicorn"></i>  Träume Register
+                                                <i class="fad fa-snooze"></i>  Träume Register
                                             </h5>                                            
                                         </div>
                                     </div>                                     
