@@ -58,7 +58,7 @@ function leafletDatatable(table, panesShow, panesHide) {
     var tableOne = $('#' + table)
     .DataTable({
         "language": {
-        "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/English.json"
+        "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/German.json"
             },
         dom: 'PfpBrtip',
         buttons:['copy', 'excel', 'pdf'],
