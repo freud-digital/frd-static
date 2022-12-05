@@ -18,6 +18,7 @@ rm master.zip
 for f in  $(find -path "./frd-data-main/werke/*/*.xml" | grep __); do
   b=$(basename $f); cp -v $f ./data/editions/plain/${b%}
 done
+mv ./frd-entities-main/out/*.geojson ./html/geo
 
 rm -rf ./frd-data-main
 
