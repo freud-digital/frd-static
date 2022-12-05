@@ -26,7 +26,7 @@
             <script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
             <!-- Matomo -->
-            <script>
+            <!--<script>
                 var _paq = window._paq = window._paq || [];
                 /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
                 _paq.push(['trackPageView']);
@@ -38,7 +38,7 @@
                 var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
                 g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
                 })();
-            </script>
+            </script>-->
             <!-- End Matomo Code -->
         </head>
     </xsl:template>
