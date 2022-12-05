@@ -84,7 +84,7 @@
                         <script type="text/javascript" src="js/dt-panes.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
-                                createDataTable('listperson', 'Search:', [3, 4, 5, 6, 7, 8], [0, 1, 2], false);
+                                createDataTable('listperson', 'Suche:', [3, 4, 5, 6, 7], [0, 1, 2], false);
                             });
                         </script>
                     </xsl:when>
@@ -93,7 +93,7 @@
                         <script src="js/leaflet.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
-                                leafletDatatable('listplace', [5, 6, 8], [0, 1, 2, 3, 4, 7]);
+                                leafletDatatable('listplace', [5, 6, 7], [0, 1, 2, 3, 4]);
                             });
                         </script>
                     </xsl:when>
@@ -101,7 +101,7 @@
                         <script type="text/javascript" src="js/dt-panes.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
-                                createDataTable('listbibl', 'Search:', [1, 2, 3, 4, 6], [0, 3, 4, 5], false);
+                                createDataTable('listbibl', 'Suche:', [1, 2, 3, 4, 6], [0, 3, 4, 5], false);
                             });
                         </script>
                     </xsl:when>
@@ -153,22 +153,19 @@
                              Wikidata
                          </th>
                          <th>
-                             Birth
+                             Gebutsdatum
                          </th>
                          <th>
-                             Death
+                             Sterbedatum
                          </th>
                          <th>
-                             Place of birth
+                             Geburtsort
                          </th>
                          <th>
-                             Place of death
+                             Sterbeort
                          </th>
                          <th>
-                             Works related count
-                         </th>
-                         <th>
-                             Mentioned in papers count
+                             Erwähnt in #
                          </th>
                      </tr>
                  </thead>
@@ -214,9 +211,9 @@
                                     <xsl:value-of select="./tei:death/tei:settlement/tei:placeName"/>
                                 </a>
                             </td>
-                            <td>
+                            <!--<td>
                                 <xsl:value-of select="count(./tei:listBibl/tei:bibl)"/>
-                            </td>
+                            </td>-->
                             <td>
                                 <xsl:value-of select="count(./tei:listEvent/tei:event)"/>
                             </td>
@@ -244,19 +241,16 @@
                             GND ID
                         </th>
                         <th>
-                            Coordinates
+                            Koordinaten
                         </th>
                         <th>
-                            Type of place
+                            Kategorie
                         </th>
                         <th>
-                            Country
+                            Land
                         </th>
                         <th>
-                            Located in
-                        </th>
-                        <th>
-                            Mentioned in papers count
+                            Erwähnt in #
                         </th>
                     </tr>
                 </thead>
@@ -316,11 +310,11 @@
                             <td>
                                 <xsl:value-of select="./tei:country"/>
                             </td>
-                            <td>
+                            <!--<td>
                                 <a href="{./tei:location[@type='located_in_place']/tei:placeName/@key}.html">
                                     <xsl:value-of select="./tei:location[@type='located_in_place']/tei:placeName"/>
                                 </a>
-                            </td>
+                            </td>-->
                             <td>
                                 <xsl:value-of select="count(./tei:listEvent/tei:event)"/>
                             </td>
@@ -342,7 +336,7 @@
                             Wikidata ID
                         </th>
                         <th>
-                            Mentioned in papers count
+                            Erwähnt in #
                         </th>
                     </tr>
                 </thead>
@@ -394,25 +388,25 @@
                 <thead>
                     <tr>
                         <th>
-                            Title
+                            Titel
                         </th>
                         <th>
-                            Author
+                            Autor(en)
                         </th>
                         <th>
-                            Date
+                            Datum
                         </th>
                         <th>
-                            Published in place
+                            Ort
                         </th>
                         <th>
-                            Publisher
+                            Herausgeber
                         </th>
                         <th>
                             Permalink
                         </th>
                         <th>
-                            Mentioned in papers count
+                            Erwähnt in #
                         </th>
                     </tr>
                 </thead>
@@ -465,7 +459,7 @@
                                 Schlagwort
                             </th>
                             <th>
-                                Mentioned in papers count
+                                Erwähnt in #
                             </th>
                         </tr>
                     </thead>
@@ -496,7 +490,7 @@
                                 Kategorie
                             </th>
                             <th>
-                                Mentioned in papers count
+                                Erwähnt in #
                             </th>
                         </tr>
                     </thead>

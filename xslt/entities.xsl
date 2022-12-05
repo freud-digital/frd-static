@@ -43,7 +43,7 @@
                                                 <xsl:if test="./tei:persName/tei:surname">
                                                 <tr>
                                                     <th>
-                                                        Surname
+                                                        Nachname
                                                     </th>
                                                     <td>
                                                         <xsl:value-of select="./tei:persName/tei:surname"/>
@@ -53,7 +53,7 @@
                                                 <xsl:if test="./tei:persName/tei:forename">
                                                 <tr>
                                                     <th>
-                                                        Forename
+                                                        Vorname
                                                     </th>
                                                     <td>
                                                         <xsl:value-of select="./tei:persName/tei:forename"/>
@@ -63,7 +63,7 @@
                                                 <xsl:if test="./tei:birth/tei:date">
                                                 <tr>
                                                     <th>
-                                                        Birth
+                                                        Geburtsdatum
                                                     </th>
                                                     <td>
                                                         <xsl:value-of select="./tei:birth/tei:date/@when-iso"/>
@@ -73,7 +73,7 @@
                                                 <xsl:if test="./tei:birth/tei:settlement">
                                                 <tr>
                                                     <th>
-                                                        Place of Birth
+                                                        Geburtsort
                                                     </th>
                                                     <td>
                                                         <ul>
@@ -91,7 +91,7 @@
                                                 <xsl:if test="./tei:death/tei:date">
                                                 <tr>
                                                     <th>
-                                                        Death
+                                                        Sterbedatum
                                                     </th>
                                                     <td>
                                                         <xsl:value-of select="./tei:death/tei:date/@when-iso"/>
@@ -101,7 +101,7 @@
                                                 <xsl:if test="./tei:death/tei:settlement">
                                                 <tr>
                                                     <th>
-                                                        Place of Death
+                                                        Sterbeort
                                                     </th>
                                                     <td>
                                                         <ul>
@@ -140,10 +140,10 @@
                                                     </td>
                                                 </tr>
                                                 </xsl:if>
-                                                <xsl:if test="./tei:listBibl">
+                                                <!--<xsl:if test="./tei:listBibl">
                                                 <tr>
                                                     <th>
-                                                        Literature
+                                                        Literatur
                                                     </th>
                                                     <td>
                                                         <ul>
@@ -157,11 +157,11 @@
                                                         </ul>
                                                     </td>
                                                 </tr>
-                                                </xsl:if>
+                                                </xsl:if>-->
                                                 <xsl:if test="./tei:listEvent">
                                                 <tr>
                                                     <th>
-                                                        Mentioned in
+                                                        Erwähnt in 
                                                     </th>
                                                     <td>
                                                         <ul>
@@ -214,7 +214,7 @@
                                             <tbody>
                                                 <tr>
                                                     <th>
-                                                        Placename
+                                                        Ortsname
                                                     </th>
                                                     <td>
                                                         <xsl:choose>
@@ -227,7 +227,7 @@
                                                         </xsl:choose>
                                                     </td>
                                                 </tr>
-                                                <xsl:if test="./tei:location[@type='located_in_place']">
+                                                <!--<xsl:if test="./tei:location[@type='located_in_place']">
                                                     <tr>
                                                         <th>
                                                             Located in
@@ -246,11 +246,11 @@
                                                             </ul>
                                                         </td>
                                                     </tr>
-                                                </xsl:if> 
+                                                </xsl:if>--> 
                                                 <xsl:if test="./tei:country">
                                                 <tr>
                                                     <th>
-                                                        Country
+                                                        Land
                                                     </th>
                                                     <td>
                                                         <xsl:value-of select="./tei:country"/>
@@ -260,7 +260,7 @@
                                                 <xsl:if test="./tei:settlement">
                                                 <tr>
                                                     <th>
-                                                        Placetype
+                                                        Kategorie
                                                     </th>
                                                     <td>
                                                         <xsl:value-of select="./tei:settlement/@type"/>, <xsl:value-of select="./tei:desc[@type='entity_type']"/>
@@ -326,7 +326,7 @@
                                                 <xsl:if test="./tei:listEvent">
                                                 <tr>
                                                     <th>
-                                                        Mentioned in
+                                                        Erwähnt in 
                                                     </th>
                                                     <td>
                                                         <ul>
@@ -379,7 +379,7 @@
                                                 <xsl:if test="./tei:monogr/tei:title">
                                                     <tr>
                                                         <th>
-                                                            Title
+                                                            Titel
                                                         </th>
                                                         <td>
                                                             <xsl:value-of select="./tei:monogr/tei:title"/>
@@ -389,7 +389,7 @@
                                                 <xsl:if test="./tei:monogr/tei:author">
                                                     <tr>
                                                         <th>
-                                                            Author(s)
+                                                            Autor(en)
                                                         </th>
                                                         <td>
                                                             <ul>
@@ -405,7 +405,7 @@
                                                 <xsl:if test="./tei:monogr/tei:imprint/tei:date">
                                                     <tr>
                                                         <th>
-                                                            Date
+                                                            Datum
                                                         </th>
                                                         <td>
                                                             <xsl:value-of select="./tei:monogr/tei:imprint/tei:date"/>
@@ -415,7 +415,7 @@
                                                 <xsl:if test="./tei:monogr/tei:imprint/tei:pubPlace">
                                                     <tr>
                                                         <th>
-                                                            Published in place
+                                                            Veröffentlichungsort
                                                         </th>
                                                         <td>
                                                             <xsl:value-of select="./tei:monogr/tei:imprint/tei:pubPlace"/>
@@ -425,7 +425,7 @@
                                                 <xsl:if test="./tei:monogr/tei:imprint/tei:publisher">
                                                     <tr>
                                                         <th>
-                                                            Publisher
+                                                            Herausgeber
                                                         </th>
                                                         <td>
                                                             <xsl:value-of select="./tei:monogr/tei:imprint/tei:publisher"/>
@@ -445,7 +445,7 @@
                                                 <xsl:if test="./tei:listEvent">
                                                     <tr>
                                                         <th>
-                                                            Mentioned in
+                                                            Erwähnt in 
                                                         </th>
                                                         <td>
                                                             <ul>
@@ -508,14 +508,14 @@
                                                 <xsl:if test="./tei:desc">
                                                     <tr>
                                                         <th>
-                                                            Description
+                                                            Beschreibung
                                                         </th>
                                                         <td>
                                                             <xsl:value-of select="./tei:desc"/>
                                                         </td>
                                                     </tr>
                                                 </xsl:if>
-                                                <xsl:if test="./tei:location[@type='located_in_place']">
+                                                <!--<xsl:if test="./tei:location[@type='located_in_place']">
                                                     <xsl:variable name="places" select="document('../data/indices/listplace.xml')//tei:TEI//tei:place"/>
                                                     <tr>
                                                         <th>
@@ -536,7 +536,7 @@
                                                             </ul>
                                                         </td>
                                                     </tr>
-                                                </xsl:if>
+                                                </xsl:if>-->
                                                 <xsl:if test="./tei:idno[@type='GND']">
                                                     <tr>
                                                         <th>
@@ -564,7 +564,7 @@
                                                 <xsl:if test="./tei:note">
                                                     <tr>
                                                         <th>
-                                                            Comments
+                                                            Kommentar
                                                         </th>
                                                         <td>
                                                             <xsl:value-of select="./tei:note"/>
@@ -574,7 +574,7 @@
                                                 <xsl:if test="./tei:listEvent">
                                                     <tr>
                                                         <th>
-                                                            Mentioned in
+                                                            Erwähnt in 
                                                         </th>
                                                         <td>
                                                             <ul>
@@ -637,7 +637,7 @@
                                                 <xsl:if test="./tei:listEvent">
                                                     <tr>
                                                         <th>
-                                                            Mentioned in
+                                                            Erwähnt in 
                                                         </th>
                                                         <td>
                                                             <ul>
@@ -710,7 +710,7 @@
                                                 <xsl:if test="./tei:listEvent">
                                                     <tr>
                                                         <th>
-                                                            Mentioned in
+                                                            Erwähnt in 
                                                         </th>
                                                         <td>
                                                             <ul>
