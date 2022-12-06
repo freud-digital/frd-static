@@ -30,25 +30,27 @@
                                 <td style="text-align:left;width:15%;height:100px;border: 1px dashed #dedede;border-right: 2px dashed #dedede;">
                                     <font-family opt="select-font"></font-family> 
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:17.5%;height:100px;border: 1px dashed #dedede;">   
+                                <td style="text-align:right;vertical-align:middle;width:14%;height:100px;border: 1px dashed #dedede;">   
                                     <annotation-slider opt="text-features"></annotation-slider> 
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:17.5%;height:100px;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
+                                <td style="text-align:right;vertical-align:middle;width:14%;height:100px;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
                                     <annotation-slider opt="person"></annotation-slider>  
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:17.5%;height:100px;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">   
+                                <td style="text-align:right;vertical-align:middle;width:14%;height:100px;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">   
                                     <annotation-slider opt="place"></annotation-slider>  
                                 </td>
-                                <td style="text-align:right;vertical-align:middle;width:17.5%;height:100px;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;border-right: 1px dashed #dedede;">     
+                                <td style="text-align:right;vertical-align:middle;width:14%;height:100px;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
                                     <annotation-slider opt="keyword"></annotation-slider>      
+                                </td>
+                                <td style="text-align:right;vertical-align:middle;width:14%;height:100px;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;border-right: 1px dashed #dedede;">     
+                                    <annotation-slider opt="org"></annotation-slider>      
                                 </td>
                             </tr>
                             <tr>
                                 <td style="height:100px;border: 1px dashed #dedede;"></td>
                                 <td style="height:100px;border: 1px dashed #dedede;border-right: 2px dashed #dedede;"></td>
-                                <td style="height:100px;text-align:right;vertical-align:middle;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
-                                    <annotation-slider opt="org"></annotation-slider>      
-                                </td>
+                                <td style="height:100px;border: 1px dashed #dedede;border-right: 2px dashed #dedede;"></td>
+                                <td style="height:100px;border: 1px dashed #dedede;border-right: 2px dashed #dedede;"></td>
                                 <td style="height:100px;text-align:right;vertical-align:middle;;border-top: 1px dashed #dedede;border-bottom: 1px dashed #dedede;">     
                                     <annotation-slider opt="dream"></annotation-slider>      
                                 </td>
