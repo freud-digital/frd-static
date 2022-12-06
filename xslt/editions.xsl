@@ -153,7 +153,13 @@
                                     <div style="padding-bottom:1em;" class="about-text-hidden fade">
                                         <label><strong>Zitiervorschlag</strong></label>
                                         <br/>
-                                        ... <a id="citation-url" href="{document-uri(/)}"><xsl:value-of select="document-uri(/)"/></a>
+                                        <xsl:value-of select="//tei:titleStmt/tei:author/text()"/>: 
+                                        <xsl:value-of select="//tei:titleStmt/tei:title[@type='manifestation']/text()"/>. 
+                                        In: Andorfer Peter, Huber Christian, Kaufmann Kira, Rohrwasser Michael, Stoxreiter Daniel (2022): 
+                                        <xsl:value-of select="//tei:titleStmt/tei:title[@type='series']/text()"/>, 
+                                        Austrian Centre for Digital Humanities and Cultural Heritage, Wien. 
+                                        [<xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>], 
+                                        <a id="citation-url" href="{document-uri(/)}"><xsl:value-of select="document-uri(/)"/></a>
                                     </div>
                                     <div>
                                         <a href="#" id="show-text">mehr anzeigen</a>
