@@ -57,9 +57,17 @@ function leafletDatatable(table, panesShow, panesHide) {
     // variable id #tableOne must match table id in html
     var tableOne = $('#' + table)
     .DataTable({
-        "language": {
-        "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/German.json"
-            },
+        language: {
+            "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/German.json",
+            searchPanes: {
+                collapseMessage: "schließen",
+                showMessage: "anzeigen",
+                clearMessage: "leeren",
+                title: {
+                    _: 'Filter ausgewählt - %d'
+                }
+            }
+        },
         dom: 'PfpBrtip',
         buttons:['copy', 'excel', 'pdf'],
         "lengthMenu":[25, 50, 75, 100, "All"],
@@ -196,7 +204,7 @@ function leafletDatatable(table, panesShow, panesHide) {
             out.push(plc + ', ' + f.properties['country_code']);
         }
 
-        out.push(`<a href='${f.properties['id']}.html'>Read more</a>`);
+        out.push(`<a href='${f.properties['id']}.html'>weitere Informationen</a>`);
         l.bindPopup(out.join("<br />"));
     }
 }

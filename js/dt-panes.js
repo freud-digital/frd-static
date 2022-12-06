@@ -4,8 +4,16 @@ function createDataTable(containerElement, title, panesShow, panesHide, hide) {
     var table = $(`#${containerElement}`).DataTable({
         responsive: true,
         pageLength: 50,
-        oLanguage: {
-            "sSearch": title
+        language: {
+            "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/German.json",
+            searchPanes: {
+                collapseMessage: "schließen",
+                showMessage: "anzeigen",
+                clearMessage: "leeren",
+                title: {
+                    _: 'Filter ausgewählt - %d'
+                }
+            }
         },
         dom: 'PfpBrtip',
         searchPanes: {
