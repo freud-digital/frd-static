@@ -55,6 +55,13 @@
                     .container-fluid {
                         max-width: 100%;
                     }
+                    li {
+                        list-style: none;
+                    }
+                    ul {
+                        padding-left: 0;
+                        margin-bottom: 0;
+                    }
                 </style>
             </head>
             <body class="page">
@@ -93,7 +100,7 @@
                         <script src="js/leaflet.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
-                                leafletDatatable('listplace', [5, 6, 7], [0, 1, 2, 3, 4]);
+                                leafletDatatable('listplace', [4, 5, 6], [0, 1, 2, 3]);
                             });
                         </script>
                     </xsl:when>
@@ -101,7 +108,7 @@
                         <script type="text/javascript" src="js/dt-panes.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
-                                createDataTable('listbibl', 'Suche:', [1, 2, 3, 4, 6], [0, 3, 4, 5], false);
+                                createDataTable('listbibl', 'Suche:', [2, 6], [0, 1, 3, 4, 5], false);
                             });
                         </script>
                     </xsl:when>
@@ -143,30 +150,14 @@
             <table class="table" id="listperson">
                  <thead>
                      <tr>
-                         <th>
-                             Name
-                         </th>
-                         <th>
-                             GND
-                         </th>
-                         <th>
-                             Wikidata
-                         </th>
-                         <th>
-                             Gebutsdatum
-                         </th>
-                         <th>
-                             Sterbedatum
-                         </th>
-                         <th>
-                             Geburtsort
-                         </th>
-                         <th>
-                             Sterbeort
-                         </th>
-                         <th>
-                             Erwähnt in #
-                         </th>
+                         <th>Name</th>
+                         <th>GND</th>
+                         <th>Wikidata</th>
+                         <th>Gebutsdatum</th>
+                         <th>Sterbedatum</th>
+                         <th>Geburtsort</th>
+                         <th>Sterbeort</th>
+                         <th>Erwähnt in #</th>
                      </tr>
                  </thead>
                  <tbody>
@@ -228,30 +219,13 @@
             <table class="table" id="listplace">
                 <thead>
                     <tr>
-                        <th>
-                            Name
-                        </th>
-                        <th>
-                            Geonames ID
-                        </th>
-                        <th>
-                            Wikidata ID
-                        </th>
-                        <th>
-                            GND ID
-                        </th>
-                        <th>
-                            Koordinaten
-                        </th>
-                        <th>
-                            Kategorie
-                        </th>
-                        <th>
-                            Land
-                        </th>
-                        <th>
-                            Erwähnt in #
-                        </th>
+                        <th>Name</th>
+                        <th>Geonames ID</th>
+                        <th>Wikidata ID</th>
+                        <th>Koordinaten</th>
+                        <th>Kategorie</th>
+                        <th>Land</th>
+                        <th>Erwähnt in #</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -279,11 +253,6 @@
                             <td>
                                 <a href="{./tei:idno[@type='WIKIDATA']}" target="_blank">
                                     <xsl:value-of select="tokenize(./tei:idno[@type='WIKIDATA'], '/')[last()]"/>
-                                </a>
-                            </td>
-                            <td>
-                                <a href="{./tei:idno[@type='GND']}" target="_blank">
-                                    <xsl:value-of select="tokenize(./tei:idno[@type='GND'], '/')[last()]"/>
                                 </a>
                             </td>
                             <xsl:choose>
@@ -329,15 +298,9 @@
             <table class="table" id="listorg">
                 <thead>
                     <tr>
-                        <th>
-                            Name
-                        </th>
-                        <th>
-                            Wikidata ID
-                        </th>
-                        <th>
-                            Erwähnt in #
-                        </th>
+                        <th>Name</th>
+                        <th>Wikidata ID</th>
+                        <th>Erwähnt in #</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -387,27 +350,13 @@
             <table class="table" id="listbibl">
                 <thead>
                     <tr>
-                        <th>
-                            Titel
-                        </th>
-                        <th>
-                            Autor(en)
-                        </th>
-                        <th>
-                            Datum
-                        </th>
-                        <th>
-                            Ort
-                        </th>
-                        <th>
-                            Herausgeber
-                        </th>
-                        <th>
-                            Permalink
-                        </th>
-                        <th>
-                            Erwähnt in #
-                        </th>
+                        <th>Titel</th>
+                        <th>Autor(en)</th>
+                        <th>Datum</th>
+                        <th>Ort</th>
+                        <th>Herausgeber</th>
+                        <th>Permalink</th>
+                        <th>Erwähnt in #</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -455,12 +404,8 @@
                     
                     <thead>
                         <tr>
-                            <th>
-                                Schlagwort
-                            </th>
-                            <th>
-                                Erwähnt in #
-                            </th>
+                            <th>Schlagwort</th>
+                            <th>Erwähnt in #</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -483,15 +428,9 @@
                 <table class="table" id="listdream">
                     <thead>
                         <tr>
-                            <th>
-                                Name
-                            </th>
-                            <th>
-                                Kategorie
-                            </th>
-                            <th>
-                                Erwähnt in #
-                            </th>
+                            <th>Name</th>
+                            <th>Kategorie</th>
+                            <th>Erwähnt in #</th>
                         </tr>
                     </thead>
                     <tbody>

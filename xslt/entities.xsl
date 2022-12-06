@@ -208,8 +208,6 @@
                                     <xsl:call-template name="nav_bar"/>
                                     
                                     <div class="container-fluid">  
-                                        
-                                        
                                         <table class="table entity-table">
                                             <tbody>
                                                 <tr>
