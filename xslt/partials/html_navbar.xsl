@@ -53,8 +53,18 @@
                                         <a title="GND-BEACON" href="beacon.txt" class="nav-link">GND-BEACON</a>
                                     </li>--> 
                                 </ul>                               
-                            </li>                           
-                            <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a title="Edition" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Edition <span class="caret"></span></a>
+                                <ul class=" dropdown-menu" role="menu">
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Historsich Kritisch" href="toc.html" class="nav-link">Historisch Kritisch</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Diplomatische Umschrift" href="toc-ocr.html" class="nav-link">Diplomatische Umschrift</a>
+                                    </li>
+                                </ul>                                
+                            </li>
                             <li class="nav-item"><a title="Suche" href="search.html" class="nav-link">Suche</a></li>
                         </ul>                        
                         <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">

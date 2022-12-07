@@ -155,7 +155,7 @@
                                         <br/>
                                         <xsl:value-of select="//tei:titleStmt/tei:author/text()"/>: 
                                         <xsl:value-of select="//tei:titleStmt/tei:title[@type='manifestation']/text()"/>. 
-                                        In: Andorfer, Peter; Fuchs, Laura; Huber, Christian; Kaufmann, Kira; Liepold, Sophie; Rohrwasser, Michael; Stoxreiter, Daniel; Wimmer, Philipp (2022): 
+                                        In: Andorfer, Peter; Blatow, Arkadi; Diercks, Christine; Huber, Christian; Kaufmann, Kira; Liepold, Sophie; Roedelius, Julian; Rohrwasser, Michael; Stoxreiter, Daniel (2022): 
                                         <xsl:value-of select="//tei:titleStmt/tei:title[@type='series']/text()"/>, 
                                         Austrian Centre for Digital Humanities and Cultural Heritage, Wien. 
                                         [<xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>], 

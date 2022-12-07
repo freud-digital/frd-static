@@ -35,9 +35,14 @@
                                         <h3>
                                             Digitale historisch-kritische Gesamtausgabe
                                         </h3>
-                                        <button class="btn btn-intro">
+                                        <button class="btn btn-intro" style="margin:.5em 0;">
                                             <a href="toc.html">
-                                                Zur Edition
+                                                Zur Edition: Historisch Kritisch
+                                            </a>
+                                        </button>
+                                        <button class="btn btn-intro" style="margin:.5em 0;">
+                                            <a href="toc-ocr.html">
+                                                Zur Edition: Diplomatische Umschrift
                                             </a>
                                         </button>
                                     </div>

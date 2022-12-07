@@ -10,7 +10,7 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Historisch Kritisch'"/>
+        <xsl:variable name="doc_title" select="'Diplomatische Umschrift'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
             <xsl:call-template name="html_head">
@@ -27,7 +27,7 @@
                                 <h1><xsl:value-of select="$doc_title"/></h1>                                
                             </div>
                             <div class="card-body">
-                                <table class="table table-striped display" id="tocTable" style="width:100%">
+                                <table class="table table-striped display" id="tocTable2" style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Edition</th>
@@ -39,7 +39,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <xsl:for-each select="collection('../data/editions/critical')//tei:TEI">
+                                        <xsl:for-each select="collection('../data/editions/plain')//tei:TEI">
                                             <xsl:variable name="full_path">
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>
