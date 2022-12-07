@@ -5,9 +5,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-title" content="Inhaltsverzeichnis" />
+      <meta name="apple-mobile-web-app-title" content="Historisch Kritisch" />
       <link rel="profile" href="http://gmpg.org/xfn/11" />
-      <title>Inhaltsverzeichnis</title>
+      <title>Historisch Kritisch</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -30,7 +30,11 @@
                               <li class="nav-item dropdown-submenu"><a title="Träume" href="listdream.html" class="nav-link">Träume</a></li>
                            </ul>
                         </li>
-                        <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>
+                        <li class="nav-item dropdown"><a title="Edition" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Edition <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Historsich Kritisch" href="toc.html" class="nav-link">Historisch Kritisch</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Diplomatische Umschrift" href="toc-ocr.html" class="nav-link">Diplomatische Umschrift</a></li>
+                           </ul>
+                        </li>
                         <li class="nav-item"><a title="Suche" href="search.html" class="nav-link">Suche</a></li>
                      </ul>
                   </div>
@@ -40,426 +44,56 @@
          <div class="container-fluid">
             <div class="card">
                <div class="card-header">
-                  <h1>Inhaltsverzeichnis</h1>
+                  <h1>Historisch Kritisch</h1>
                </div>
                <div class="card-body">
-                  <h2>Historisch Kritisch</h2>
                   <table class="table table-striped display" id="tocTable" style="width:100%">
                      <thead>
                         <tr>
                            <th scope="col">Edition</th>
                            <th scope="col">Signatur</th>
                            <th scope="col">Datum</th>
+                           <th scope="col">Publikation</th>
+                           <th scope="col">Herausgeber</th>
+                           <th scope="col">Ort</th>
                         </tr>
                      </thead>
                      <tbody>
                         <tr>
-                           <td><a href="sfe-1904-006.html">Freud, Sigmund (1904-006; 1904f): Rezension von: Löwenfeld,
-                                 L[eopold] ›Die psychischen Zwangserscheinungen‹</a></td>
-                           <td><a href="sfe-1904-006.html">sfe-1904-006</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-001.html">Freud, Sigmund (1901-001; 1901a): Über den Traum</a></td>
-                           <td><a href="sfe-1901-001.html">sfe-1901-001</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001.html">Freud, Sigmund (1905-001; 1905a [1904]): Über
-                                 Psychotherapie</a></td>
-                           <td><a href="sfe-1905-001.html">sfe-1905-001</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002.html">Freud, Sigmund (1904-002; 1904a): Die Freudsche
-                                 psychoanalytische Methode</a></td>
-                           <td><a href="sfe-1904-002.html">sfe-1904-002</a></td>
-                           <td></td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
-               <div class="card-body">
-                  <h2>OCR Korrektur</h2>
-                  <table class="table table-striped display" id="tocTable2" style="width:100%">
-                     <thead>
-                        <tr>
-                           <th scope="col">Edition</th>
-                           <th scope="col">Signatur</th>
-                           <th scope="col">Datum</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td><a href="sfe-1920-003__1920.html">Freud, Sigmund  (1920-003; 1920c): Dr. Anton von Freund †</a></td>
-                           <td><a href="sfe-1920-003__1920.html">sfe-1920-003__1920</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-001__1901.html">Freud, Sigmund  (1901-001; 1901a): Über den Traum</a></td>
-                           <td><a href="sfe-1901-001__1901.html">sfe-1901-001__1901</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-007__1923.html">Freud, Sigmund  (1923-007; 1923f): Josef Popper-Lynkeus und die Theorie des Traumes</a></td>
-                           <td><a href="sfe-1923-007__1923.html">sfe-1923-007__1923</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-002__1937.html">Freud, Sigmund  (1905-002; 1890a): Psychische Behandlung (Seelenbehandlung)</a></td>
-                           <td><a href="sfe-1905-002__1937.html">sfe-1905-002__1937</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1922.html">Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</a></td>
-                           <td><a href="sfe-1904-002__1922.html">sfe-1904-002__1922</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-004__1904.html">Freud, Sigmund  (1904-004; 1904c): Rezension von: Baumgarten, Alfred ›Neurasthenie‹</a></td>
-                           <td><a href="sfe-1904-004__1904.html">sfe-1904-004__1904</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-005__1920.html">Freud, Sigmund  (1920-005; 1920f): Ergänzungen zur Traumlehre</a></td>
-                           <td><a href="sfe-1920-005__1920.html">sfe-1920-005__1920</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1904.html">Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</a></td>
-                           <td><a href="sfe-1904-002__1904.html">sfe-1904-002__1904</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-001__1923.html">Freud, Sigmund  (1923-001; 1923a [1922]): Libidotheorie</a></td>
-                           <td><a href="sfe-1923-001__1923.html">sfe-1923-001__1923</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1922.html">Freud, Sigmund  (1905-004; 1905d): Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td><a href="sfe-1905-004__1922.html">sfe-1905-004__1922</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1920.html">Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</a></td>
-                           <td><a href="sfe-1904-002__1920.html">sfe-1904-002__1920</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-002__1918.html">Freud, Sigmund  (1905-002; 1890a): Psychische Behandlung (Seelenbehandlung)</a></td>
-                           <td><a href="sfe-1905-002__1918.html">sfe-1905-002__1918</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-005__1904.html">Freud, Sigmund  (1904-005; 1904e): Professor S. Hammerschlag [Nachruf]</a></td>
-                           <td><a href="sfe-1904-005__1904.html">sfe-1904-005__1904</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-008__1905.html">Freud, Sigmund  (1905-008; 1905h): Stellungnahme zum Fall Prof. Dr. Beer</a></td>
-                           <td><a href="sfe-1905-008__1905.html">sfe-1905-008__1905</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1905.html">Freud, Sigmund  (1905-004; 1905d): Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td><a href="sfe-1905-004__1905.html">sfe-1905-004__1905</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1924.html">Freud, Sigmund  (1905-004; 1905d): Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td><a href="sfe-1905-004__1924.html">sfe-1905-004__1924</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-001__1925.html">Freud, Sigmund (1901-001; 1901a): Über den Traum</a></td>
-                           <td><a href="sfe-1901-001__1925.html">sfe-1901-001__1925</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1920.html">Freud, Sigmund  (1905-004; 1905d): Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td><a href="sfe-1905-004__1920.html">sfe-1905-004__1920</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-001__1931.html">Freud, Sigmund  (1901-001; 1901a): Über den Traum</a></td>
-                           <td><a href="sfe-1901-001__1931.html">sfe-1901-001__1931</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-002__1924.2.html">Freud, Sigmund  (1920-002; 1920b): Zur Vorgeschichte der analytischen Technik</a></td>
-                           <td><a href="sfe-1920-002__1924.2.html">sfe-1920-002__1924.2</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1924-005__1926.html">Freud, Sigmund  (1924-005; 1924e): Der Realitätsverlust bei Neurose und Psychose</a></td>
-                           <td><a href="sfe-1924-005__1926.html">sfe-1924-005__1926</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-004__1924.html">Freud, Sigmund  (1920-004; 1920d): Gedankenassoziation eines vierjährigen Kindes</a></td>
-                           <td><a href="sfe-1920-004__1924.html">sfe-1920-004__1924</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1912.html">Freud, Sigmund  (1905-009; 1905i): Freud, Sigmund [›Wer ist’s?‹]</a></td>
-                           <td><a href="sfe-1905-009__1912.html">sfe-1905-009__1912</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-004__1920.html">Freud, Sigmund  (1920-004; 1920d): Gedankenassoziation eines vierjährigen Kindes</a></td>
-                           <td><a href="sfe-1920-004__1920.html">sfe-1920-004__1920</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1925.html">Freud, Sigmund  (1905-004; 1905d): Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td><a href="sfe-1905-004__1925.html">sfe-1905-004__1925</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1925.html">Freud, Sigmund  (1905-001; 1905a [1904]): Über Psychotherapie</a></td>
-                           <td><a href="sfe-1905-001__1925.html">sfe-1905-001__1925</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1906.html">Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</a></td>
-                           <td><a href="sfe-1904-002__1906.html">sfe-1904-002__1906</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1920.html">Freud, Sigmund  (1905-001; 1905a [1904]): Über Psychotherapie</a></td>
-                           <td><a href="sfe-1905-001__1920.html">sfe-1905-001__1920</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-002__1920.2.html">Freud, Sigmund  (1920-002; 1920b): Zur Vorgeschichte der analytischen Technik</a></td>
-                           <td><a href="sfe-1920-002__1920.2.html">sfe-1920-002__1920.2</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-009__1923.1.html">Freud, Sigmund  (1923-009; 1923i): Dr. Ferenczi Sándor [Zum 50. Geburtstag]</a></td>
-                           <td><a href="sfe-1923-009__1923.1.html">sfe-1923-009__1923.1</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-008__1923.html">Freud, Sigmund  (1923-008; 1923g): Vorwort [zu: Eitingon, Max ›Bericht über die Berliner
-                                 psychoanalytische Poliklinik (März  1920 bis Juni 1922)‹]</a></td>
-                           <td><a href="sfe-1923-008__1923.html">sfe-1923-008__1923</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1911.html">Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</a></td>
-                           <td><a href="sfe-1904-002__1911.html">sfe-1904-002__1911</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-004__1931.html">Freud, Sigmund  (1920-004; 1920d): Gedankenassoziation eines vierjährigen Kindes</a></td>
-                           <td><a href="sfe-1920-004__1931.html">sfe-1920-004__1931</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-003__1901.html">Freud, Sigmund  (1901-003; 1901c): Freud, Sigm. [›Biographisches Lexikon hervorragender
-                                 Ärzte des neunzehnten Jahrhunderts‹]</a></td>
-                           <td><a href="sfe-1901-003__1901.html">sfe-1901-003__1901</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1922.html">Freud, Sigmund  (1905-009; 1905i): Freud, Sigmund [›Wer ist’s?‹]</a></td>
-                           <td><a href="sfe-1905-009__1922.html">sfe-1905-009__1922</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1905.html">Freud, Sigmund  (1905-009; 1905i): Freud, Sigmund [›Wer ist’s?‹]</a></td>
-                           <td><a href="sfe-1905-009__1905.html">sfe-1905-009__1905</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-002__1905.html">Freud, Sigmund  (1905-002; 1890a): Psychische Behandlung (Seelenbehandlung)</a></td>
-                           <td><a href="sfe-1905-002__1905.html">sfe-1905-002__1905</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1922.html">Freud, Sigmund  (1905-001; 1905a [1904]): Über Psychotherapie</a></td>
-                           <td><a href="sfe-1905-001__1922.html">sfe-1905-001__1922</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-001__1928.html">Freud, Sigmund  (1923-001; 1923a [1922]): Libidotheorie</a></td>
-                           <td><a href="sfe-1923-001__1928.html">sfe-1923-001__1928</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1905.html">Freud, Sigmund  (1905-001; 1905a [1904]): Über Psychotherapie</a></td>
-                           <td><a href="sfe-1905-001__1905.html">sfe-1905-001__1905</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-003__1928.html">Freud, Sigmund  (1920-003; 1920c): Dr. Anton von Freund †</a></td>
-                           <td><a href="sfe-1920-003__1928.html">sfe-1920-003__1928</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1911.html">Freud, Sigmund  (1905-009; 1905i): Freud, Sigmund [›Wer ist’s?‹]</a></td>
-                           <td><a href="sfe-1905-009__1911.html">sfe-1905-009__1911</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1909.html">Freud, Sigmund  (1905-009; 1905i): Freud, Sigmund [›Wer ist’s?‹]</a></td>
-                           <td><a href="sfe-1905-009__1909.html">sfe-1905-009__1909</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-008__1928.html">Freud, Sigmund  (1923-008; 1923g): Vorwort [zu: Eitingon, Max ›Bericht über die Berliner
-                                 psychoanalytische Poliklinik (März  1920 bis Juni 1922)‹]</a></td>
-                           <td><a href="sfe-1923-008__1928.html">sfe-1923-008__1928</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-006__1904.html">Freud, Sigmund  (1904-006; 1904f): Rezension von: Löwenfeld, L[eopold] ›Die psychischen
-                                 Zwangserscheinungen‹</a></td>
-                           <td><a href="sfe-1904-006__1904.html">sfe-1904-006__1904</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1925.html">Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</a></td>
-                           <td><a href="sfe-1904-002__1925.html">sfe-1904-002__1925</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1908.html">Freud, Sigmund  (1905-009; 1905i): Freud, Sigmund [›Wer ist’s?‹]</a></td>
-                           <td><a href="sfe-1905-009__1908.html">sfe-1905-009__1908</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1906.html">Freud, Sigmund  (1905-009; 1905i): Freud, Sigmund [›Wer ist’s?‹]</a></td>
-                           <td><a href="sfe-1905-009__1906.html">sfe-1905-009__1906</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1928.html">Freud, Sigmund  (1905-009; 1905i): Freud, Sigmund [›Wer ist’s?‹]</a></td>
-                           <td><a href="sfe-1905-009__1928.html">sfe-1905-009__1928</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1910.html">Freud, Sigmund  (1905-004; 1905d): Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td><a href="sfe-1905-004__1910.html">sfe-1905-004__1910</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-004__1926.html">Freud, Sigmund  (1920-004; 1920d): Gedankenassoziation eines vierjährigen Kindes</a></td>
-                           <td><a href="sfe-1920-004__1926.html">sfe-1920-004__1926</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1924-005__1931.html">Freud, Sigmund  (1924-005; 1924e): Der Realitätsverlust bei Neurose und Psychose</a></td>
-                           <td><a href="sfe-1924-005__1931.html">sfe-1924-005__1931</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1911.html">Freud, Sigmund  (1905-001; 1905a [1904]): Über Psychotherapie</a></td>
-                           <td><a href="sfe-1905-001__1911.html">sfe-1905-001__1911</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1906.html">Freud, Sigmund  (1905-001; 1905a [1904]): Über Psychotherapie</a></td>
-                           <td><a href="sfe-1905-001__1906.html">sfe-1905-001__1906</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-002__1920.html">Freud, Sigmund  (1920-002; 1920b): Zur Vorgeschichte der analytischen Technik</a></td>
-                           <td><a href="sfe-1920-002__1920.html">sfe-1920-002__1920</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1903-001__1903.html">Freud, Sigmund  (1903-001; 1903a): Rezension von: Biedenkapp, Georg ›Im Kampfe gegen
-                                 Hirnbacillen‹</a></td>
-                           <td><a href="sfe-1903-001__1903.html">sfe-1903-001__1903</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-007__1905.html">Freud, Sigmund  (1905-007; 1905f): Rezension von: Wichmann, R[alf] ›Lebensregeln für
-                                 Neurastheniker‹</a></td>
-                           <td><a href="sfe-1905-007__1905.html">sfe-1905-007__1905</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1924.html">Freud, Sigmund  (1904-002; 1904a): Die Freudsche psychoanalytische Methode</a></td>
-                           <td><a href="sfe-1904-002__1924.html">sfe-1904-002__1924</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-001__1921.html">Freud, Sigmund  (1901-001; 1901a): Über den Traum</a></td>
-                           <td><a href="sfe-1901-001__1921.html">sfe-1901-001__1921</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-003__1904.html">Freud, Sigmund  (1904-003; 1904b): Rezension von: Bigelow, John ›The Mystery of Sleep‹</a></td>
-                           <td><a href="sfe-1904-003__1904.html">sfe-1904-003__1904</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-007__1928.html">Freud, Sigmund  (1923-007; 1923f): Josef Popper-Lynkeus und die Theorie des Traumes</a></td>
-                           <td><a href="sfe-1923-007__1928.html">sfe-1923-007__1928</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-002__1922.html">Freud, Sigmund  (1920-002; 1920b): Zur Vorgeschichte der analytischen Technik</a></td>
-                           <td><a href="sfe-1920-002__1922.html">sfe-1920-002__1922</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-001__1911.html">Freud, Sigmund  (1901-001; 1901a): Über den Traum</a></td>
-                           <td><a href="sfe-1901-001__1911.html">sfe-1901-001__1911</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-001__1926.html">Freud, Sigmund  (1923-001; 1923a [1922]): Libidotheorie</a></td>
-                           <td><a href="sfe-1923-001__1926.html">sfe-1923-001__1926</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1915.html">Freud, Sigmund  (1905-004; 1905d): Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td><a href="sfe-1905-004__1915.html">sfe-1905-004__1915</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1924.html">Freud, Sigmund  (1905-001; 1905a [1904]): Über Psychotherapie</a></td>
-                           <td><a href="sfe-1905-001__1924.html">sfe-1905-001__1924</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1905.2.html">Freud, Sigmund  (1905-001; 1905a [1904]): Über Psychotherapie</a></td>
-                           <td><a href="sfe-1905-001__1905.2.html">sfe-1905-001__1905.2</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-009__1928.html">Freud, Sigmund  (1923-009; 1923i): Dr. Ferenczi Sándor [Zum 50. Geburtstag]</a></td>
-                           <td><a href="sfe-1923-009__1928.html">sfe-1923-009__1928</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1924-005__1925.html">Freud, Sigmund  (1924-005; 1924e): Der Realitätsverlust bei Neurose und Psychose</a></td>
-                           <td><a href="sfe-1924-005__1925.html">sfe-1924-005__1925</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-002__1905.2.html">Freud, Sigmund  (1905-002; 1890a): Psychische Behandlung (Seelenbehandlung)</a></td>
-                           <td><a href="sfe-1905-002__1905.2.html">sfe-1905-002__1905.2</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1924-005__1924.html">Freud, Sigmund  (1924-005; 1924e): Der Realitätsverlust bei Neurose und Psychose</a></td>
-                           <td><a href="sfe-1924-005__1924.html">sfe-1924-005__1924</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-006__1905.html">Freud, Sigmund  (1905-006; 1905g): Stellungnahme zur Eherechtsenquete</a></td>
-                           <td><a href="sfe-1905-006__1905.html">sfe-1905-006__1905</a></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-002__1924.html">Freud, Sigmund  (1920-002; 1920b): Zur Vorgeschichte der analytischen Technik</a></td>
-                           <td><a href="sfe-1920-002__1924.html">sfe-1920-002__1924</a></td>
-                           <td></td>
+                           <td><a href="sfe-1904-006.html">Rezension von: Löwenfeld, L[eopold] ›Die
+                                 psychischen Zwangserscheinungen‹</a></td>
+                           <td>sfe-1904-006</td>
+                           <td>1904-01-01</td>
+                           <td>Journal für Psychologie und Neurologie</td>
+                           <td></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-001.html">Über den Traum</a></td>
+                           <td>sfe-1901-001</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer,
+                              A.J.</td>
+                           <td>Zürich</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-001.html">Über Psychotherapie</a></td>
+                           <td>sfe-1905-001</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer,
+                              A.J.</td>
+                           <td>Zürich</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1904-002.html">Die Freudsche psychoanalytische Methode</a></td>
+                           <td>sfe-1904-002</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer,
+                              A.J.</td>
+                           <td>Zürich</td>
                         </tr>
                      </tbody>
                   </table>

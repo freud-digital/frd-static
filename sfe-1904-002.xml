@@ -6,13 +6,10 @@
                psychoanalytische Methode</title>
             <title type="manifestation" level="a">Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title>
-            <title type="series" level="s">Sigmund Freud: Historisch-kritische Ausgabe (HKA)</title>
+            <title type="series" level="s"> Sigmund Freud: Historisch-kritische Ausgabe (HKA) </title>
             <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
-            <editor>
-               <name>Huber, Christian</name>
-               <name>Kaufmann, Kira</name>
-               <name>Rohrwasser, Michael</name>
-            </editor>
+            <editor><name>Huber, Christian</name><name>Kaufmann, Kira</name><name>Rohrwasser,
+                  Michael</name></editor>
             <funder>
                <name>FWF Der Wissenschaftsfond.</name>
                <address>
@@ -355,33 +352,31 @@
                </biblStruct>
             </listBibl>
             <listWit>
-               <witness xml:id="sfe-1904-002__1904.xml" sameAs="frdhka:sfe-1904-002__1904.xml" corresp="#bibl-1904-002-1904"><idno>E</idno>: Die Freud’sche psychoanalytische
-                  Methode. In: Loewenfeld, Leopold : Die psychischen Zwangserscheinungen. Auf
-                  klinischer Grundlage dargestellt. Wiesbaden: Bergmann 1904, S. 545 – 551. </witness>
-               <witness xml:id="sfe-1904-002__1906.xml" sameAs="frdhka:sfe-1904-002__1906.xml" corresp="#bibl-1904-002-1906"><idno>S1</idno>: Die Freud’sche psychoanalytische
-                  Methode. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur Neurosenlehre.
-                  [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge,
-                  1. Auflage. Leipzig, Wien: Deuticke 1906, S. 218-224.</witness>
-               <witness xml:id="sfe-1904-002__1911.xml" sameAs="frdhka:sfe-1904-002__1911.xml" corresp="#bibl-1904-002-1911"><idno>S2</idno>: Die Freudsche psychoanalytische
-                  Methode. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur Neurosenlehre.
-                  [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge,
-                  2. unveränderte Auflage. Leipzig, Wien: Deuticke 1911, S. 213-219.</witness>
-               <witness xml:id="sfe-1904-002__1920.xml" sameAs="frdhka:sfe-1904-002__1920.xml" corresp="#bibl-1904-002-1920"><idno>S3</idno>: Die Freudsche psychoanalytische
-                  Methode. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur Neurosenlehre.
-                  [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge,
-                  3. unveränderte Auflage. Leipzig, Wien: Deuticke 1920, S. 213-219.</witness>
-               <witness xml:id="sfe-1904-002__1922.xml" sameAs="frdhka:sfe-1904-002__1922.xml" corresp="#bibl-1904-002-1922"><idno>S4</idno>: Die Freudsche psychoanalytische
-                  Methode. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur Neurosenlehre.
-                  [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge,
-                  4. unveränderte Auflage. Leipzig, Wien: Deuticke 1922, S. 213-219.</witness>
-               <witness xml:id="sfe-1904-002__1924.xml" sameAs="frdhka:sfe-1904-002__1924.xml" corresp="#bibl-1904-002-1924"><idno>S5</idno>: Die Freudsche psychoanalytische
-                  Methode. In: Freud, Sigmund (Hg.): Zur Technik der Psychoanalyse und zur
-                  Metapsychologie. Leipzig, Wien, Zürich: Internationaler Psychoanalytischer Verlag
-                  1924, S. 3-10.</witness>
-               <witness xml:id="sfe-1904-002__1925.xml" sameAs="frdhka:sfe-1904-002__1925.xml" corresp="#bibl-1904-002-1925"><idno>C</idno>: Die Freudsche psychoanalytische
-                  Methode. In: Freud, Sigmund; Freud, Anna (Hg.); Storfer, A. J. (Hg.): Gesammelte
-                  Schriften. 6. Band. Leipzig, Wien, Zürich: Internationaler Psychoanalytischer
-                  Verlag 1925, S. 3-10.</witness>
+               <witness xml:id="frdhka__sfe-1904-002__1904.xml" corresp="#bibl-1904-002-1904"><idno>E</idno>: Die Freud’sche psychoanalytische Methode. In: Loewenfeld,
+                  Leopold : Die psychischen Zwangserscheinungen. Auf klinischer Grundlage
+                  dargestellt. Wiesbaden: Bergmann 1904, S. 545 – 551. </witness>
+               <witness xml:id="frdhka__sfe-1904-002__1906.xml" corresp="#bibl-1904-002-1906"><idno>S1</idno>: Die Freud’sche psychoanalytische Methode. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 1. Auflage. Leipzig, Wien:
+                  Deuticke 1906, S. 218-224.</witness>
+               <witness xml:id="frdhka__sfe-1904-002__1911.xml" corresp="#bibl-1904-002-1911"><idno>S2</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 2. unveränderte Auflage.
+                  Leipzig, Wien: Deuticke 1911, S. 213-219.</witness>
+               <witness xml:id="frdhka__sfe-1904-002__1920.xml" corresp="#bibl-1904-002-1920"><idno>S3</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 3. unveränderte Auflage.
+                  Leipzig, Wien: Deuticke 1920, S. 213-219.</witness>
+               <witness xml:id="frdhka__sfe-1904-002__1922.xml" corresp="#bibl-1904-002-1922"><idno>S4</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 4. unveränderte Auflage.
+                  Leipzig, Wien: Deuticke 1922, S. 213-219.</witness>
+               <witness xml:id="frdhka__sfe-1904-002__1924.xml" corresp="#bibl-1904-002-1924"><idno>S5</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund
+                  (Hg.): Zur Technik der Psychoanalyse und zur Metapsychologie. Leipzig, Wien,
+                  Zürich: Internationaler Psychoanalytischer Verlag 1924, S. 3-10.</witness>
+               <witness xml:id="frdhka__sfe-1904-002__1925.xml" corresp="#bibl-1904-002-1925"><idno>C</idno>: Die Freudsche psychoanalytische Methode. In: Freud, Sigmund;
+                  Freud, Anna (Hg.); Storfer, A. J. (Hg.): Gesammelte Schriften. 6. Band. Leipzig,
+                  Wien, Zürich: Internationaler Psychoanalytischer Verlag 1925, S. 3-10.</witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -400,18 +395,6 @@
          <listPrefixDef>
             <prefixDef ident="frdhka" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/$1">
                <p>Editionsregister</p>
-            </prefixDef>
-            <prefixDef ident="lit" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/register/literatur.xml#$1">
-               <p>Literaturverzeichnis</p>
-            </prefixDef>
-            <prefixDef ident="prs" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/register/personen.xml#$1">
-               <p>Personenregister</p>
-            </prefixDef>
-            <prefixDef ident="plc" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/register/orte.xml#$1">
-               <p>Ortsregister</p>
-            </prefixDef>
-            <prefixDef ident="drm" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/register/traeume.xml#$1">
-               <p>Traumregister</p>
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
@@ -931,19 +914,88 @@
             </p>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_41">
-                  <persName>
-                     <forename>Leopold</forename>
-                     <surname>Löwenfeld</surname>
-                  </persName>
-                  <idno type="GND">https://d-nb.info/gnd/117168815</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q1727246</idno>
-                  <note>Leopold Löwenfeld (1847-1923), Mediziner, wirkte vor allem in München als Nervenarzt. Er beschäftigte sich mit Hypnose, Zwangsphänomenen und Sexualpathologie, veröffentlichte aber auch zu Somnabulismus, Spiritismus und Dummheit.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+   <back><list><item xml:id="frd_kw_1983">
+               <term>Passionnelle Phase</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3416">
+               <term>Gespräch</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_766">
+               <term>Erzählung</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2913">
+               <term>Unbewußtes</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_1219">
+               <term>Hypnose</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3028">
+               <term>Verdrängung</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3417">
+               <term>Deutungskunst</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2643">
+               <term>Symptom</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3235">
+               <term>Widerstand</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_1468">
+               <term>Krankengeschichte</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3397">
+               <term>Zwangsneurose</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_9">
+               <term>Abfuhr</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_1224">
+               <term>Hysterie</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_44">
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2750">
+               <term>Traum</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2113">
+               <term>Psychoanalyse</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3419">
+               <term>Normalzustand</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3415">
+               <term>Kathartisches Verfahren</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2631">
+               <term>Suggestion</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_658">
+               <term>Entstellung</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_112">
+               <term>Amnesie</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            </list><listPerson><person xml:id="frd_person_44">
                   <persName>
                      <forename>Hans</forename>
                      <surname>Kurella</surname>
@@ -964,88 +1016,19 @@
                   <note>(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></person>
-               </listPerson><list><item xml:id="frd_kw_9">
-               <term>Abfuhr</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_658">
-               <term>Entstellung</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_1224">
-               <term>Hysterie</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               <person xml:id="frd_person_41">
+                  <persName>
+                     <forename>Leopold</forename>
+                     <surname>Löwenfeld</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/117168815</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q1727246</idno>
+                  <note>Leopold Löwenfeld (1847-1923), Mediziner, wirkte vor allem in München als Nervenarzt. Er beschäftigte sich mit Hypnose, Zwangsphänomenen und Sexualpathologie, veröffentlichte aber auch zu Somnabulismus, Spiritismus und Dummheit.</note>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3416">
-               <term>Gespräch</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2113">
-               <term>Psychoanalyse</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3419">
-               <term>Normalzustand</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3417">
-               <term>Deutungskunst</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3415">
-               <term>Kathartisches Verfahren</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2913">
-               <term>Unbewußtes</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2750">
-               <term>Traum</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_1983">
-               <term>Passionnelle Phase</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3235">
-               <term>Widerstand</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_112">
-               <term>Amnesie</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2631">
-               <term>Suggestion</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2643">
-               <term>Symptom</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_1219">
-               <term>Hypnose</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3397">
-               <term>Zwangsneurose</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_766">
-               <term>Erzählung</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3028">
-               <term>Verdrängung</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_1468">
-               <term>Krankengeschichte</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            </list><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               </listPerson><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
           <monogr>
             <title level="m">Studien über Hysterie</title>
             <idno type="callNumber">I-176203</idno>
