@@ -1,0 +1,31 @@
+#searchbox, #hits {
+    padding: 2em 0;
+}
+
+.header {
+    margin: 2em;
+    text-align: center;
+}
+
+.ais-Hits-item, 
+.ais-InfiniteHits-item, 
+.ais-InfiniteResults-item, 
+.ais-Results-item {
+    width: 100%;
+}
+
+.ais-SearchBox-form {
+    display: flex;
+}
+
+#current-refinements {
+    padding: .5em;
+}
+
+#clear-refinements {
+    padding: .5em;
+}
+
+.ais-CurrentRefinements-category {
+    padding: 0 .5em;
+}
