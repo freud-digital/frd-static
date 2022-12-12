@@ -1,10 +1,5 @@
-#searchbox, #hits {
-    padding: 2em 0;
-}
-
-.header {
-    margin: 2em;
-    text-align: center;
+#hits {
+    padding: 1em 0;
 }
 
 .ais-Hits-item, 
@@ -18,14 +13,59 @@
     display: flex;
 }
 
-#current-refinements {
-    padding: .5em;
+#stats-container, 
+#searchbox, 
+#current-refinements, 
+#clear-refinements, 
+#range-input {
+    padding: 1em 0 .5em 0;
+
+}
+#refinement-list-persons,
+#refinement-list-keywords,
+#refinement-list-works {
+    padding: 1em .5em 2em .5em;
+    -webkit-box-shadow: -14px 21px 24px -28px rgba(156,156,156,1);
+    -moz-box-shadow: -14px 21px 24px -28px rgba(156,156,156,1);
+    box-shadow: -14px 21px 24px -28px rgba(156,156,156,1);
+    background-color: #fff;
+    border-radius: .10rem;
+
 }
 
-#clear-refinements {
-    padding: .5em;
+.col-md-4 h4 {
+    text-align: center;
+    margin-top: 1em;
 }
 
-.ais-CurrentRefinements-category {
-    padding: 0 .5em;
+.ais-Hits-item {
+    background-color: #fff;
+}
+
+.page-link {
+    color: #000;
+}
+
+.ais-Pagination-item--selected .ais-Pagination-link {
+    background-color: lightgrey;
+    border-color: lightgrey;
+}
+
+.btn {
+    background-color: lightgrey;
+    border-color: lightgrey;
+    color: #000;
+}
+
+.ais-SearchBox-submit {
+    background-color: transparent;
+    border-color: transparent;
+
+}
+
+.btn:hover {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+
 }

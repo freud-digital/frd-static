@@ -21,18 +21,13 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <header class="header">
-                        <h1 class="header-title">
-                            Volltextsuche
-                        </h1>
-                    </header>
-                    
-                    <div class="container-fluid" style="max-width:100%;">
+                    <div class="container-fluid">
                         <div class="search-panel">
                             <div class="search-panel__results">
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div id="stats-container"></div>
+                                        <h4>Volltextsuche</h4>
                                         <div id="searchbox"></div>
                                         <div id="current-refinements"></div>
                                         <div id="clear-refinements"></div>

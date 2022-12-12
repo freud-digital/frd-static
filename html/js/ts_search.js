@@ -44,7 +44,7 @@ search.addWidgets([
             item: 
                 `
                     <h4><a href="{{ id }}.html">{{ title }}</a></h4>
-                    <p style="overflow:hidden;max-height:410px;">{{#helpers.snippet}}{ "attribute": "full_text" }{{/helpers.snippet}}</p>
+                    <p style="overflow:hidden;max-height:210px;">{{#helpers.snippet}}{ "attribute": "full_text" }{{/helpers.snippet}}</p>
                     <h5><span class="badge badge-primary">{{ project }}</span></h5>
                     <div>
                         <div>
@@ -98,14 +98,14 @@ search.addWidgets([
         searchable: true,
         searchablePlaceholder: 'Suche',
         cssClasses: {
-        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
-        searchableSubmit: 'd-none',
-        searchableReset: 'd-none',
-        showMore: 'btn btn-secondary btn-sm align-content-center',
-        list: 'list-unstyled',
-        count: 'badge ml-2 badge-info',
-        label: 'd-flex align-items-center text-capitalize',
-        checkbox: 'mr-2',
+            searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+            searchableSubmit: 'd-none',
+            searchableReset: 'd-none',
+            showMore: 'btn btn-secondary btn-sm align-content-center',
+            list: 'list-unstyled',
+            count: 'badge ml-2 badge-info',
+            label: 'd-flex align-items-center text-capitalize',
+            checkbox: 'mr-2',
         }
     }),
 
@@ -115,14 +115,14 @@ search.addWidgets([
         searchable: true,
         searchablePlaceholder: 'Suche',
         cssClasses: {
-        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
-        searchableSubmit: 'd-none',
-        searchableReset: 'd-none',
-        showMore: 'btn btn-secondary btn-sm align-content-center',
-        list: 'list-unstyled',
-        count: 'badge ml-2 badge-secondary',
-        label: 'd-flex align-items-center text-capitalize',
-        checkbox: 'mr-2',
+            searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+            searchableSubmit: 'd-none',
+            searchableReset: 'd-none',
+            showMore: 'btn btn-secondary btn-sm align-content-center',
+            list: 'list-unstyled',
+            count: 'badge ml-2 badge-secondary',
+            label: 'd-flex align-items-center text-capitalize',
+            checkbox: 'mr-2',
         }
     }),
 
@@ -132,14 +132,14 @@ search.addWidgets([
         searchable: true,
         searchablePlaceholder: 'Suche',
         cssClasses: {
-        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
-        searchableSubmit: 'd-none',
-        searchableReset: 'd-none',
-        showMore: 'btn btn-secondary btn-sm align-content-center',
-        list: 'list-unstyled',
-        count: 'badge ml-2 badge-success',
-        label: 'd-flex align-items-center text-capitalize',
-        checkbox: 'mr-2',
+            searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+            searchableSubmit: 'd-none',
+            searchableReset: 'd-none',
+            showMore: 'btn btn-secondary btn-sm align-content-center',
+            list: 'list-unstyled',
+            count: 'badge ml-2 badge-success',
+            label: 'd-flex align-items-center text-capitalize',
+            checkbox: 'mr-2',
         }
     }),
     
@@ -147,13 +147,13 @@ search.addWidgets([
         container: "#range-input",
         attribute: "year",
         templates: {
-        separatorText: 'bis',
-        submitText: 'Suchen',
+            separatorText: 'bis',
+            submitText: 'Suchen',
         },
         cssClasses: {
-        form: 'form-inline',
-        input: 'form-control',
-        submit: 'btn'
+            form: 'form-inline',
+            input: 'form-control',
+            submit: 'btn'
         }
     }),
 
@@ -161,28 +161,27 @@ search.addWidgets([
         container: '#pagination',
         padding: 2,
         cssClasses: {
-        list: 'pagination',
-        item: 'page-item',
-        link: 'page-link'
+            list: 'pagination',
+            item: 'page-item',
+            link: 'page-link'
         }
     }),
+
     instantsearch.widgets.clearRefinements({
         container: '#clear-refinements',
         templates: {
-        resetLabel: 'Filter zurücksetzen',
+            resetLabel: 'Filter zurücksetzen',
         },
         cssClasses: {
-        button: 'btn'
+            button: 'btn'
         }
     }),
 
-        
-
     instantsearch.widgets.currentRefinements({
-    container: '#current-refinements',
-    cssClasses: {
-        delete: 'btn',
-        label: 'badge'
+        container: '#current-refinements',
+        cssClasses: {
+            delete: 'btn',
+            label: 'badge'
         }
     })
 ]);
