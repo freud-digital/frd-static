@@ -1,11 +1,11 @@
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
-        apiKey: 'xyz', // Be sure to use an API key that only allows searches, in production
+        apiKey: 'CvdXn6YAqxEMUB6zYzlaUKMMz41FewxI', // Be sure to use an API key that only allows searches, in production
         nodes: [
             {
-                host: '0.0.0.0',
-                port: '8108',
-                protocol: 'http'
+                host: 'typesense.acdh-dev.oeaw.ac.at',
+                port: '443',
+                protocol: 'https'
             }
         ]
     },
