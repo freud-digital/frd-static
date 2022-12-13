@@ -28,13 +28,24 @@
                                 </ul>                                
                             </li>
                             <li class="nav-item dropdown">
+                                <a title="Edition" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Edition <span class="caret"></span></a>
+                                <ul class=" dropdown-menu" role="menu">
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Historsich Kritisch" href="toc.html" class="nav-link">Edierte Werke</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Diplomatische Umschrift" href="toc-ocr.html" class="nav-link">Alle Werke</a>
+                                    </li>
+                                </ul>                                
+                            </li>
+                            <li class="nav-item dropdown">
                                 <a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Register <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Personen" href="listperson.html" class="nav-link">Personen</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Personen" href="listbibl.html " class="nav-link">Literaturverzeichnis</a>
+                                        <a title="Literaturverzeichnis" href="listbibl.html " class="nav-link">Literaturverzeichnis</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Orte" href="listplace.html" class="nav-link">Orte</a>
@@ -48,22 +59,13 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Träume" href="listdream.html" class="nav-link">Träume</a>
                                     </li>
-                                    <!--<div class="dropdown-divider"></div>
+                                    <!--
+                                    <div class="dropdown-divider"></div>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="GND-BEACON" href="beacon.txt" class="nav-link">GND-BEACON</a>
-                                    </li>--> 
+                                    </li>
+                                    --> 
                                 </ul>                               
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a title="Edition" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Edition <span class="caret"></span></a>
-                                <ul class=" dropdown-menu" role="menu">
-                                    <li class="nav-item dropdown-submenu">
-                                        <a title="Historsich Kritisch" href="toc.html" class="nav-link">Historisch Kritisch</a>
-                                    </li>
-                                    <li class="nav-item dropdown-submenu">
-                                        <a title="Diplomatische Umschrift" href="toc-ocr.html" class="nav-link">Diplomatische Umschrift</a>
-                                    </li>
-                                </ul>                                
                             </li>
                             <li class="nav-item"><a title="Suche" href="search.html" class="nav-link">Suche</a></li>
                         </ul>                        

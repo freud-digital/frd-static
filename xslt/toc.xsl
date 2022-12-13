@@ -10,7 +10,7 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Historisch Kritisch'"/>
+        <xsl:variable name="doc_title" select="'Edierte Werke'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
             <xsl:call-template name="html_head">
@@ -30,13 +30,13 @@
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Edition</th>
+                                            <th scope="col">Titel</th>
                                             <th scope="col">Signatur</th>
                                             <th scope="col">Datum</th>
                                             <th scope="col">Publikation</th>
                                             <th scope="col">Herausgeber</th>
                                             <th scope="col">Ort</th>
-                                            <th scope="col">Status</th>
+                                            <th scope="col">Status *</th>
                                         </tr>
                                     </thead>
                                     <tbody>

@@ -108,7 +108,7 @@
                         <script type="text/javascript" src="js/dt-panes.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
-                                createDataTable('listbibl', 'Suche:', [2, 6], [0, 1, 3, 4, 5], false);
+                                createDataTable('listbibl', 'Suche:', [2, 5], [0, 1, 3, 4], false);
                             });
                         </script>
                     </xsl:when>
@@ -121,7 +121,7 @@
                         </script>
                     </xsl:when>
                     <xsl:when test="contains($doc_title, 'Schlagworte')">
-                        <script type="text/javascript" src="js/dt-panes.js"></script>
+                        <script type="text/javascript" src="js/dt.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
                                 createDataTable('listkey');
@@ -355,7 +355,6 @@
                         <th>Datum</th>
                         <th>Ort</th>
                         <th>Herausgeber</th>
-                        <th>Permalink</th>
                         <th>Erwähnt in #</th>
                     </tr>
                 </thead>
@@ -384,9 +383,6 @@
                             </td>
                             <td>
                                 <xsl:value-of select="./tei:monogr/tei:imprint/tei:publisher"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="./tei:monogr/tei:idno"/>
                             </td>
                             <td>
                                 <xsl:value-of select="count(./tei:listEvent/tei:event)"/>

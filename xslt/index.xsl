@@ -30,26 +30,27 @@
                                 <div class="col-md-6">
                                     <div style="padding: 4em; margin: 0 auto;">
                                         <h1>
-                                            Sigmund Freud Edition
+                                            Sigmund Freud
                                         </h1>
                                         <h3>
-                                            Digitale historisch-kritische Gesamtausgabe
+                                            Digitale Edition
                                         </h3>
                                         <button class="btn btn-intro" style="margin:.5em 0;">
                                             <a href="toc.html">
-                                                Zur Edition: Historisch Kritisch
+                                                Zu den edierten Werken
                                             </a>
                                         </button>
+                                        <br/>
                                         <button class="btn btn-intro" style="margin:.5em 0;">
                                             <a href="toc-ocr.html">
-                                                Zur Edition: Diplomatische Umschrift
+                                                Alle Werke im Überblick
                                             </a>
                                         </button>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div style="padding: 2em; margin: 0 auto; text-align: center;">
-                                        <img style="max-width: 300px;" alt="Sigmund Freud" src="img/Sigmund_Freud,_by_Max_Halberstadt.jpg"></img>
+                                        <img style="max-width: 300px;" alt="Sigmund Freud" src="img/freud_sigmund_ai.png"></img>
                                     </div>                                
                                 </div>
                             </div>

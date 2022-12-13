@@ -42,8 +42,8 @@
                     </div>
                     <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
                         <div class="container">
+                            <h6>PROJEKTPARTNER</h6>
                             <div class="row">
-                                
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
                                         <a href="https://www.fwf.ac.at/en/"><img class="card-img-right flex-auto d-md-block" src="https://www.fwf.ac.at/fileadmin/files/Images/News_Presse/Presse/Logo/fwf-logo_var2.jpg" alt="FWF Der Wissenschaftsfond Logo" style="max-width: 140px; height: auto; margin-top:1em;" title="FWF Der Wissenschaftsfond" /></a>

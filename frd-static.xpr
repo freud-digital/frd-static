@@ -14,19 +14,36 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>toc-ocr</String>
-                                        <String>toc</String>
+                                        <String>index</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
-                                        <String>XSL</String>
                                         <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
                                         <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/indices/listkey.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>indices</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -37,7 +54,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>listbibl</String>
+                                        <String>indices</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -53,11 +70,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/indices/listperson.xml</String>
+                                    <String>data/indices/listplace.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>listperson</String>
+                                        <String>indices</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -93,11 +110,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/indices/listplace.xml</String>
+                                    <String>data/indices/listperson.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>indices</String>
+                                        <String>listperson</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
