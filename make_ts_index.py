@@ -47,24 +47,30 @@ current_schema = {
             'facet': True,
             'optional': True
         },
-        {
-            'name': 'places',
-            'type': 'string[]',
-            'facet': True,
-            'optional': True
-        },
-        {
-            'name': 'orgs',
-            'type': 'string[]',
-            'facet': True,
-            'optional': True
-        },
+        # {
+        #     'name': 'places',
+        #     'type': 'string[]',
+        #     'facet': True,
+        #     'optional': True
+        # },
+        # {
+        #     'name': 'orgs',
+        #     'type': 'string[]',
+        #     'facet': True,
+        #     'optional': True
+        # },
         {
             'name': 'works',
             'type': 'string[]',
             'facet': True,
             'optional': True
         },
+        {
+            'name': 'keywords',
+            'type': 'string[]',
+            'facet': True,
+            'optional': True
+        }
     ]
 }
 
@@ -100,14 +106,18 @@ for x in tqdm(files, total=len(files)):
         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:back//tei:person/tei:persName[1]')
     ]
     cfts_record['persons'] = record['persons']
-    record['places'] = [
-         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:back//tei:place[@xml:id]/tei:placeName[1]')
+    record['keywords'] = [
+        " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:back//tei:item/tei:*[1]')
     ]
-    cfts_record['places'] = record['places']
-    record['orgs'] = [
-         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:back//tei:org[@xml:id]/tei:orgName[1]')
-    ]
-    cfts_record['orgs'] = record['orgs']
+    cfts_record['keywords'] = record['keywords']
+    # record['places'] = [
+    #      " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:back//tei:place[@xml:id]/tei:placeName[1]')
+    # ]
+    # cfts_record['places'] = record['places']
+    # record['orgs'] = [
+    #      " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:back//tei:org[@xml:id]/tei:orgName[1]')
+    # ]
+    # cfts_record['orgs'] = record['orgs']
     record['works'] = [
          " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:back//tei:listBibl//tei:biblStruct[@xml:id]//tei:title[@level="m"]')
     ]
