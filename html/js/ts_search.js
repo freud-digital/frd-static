@@ -1,29 +1,31 @@
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
-        server: {
-            apiKey: 'xyz', // Be sure to use an API key that only allows searches, in production
-            nodes: [
-                {
-                    host: '0.0.0.0',
-                    port: '8108',
-                    protocol: 'http'
-                }
-            ]
-        },
-        // The following parameters are directly passed to Typesense's search API endpoint.
-        //  So you can pass any parameters supported by the search endpoint below.
-        //  queryBy is required.
-        //  filterBy is managed and overridden by InstantSearch.js. To set it, you want to use one of the filter widgets like refinementList or use the `configure` widget.
-        additionalSearchParameters: {
-            queryBy: 'full_text'
-        }
-    });
-    const searchClient = typesenseInstantsearchAdapter.searchClient;
-    const search = instantsearch({
-        searchClient,
-        indexName: 'freud-edition'
-    });
+    server: {
+        apiKey: 'xyz', // Be sure to use an API key that only allows searches, in production
+        nodes: [
+            {
+                host: '0.0.0.0',
+                port: '8108',
+                protocol: 'http'
+            }
+        ]
+    },
+    // The following parameters are directly passed to Typesense's search API endpoint.
+    //  So you can pass any parameters supported by the search endpoint below.
+    //  queryBy is required.
+    //  filterBy is managed and overridden by InstantSearch.js. To set it, you want to use one of the filter widgets like refinementList or use the `configure` widget.
+    additionalSearchParameters: {
+        queryBy: 'full_text'
+    }
+});
+
+const searchClient = typesenseInstantsearchAdapter.searchClient;
+const search = instantsearch({
+    searchClient,
+    indexName: 'freud-edition'
+});
 
 search.addWidgets([
+
     instantsearch.widgets.searchBox({
         container: '#searchbox',
         autofocus: true,
@@ -34,9 +36,11 @@ search.addWidgets([
           reset: 'btn'
         }
     }),
+
     instantsearch.widgets.configure({
         hitsPerPage: 8
     }),
+
     instantsearch.widgets.hits({
         container: '#hits',
         templates: {
@@ -91,7 +95,7 @@ search.addWidgets([
           `,
         }
     }),
-  
+
     instantsearch.widgets.refinementList({
         container: '#refinement-list-keywords',
         attribute: 'keywords',

@@ -36,6 +36,7 @@
                                             <th scope="col">Publikation</th>
                                             <th scope="col">Herausgeber</th>
                                             <th scope="col">Ort</th>
+                                            <th scope="col">Status *</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -70,10 +71,20 @@
                                                 <td>
                                                     <xsl:value-of select=".//tei:biblStruct[@type='guidingManifestation']//tei:imprint/tei:pubPlace"/>
                                                 </td>
+                                                <td>
+                                                    <xsl:value-of select=".//tei:revisionDesc/@status"/>
+                                                </td>
                                             </tr>
                                         </xsl:for-each>
                                     </tbody>
                                 </table>
+                            </div>
+                            <div class="card-footer">
+                                <ul style="list-style:none;">
+                                    <li>* complete = Abgeschlossene Korrektur der diplomatischen Umschrift.</li>
+                                    <li>* progress = Nicht abgeschlossene Korrektur der diplomatischen Umschrift.</li>
+                                    <li>* proposed = Keine Korrektur der diplomatischen Umschrift.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
