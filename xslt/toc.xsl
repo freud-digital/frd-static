@@ -36,6 +36,7 @@
                                             <th scope="col">Publikation</th>
                                             <th scope="col">Herausgeber</th>
                                             <th scope="col">Ort</th>
+                                            <th scope="col">Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -70,10 +71,16 @@
                                                 <td>
                                                     <xsl:value-of select=".//tei:biblStruct[@type='guidingManifestation']//tei:imprint/tei:pubPlace"/>
                                                 </td>
+                                                <td>
+                                                    progress
+                                                </td>
                                             </tr>
                                         </xsl:for-each>
                                     </tbody>
                                 </table>
+                            </div>
+                            <div class="card-footer">
+                                * progress = In Arbeit
                             </div>
                         </div>
                     </div>
