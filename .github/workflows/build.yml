@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANT_OPTS: -Xmx5g
+      TYPESENSE_HOST: typesense.acdh-dev.oeaw.ac.at
+      TYPESENSE_PORT: 443
+      TYPESENSE_PROTOCOL: https
+      TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v2
@@ -29,9 +33,9 @@ jobs:
     - name: Build
       run: |
         ant
-    - name: Static Search
+    - name: create typesense index
       run: |
-        ./build_index.sh
+        python make_ts_index.py
     - name: Copy processed data to freud-digital/frd-archiv
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
