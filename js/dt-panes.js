@@ -17,7 +17,7 @@ function createDataTable(containerElement, title, panesShow, panesHide, hide) {
         },
         dom: 'PfpBrtip',
         searchPanes: {
-            initCollapsed: false
+            initCollapsed: true
         },
         buttons: [
             'copy', 'excel', 'pdf'

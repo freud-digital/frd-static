@@ -8,10 +8,21 @@
       <meta name="apple-mobile-web-app-title" content="Alle Werke" />
       <link rel="profile" href="http://gmpg.org/xfn/11" />
       <title>Alle Werke</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" href="css/micro-editor.css" type="text/css" /><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script></head>
+      <link rel="stylesheet" href="css/micro-editor.css" type="text/css" /><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script>
+            var _paq = window._paq = window._paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+            var u="https://matomo.acdh.oeaw.ac.at/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '223']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script><link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/jszip-2.5.0/dt-1.13.1/b-2.3.3/b-colvis-2.3.3/b-html5-2.3.3/fc-4.2.1/fh-3.3.1/r-2.4.0/sp-2.1.0/sl-1.5.0/datatables.min.css" /><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs5/jszip-2.5.0/dt-1.13.1/b-2.3.3/b-colvis-2.3.3/b-html5-2.3.3/fc-4.2.1/fh-3.3.1/r-2.4.0/sp-2.1.0/sl-1.5.0/datatables.min.js"></script></head>
    <body class="page">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar hide-reading" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
@@ -42,7 +53,7 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" style="font-size:14px;">
                <div class="card-header">
                   <h1>Alle Werke</h1>
                </div>
@@ -50,145 +61,20 @@
                   <table class="table table-striped display" id="tocTable2" style="width:100%">
                      <thead>
                         <tr>
-                           <th scope="col">Titel</th>
-                           <th scope="col">Signatur</th>
+                           <th scope="col" style="width:25%;">Titel</th>
+                           <th scope="col" style="width:10%;">Werk #</th>
+                           <th scope="col">Man. #</th>
                            <th scope="col">Datum</th>
-                           <th scope="col">Publikation</th>
-                           <th scope="col">Herausgeber</th>
+                           <th scope="col">Publ. Titel</th>
+                           <th scope="col">Hrsg.</th>
                            <th scope="col">Ort</th>
                            <th scope="col">Status *</th>
                         </tr>
                      </thead>
                      <tbody>
                         <tr>
-                           <td><a href="sfe-1905-002__1937.html">Psychische Behandlung (Seelenbehandlung) </a></td>
-                           <td>sfe-1905-002__1937</td>
-                           <td>1937-01-01</td>
-                           <td>Zeitschrift für psychoanalytische Pädagogik</td>
-                           <td>Zulliger, Hans</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1922-006__1922.html">Etwas vom Unbewußten</a></td>
-                           <td>sfe-1922-006__1922</td>
-                           <td>1922-01-01</td>
-                           <td>Internationale Zeitschrift für Psychoanalyse</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1908.html">Freud, Sigmund</a></td>
-                           <td>sfe-1905-009__1908</td>
-                           <td>1908-01-01</td>
-                           <td>Wer ist’s? </td>
-                           <td>Degener, Herrmann A. Ludwig</td>
-                           <td>Leipzig</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1902-121__1933.html">Die Stellung der Frau im Rahmen unseres Vereinslebens [Erwähnung]</a></td>
-                           <td>sfe-1902-121__1933</td>
-                           <td>1933-01-01</td>
-                           <td>B’nai B’rith Mitteilungen für Österreich</td>
-                           <td>Ascher, Arnold</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1912.html">Zur Psychopathologie des Alltagslebens</a></td>
-                           <td>sfe-1901-002__1912</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-003__1923.1.html">Bemerkungen zur Theorie und Praxis der Traumdeutung</a></td>
-                           <td>sfe-1923-003__1923.1</td>
-                           <td>1923-01-01</td>
-                           <td>Internationale Zeitschrift für Psychoanalyse</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1922-002__1922.2.html">Über einige neurotische Mechanismen bei Eifersucht, Paranoia und Homosexualität</a></td>
-                           <td>sfe-1922-002__1922.2</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1900-001__1900.html">Die Traumdeutung</a></td>
-                           <td>sfe-1900-001__1900</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1924.html">Zur Psychopathologie des Alltagslebens </a></td>
-                           <td>sfe-1901-002__1924</td>
-                           <td>1924-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1922.html">Über Psychotherapie </a></td>
-                           <td>sfe-1905-001__1922</td>
-                           <td>1922-01-01</td>
-                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1905.html">Über Psychotherapie</a></td>
-                           <td>sfe-1905-001__1905</td>
-                           <td>1905-01-01</td>
-                           <td>Wiener Medizinische Presse</td>
-                           <td>Bum, Anton</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1921-002__1928.html">Preface zu: Putnam, James J[ackson] (1921) ›Adresses on Psycho-Analysis‹</a></td>
-                           <td>sfe-1921-002__1928</td>
-                           <td>1928-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1900-002__1898.html">Cerebrale Kinderlähmung [I] [32 Rezensionen]</a></td>
-                           <td>sfe-1900-002__1898</td>
-                           <td>1897-01-01</td>
-                           <td>Jahresbericht über die Leistungen und Fortschritte auf dem Gebiete der Neurologie
-                              und Psychiatrie</td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-006__1931.html">Die infantile Genitalorganisation</a></td>
-                           <td>sfe-1923-006__1931</td>
-                           <td>1931-01-02</td>
-                           <td>Kleinoktavausgabe</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
                            <td><a href="sfe-1920-006__1920.1.html">Jenseits des Lustprinzips</a></td>
+                           <td>1920-006</td>
                            <td>sfe-1920-006__1920.1</td>
                            <td></td>
                            <td></td>
@@ -197,827 +83,8 @@
                            <td>progress</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1901-002__1923.html">Zur Psychopathologie des Alltagslebens</a></td>
-                           <td>sfe-1901-002__1923</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-006__1904.html">Rezension von: Löwenfeld, L[eopold] ›Die psychischen Zwangserscheinungen‹</a></td>
-                           <td>sfe-1904-006__1904</td>
-                           <td>1904-01-01</td>
-                           <td>Journal für Psychologie und Neurologie</td>
-                           <td></td>
-                           <td></td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-002__1918.html">Psychische Behandlung (Seelenbehandlung)</a></td>
-                           <td>sfe-1905-002__1918</td>
-                           <td>1918-01-01</td>
-                           <td>Die Gesundheit</td>
-                           <td>Weiß, Jul.</td>
-                           <td>Leipzig</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-006__1919.html">Jenseits des Lustprinzips</a></td>
-                           <td>sfe-1920-006__1919</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-005__1920.html">Ergänzungen zur Traumlehre</a></td>
-                           <td>sfe-1920-005__1920</td>
-                           <td>1920-01-01</td>
-                           <td>Internationale Zeitschrift für Psychoanalyse</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-006__1925.html">Jenseits des Lustprinzips</a></td>
-                           <td>sfe-1920-006__1925</td>
-                           <td>1925-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-004__1924.html">Gedankenassoziation eines vierjährigen Kindes</a></td>
-                           <td>sfe-1920-004__1924</td>
-                           <td>1924-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-005__1924.html">Bruchstück einer Hysterie-Analyse</a></td>
-                           <td>sfe-1905-005__1924</td>
-                           <td>1924-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-003__1904.html">Rezension von: Bigelow, John (1903) ›The Mystery of Sleep‹</a></td>
-                           <td>sfe-1904-003__1904</td>
-                           <td>1904-02-04</td>
-                           <td>Neue Freie Presse</td>
-                           <td>Bacher, Eduard</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-003__1924.html">Der Witz und seine Beziehung zum Unbewußten</a></td>
-                           <td>sfe-1905-003__1924</td>
-                           <td>1925-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-121__1902.html">Diskussion über die Ziele und Zwecke unserer Vereinigungen [Erwähnung]</a></td>
-                           <td>sfe-1901-121__1902</td>
-                           <td>1902-01-01</td>
-                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
-                              B’rith”</td>
-                           <td>B'nai B'rith</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1928.html">Freud, Sigmund</a></td>
-                           <td>sfe-1905-009__1928</td>
-                           <td>1928-01-01</td>
-                           <td>Wer ist’s?</td>
-                           <td>Degener, Herrmann A. Ludwig</td>
-                           <td>Leipzig</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1921-004__1921.html">Preiszuteilungen</a></td>
-                           <td>sfe-1921-004__1921</td>
-                           <td>1921-01-01</td>
-                           <td>Internationale Zeitschrift für Psychoanalyse</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-001__1925.html">Über den Traum</a></td>
-                           <td>sfe-1901-001__1925</td>
-                           <td>1925-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer,
-                              A.J.</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1901.3.html">Zur Psychopathologie des Alltagslebens. (Vergessen, Versprechen, Vergreifen) nebst
-                                 Bemerkungen über eine Wurzel des Aberglaubens</a></td>
-                           <td>sfe-1901-002__1901.3</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1929.html">Zur Psychopathologie des Alltagslebens </a></td>
-                           <td>sfe-1901-002__1929</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1899.html">Zur Psychologie des Vergessens</a></td>
-                           <td>sfe-1901-002__1899</td>
-                           <td>1899-10-01</td>
-                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
-                              B’rith”</td>
-                           <td>Humanitätsverein "Wien" B. B.</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-003__1925.html">Der Witz und seine Beziehung zum Unbewußten</a></td>
-                           <td>sfe-1905-003__1925</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-003__1901.html">Freud, Sigm. [autobiographischer Artikel]</a></td>
-                           <td>sfe-1901-003__1901</td>
-                           <td>1901-01-01</td>
-                           <td>Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts</td>
-                           <td>Pagel, Julius Leopold</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1922-001__1922.2.html">Traum und Telepathie</a></td>
-                           <td>sfe-1922-001__1922.2</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1903-001__1903.html">Rezension von: Bidenkapp, Georg ›Im Kampfe gegen Hirnbacillen‹</a></td>
-                           <td>sfe-1903-001__1903</td>
-                           <td>1903-02-08</td>
-                           <td>Neue Freie Presse</td>
-                           <td>Bacher, Eduard</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1917.html">Zur Psychopathologie des Alltaglebens </a></td>
-                           <td>sfe-1901-002__1917</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1922-004__1922.html">Preisausschreibung</a></td>
-                           <td>sfe-1922-004__1922</td>
-                           <td>1922-01-01</td>
-                           <td>Internationale Zeitschrift für Psychoanalyse</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-005__1904.html">Professor S. Hammerschlag [Nachruf]</a></td>
-                           <td>sfe-1904-005__1904</td>
-                           <td>1904-11-06</td>
-                           <td>Neue Freie Presse</td>
-                           <td>Bacher, Eduard</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-001__1924.html">Über die Psychogenese eines Falles von weiblicher Homosexualität</a></td>
-                           <td>sfe-1920-001__1924</td>
-                           <td>1924-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-005__1923.html">Das Ich und das Es</a></td>
-                           <td>sfe-1923-005__1923</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-121__1905.html">Hammurabi</a></td>
-                           <td>sfe-1904-121__1905</td>
-                           <td>1905-01-01</td>
-                           <td>Zweimonats-Bericht für die Mitglieder österr. israel. Humanitätsvereine "B’nai B’rith"</td>
-                           <td>Humanitätsverein "Wien" B. B.</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-005__1921.html">Bruchstück einer Hysterie-Analyse</a></td>
-                           <td>sfe-1905-005__1921</td>
-                           <td>1921-01-01</td>
-                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-002__1924.2.html">Zur Vorgeschichte der analytischen Technik </a></td>
-                           <td>sfe-1920-002__1924.2</td>
-                           <td>1924-01-01</td>
-                           <td>Zur Technik der Psychoanalyse und zur Metapsychologie</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-006__1921.html">Jenseits des Lustprinzips</a></td>
-                           <td>sfe-1920-006__1921</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1924-005__1925.html">Der Realitätsverlust bei Neurose und Psychose</a></td>
-                           <td>sfe-1924-005__1925</td>
-                           <td>1925-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1912.html">Freud, Sigmund </a></td>
-                           <td>sfe-1905-009__1912</td>
-                           <td>1912-01-01</td>
-                           <td>Who’s Who in Germany</td>
-                           <td>Degener, Herrmann A. Ludwig</td>
-                           <td>Leipzig</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1922-005__1922.01.html">Geleitwort [zu de Saussure, Raymond (1922): La méthode psychoanalytique]</a></td>
-                           <td>sfe-1922-005__1922.01</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-002__1905.2.html">Psychische Behandlung (Seelenbehandlung) </a></td>
-                           <td>sfe-1905-002__1905.2</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-008__1923.html">Vorwort [zu: Eitingon, Max ›Bericht über die Berliner psychoanalytische Poliklinik
-                                 (März 1920 bis Juni 1922)‹]</a></td>
-                           <td>sfe-1923-008__1923</td>
-                           <td>1923-01-01</td>
-                           <td>Bericht über die Berliner psychoanalytische Poliklinik (März 1920 bis Juni 1922)</td>
-                           <td></td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1920.html">Drei Abhandlungen zur Sexualtheorie </a></td>
-                           <td>sfe-1905-004__1920</td>
-                           <td>1920-07-01</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-006__1905.html">Stellungnahme zur Eherechtsenquete</a></td>
-                           <td>sfe-1905-006__1905</td>
-                           <td>1905-01-01</td>
-                           <td>Protokolle der Enquete betreffend die Reform des österreichischen Eherechts</td>
-                           <td>Kulturpolitische Gesellschaft</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1922-005__1922.html">Préface</a></td>
-                           <td>sfe-1922-005__1922</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1922.html">Freud, Sigmund</a></td>
-                           <td>sfe-1905-009__1922</td>
-                           <td>1922-01-01</td>
-                           <td>Wer ist’s?</td>
-                           <td>Degener, Herrmann A. Ludwig</td>
-                           <td>Leipzig</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-003__1928.html">Dr. Anton von Freund</a></td>
-                           <td>sfe-1920-003__1928</td>
-                           <td>1928-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1925.html">Drei Abhandlungen zur Sexualtheorie </a></td>
-                           <td>sfe-1905-004__1925</td>
-                           <td>1925-01-01</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-001__1928.html">Libidotheorie</a></td>
-                           <td>sfe-1923-001__1928</td>
-                           <td>1928-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1910.html">Zur Psychopathologie des Alltagslebens</a></td>
-                           <td>sfe-1901-002__1910</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-122__1902.html">Über Zufall und Aberglaube</a></td>
-                           <td>sfe-1901-122__1902</td>
-                           <td>1902-01-01</td>
-                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
-                              B’rith”</td>
-                           <td>B'nai B'rith</td>
-                           <td>Wien</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-006__1931.html"> Jenseits des Lustprinzips</a></td>
-                           <td>sfe-1920-006__1931</td>
-                           <td>1931-01-03</td>
-                           <td>Kleinoktavausgabe</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-005__1925.html">Das Ich und das Es</a></td>
-                           <td>sfe-1923-005__1925</td>
-                           <td>1925-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1924-005__1926.html">Der Realitätsverlust bei Neurose und Psychose</a></td>
-                           <td>sfe-1924-005__1926</td>
-                           <td>1926-01-01</td>
-                           <td>Studien zur Psychoanalyse der Neurosen aus den Jahren 1913-1925</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-003__1912.html">Der Witz und seine Beziehung zum Unbewußten</a></td>
-                           <td>sfe-1905-003__1912</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-002__1924.html">Zur Vorgeschichte der analytischen Technik</a></td>
-                           <td>sfe-1920-002__1924</td>
-                           <td>1925-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-002__1926.html">Psychoanalyse</a></td>
-                           <td>sfe-1923-002__1926</td>
-                           <td>1926-01-01</td>
-                           <td>Handwörterbuch der Sexualwissenschaft</td>
-                           <td>Marcuse, Max</td>
-                           <td>Bonn</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1905.html">Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td>sfe-1905-004__1905</td>
-                           <td>1905-01-01</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-001__1920.html">Über die Psychogenese eines Falles von weiblicher Homosexualität</a></td>
-                           <td>sfe-1920-001__1920</td>
-                           <td>1920-01-01</td>
-                           <td>Internationale Zeitschrift für Psychoanalyse</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-004__1924.html">Eine Teufelsneurose im siebzehnten Jahrhundert</a></td>
-                           <td>sfe-1923-004__1924</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-001__1911.html">Über den Traum</a></td>
-                           <td>sfe-1901-001__1911</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-003__1920.html">Dr. Anton von Freund †</a></td>
-                           <td>sfe-1920-003__1920</td>
-                           <td>1920-01-01</td>
-                           <td>Internationale Zeitschrift für Psychoanalyse</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-002__1920.2.html">Zur Vorgeschichte der analytischen Technik</a></td>
-                           <td>sfe-1920-002__1920.2</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-007__1928.html">Josef Popper-Lynkeus und die Theorie des Traumes</a></td>
-                           <td>sfe-1923-007__1928</td>
-                           <td>1928-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-132__1920.html">Diskussionsbemerkungen auf der Geschäftssitzung des 6. Internationalen Psychoanalytischen
-                                 Kongresses in Den Haag, 8.-11.9.1920</a></td>
-                           <td>sfe-1920-132__1920</td>
-                           <td>1920-01-01</td>
-                           <td>Internationale Zeitschrift für Psychoanalyse</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1906.html">Freud, Sigmund </a></td>
-                           <td>sfe-1905-009__1906</td>
-                           <td>1906-01-01</td>
-                           <td>Wer ist’s? </td>
-                           <td>Degener, Herrmann A. Ludwig</td>
-                           <td>Leipzig</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1907.html">Zur Psychopathologie des Alltagslebens</a></td>
-                           <td>sfe-1901-002__1907</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1904.html">Zur Psychopathologie des Alltagslebens</a></td>
-                           <td>sfe-1901-002__1904</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1901.1.html">Zur Psychopathologie des Alltagslebens (Vergessen, Versprechen, Vergreifen) nebst
-                                 Bemerkungen über eine Wurzel des Aberglaubens</a></td>
-                           <td>sfe-1901-002__1901.1</td>
-                           <td>1901-01-01</td>
-                           <td>Monatsschrift für Psychiatrie und Neurologie </td>
-                           <td></td>
-                           <td>Berlin</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1911.html">Die Freudsche psychoanalytische Methode</a></td>
-                           <td>sfe-1904-002__1911</td>
-                           <td>1911-01-01</td>
-                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1924.html">Über Psychotherapie</a></td>
-                           <td>sfe-1905-001__1924</td>
-                           <td>1924-01-01</td>
-                           <td>Zur Technik der Psychoanalyse und zur Metapsychologie</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1900-241__1900.html">Aus dem Seelenleben der Kinder [Erwähnung]</a></td>
-                           <td>sfe-1900-241__1900</td>
-                           <td>1901-02-01</td>
-                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
-                              B’rith”</td>
-                           <td>Humanitätsverein "Wien" B. B.</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1921-001__1925.html">Massenpsychologie und Ich-Analyse</a></td>
-                           <td>sfe-1921-001__1925</td>
-                           <td>1925-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-211__1904.html">Interview: Neue Freie Presse (Morgenblatt), 6.11.1904 [Thomas, Th. ›Magnetische Menschen‹]</a></td>
-                           <td>sfe-1904-211__1904</td>
-                           <td>1904-02-04</td>
-                           <td>Neue Freie Presse</td>
-                           <td>Bacher, Eduard</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-006__1924.html">Die infantile Genitalorganisation</a></td>
-                           <td>sfe-1923-006__1924</td>
-                           <td>1924-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1903-301__1903.html">Gespräch über das Rauchen. Von Dr. Wilhelm Stekel</a></td>
-                           <td>sfe-1903-301__1903</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1900-242__1932.html">Ueber "Fecondité" von Emil Zola </a></td>
-                           <td>sfe-1900-242__1932</td>
-                           <td>1932-12-01</td>
-                           <td>B’nai B’rith Mitteilungen für Österreich</td>
-                           <td>Ascher, Arnold</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1922-007__1922.html">An die Künstler und Intellektuellen Oesterreichs</a></td>
-                           <td>sfe-1922-007__1922</td>
-                           <td>1922-02-03</td>
-                           <td>Neue Freie Presse</td>
-                           <td>Benedikt, Ernst</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1902-122__1902.html">Über Träume</a></td>
-                           <td>sfe-1902-122__1902</td>
-                           <td>1902-10-01</td>
-                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
-                              B’rith”</td>
-                           <td>B'nai B'rith</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-002__1928.html">Psychoanalyse</a></td>
-                           <td>sfe-1923-002__1928</td>
-                           <td>1928-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1920.html">Über Psychotherapie </a></td>
-                           <td>sfe-1905-001__1920</td>
-                           <td>1920-01-01</td>
-                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1921-003__1922.html">Geleitwort [zu: Varendonck, Julien, ›Über das vorbewusste phantasierende Denken‹]</a></td>
-                           <td>sfe-1921-003__1922</td>
-                           <td>1922-01-01</td>
-                           <td>Über das vorbewusste phantasierende Denken</td>
-                           <td></td>
-                           <td>Zürich</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-003__1931.html">Bemerkungen zur Theorie und Praxis der Traumdeutung</a></td>
-                           <td>sfe-1923-003__1931</td>
-                           <td>1931-01-02</td>
-                           <td>Kleinoktavausgabe</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-008__1905.html">Stellungnahme zum Fall Prof. Dr. Beer</a></td>
-                           <td>sfe-1905-008__1905</td>
-                           <td>1905-10-27</td>
-                           <td>Die Zeit</td>
-                           <td>Kanner, Heinrich</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1922-009__1922.html">Freud, Sigmund</a></td>
-                           <td>sfe-1922-009__1922</td>
-                           <td>1922-01-01</td>
-                           <td>Who’s Who</td>
-                           <td>Black, Charles</td>
-                           <td>London</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-004__1904.html">Rezension von Baumgarten, Alfred ›Neurasthenie‹</a></td>
-                           <td>sfe-1904-004__1904</td>
-                           <td>1904-02-04</td>
-                           <td>Neue Freie Presse</td>
-                           <td>Bacher, Eduard</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1921-002__1921.html">Preface [zu: Putnam, James J. ›Addresses on Psycho-Analysis‹]</a></td>
-                           <td>sfe-1921-002__1921</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-005__1905.2.html">Bruchstück einer Hysterie-Analyse (Schluss)</a></td>
-                           <td>sfe-1905-005__1905.2</td>
-                           <td></td>
-                           <td>Monatsschrift für Psychiatrie und Neurologie</td>
-                           <td></td>
-                           <td>Berlin</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1924.html">Die Freudsche psychoanalytische Methode</a></td>
-                           <td>sfe-1904-002__1924</td>
-                           <td>1924-01-01</td>
-                           <td>Zur Technik der Psychoanalyse und zur Metapsychologie</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-211__1923.html">Une visite à Freud</a></td>
-                           <td>sfe-1923-211__1923</td>
-                           <td>1923-08-14</td>
-                           <td>Le Temps</td>
-                           <td>Hébrard, Emile-Adrien</td>
-                           <td>Paris</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1924-005__1931.html">Der Realitätsverlust bei Neurose und Psychose</a></td>
-                           <td>sfe-1924-005__1931</td>
-                           <td>1931-01-01</td>
-                           <td>Kleinoktavausgabe</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1904.html">Die Freud’sche psychoanalytische Methode</a></td>
-                           <td>sfe-1904-002__1904</td>
-                           <td>1904-01-01</td>
-                           <td>Die psychischen Zwangserscheinungen</td>
-                           <td></td>
-                           <td>Wiesbaden</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-005__1905.html">Bruchstück einer Hysterie-Analyse</a></td>
-                           <td>sfe-1905-005__1905</td>
-                           <td></td>
-                           <td>Monatsschrift für Psychiatrie und Neurologie</td>
-                           <td></td>
-                           <td>Berlin</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1915.html">Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td>sfe-1905-004__1915</td>
-                           <td>1915-01-01</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-004__1931.html">Gedankenassoziation eines vierjährigen Kindes</a></td>
-                           <td>sfe-1920-004__1931</td>
-                           <td>1931-01-01</td>
-                           <td>Kleinoktavausgabe</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-007__1905.html">Rezension von: Wichmann, R[alf] ›Lebensregeln für Neurastheniker‹</a></td>
-                           <td>sfe-1905-007__1905</td>
-                           <td>1905-08-31</td>
-                           <td>Neue Freie Presse</td>
-                           <td>Bacher, Eduard</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1922.html">Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td>sfe-1905-004__1922</td>
-                           <td>1922-01-01</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
                            <td><a href="sfe-1900-002__1900.html">Cerebrale Kinderlähmung [III] [32 Rezensionen und Zusammenfassungen]</a></td>
+                           <td>1900-002</td>
                            <td>sfe-1900-002__1900</td>
                            <td>1899-01-01</td>
                            <td>Jahresbericht über die Leistungen und Fortschritte auf dem Gebiete der Neurologie
@@ -1027,7 +94,199 @@
                            <td>proposed</td>
                         </tr>
                         <tr>
+                           <td><a href="sfe-1905-005__1912.html">Bruchstück einer Hysterie-Analyse</a></td>
+                           <td>1905-005</td>
+                           <td>sfe-1905-005__1912</td>
+                           <td>1912-01-01</td>
+                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1921-003__1922.html">Geleitwort [zu: Varendonck, Julien, ›Über das vorbewusste phantasierende Denken‹]</a></td>
+                           <td>1921-003</td>
+                           <td>sfe-1921-003__1922</td>
+                           <td>1922-01-01</td>
+                           <td>Über das vorbewusste phantasierende Denken</td>
+                           <td></td>
+                           <td>Zürich</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-001__1920.html">Über Psychotherapie </a></td>
+                           <td>1905-001</td>
+                           <td>sfe-1905-001__1920</td>
+                           <td>1920-01-01</td>
+                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-001__1922.html">Über die Psychogenese eines Falles von weiblicher Homosexualität</a></td>
+                           <td>1920-001</td>
+                           <td>sfe-1920-001__1922</td>
+                           <td>1922-01-01</td>
+                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Zürich</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1903-301__1903.html">Gespräch über das Rauchen. Von Dr. Wilhelm Stekel</a></td>
+                           <td>1903-301</td>
+                           <td>sfe-1903-301__1903</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-004__1922.html">Drei Abhandlungen zur Sexualtheorie</a></td>
+                           <td>1905-004</td>
+                           <td>sfe-1905-004__1922</td>
+                           <td>1922-01-01</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1924-005__1926.html">Der Realitätsverlust bei Neurose und Psychose</a></td>
+                           <td>1924-005</td>
+                           <td>sfe-1924-005__1926</td>
+                           <td>1926-01-01</td>
+                           <td>Studien zur Psychoanalyse der Neurosen aus den Jahren 1913-1925</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-005__1905.2.html">Bruchstück einer Hysterie-Analyse (Schluss)</a></td>
+                           <td>1905-005</td>
+                           <td>sfe-1905-005__1905.2</td>
+                           <td></td>
+                           <td>Monatsschrift für Psychiatrie und Neurologie</td>
+                           <td></td>
+                           <td>Berlin</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1924-005__1925.html">Der Realitätsverlust bei Neurose und Psychose</a></td>
+                           <td>1924-005</td>
+                           <td>sfe-1924-005__1925</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1903-001__1903.html">Rezension von: Bidenkapp, Georg ›Im Kampfe gegen Hirnbacillen‹</a></td>
+                           <td>1903-001</td>
+                           <td>sfe-1903-001__1903</td>
+                           <td>1903-02-08</td>
+                           <td>Neue Freie Presse</td>
+                           <td>Bacher, Eduard</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1917.html">Zur Psychopathologie des Alltaglebens </a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1917</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-001__1905.html">Über Psychotherapie</a></td>
+                           <td>1905-001</td>
+                           <td>sfe-1905-001__1905</td>
+                           <td>1905-01-01</td>
+                           <td>Wiener Medizinische Presse</td>
+                           <td>Bum, Anton</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-005__1905.html">Bruchstück einer Hysterie-Analyse</a></td>
+                           <td>1905-005</td>
+                           <td>sfe-1905-005__1905</td>
+                           <td></td>
+                           <td>Monatsschrift für Psychiatrie und Neurologie</td>
+                           <td></td>
+                           <td>Berlin</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1921-002__1928.html">Preface zu: Putnam, James J[ackson] (1921) ›Adresses on Psycho-Analysis‹</a></td>
+                           <td>1921-002</td>
+                           <td>sfe-1921-002__1928</td>
+                           <td>1928-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-001__1905.2.html">Über Psychotherapie</a></td>
+                           <td>1905-001</td>
+                           <td>sfe-1905-001__1905.2</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-001__1924.html">Über Psychotherapie</a></td>
+                           <td>1905-001</td>
+                           <td>sfe-1905-001__1924</td>
+                           <td>1924-01-01</td>
+                           <td>Zur Technik der Psychoanalyse und zur Metapsychologie</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1901.1.html">Zur Psychopathologie des Alltagslebens (Vergessen, Versprechen, Vergreifen) nebst
+                                 Bemerkungen über eine Wurzel des Aberglaubens</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1901.1</td>
+                           <td>1901-01-01</td>
+                           <td>Monatsschrift für Psychiatrie und Neurologie </td>
+                           <td></td>
+                           <td>Berlin</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1922-002__1922.html">Über einige neurotische Mechanismen bei Eifersucht, Paranoia und Homosexualität</a></td>
+                           <td>1922-002</td>
+                           <td>sfe-1922-002__1922</td>
+                           <td>1922-01-01</td>
+                           <td>Internationale Zeitschrift für Psychoanalyse</td>
+                           <td>Freud, Sigmund</td>
+                           <td>London</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-007__1928.html">Josef Popper-Lynkeus und die Theorie des Traumes</a></td>
+                           <td>1923-007</td>
+                           <td>sfe-1923-007__1928</td>
+                           <td>1928-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
                            <td><a href="sfe-1905-003__1905.html">Der Witz und seine Beziehung zum Unbewußten</a></td>
+                           <td>1905-003</td>
                            <td>sfe-1905-003__1905</td>
                            <td></td>
                            <td></td>
@@ -1036,26 +295,9 @@
                            <td>proposed</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1901-121__1933.html">Über die Ziele und Zwecke der B’nai B’rith Vereinigungen [Erwähnung]</a></td>
-                           <td>sfe-1901-121__1933</td>
-                           <td>1933-01-01</td>
-                           <td>B’nai B’rith Mitteilungen für Österreich</td>
-                           <td>Ascher, Arnold</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1925.html">Über Psychotherapie</a></td>
-                           <td>sfe-1905-001__1925</td>
-                           <td>1925-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1906.html">Über Psychotherapie </a></td>
-                           <td>sfe-1905-001__1906</td>
+                           <td><a href="sfe-1904-002__1906.html">Die Freudsche psychoanalytische Methode</a></td>
+                           <td>1904-002</td>
+                           <td>sfe-1904-002__1906</td>
                            <td>1906-01-01</td>
                            <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
                            <td>Freud, Sigmund</td>
@@ -1063,26 +305,18 @@
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1900-242__1901.html">Ueber "Fecondité" von Emil Zola </a></td>
-                           <td>sfe-1900-242__1901</td>
-                           <td>1901-02-01</td>
-                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
-                              B’rith”</td>
-                           <td>Humanitätsverein "Wien" B. B.</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-005__1932.html">Bruchstück einer Hysterieanalyse</a></td>
-                           <td>sfe-1905-005__1932</td>
-                           <td>1932-01-01</td>
+                           <td><a href="sfe-1920-004__1931.html">Gedankenassoziation eines vierjährigen Kindes</a></td>
+                           <td>1920-004</td>
+                           <td>sfe-1920-004__1931</td>
+                           <td>1931-01-01</td>
                            <td>Kleinoktavausgabe</td>
                            <td>Freud, Sigmund</td>
                            <td>Wien</td>
-                           <td>proposed</td>
+                           <td>complete</td>
                         </tr>
                         <tr>
                            <td><a href="sfe-1901-001__1921.html">Über den Traum</a></td>
+                           <td>1901-001</td>
                            <td>sfe-1901-001__1921</td>
                            <td></td>
                            <td></td>
@@ -1091,52 +325,149 @@
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1905-009__1905.html">Freud, Sigmund</a></td>
-                           <td>sfe-1905-009__1905</td>
-                           <td>1905-01-01</td>
+                           <td><a href="sfe-1920-006__1931.html"> Jenseits des Lustprinzips</a></td>
+                           <td>1920-006</td>
+                           <td>sfe-1920-006__1931</td>
+                           <td>1931-01-03</td>
+                           <td>Kleinoktavausgabe</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1911.html">Ein Beitrag zum Vergessen von Eigennamen</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1911</td>
+                           <td></td>
+                           <td>Zentralblatt für Psychoanalyse</td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-003__1925.html">Bemerkungen zur Theorie und Praxis der Traumdeutung</a></td>
+                           <td>1923-003</td>
+                           <td>sfe-1923-003__1925</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1900-242__1932.html">Ueber "Fecondité" von Emil Zola </a></td>
+                           <td>1900-242</td>
+                           <td>sfe-1900-242__1932</td>
+                           <td>1932-12-01</td>
+                           <td>B’nai B’rith Mitteilungen für Österreich</td>
+                           <td>Ascher, Arnold</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1922-005__1922.01.html">Geleitwort [zu de Saussure, Raymond (1922): La méthode psychoanalytique]</a></td>
+                           <td>1922-005</td>
+                           <td>sfe-1922-005__1922.01</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-009__1909.html">Freud, Sigmund</a></td>
+                           <td>1905-009</td>
+                           <td>sfe-1905-009__1909</td>
+                           <td>1909-01-01</td>
                            <td>Wer ist’s? </td>
                            <td>Degener, Herrmann A. Ludwig</td>
                            <td>Leipzig</td>
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1920-002__1920.html">Zur Vorgeschichte der analytischen Technik </a></td>
-                           <td>sfe-1920-002__1920</td>
-                           <td>1920-01-01</td>
+                           <td><a href="sfe-1922-004__1922.html">Preisausschreibung</a></td>
+                           <td>1922-004</td>
+                           <td>sfe-1922-004__1922</td>
+                           <td>1922-01-01</td>
                            <td>Internationale Zeitschrift für Psychoanalyse</td>
                            <td>Freud, Sigmund</td>
                            <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1907.html">Zur Psychopathologie des Alltagslebens</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1907</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1922-005__1922.html">Préface</a></td>
+                           <td>1922-005</td>
+                           <td>sfe-1922-005__1922</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-006__1920.2.html">Jenseits des Lustprinzips</a></td>
+                           <td>1920-006</td>
+                           <td>sfe-1920-006__1920.2</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-001__1925.html">Über den Traum</a></td>
+                           <td>1901-001</td>
+                           <td>sfe-1901-001__1925</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer,
+                              A.J.</td>
+                           <td>Zürich</td>
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1905-001__1911.html">Über Psychotherapie </a></td>
-                           <td>sfe-1905-001__1911</td>
-                           <td>1911-01-01</td>
-                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-004__1924.html">Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td>sfe-1905-004__1924</td>
-                           <td>1924-01-01</td>
+                           <td><a href="sfe-1923-009__1928.html">Dr. Ferenczi Sándor</a></td>
+                           <td>1923-009</td>
+                           <td>sfe-1923-009__1928</td>
+                           <td>1928-01-01</td>
                            <td>Gesammelte Schriften von Sigm. Freud</td>
                            <td>Storfer, A.J.</td>
                            <td>Zürich</td>
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1920-002__1922.html">Zur Vorgeschichte der analytischen Technik</a></td>
-                           <td>sfe-1920-002__1922</td>
-                           <td>1922-01-01</td>
-                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Zürich</td>
+                           <td><a href="sfe-1904-006__1904.html">Rezension von: Löwenfeld, L[eopold] ›Die psychischen Zwangserscheinungen‹</a></td>
+                           <td>1904-006</td>
+                           <td>sfe-1904-006__1904</td>
+                           <td>1904-01-01</td>
+                           <td>Journal für Psychologie und Neurologie</td>
+                           <td></td>
+                           <td></td>
                            <td>complete</td>
                         </tr>
                         <tr>
+                           <td><a href="sfe-1920-001__1924.html">Über die Psychogenese eines Falles von weiblicher Homosexualität</a></td>
+                           <td>1920-001</td>
+                           <td>sfe-1920-001__1924</td>
+                           <td>1924-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
                            <td><a href="sfe-1923-006__1923.html">Die infantile Genitalorganisation</a></td>
+                           <td>1923-006</td>
                            <td>sfe-1923-006__1923</td>
                            <td>1923-01-01</td>
                            <td>Internationale Zeitschrift für Psychoanalyse</td>
@@ -1145,44 +476,18 @@
                            <td>proposed</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1905-002__1905.html">Psychische Behandlung (Seelenbehandlung) </a></td>
-                           <td>sfe-1905-002__1905</td>
-                           <td>1905-01-01</td>
-                           <td>Die Gesundheit</td>
-                           <td>Weiß, Jul.</td>
-                           <td>Leipzig</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1923-006__1926.html">Die infantile Genitalorganisation</a></td>
-                           <td>sfe-1923-006__1926</td>
-                           <td>1926-01-01</td>
-                           <td>Studien zur Psychoanalyse der Neurosen aus den Jahren 1913-1925</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Zürich</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1922-211__1922.html">Interview du Professeur Freud à Vienne</a></td>
-                           <td>sfe-1922-211__1922</td>
-                           <td>1922-03-01</td>
-                           <td>Littérature</td>
-                           <td>Soupault, Philippe</td>
-                           <td>Paris</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1902-121__1903.html">Einleitung der Diskussion "Ueber die Stellung der Frau in unserer Vereinigung"</a></td>
-                           <td>sfe-1902-121__1903</td>
-                           <td>1903-03-01</td>
-                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
-                              B’rith”</td>
-                           <td>Ehrmann, S.</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
+                           <td><a href="sfe-1922-002__1922.2.html">Über einige neurotische Mechanismen bei Eifersucht, Paranoia und Homosexualität</a></td>
+                           <td>1922-002</td>
+                           <td>sfe-1922-002__1922.2</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>progress</td>
                         </tr>
                         <tr>
                            <td><a href="sfe-1902-123__1903.html">Émile Zola </a></td>
+                           <td>1902-123</td>
                            <td>sfe-1902-123__1903</td>
                            <td>1903-03-01</td>
                            <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
@@ -1192,34 +497,8 @@
                            <td>proposed</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1900-241__1932.html">Vortrag: Das Seelenleben des Kindes [Erwähnung]</a></td>
-                           <td>sfe-1900-241__1932</td>
-                           <td>1932-12-01</td>
-                           <td>B’nai B’rith Mitteilungen für Österreich</td>
-                           <td>Ascher, Arnold</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-001__1901.html">Über den Traum</a></td>
-                           <td>sfe-1901-001__1901</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1919.html">Zur Psychopathologie des Alltagslebens</a></td>
-                           <td>sfe-1901-002__1919</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
                            <td><a href="sfe-1921-003__1928.html">Geleitwort [zu: Varendonck, Julien ›Über das vorbewusste phantasierende Denken‹]</a></td>
+                           <td>1921-003</td>
                            <td>sfe-1921-003__1928</td>
                            <td>1928-01-01</td>
                            <td>Gesammelte Schriften von Sigm. Freud</td>
@@ -1228,54 +507,30 @@
                            <td>progress</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1923-001__1923.html">Libidotheorie</a></td>
-                           <td>sfe-1923-001__1923</td>
-                           <td>1923-01-01</td>
-                           <td>Handwörterbuch der Sexualwissenschaft</td>
-                           <td>Marcuse, Max</td>
-                           <td>Bonn</td>
+                           <td><a href="sfe-1904-002__1920.html">Die Freudsche psychoanalytische Methode</a></td>
+                           <td>1904-002</td>
+                           <td>sfe-1904-002__1920</td>
+                           <td>1920-01-01</td>
+                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1922-002__1922.html">Über einige neurotische Mechanismen bei Eifersucht, Paranoia und Homosexualität</a></td>
-                           <td>sfe-1922-002__1922</td>
-                           <td>1922-01-01</td>
-                           <td>Internationale Zeitschrift für Psychoanalyse</td>
+                           <td><a href="sfe-1923-004__1923.1.html">Eine Teufelsneurose im siebzehnten Jahrhundert</a></td>
+                           <td>1923-004</td>
+                           <td>sfe-1923-004__1923.1</td>
+                           <td>1923-01-01</td>
+                           <td>Imago</td>
                            <td>Freud, Sigmund</td>
-                           <td>London</td>
+                           <td>Zürich</td>
                            <td>progress</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1904-131__1904.html">Diskussionsbeiträge [Psychologische Mittwoch-Gesellschaft]</a></td>
-                           <td>sfe-1904-131__1904</td>
-                           <td>1904-05-21</td>
-                           <td>Die Wage</td>
-                           <td>Strauss, Rudolf</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-131__1905.html">Diskussionsbeiträge [Psychologische Mittwoch-Gesellschaft]</a></td>
-                           <td>sfe-1905-131__1905</td>
-                           <td>1905-06-24</td>
-                           <td>Die Wage</td>
-                           <td>Strauss, Rudolf</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1911.html">Ein Beitrag zum Vergessen von Eigennamen</a></td>
-                           <td>sfe-1901-002__1911</td>
-                           <td></td>
-                           <td>Zentralblatt für Psychoanalyse</td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-001__1905.2.html">Über Psychotherapie</a></td>
-                           <td>sfe-1905-001__1905.2</td>
-                           <td></td>
+                           <td><a href="sfe-1905-004__1915.html">Drei Abhandlungen zur Sexualtheorie</a></td>
+                           <td>1905-004</td>
+                           <td>sfe-1905-004__1915</td>
+                           <td>1915-01-01</td>
                            <td></td>
                            <td></td>
                            <td></td>
@@ -1283,6 +538,7 @@
                         </tr>
                         <tr>
                            <td><a href="sfe-1923-007__1923.html">In Memoriam: Josef Popper-Lynkeus und die Theorie des Traumes</a></td>
+                           <td>1923-007</td>
                            <td>sfe-1923-007__1923</td>
                            <td>1923-06-01</td>
                            <td>Zeitschrift des Vereines Allgemeine Nährpflicht</td>
@@ -1291,8 +547,201 @@
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1923-009__1928.html">Dr. Ferenczi Sándor</a></td>
-                           <td>sfe-1923-009__1928</td>
+                           <td><a href="sfe-1920-132__1920.html">Diskussionsbemerkungen auf der Geschäftssitzung des 6. Internationalen Psychoanalytischen
+                                 Kongresses in Den Haag, 8.-11.9.1920</a></td>
+                           <td>1920-132</td>
+                           <td>sfe-1920-132__1920</td>
+                           <td>1920-01-01</td>
+                           <td>Internationale Zeitschrift für Psychoanalyse</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-004__1905.html">Drei Abhandlungen zur Sexualtheorie</a></td>
+                           <td>1905-004</td>
+                           <td>sfe-1905-004__1905</td>
+                           <td>1905-01-01</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-003__1921.html">Der Witz und seine Beziehung zum Unbewußten</a></td>
+                           <td>1905-003</td>
+                           <td>sfe-1905-003__1921</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1904-005__1904.html">Professor S. Hammerschlag [Nachruf]</a></td>
+                           <td>1904-005</td>
+                           <td>sfe-1904-005__1904</td>
+                           <td>1904-11-06</td>
+                           <td>Neue Freie Presse</td>
+                           <td>Bacher, Eduard</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1922.html">Zur Psychopathologie des Alltagslebens</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1922</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-002__1928.html">Psychoanalyse</a></td>
+                           <td>1923-002</td>
+                           <td>sfe-1923-002__1928</td>
+                           <td>1928-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-009__1923.1.html">Dr. Ferenczi Sándor</a></td>
+                           <td>1923-009</td>
+                           <td>sfe-1923-009__1923.1</td>
+                           <td>1923-01-01</td>
+                           <td>Internationale Zeitschrift für Psychoanalyse</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-002__1920.2.html">Zur Vorgeschichte der analytischen Technik</a></td>
+                           <td>1920-002</td>
+                           <td>sfe-1920-002__1920.2</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-006__1905.html">Stellungnahme zur Eherechtsenquete</a></td>
+                           <td>1905-006</td>
+                           <td>sfe-1905-006__1905</td>
+                           <td>1905-01-01</td>
+                           <td>Protokolle der Enquete betreffend die Reform des österreichischen Eherechts</td>
+                           <td>Kulturpolitische Gesellschaft</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-122__1902.html">Über Zufall und Aberglaube</a></td>
+                           <td>1901-122</td>
+                           <td>sfe-1901-122__1902</td>
+                           <td>1902-01-01</td>
+                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
+                              B’rith”</td>
+                           <td>B'nai B'rith</td>
+                           <td>Wien</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-211__1923.html">Une visite à Freud</a></td>
+                           <td>1923-211</td>
+                           <td>sfe-1923-211__1923</td>
+                           <td>1923-08-14</td>
+                           <td>Le Temps</td>
+                           <td>Hébrard, Emile-Adrien</td>
+                           <td>Paris</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1904-002__1922.html">Die Freudsche psychoanalytische Methode</a></td>
+                           <td>1904-002</td>
+                           <td>sfe-1904-002__1922</td>
+                           <td>1922-01-01</td>
+                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-003__1923.1.html">Bemerkungen zur Theorie und Praxis der Traumdeutung</a></td>
+                           <td>1923-003</td>
+                           <td>sfe-1923-003__1923.1</td>
+                           <td>1923-01-01</td>
+                           <td>Internationale Zeitschrift für Psychoanalyse</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1919.html">Zur Psychopathologie des Alltagslebens</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1919</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1922-007__1922.html">An die Künstler und Intellektuellen Oesterreichs</a></td>
+                           <td>1922-007</td>
+                           <td>sfe-1922-007__1922</td>
+                           <td>1922-02-03</td>
+                           <td>Neue Freie Presse</td>
+                           <td>Benedikt, Ernst</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-008__1905.html">Stellungnahme zum Fall Prof. Dr. Beer</a></td>
+                           <td>1905-008</td>
+                           <td>sfe-1905-008__1905</td>
+                           <td>1905-10-27</td>
+                           <td>Die Zeit</td>
+                           <td>Kanner, Heinrich</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1904-002__1904.html">Die Freud’sche psychoanalytische Methode</a></td>
+                           <td>1904-002</td>
+                           <td>sfe-1904-002__1904</td>
+                           <td>1904-01-01</td>
+                           <td>Die psychischen Zwangserscheinungen</td>
+                           <td></td>
+                           <td>Wiesbaden</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1904-211__1904.html">Interview: Neue Freie Presse (Morgenblatt), 6.11.1904 [Thomas, Th. ›Magnetische Menschen‹]</a></td>
+                           <td>1904-211</td>
+                           <td>sfe-1904-211__1904</td>
+                           <td>1904-02-04</td>
+                           <td>Neue Freie Presse</td>
+                           <td>Bacher, Eduard</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1923.html">Zur Psychopathologie des Alltagslebens</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1923</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-001__1928.html">Libidotheorie</a></td>
+                           <td>1923-001</td>
+                           <td>sfe-1923-001__1928</td>
                            <td>1928-01-01</td>
                            <td>Gesammelte Schriften von Sigm. Freud</td>
                            <td>Storfer, A.J.</td>
@@ -1300,61 +749,149 @@
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1920-004__1920.html">Gedankenassoziation eines vierjährigen Kindes</a></td>
-                           <td>sfe-1920-004__1920</td>
-                           <td>1920-04-01</td>
+                           <td><a href="sfe-1904-004__1904.html">Rezension von Baumgarten, Alfred ›Neurasthenie‹</a></td>
+                           <td>1904-004</td>
+                           <td>sfe-1904-004__1904</td>
+                           <td>1904-02-04</td>
+                           <td>Neue Freie Presse</td>
+                           <td>Bacher, Eduard</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-001__1922.html">Über Psychotherapie </a></td>
+                           <td>1905-001</td>
+                           <td>sfe-1905-001__1922</td>
+                           <td>1922-01-01</td>
+                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-004__1910.html">Drei Abhandlungen zur Sexualtheorie</a></td>
+                           <td>1905-004</td>
+                           <td>sfe-1905-004__1910</td>
+                           <td>1910-01-01</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-003__1912.html">Der Witz und seine Beziehung zum Unbewußten</a></td>
+                           <td>1905-003</td>
+                           <td>sfe-1905-003__1912</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-005__1925.html">Das Ich und das Es</a></td>
+                           <td>1923-005</td>
+                           <td>sfe-1923-005__1925</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-002__1926.html">Psychoanalyse</a></td>
+                           <td>1923-002</td>
+                           <td>sfe-1923-002__1926</td>
+                           <td>1926-01-01</td>
+                           <td>Handwörterbuch der Sexualwissenschaft</td>
+                           <td>Marcuse, Max</td>
+                           <td>Bonn</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1902-121__1903.html">Einleitung der Diskussion "Ueber die Stellung der Frau in unserer Vereinigung"</a></td>
+                           <td>1902-121</td>
+                           <td>sfe-1902-121__1903</td>
+                           <td>1903-03-01</td>
+                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
+                              B’rith”</td>
+                           <td>Ehrmann, S.</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-003__1920.html">Dr. Anton von Freund †</a></td>
+                           <td>1920-003</td>
+                           <td>sfe-1920-003__1920</td>
+                           <td>1920-01-01</td>
                            <td>Internationale Zeitschrift für Psychoanalyse</td>
                            <td>Freud, Sigmund</td>
                            <td>Wien</td>
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1923-101__1923.01.html">Skizze</a></td>
-                           <td>sfe-1923-101__1923.01</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-001__1931.html">Über den Traum</a></td>
-                           <td>sfe-1901-001__1931</td>
-                           <td>1931-01-02</td>
-                           <td>Kleinoktavausgabe</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-005__1909.html">Bruchstück einer Hysterie-Analyse</a></td>
-                           <td>sfe-1905-005__1909</td>
-                           <td>1909-01-01</td>
-                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1911.html">Freud, Sigmund </a></td>
-                           <td>sfe-1905-009__1911</td>
-                           <td>1911-01-01</td>
-                           <td>Wer ist’s?</td>
+                           <td><a href="sfe-1905-009__1906.html">Freud, Sigmund </a></td>
+                           <td>1905-009</td>
+                           <td>sfe-1905-009__1906</td>
+                           <td>1906-01-01</td>
+                           <td>Wer ist’s? </td>
                            <td>Degener, Herrmann A. Ludwig</td>
                            <td>Leipzig</td>
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1905-005__1912.html">Bruchstück einer Hysterie-Analyse</a></td>
-                           <td>sfe-1905-005__1912</td>
-                           <td>1912-01-01</td>
-                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td><a href="sfe-1921-002__1921.html">Preface [zu: Putnam, James J. ›Addresses on Psycho-Analysis‹]</a></td>
+                           <td>1921-002</td>
+                           <td>sfe-1921-002__1921</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-009__1905.html">Freud, Sigmund</a></td>
+                           <td>1905-009</td>
+                           <td>sfe-1905-009__1905</td>
+                           <td>1905-01-01</td>
+                           <td>Wer ist’s? </td>
+                           <td>Degener, Herrmann A. Ludwig</td>
+                           <td>Leipzig</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-002__1905.2.html">Psychische Behandlung (Seelenbehandlung) </a></td>
+                           <td>1905-002</td>
+                           <td>sfe-1905-002__1905.2</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-004__1926.html">Gedankenassozation eines vierjährigen Kindes</a></td>
+                           <td>1920-004</td>
+                           <td>sfe-1920-004__1926</td>
+                           <td>1926-01-01</td>
+                           <td>Studien zur Psychoanalyse der Neurosen aus den Jahren 1913-1925</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-003__1931.html">Bemerkungen zur Theorie und Praxis der Traumdeutung</a></td>
+                           <td>1923-003</td>
+                           <td>sfe-1923-003__1931</td>
+                           <td>1931-01-02</td>
+                           <td>Kleinoktavausgabe</td>
                            <td>Freud, Sigmund</td>
                            <td>Wien</td>
-                           <td>proposed</td>
+                           <td>progress</td>
                         </tr>
                         <tr>
                            <td><a href="sfe-1923-002__1923.html">Psychoanalyse</a></td>
+                           <td>1923-002</td>
                            <td>sfe-1923-002__1923</td>
                            <td>1923-01-01</td>
                            <td>Handwörterbuch der Sexualwissenschaft</td>
@@ -1363,8 +900,211 @@
                            <td>progress</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1923-004__1928.html">Eine Teufelsneurose im 17. Jahrhundert</a></td>
-                           <td>sfe-1923-004__1928</td>
+                           <td><a href="sfe-1923-006__1926.html">Die infantile Genitalorganisation</a></td>
+                           <td>1923-006</td>
+                           <td>sfe-1923-006__1926</td>
+                           <td>1926-01-01</td>
+                           <td>Studien zur Psychoanalyse der Neurosen aus den Jahren 1913-1925</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Zürich</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-002__1918.html">Psychische Behandlung (Seelenbehandlung)</a></td>
+                           <td>1905-002</td>
+                           <td>sfe-1905-002__1918</td>
+                           <td>1918-01-01</td>
+                           <td>Die Gesundheit</td>
+                           <td>Weiß, Jul.</td>
+                           <td>Leipzig</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1912.html">Zur Psychopathologie des Alltagslebens</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1912</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-005__1909.html">Bruchstück einer Hysterie-Analyse</a></td>
+                           <td>1905-005</td>
+                           <td>sfe-1905-005__1909</td>
+                           <td>1909-01-01</td>
+                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1904-003__1904.html">Rezension von: Bigelow, John (1903) ›The Mystery of Sleep‹</a></td>
+                           <td>1904-003</td>
+                           <td>sfe-1904-003__1904</td>
+                           <td>1904-02-04</td>
+                           <td>Neue Freie Presse</td>
+                           <td>Bacher, Eduard</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1900-241__1932.html">Vortrag: Das Seelenleben des Kindes [Erwähnung]</a></td>
+                           <td>1900-241</td>
+                           <td>sfe-1900-241__1932</td>
+                           <td>1932-12-01</td>
+                           <td>B’nai B’rith Mitteilungen für Österreich</td>
+                           <td>Ascher, Arnold</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-005__1924.html">Bruchstück einer Hysterie-Analyse</a></td>
+                           <td>1905-005</td>
+                           <td>sfe-1905-005__1924</td>
+                           <td>1924-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1922-006__1922.html">Etwas vom Unbewußten</a></td>
+                           <td>1922-006</td>
+                           <td>sfe-1922-006__1922</td>
+                           <td>1922-01-01</td>
+                           <td>Internationale Zeitschrift für Psychoanalyse</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-009__1912.html">Freud, Sigmund </a></td>
+                           <td>1905-009</td>
+                           <td>sfe-1905-009__1912</td>
+                           <td>1912-01-01</td>
+                           <td>Who’s Who in Germany</td>
+                           <td>Degener, Herrmann A. Ludwig</td>
+                           <td>Leipzig</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-007__1905.html">Rezension von: Wichmann, R[alf] ›Lebensregeln für Neurastheniker‹</a></td>
+                           <td>1905-007</td>
+                           <td>sfe-1905-007__1905</td>
+                           <td>1905-08-31</td>
+                           <td>Neue Freie Presse</td>
+                           <td>Bacher, Eduard</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-003__1924.html">Der Witz und seine Beziehung zum Unbewußten</a></td>
+                           <td>1905-003</td>
+                           <td>sfe-1905-003__1924</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1910.html">Zur Psychopathologie des Alltagslebens</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1910</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-004__1924.2.html">Eine Teufelsneurose im siebzehnten Jahrhundert</a></td>
+                           <td>1923-004</td>
+                           <td>sfe-1923-004__1924.2</td>
+                           <td>1924-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1904-002__1925.html">Die Freudsche psychoanalytische Methode</a></td>
+                           <td>1904-002</td>
+                           <td>sfe-1904-002__1925</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-003__1928.html">Dr. Anton von Freund</a></td>
+                           <td>1920-003</td>
+                           <td>sfe-1920-003__1928</td>
+                           <td>1928-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-004__1924.html">Gedankenassoziation eines vierjährigen Kindes</a></td>
+                           <td>1920-004</td>
+                           <td>sfe-1920-004__1924</td>
+                           <td>1924-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-001__1931.html">Über den Traum</a></td>
+                           <td>1901-001</td>
+                           <td>sfe-1901-001__1931</td>
+                           <td>1931-01-02</td>
+                           <td>Kleinoktavausgabe</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1900-241__1900.html">Aus dem Seelenleben der Kinder [Erwähnung]</a></td>
+                           <td>1900-241</td>
+                           <td>sfe-1900-241__1900</td>
+                           <td>1901-02-01</td>
+                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
+                              B’rith”</td>
+                           <td>Humanitätsverein "Wien" B. B.</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1922-008__1922.4.html">Was wird aus Europa?</a></td>
+                           <td>1922-008</td>
+                           <td>sfe-1922-008__1922.4</td>
+                           <td></td>
+                           <td>Luxemburger Wort für Wahrheit und Recht</td>
+                           <td></td>
+                           <td></td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-121__1902.html">Diskussion über die Ziele und Zwecke unserer Vereinigungen [Erwähnung]</a></td>
+                           <td>1901-121</td>
+                           <td>sfe-1901-121__1902</td>
+                           <td>1902-01-01</td>
+                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
+                              B’rith”</td>
+                           <td>B'nai B'rith</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1922-001__1922.2.html">Traum und Telepathie</a></td>
+                           <td>1922-001</td>
+                           <td>sfe-1922-001__1922.2</td>
                            <td></td>
                            <td></td>
                            <td></td>
@@ -1372,7 +1112,130 @@
                            <td>progress</td>
                         </tr>
                         <tr>
+                           <td><a href="sfe-1904-002__1924.html">Die Freudsche psychoanalytische Methode</a></td>
+                           <td>1904-002</td>
+                           <td>sfe-1904-002__1924</td>
+                           <td>1924-01-01</td>
+                           <td>Zur Technik der Psychoanalyse und zur Metapsychologie</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-004__1920.html">Gedankenassoziation eines vierjährigen Kindes</a></td>
+                           <td>1920-004</td>
+                           <td>sfe-1920-004__1920</td>
+                           <td>1920-04-01</td>
+                           <td>Internationale Zeitschrift für Psychoanalyse</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-002__1924.2.html">Zur Vorgeschichte der analytischen Technik </a></td>
+                           <td>1920-002</td>
+                           <td>sfe-1920-002__1924.2</td>
+                           <td>1924-01-01</td>
+                           <td>Zur Technik der Psychoanalyse und zur Metapsychologie</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-002__1920.html">Zur Vorgeschichte der analytischen Technik </a></td>
+                           <td>1920-002</td>
+                           <td>sfe-1920-002__1920</td>
+                           <td>1920-01-01</td>
+                           <td>Internationale Zeitschrift für Psychoanalyse</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1902-122__1902.html">Über Träume</a></td>
+                           <td>1902-122</td>
+                           <td>sfe-1902-122__1902</td>
+                           <td>1902-10-01</td>
+                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
+                              B’rith”</td>
+                           <td>B'nai B'rith</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1900-242__1901.html">Ueber "Fecondité" von Emil Zola </a></td>
+                           <td>1900-242</td>
+                           <td>sfe-1900-242__1901</td>
+                           <td>1901-02-01</td>
+                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
+                              B’rith”</td>
+                           <td>Humanitätsverein "Wien" B. B.</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-006__1919.html">Jenseits des Lustprinzips</a></td>
+                           <td>1920-006</td>
+                           <td>sfe-1920-006__1919</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1920.html">Zur Psychopathologie des Alltagslebens</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1920</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-004__1924.html">Eine Teufelsneurose im siebzehnten Jahrhundert</a></td>
+                           <td>1923-004</td>
+                           <td>sfe-1923-004__1924</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-001__1925.html">Über Psychotherapie</a></td>
+                           <td>1905-001</td>
+                           <td>sfe-1905-001__1925</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-003__1901.html">Freud, Sigm. [autobiographischer Artikel]</a></td>
+                           <td>1901-003</td>
+                           <td>sfe-1901-003__1901</td>
+                           <td>1901-01-01</td>
+                           <td>Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts</td>
+                           <td>Pagel, Julius Leopold</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1902-121__1933.html">Die Stellung der Frau im Rahmen unseres Vereinslebens [Erwähnung]</a></td>
+                           <td>1902-121</td>
+                           <td>sfe-1902-121__1933</td>
+                           <td>1933-01-01</td>
+                           <td>B’nai B’rith Mitteilungen für Österreich</td>
+                           <td>Ascher, Arnold</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
                            <td><a href="sfe-1904-122__1904.html">Ueber den physiologischen Schwachsinn des Weibes (Dr. Möbius)</a></td>
+                           <td>1904-122</td>
                            <td>sfe-1904-122__1904</td>
                            <td>1904-10-01</td>
                            <td>Zweimonats-Bericht für die Mitglieder der österr. israel. Humanitätsvereine "B’nai
@@ -1382,8 +1245,59 @@
                            <td>proposed</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1905-003__1921.html">Der Witz und seine Beziehung zum Unbewußten</a></td>
-                           <td>sfe-1905-003__1921</td>
+                           <td><a href="sfe-1920-002__1924.html">Zur Vorgeschichte der analytischen Technik</a></td>
+                           <td>1920-002</td>
+                           <td>sfe-1920-002__1924</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1904-121__1905.html">Hammurabi</a></td>
+                           <td>1904-121</td>
+                           <td>sfe-1904-121__1905</td>
+                           <td>1905-01-01</td>
+                           <td>Zweimonats-Bericht für die Mitglieder österr. israel. Humanitätsvereine "B’nai B’rith"</td>
+                           <td>Humanitätsverein "Wien" B. B.</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-006__1921.html">Jenseits des Lustprinzips</a></td>
+                           <td>1920-006</td>
+                           <td>sfe-1920-006__1921</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-001__1901.html">Über den Traum</a></td>
+                           <td>1901-001</td>
+                           <td>sfe-1901-001__1901</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1921-004__1921.html">Preiszuteilungen</a></td>
+                           <td>1921-004</td>
+                           <td>sfe-1921-004__1921</td>
+                           <td>1921-01-01</td>
+                           <td>Internationale Zeitschrift für Psychoanalyse</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1904.html">Zur Psychopathologie des Alltagslebens</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1904</td>
                            <td></td>
                            <td></td>
                            <td></td>
@@ -1391,17 +1305,19 @@
                            <td>proposed</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1920-001__1922.html">Über die Psychogenese eines Falles von weiblicher Homosexualität</a></td>
-                           <td>sfe-1920-001__1922</td>
-                           <td>1922-01-01</td>
+                           <td><a href="sfe-1905-001__1911.html">Über Psychotherapie </a></td>
+                           <td>1905-001</td>
+                           <td>sfe-1905-001__1911</td>
+                           <td>1911-01-01</td>
                            <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
                            <td>Freud, Sigmund</td>
-                           <td>Zürich</td>
-                           <td>progress</td>
+                           <td>Wien</td>
+                           <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1923-003__1925.html">Bemerkungen zur Theorie und Praxis der Traumdeutung</a></td>
-                           <td>sfe-1923-003__1925</td>
+                           <td><a href="sfe-1921-001__1925.html">Massenpsychologie und Ich-Analyse</a></td>
+                           <td>1921-001</td>
+                           <td>sfe-1921-001__1925</td>
                            <td>1925-01-01</td>
                            <td>Gesammelte Schriften von Sigm. Freud</td>
                            <td>Storfer, A.J.</td>
@@ -1409,26 +1325,182 @@
                            <td>progress</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1905-004__1910.html">Drei Abhandlungen zur Sexualtheorie</a></td>
-                           <td>sfe-1905-004__1910</td>
-                           <td>1910-01-01</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
+                           <td><a href="sfe-1924-005__1924.html">Der Realitätsverlust bei Neurose und Psychose</a></td>
+                           <td>1924-005</td>
+                           <td>sfe-1924-005__1924</td>
+                           <td>1924-01-01</td>
+                           <td>Internationale Zeitschrift für Psychoanalyse</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1920-004__1926.html">Gedankenassozation eines vierjährigen Kindes</a></td>
-                           <td>sfe-1920-004__1926</td>
-                           <td>1926-01-01</td>
-                           <td>Studien zur Psychoanalyse der Neurosen aus den Jahren 1913-1925</td>
+                           <td><a href="sfe-1905-009__1922.html">Freud, Sigmund</a></td>
+                           <td>1905-009</td>
+                           <td>sfe-1905-009__1922</td>
+                           <td>1922-01-01</td>
+                           <td>Wer ist’s?</td>
+                           <td>Degener, Herrmann A. Ludwig</td>
+                           <td>Leipzig</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1904-131__1904.html">Diskussionsbeiträge [Psychologische Mittwoch-Gesellschaft]</a></td>
+                           <td>1904-131</td>
+                           <td>sfe-1904-131__1904</td>
+                           <td>1904-05-21</td>
+                           <td>Die Wage</td>
+                           <td>Strauss, Rudolf</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1900-002__1898.html">Cerebrale Kinderlähmung [I] [32 Rezensionen]</a></td>
+                           <td>1900-002</td>
+                           <td>sfe-1900-002__1898</td>
+                           <td>1897-01-01</td>
+                           <td>Jahresbericht über die Leistungen und Fortschritte auf dem Gebiete der Neurologie
+                              und Psychiatrie</td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-005__1921.html">Bruchstück einer Hysterie-Analyse</a></td>
+                           <td>1905-005</td>
+                           <td>sfe-1905-005__1921</td>
+                           <td>1921-01-01</td>
+                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-121__1933.html">Über die Ziele und Zwecke der B’nai B’rith Vereinigungen [Erwähnung]</a></td>
+                           <td>1901-121</td>
+                           <td>sfe-1901-121__1933</td>
+                           <td>1933-01-01</td>
+                           <td>B’nai B’rith Mitteilungen für Österreich</td>
+                           <td>Ascher, Arnold</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-004__1924.html">Drei Abhandlungen zur Sexualtheorie</a></td>
+                           <td>1905-004</td>
+                           <td>sfe-1905-004__1924</td>
+                           <td>1924-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-001__1923.html">Libidotheorie</a></td>
+                           <td>1923-001</td>
+                           <td>sfe-1923-001__1923</td>
+                           <td>1923-01-01</td>
+                           <td>Handwörterbuch der Sexualwissenschaft</td>
+                           <td>Marcuse, Max</td>
+                           <td>Bonn</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-002__1905.html">Psychische Behandlung (Seelenbehandlung) </a></td>
+                           <td>1905-002</td>
+                           <td>sfe-1905-002__1905</td>
+                           <td>1905-01-01</td>
+                           <td>Die Gesundheit</td>
+                           <td>Weiß, Jul.</td>
+                           <td>Leipzig</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-002__1922.html">Zur Vorgeschichte der analytischen Technik</a></td>
+                           <td>1920-002</td>
+                           <td>sfe-1920-002__1922</td>
+                           <td>1922-01-01</td>
+                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
                            <td>Freud, Sigmund</td>
                            <td>Zürich</td>
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1901-002__1920.html">Zur Psychopathologie des Alltagslebens</a></td>
-                           <td>sfe-1901-002__1920</td>
+                           <td><a href="sfe-1905-131__1905.html">Diskussionsbeiträge [Psychologische Mittwoch-Gesellschaft]</a></td>
+                           <td>1905-131</td>
+                           <td>sfe-1905-131__1905</td>
+                           <td>1905-06-24</td>
+                           <td>Die Wage</td>
+                           <td>Strauss, Rudolf</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-002__1937.html">Psychische Behandlung (Seelenbehandlung) </a></td>
+                           <td>1905-002</td>
+                           <td>sfe-1905-002__1937</td>
+                           <td>1937-01-01</td>
+                           <td>Zeitschrift für psychoanalytische Pädagogik</td>
+                           <td>Zulliger, Hans</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-004__1920.html">Drei Abhandlungen zur Sexualtheorie </a></td>
+                           <td>1905-004</td>
+                           <td>sfe-1905-004__1920</td>
+                           <td>1920-07-01</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-005__1923.html">Das Ich und das Es</a></td>
+                           <td>1923-005</td>
+                           <td>sfe-1923-005__1923</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1904-002__1911.html">Die Freudsche psychoanalytische Methode</a></td>
+                           <td>1904-002</td>
+                           <td>sfe-1904-002__1911</td>
+                           <td>1911-01-01</td>
+                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-008__1923.html">Vorwort [zu: Eitingon, Max ›Bericht über die Berliner psychoanalytische Poliklinik
+                                 (März 1920 bis Juni 1922)‹]</a></td>
+                           <td>1923-008</td>
+                           <td>sfe-1923-008__1923</td>
+                           <td>1923-01-01</td>
+                           <td>Bericht über die Berliner psychoanalytische Poliklinik (März 1920 bis Juni 1922)</td>
+                           <td></td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-001__1906.html">Über Psychotherapie </a></td>
+                           <td>1905-001</td>
+                           <td>sfe-1905-001__1906</td>
+                           <td>1906-01-01</td>
+                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1901.3.html">Zur Psychopathologie des Alltagslebens. (Vergessen, Versprechen, Vergreifen) nebst
+                                 Bemerkungen über eine Wurzel des Aberglaubens</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1901.3</td>
                            <td></td>
                            <td></td>
                            <td></td>
@@ -1436,7 +1508,120 @@
                            <td>proposed</td>
                         </tr>
                         <tr>
+                           <td><a href="sfe-1905-009__1911.html">Freud, Sigmund </a></td>
+                           <td>1905-009</td>
+                           <td>sfe-1905-009__1911</td>
+                           <td>1911-01-01</td>
+                           <td>Wer ist’s?</td>
+                           <td>Degener, Herrmann A. Ludwig</td>
+                           <td>Leipzig</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1899.html">Zur Psychologie des Vergessens</a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1899</td>
+                           <td>1899-10-01</td>
+                           <td>Vierteljahrs-Bericht für die Mitglieder der österr. israel. Humanitätsvereine „B’nai
+                              B’rith”</td>
+                           <td>Humanitätsverein "Wien" B. B.</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1922-009__1922.html">Freud, Sigmund</a></td>
+                           <td>1922-009</td>
+                           <td>sfe-1922-009__1922</td>
+                           <td>1922-01-01</td>
+                           <td>Who’s Who</td>
+                           <td>Black, Charles</td>
+                           <td>London</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-005__1932.html">Bruchstück einer Hysterieanalyse</a></td>
+                           <td>1905-005</td>
+                           <td>sfe-1905-005__1932</td>
+                           <td>1932-01-01</td>
+                           <td>Kleinoktavausgabe</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1920-006__1923.html">Jenseits des Lustprinzips</a></td>
+                           <td>1920-006</td>
+                           <td>sfe-1920-006__1923</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-004__1925.html">Drei Abhandlungen zur Sexualtheorie </a></td>
+                           <td>1905-004</td>
+                           <td>sfe-1905-004__1925</td>
+                           <td>1925-01-01</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-101__1923.01.html">Skizze</a></td>
+                           <td>1923-101</td>
+                           <td>sfe-1923-101__1923.01</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-008__1928.html"> [Vorwort zu: Eitingon, Max (1923) ›Bericht über die Berliner psychoanalytische Poliklinik
+                                 (März  1920 bis Juni 1922)‹]</a></td>
+                           <td>1923-008</td>
+                           <td>sfe-1923-008__1928</td>
+                           <td>1928-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1922-211__1922.html">Interview du Professeur Freud à Vienne</a></td>
+                           <td>1922-211</td>
+                           <td>sfe-1922-211__1922</td>
+                           <td>1922-03-01</td>
+                           <td>Littérature</td>
+                           <td>Soupault, Philippe</td>
+                           <td>Paris</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1924-005__1931.html">Der Realitätsverlust bei Neurose und Psychose</a></td>
+                           <td>1924-005</td>
+                           <td>sfe-1924-005__1931</td>
+                           <td>1931-01-01</td>
+                           <td>Kleinoktavausgabe</td>
+                           <td>Freud, Sigmund</td>
+                           <td>Wien</td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-006__1924.html">Die infantile Genitalorganisation</a></td>
+                           <td>1923-006</td>
+                           <td>sfe-1923-006__1924</td>
+                           <td>1924-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
+                           <td>Zürich</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
                            <td><a href="sfe-1923-001__1926.html">Libidotheorie</a></td>
+                           <td>1923-001</td>
                            <td>sfe-1923-001__1926</td>
                            <td>1926-01-01</td>
                            <td>Handwörterbuch der Sexualwissenschaft</td>
@@ -1445,61 +1630,59 @@
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1904-002__1906.html">Die Freudsche psychoanalytische Methode</a></td>
-                           <td>sfe-1904-002__1906</td>
-                           <td>1906-01-01</td>
-                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
+                           <td><a href="sfe-1920-001__1920.html">Über die Psychogenese eines Falles von weiblicher Homosexualität</a></td>
+                           <td>1920-001</td>
+                           <td>sfe-1920-001__1920</td>
+                           <td>1920-01-01</td>
+                           <td>Internationale Zeitschrift für Psychoanalyse</td>
                            <td>Freud, Sigmund</td>
                            <td>Wien</td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1923-004__1928.html">Eine Teufelsneurose im 17. Jahrhundert</a></td>
+                           <td>1923-004</td>
+                           <td>sfe-1923-004__1928</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>progress</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1901.2.html">Zur Psychopathologie des Alltagslebens (Vergessen, Versprechen, Vergreifen) nebst
+                                 Bemerkungen über eine Wurzel des Aberglaubens. (Schluss.) </a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1901.2</td>
+                           <td>1901-02-01</td>
+                           <td>Monatsschrift für Psychiatrie und Neurologie </td>
+                           <td></td>
+                           <td>Berlin</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-009__1908.html">Freud, Sigmund</a></td>
+                           <td>1905-009</td>
+                           <td>sfe-1905-009__1908</td>
+                           <td>1908-01-01</td>
+                           <td>Wer ist’s? </td>
+                           <td>Degener, Herrmann A. Ludwig</td>
+                           <td>Leipzig</td>
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1923-004__1923.1.html">Eine Teufelsneurose im siebzehnten Jahrhundert</a></td>
-                           <td>sfe-1923-004__1923.1</td>
-                           <td>1923-01-01</td>
-                           <td>Imago</td>
-                           <td>Freud, Sigmund</td>
+                           <td><a href="sfe-1920-006__1925.html">Jenseits des Lustprinzips</a></td>
+                           <td>1920-006</td>
+                           <td>sfe-1920-006__1925</td>
+                           <td>1925-01-01</td>
+                           <td>Gesammelte Schriften von Sigm. Freud</td>
+                           <td>Storfer, A.J.</td>
                            <td>Zürich</td>
                            <td>progress</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1922-008__1922.4.html">Was wird aus Europa?</a></td>
-                           <td>sfe-1922-008__1922.4</td>
-                           <td></td>
-                           <td>Luxemburger Wort für Wahrheit und Recht</td>
-                           <td></td>
-                           <td></td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1922.html">Die Freudsche psychoanalytische Methode</a></td>
-                           <td>sfe-1904-002__1922</td>
-                           <td>1922-01-01</td>
-                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1904-002__1920.html">Die Freudsche psychoanalytische Methode</a></td>
-                           <td>sfe-1904-002__1920</td>
-                           <td>1920-01-01</td>
-                           <td>Sammlung kleiner Schriften zur Neurosenlehre</td>
-                           <td>Freud, Sigmund</td>
-                           <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1922.html">Zur Psychopathologie des Alltagslebens</a></td>
-                           <td>sfe-1901-002__1922</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>proposed</td>
-                        </tr>
-                        <tr>
                            <td><a href="sfe-1900-002__1899.html">Cerebrale Kinderlähmung [II] [29 Rezensionen und Zusammenfassungen]</a></td>
+                           <td>1900-002</td>
                            <td>sfe-1900-002__1899</td>
                            <td>1898-01-01</td>
                            <td>Jahresbericht über die Leistungen und Fortschritte auf dem Gebiete der Neurologie
@@ -1509,27 +1692,9 @@
                            <td>proposed</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1923-008__1928.html"> [Vorwort zu: Eitingon, Max (1923) ›Bericht über die Berliner psychoanalytische Poliklinik
-                                 (März  1920 bis Juni 1922)‹]</a></td>
-                           <td>sfe-1923-008__1928</td>
-                           <td>1928-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1905-009__1909.html">Freud, Sigmund</a></td>
-                           <td>sfe-1905-009__1909</td>
-                           <td>1909-01-01</td>
-                           <td>Wer ist’s? </td>
-                           <td>Degener, Herrmann A. Ludwig</td>
-                           <td>Leipzig</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-006__1923.html">Jenseits des Lustprinzips</a></td>
-                           <td>sfe-1920-006__1923</td>
+                           <td><a href="sfe-1900-001__1900.html">Die Traumdeutung</a></td>
+                           <td>1900-001</td>
+                           <td>sfe-1900-001__1900</td>
                            <td></td>
                            <td></td>
                            <td></td>
@@ -1537,58 +1702,73 @@
                            <td>progress</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1923-009__1923.1.html">Dr. Ferenczi Sándor</a></td>
-                           <td>sfe-1923-009__1923.1</td>
-                           <td>1923-01-01</td>
-                           <td>Internationale Zeitschrift für Psychoanalyse</td>
+                           <td><a href="sfe-1923-006__1931.html">Die infantile Genitalorganisation</a></td>
+                           <td>1923-006</td>
+                           <td>sfe-1923-006__1931</td>
+                           <td>1931-01-02</td>
+                           <td>Kleinoktavausgabe</td>
                            <td>Freud, Sigmund</td>
                            <td>Wien</td>
-                           <td>complete</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1901-002__1901.2.html">Zur Psychopathologie des Alltagslebens (Vergessen, Versprechen, Vergreifen) nebst
-                                 Bemerkungen über eine Wurzel des Aberglaubens. (Schluss.) </a></td>
-                           <td>sfe-1901-002__1901.2</td>
-                           <td>1901-02-01</td>
-                           <td>Monatsschrift für Psychiatrie und Neurologie </td>
-                           <td></td>
-                           <td>Berlin</td>
                            <td>proposed</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1923-004__1924.2.html">Eine Teufelsneurose im siebzehnten Jahrhundert</a></td>
-                           <td>sfe-1923-004__1924.2</td>
-                           <td>1924-01-01</td>
-                           <td>Gesammelte Schriften von Sigm. Freud</td>
-                           <td>Storfer, A.J.</td>
-                           <td>Zürich</td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1920-006__1920.2.html">Jenseits des Lustprinzips</a></td>
-                           <td>sfe-1920-006__1920.2</td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                           <td>progress</td>
-                        </tr>
-                        <tr>
-                           <td><a href="sfe-1924-005__1924.html">Der Realitätsverlust bei Neurose und Psychose</a></td>
-                           <td>sfe-1924-005__1924</td>
-                           <td>1924-01-01</td>
+                           <td><a href="sfe-1920-005__1920.html">Ergänzungen zur Traumlehre</a></td>
+                           <td>1920-005</td>
+                           <td>sfe-1920-005__1920</td>
+                           <td>1920-01-01</td>
                            <td>Internationale Zeitschrift für Psychoanalyse</td>
                            <td>Freud, Sigmund</td>
                            <td>Wien</td>
                            <td>complete</td>
                         </tr>
                         <tr>
-                           <td><a href="sfe-1904-002__1925.html">Die Freudsche psychoanalytische Methode</a></td>
-                           <td>sfe-1904-002__1925</td>
-                           <td>1925-01-01</td>
+                           <td><a href="sfe-1901-002__1924.html">Zur Psychopathologie des Alltagslebens </a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1924</td>
+                           <td>1924-01-01</td>
                            <td>Gesammelte Schriften von Sigm. Freud</td>
                            <td>Storfer, A.J.</td>
                            <td>Zürich</td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-002__1929.html">Zur Psychopathologie des Alltagslebens </a></td>
+                           <td>1901-002</td>
+                           <td>sfe-1901-002__1929</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1901-001__1911.html">Über den Traum</a></td>
+                           <td>1901-001</td>
+                           <td>sfe-1901-001__1911</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>complete</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-003__1925.html">Der Witz und seine Beziehung zum Unbewußten</a></td>
+                           <td>1905-003</td>
+                           <td>sfe-1905-003__1925</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>proposed</td>
+                        </tr>
+                        <tr>
+                           <td><a href="sfe-1905-009__1928.html">Freud, Sigmund</a></td>
+                           <td>1905-009</td>
+                           <td>sfe-1905-009__1928</td>
+                           <td>1928-01-01</td>
+                           <td>Wer ist’s?</td>
+                           <td>Degener, Herrmann A. Ludwig</td>
+                           <td>Leipzig</td>
                            <td>complete</td>
                         </tr>
                      </tbody>
@@ -1655,13 +1835,9 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="imprint.html">Impressum/Imprint</a> | <a href="https://github.com/freud-digital/frd-static"><i class="fab fa-github"></i></a></div><script>
+         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="imprint.html">Impressum/Imprint</a> | <a href="https://github.com/freud-digital/frd-static"><i class="fab fa-github"></i></a></div><script type="text/javascript">
                         $(document).ready(function () {
-                            createDataTable('tocTable');
+                            createDataTable('tocTable2', 'Suchen:', [1, 3, 7], [0, 2, 4, 5, 6], false);
                         });
-                    </script><script>
-                        $(document).ready(function () {
-                            createDataTable('tocTable2');
-                        });
-                    </script></div><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></body>
+                    </script></div><script type="text/javascript" src="js/dt-panes.js"></script></body>
 </html>
