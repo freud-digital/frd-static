@@ -31,7 +31,7 @@
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">
-                        <div class="card">
+                        <div class="card" style="font-size:14px;">
                             <div class="card-header">
                                 <h1><xsl:value-of select="$doc_title"/></h1>                                
                             </div>

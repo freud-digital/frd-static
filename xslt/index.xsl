@@ -46,7 +46,7 @@
                                         <br/>
                                         <button class="btn btn-intro" style="margin:.5em 0;">
                                             <a href="toc-ocr.html">
-                                                Alle Werke im Überblick
+                                                Alle Manifestationen im Überblick
                                             </a>
                                         </button>
                                     </div>
