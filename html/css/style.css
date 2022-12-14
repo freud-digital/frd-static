@@ -24,6 +24,10 @@ div.dataTables_filter {
     text-indent: .7em;
 }
 
+.bg-secondary {
+    background-color: transparent !important;
+}
+
 body {
     background-color: #f1f1f1 !important;
     margin: 0 !important;
