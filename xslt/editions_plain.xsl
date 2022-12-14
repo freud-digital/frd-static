@@ -181,10 +181,6 @@
                                     </div>
                                 </div>
                                 
-                                <div style="margin-top:2em;">
-                                    <xsl:call-template name="annotation-options"/>
-                                </div>
-                                
                                 <xsl:for-each select=".//tei:body/tei:div">
                                     <div class="row text-middle">
                                         <div class="col-md-6 text-re">
