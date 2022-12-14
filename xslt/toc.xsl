@@ -13,9 +13,18 @@
         <xsl:variable name="doc_title" select="'Edierte Werke'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
-            <xsl:call-template name="html_head">
-                <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
-            </xsl:call-template>
+            <head>
+                <xsl:call-template name="html_head">
+                    <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                </xsl:call-template>
+                <!-- ############### datatable ############### -->
+                <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/jszip-2.5.0/dt-1.13.1/b-2.3.3/b-colvis-2.3.3/b-html5-2.3.3/fc-4.2.1/fh-3.3.1/r-2.4.0/sp-2.1.0/sl-1.5.0/datatables.min.css"/>
+                
+                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+                <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/jszip-2.5.0/dt-1.13.1/b-2.3.3/b-colvis-2.3.3/b-html5-2.3.3/fc-4.2.1/fh-3.3.1/r-2.4.0/sp-2.1.0/sl-1.5.0/datatables.min.js"></script>
+            </head>
+            
             
             <body class="page">
                 <div class="hfeed site" id="page">
@@ -30,11 +39,12 @@
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Titel</th>
-                                            <th scope="col">Signatur</th>
+                                            <th scope="col" style="width:25%;">Titel</th>
+                                            <th scope="col" style="width:10%;">Werk #</th>
+                                            <th scope="col">Man. #</th>
                                             <th scope="col">Datum</th>
-                                            <th scope="col">Publikation</th>
-                                            <th scope="col">Herausgeber</th>
+                                            <th scope="col">Publ. Titel</th>
+                                            <th scope="col">Hrsg.</th>
                                             <th scope="col">Ort</th>
                                             <th scope="col">Status *</th>
                                         </tr>
@@ -55,6 +65,9 @@
                                                         </xsl:attribute>
                                                         <xsl:value-of select=".//tei:biblStruct[@type='guidingManifestation']/tei:*/tei:title[@type='manifestation'][1]"/>
                                                     </a>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of select="substring-after(substring-before(replace($html_name, '.html', ''), '__'), 'sfe-')"/>
                                                 </td>
                                                 <td>
                                                     <xsl:value-of select="replace($html_name, '.html', '')"/>
@@ -86,19 +99,13 @@
                     </div>
                     
                     <xsl:call-template name="html_footer"/>
-                    <script>
+                    <script type="text/javascript">
                         $(document).ready(function () {
-                            createDataTable('tocTable');
-                        });
-                    </script>
-                    <script>
-                        $(document).ready(function () {
-                            createDataTable('tocTable2');
+                            createDataTable('tocTable', 'Suchen:', [1, 3, 7], [0, 2, 4, 5, 6], false);
                         });
                     </script>
                 </div>
-                <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script>
-                <script type="text/javascript" src="js/dt.js"></script>
+                <script type="text/javascript" src="js/dt-panes.js"></script>
             </body>
         </html>
     </xsl:template>

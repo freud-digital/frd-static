@@ -41,9 +41,12 @@
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
-            <xsl:call-template name="html_head">
-                <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
-            </xsl:call-template>
+            <head>
+                <xsl:call-template name="html_head">
+                    <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                </xsl:call-template>
+            </head>
+            
             
             <body class="page" onload="createIndex()">
                 <div class="hfeed site" id="page">
@@ -51,21 +54,12 @@
                     
                     <div class="container-fluid" style="max-width:100%;">                        
                         <div class="card" data-index="true">
-                            <div class="card-header hide-reading">
+                            <div class="card-header">
                                 <div class="row">
-                                    <div class="col-md-2">
-                                        <xsl:if test="ends-with($prev,'.html')">
-                                            <h1>
-                                                <a>
-                                                    <xsl:attribute name="href">
-                                                        <xsl:value-of select="$prev"/>
-                                                    </xsl:attribute>
-                                                    <i class="fas fa-chevron-left" title="prev"/>
-                                                </a>
-                                            </h1>
-                                        </xsl:if>
+                                    <div class="col-md-3">
+                                        
                                     </div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-6">
                                         <!--<h1 align="center">
                                             <a href="toc.html">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
@@ -73,26 +67,47 @@
                                                 </svg>
                                             </a>
                                         </h1>-->
-                                        <h1 align="center">
-                                            <xsl:value-of select="$doc_title"/>
-                                        </h1>
                                         <h3 align="center">
-                                            <a href="{$teiSource}">
-                                                <i class="fas fa-download" title="show TEI source"/>
-                                            </a>
+                                            <xsl:value-of select="$doc_title"/>
                                         </h3>
                                     </div>
-                                    <div class="col-md-2" style="text-align:right">
-                                        <xsl:if test="ends-with($next, '.html')">
-                                            <h1>
-                                                <a>
-                                                    <xsl:attribute name="href">
-                                                        <xsl:value-of select="$next"/>
-                                                    </xsl:attribute>
-                                                    <i class="fas fa-chevron-right" title="next"/>
-                                                </a>
-                                            </h1>
-                                        </xsl:if>
+                                    <div class="col-md-3" style="text-align:right;">
+                                        <div class="row">
+                                            <div class="col-md-1">
+                                                <xsl:if test="ends-with($prev,'.html')">
+                                                    <h4>
+                                                        <a>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:value-of select="$prev"/>
+                                                            </xsl:attribute>
+                                                            <i class="fas fa-chevron-left" title="prev"/>
+                                                        </a>
+                                                    </h4>
+                                                </xsl:if>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <xsl:call-template name="annotation-options"/>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <h4>
+                                                    <a href="{$teiSource}">
+                                                        <i class="fas fa-download" title="show TEI source"/>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <xsl:if test="ends-with($next, '.html')">
+                                                    <h4>
+                                                        <a>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:value-of select="$next"/>
+                                                            </xsl:attribute>
+                                                            <i class="fas fa-chevron-right" title="next"/>
+                                                        </a>
+                                                    </h4>
+                                                </xsl:if>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
