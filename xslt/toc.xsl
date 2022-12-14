@@ -41,7 +41,6 @@
                                         <tr>
                                             <th scope="col" style="width:25%;">Titel</th>
                                             <th scope="col" style="width:10%;">Werk #</th>
-                                            <th scope="col">Man. #</th>
                                             <th scope="col">Datum</th>
                                             <th scope="col">Publ. Titel</th>
                                             <th scope="col">Hrsg.</th>
@@ -67,13 +66,10 @@
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select="substring-after(substring-before(replace($html_name, '.html', ''), '__'), 'sfe-')"/>
+                                                    <xsl:value-of select="substring-after(replace($html_name, '.html', ''), 'sfe-')"/>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select="replace($html_name, '.html', '')"/>
-                                                </td>
-                                                <td>
-                                                    <xsl:value-of select=".//tei:biblStruct[@type='guidingManifestation']//tei:imprint/tei:date/@when"/>
+                                                    <xsl:value-of select="tokenize(.//tei:biblStruct[@type='guidingManifestation']//tei:imprint/tei:date/@when, '-')[1]"/>
                                                 </td>
                                                 <td>
                                                     <xsl:value-of select=".//tei:biblStruct[@type='guidingManifestation']/tei:*/tei:title[@type='publication'][1]"/>
@@ -101,7 +97,7 @@
                     <xsl:call-template name="html_footer"/>
                     <script type="text/javascript">
                         $(document).ready(function () {
-                            createDataTable('tocTable', 'Suchen:', [1, 3, 7], [0, 2, 4, 5, 6], false);
+                            createDataTable('tocTable', 'Suchen:', [1, 2, 6], [0, 3, 4, 5], false);
                         });
                     </script>
                 </div>

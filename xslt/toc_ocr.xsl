@@ -73,7 +73,7 @@
                                                     <xsl:value-of select="replace($html_name, '.html', '')"/>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select=".//tei:biblStruct[@type='guidingManifestation']//tei:imprint/tei:date/@when"/>
+                                                    <xsl:value-of select="tokenize(.//tei:biblStruct[@type='guidingManifestation']//tei:imprint/tei:date/@when, '-')[1]"/>
                                                 </td>
                                                 <td>
                                                     <xsl:value-of select=".//tei:biblStruct[@type='guidingManifestation']/tei:*/tei:title[@type='publication'][1]"/>
