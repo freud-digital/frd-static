@@ -28,6 +28,11 @@ div.dataTables_filter {
     background-color: transparent !important;
 }
 
+.page-item.active .page-link {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
 body {
     background-color: #f1f1f1 !important;
     margin: 0 !important;
