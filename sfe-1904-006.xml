@@ -368,21 +368,13 @@
 
          </div>
       </body>
-   <back><list><item xml:id="frd_kw_1887">
-               <term>Neurose</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_1605">
-               <term>Libido</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_1224">
+   <back><list><item xml:id="frd_kw_1224">
                <term>Hysterie</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
                psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_134">
-               <term>Angst</term>
+            <item xml:id="frd_kw_1887">
+               <term>Neurose</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
                psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_144">
@@ -391,6 +383,14 @@
                psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_3393">
                <term>Zwangserscheinung</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_134">
+               <term>Angst</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_1605">
+               <term>Libido</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
                psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_2139">
@@ -419,16 +419,6 @@
                   <note>Neurologe; mit  der Neurologin Cécile Vogt für die gemeinsame Pionierarbeit in der lokalisatorischen Hirnforschung bekannt.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
                psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_42">
-                  <persName>
-                     <forename>August</forename>
-                     <surname>Forel</surname>
-                  </persName>
-                  <idno type="GND">https://d-nb.info/gnd/118534327</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q22530</idno>
-                  <note>(1848-1931) schweiz. Psychiater. 1879 bis 1898 Direktor der Psychiatrischen Universitätsklinik Zürich ("Burghölzli"), in dieser Funktion der Vorgänger von Eugen Bleuler.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_44">
                   <persName>
                      <forename>Hans</forename>
@@ -439,6 +429,16 @@
                   <note/>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_42">
+                  <persName>
+                     <forename>August</forename>
+                     <surname>Forel</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/118534327</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q22530</idno>
+                  <note>(1848-1931) schweiz. Psychiater. 1879 bis 1898 Direktor der Psychiatrischen Universitätsklinik Zürich ("Burghölzli"), in dieser Funktion der Vorgänger von Eugen Bleuler.</note>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
                psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
                </listPerson></back></text>
 </TEI>
