@@ -34,7 +34,7 @@
                                         <a title="Historsich Kritisch" href="toc.html" class="nav-link">Edierte Werke</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Diplomatische Umschrift" href="toc-ocr.html" class="nav-link">Alle Werke</a>
+                                        <a title="Diplomatische Umschrift" href="toc-ocr.html" class="nav-link">Alle Manifestationen</a>
                                     </li>
                                 </ul>                                
                             </li>
