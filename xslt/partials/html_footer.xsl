@@ -10,7 +10,7 @@
         <div class="wrapper fundament-default-footer hide-reading" id="wrapper-footer-full" style="margin-top: auto;">
             <div class="container" id="footer-full-content" tabindex="-1">
                 <div class="footer-separator">
-                    <i data-feather="message-circle"></i> CONTACT
+                    <i data-feather="message-circle"></i> KONTAKT
                 </div>
                 <div class="row">
                     <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto text-center">
@@ -29,14 +29,14 @@
                                 Österreichische Akademie der Wissenschaften
                             </p>
                             <p>
-                                Sonnenfelsgasse 19
+                                Bäckerstraße 13
                                 <br/>
                                 1010 Wien
                             </p>
                             <p>
                                 T: +43 1 51581-2200
                                 <br/>
-                                E: <a href="mailto:acdh@oeaw.ac.at">acdh@oeaw.ac.at</a>
+                                E: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk@oeaw.ac.at</a>
                             </p>
                         </div>
                     </div>
