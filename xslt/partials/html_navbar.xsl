@@ -47,18 +47,18 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Literaturverzeichnis" href="listbibl.html " class="nav-link">Literaturverzeichnis</a>
                                     </li>
-                                    <li class="nav-item dropdown-submenu">
+                                    <!--<li class="nav-item dropdown-submenu">
                                         <a title="Orte" href="listplace.html" class="nav-link">Orte</a>
-                                    </li>
-                                    <li class="nav-item dropdown-submenu">
+                                    </li>-->
+                                    <!--<li class="nav-item dropdown-submenu">
                                         <a title="Institutionen" href="listorg.html" class="nav-link">Institutionen</a>
-                                    </li>
+                                    </li>-->
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Schlagworte" href="listkey.html" class="nav-link">Schlagworte</a>
                                     </li>
-                                    <li class="nav-item dropdown-submenu">
+                                    <!--<li class="nav-item dropdown-submenu">
                                         <a title="Träume" href="listdream.html" class="nav-link">Träume</a>
-                                    </li>
+                                    </li>-->
                                     <!--
                                     <div class="dropdown-divider"></div>
                                     <li class="nav-item dropdown-submenu">

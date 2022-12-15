@@ -57,7 +57,14 @@
                             <div class="card-header">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        
+                                        <h4>
+                                            <a>
+                                                <xsl:attribute name="href">
+                                                    <xsl:value-of select="$prev"/>
+                                                </xsl:attribute>
+                                                <i class="fas fa-chevron-left" title="prev"/>
+                                            </a>
+                                        </h4>
                                     </div>
                                     <div class="col-md-6">
                                         <!--<h1 align="center">
@@ -75,14 +82,7 @@
                                         <div class="row">
                                             <div class="col-md-1">
                                                 <xsl:if test="ends-with($prev,'.html')">
-                                                    <h4>
-                                                        <a>
-                                                            <xsl:attribute name="href">
-                                                                <xsl:value-of select="$prev"/>
-                                                            </xsl:attribute>
-                                                            <i class="fas fa-chevron-left" title="prev"/>
-                                                        </a>
-                                                    </h4>
+                                                    
                                                 </xsl:if>
                                             </div>
                                             <div class="col-md-8">
@@ -647,36 +647,36 @@
     </xsl:template>
     <xsl:template match="tei:hi">
         <span>
-        <xsl:choose>
-            <xsl:when test="@rendition = '#em'">
-                <xsl:attribute name="class">
-                    <xsl:text>italic</xsl:text>
-                </xsl:attribute>
-            </xsl:when>
-            <xsl:when test="@rendition = '#italics'">
-                <xsl:attribute name="class">
-                    <xsl:text>italic</xsl:text>
-                </xsl:attribute>
-            </xsl:when>
-            <xsl:when test="@rendition = '#smallcaps'">
-                <xsl:attribute name="class">
-                    <xsl:text>smallcaps</xsl:text>
-                </xsl:attribute>
-            </xsl:when>
-        </xsl:choose>
+            <xsl:choose>
+                <xsl:when test="@rendition = '#em'">
+                    <xsl:attribute name="class">
+                        <xsl:text>italic</xsl:text>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rendition = '#italics'">
+                    <xsl:attribute name="class">
+                        <xsl:text>italic</xsl:text>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rendition = '#smallcaps'">
+                    <xsl:attribute name="class">
+                        <xsl:text>smallcaps</xsl:text>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="ends-with(@rendition, '#footnote-index')">
+                    <xsl:element name="a">
+                        <xsl:attribute name="name">
+                            <xsl:text>fn_anchor__</xsl:text><xsl:number level="any" format="1" count="tei:hi[ends-with(@rendition, '#footnote-index')]"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="href">
+                            <xsl:text>#fn_target__</xsl:text><xsl:number level="any" format="1" count="tei:hi[ends-with(@rendition, '#footnote-index')]"/>
+                        </xsl:attribute>
+                        <sup><xsl:value-of select="./text()"/></sup>
+                    </xsl:element>
+                </xsl:when>
+            </xsl:choose>
             <xsl:apply-templates/>
         </span>
-    </xsl:template>
-    <xsl:template match="tei:hi[ends-with(@rendition, '#footnote-index')]">
-        <xsl:element name="a">
-            <xsl:attribute name="name">
-                <xsl:text>fn_anchor__</xsl:text><xsl:number level="any" format="1" count="tei:hi[ends-with(@rendition, '#footnote-index')]"/>
-            </xsl:attribute>
-            <xsl:attribute name="href">
-                <xsl:text>#fn_target__</xsl:text><xsl:number level="any" format="1" count="tei:hi[ends-with(@rendition, '#footnote-index')]"/>
-            </xsl:attribute>
-            <sup><xsl:value-of select="./text()"/></sup>
-        </xsl:element>
     </xsl:template>
     <xsl:template match="tei:span">
         <span class="{@class}">

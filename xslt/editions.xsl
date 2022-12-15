@@ -57,7 +57,14 @@
                             <div class="card-header">
                                 <div class="row">
                                     <div class="col-md-3">
-                                       
+                                        <h4>
+                                            <a>
+                                                <xsl:attribute name="href">
+                                                    <xsl:value-of select="$prev"/>
+                                                </xsl:attribute>
+                                                <i class="fas fa-chevron-left" title="prev"/>
+                                            </a>
+                                        </h4>
                                     </div>
                                     <div class="col-md-6">
                                         <!--<h1 align="center">
@@ -75,14 +82,7 @@
                                         <div class="row">
                                             <div class="col-md-1">
                                                 <xsl:if test="ends-with($prev,'.html')">
-                                                    <h4>
-                                                        <a>
-                                                            <xsl:attribute name="href">
-                                                                <xsl:value-of select="$prev"/>
-                                                            </xsl:attribute>
-                                                            <i class="fas fa-chevron-left" title="prev"/>
-                                                        </a>
-                                                    </h4>
+                                                    
                                                 </xsl:if>
                                             </div>
                                             <div class="col-md-8">

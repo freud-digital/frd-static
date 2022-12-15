@@ -92,37 +92,6 @@
                                 </a>                                    
                             </div>
                             <div class="col-md-4">
-                                <a href="listplace.html" class="index-link">                                   
-                                    <div class="card index-card">
-                                        <!--<div class="card-body">
-                                            <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
-                                        </div>-->
-                                        <div class="card-header">                                            
-                                            <h5>
-                                                <i class="fas fa-map-marker-alt"></i> Ortsregister
-                                            </h5>                                            
-                                        </div>
-                                    </div>                                     
-                                </a>                                    
-                            </div>
-                            
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="listorg.html" class="index-link">                                   
-                                    <div class="card index-card">
-                                        <!--<div class="card-body">
-                                            <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
-                                        </div>-->
-                                        <div class="card-header">                                            
-                                            <h5>
-                                                <i class="fa fa-building"></i>  Institutionenregister
-                                            </h5>                                            
-                                        </div>
-                                    </div>                                     
-                                </a>                                    
-                            </div>
-                            <div class="col-md-4">
                                 <a href="listkey.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <!--<div class="card-body">
@@ -136,12 +105,42 @@
                                     </div>                                     
                                 </a>                                    
                             </div>
+                        </div>
+                        <!--<div class="row">
+                            <div class="col-md-4">
+                                <a href="listorg.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <!-\\-<div class="card-body">
+                                            <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
+                                        </div>-\\->
+                                        <div class="card-header">                                            
+                                            <h5>
+                                                <i class="fa fa-building"></i>  Institutionenregister
+                                            </h5>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>                                    
+                            </div>
+                            <div class="col-md-4">
+                                <a href="listplace.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <!-\-<div class="card-body">
+                                            <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
+                                        </div>-\->
+                                        <div class="card-header">                                            
+                                            <h5>
+                                                <i class="fas fa-map-marker-alt"></i> Ortsregister
+                                            </h5>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>                                    
+                            </div>
                             <div class="col-md-4">
                                 <a href="listdream.html" class="index-link">                                   
                                     <div class="card index-card">
-                                        <!--<div class="card-body">
+                                        <!-\\-<div class="card-body">
                                             <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
-                                        </div>-->
+                                        </div>-\\->
                                         <div class="card-header">                                            
                                             <h5>
                                                 <i class="fad fa-snooze"></i>  Träume Register
@@ -150,7 +149,7 @@
                                     </div>                                     
                                 </a>                                    
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <xsl:call-template name="html_footer"/>
                 </div>
