@@ -80,7 +80,7 @@ body {
 }
 
 .index-table {
-    margin: 4em auto;
+    margin: 0 auto;
 }
 
 #leaflet-map-one {
@@ -240,6 +240,7 @@ body {
 
 p {
     display: block;
+    margin-bottom: .3em !important;
 }
 
 .carousel-indicators {

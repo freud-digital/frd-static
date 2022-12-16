@@ -51,9 +51,6 @@
                     </xsl:attribute>
                 </meta>
                 <style>
-                    .container-fluid {
-                        max-width: 100%;
-                    }
                     li {
                         list-style: none;
                     }
@@ -68,19 +65,26 @@
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">
-                        
-                        <xsl:if test="contains($doc_title, 'Places') or contains($doc_title, 'Institut')">
-                            <div id="tableReload-wrapper">
-                                <svg id="tableReload" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
-                                    <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
-                                </svg>
+                        <div class="card">
+                            <div class="card-header text-center">
+                                <h4>
+                                    <xsl:value-of select="replace($doc_title, 'Freud Edition ', '')"/>
+                                </h4>
                             </div>
-                            <div id="leaflet-map-one"></div>
-                        </xsl:if>
-                        
-                        <xsl:apply-templates select="//tei:body"/>
-
+                            <div class="card-body">
+                                <xsl:if test="contains($doc_title, 'Places') or contains($doc_title, 'Institut')">
+                                    <div id="tableReload-wrapper">
+                                        <svg id="tableReload" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+                                            <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+                                        </svg>
+                                    </div>
+                                    <div id="leaflet-map-one"></div>
+                                </xsl:if>
+                                
+                                <xsl:apply-templates select="//tei:body"/>
+                            </div>
+                        </div>
                     </div><!-- .container-fluid -->
                     <xsl:call-template name="html_footer"/>
                 </div><!-- .site -->

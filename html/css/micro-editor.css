@@ -200,6 +200,7 @@ input:checked + .i-slider:before {
 
 .col-md-2 h4, .col-md-1 h4, .col-md-3 h4 {
     padding: .5em 0;
+    vertical-align: middle;
 
 }
 

@@ -18,6 +18,8 @@
     <xsl:import href="./partials/place.xsl"/>
     <xsl:import href="./partials/org.xsl"/>
     <xsl:import href="./partials/annotation-options.xsl"/>
+    <xsl:import href="./partials/body_title_nav.xsl"/>
+    <xsl:import href="./partials/editions-md.xsl"/>
 
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"/>
@@ -55,132 +57,14 @@
                     <div class="container-fluid" style="max-width:100%;">                        
                         <div class="card" data-index="true">
                             <div class="card-header">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h4>
-                                            <a>
-                                                <xsl:attribute name="href">
-                                                    <xsl:value-of select="$prev"/>
-                                                </xsl:attribute>
-                                                <i class="fas fa-chevron-left" title="prev"/>
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <!--<h1 align="center">
-                                            <a href="toc.html">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
-                                                    <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
-                                                </svg>
-                                            </a>
-                                        </h1>-->
-                                        <h3 align="center">
-                                            <xsl:value-of select="$doc_title"/>
-                                        </h3>
-                                    </div>
-                                    <div class="col-md-3" style="text-align:right;">
-                                        <div class="row">
-                                            <div class="col-md-1">
-                                                <xsl:if test="ends-with($prev,'.html')">
-                                                    
-                                                </xsl:if>
-                                            </div>
-                                            <div class="col-md-8">
-                                                <xsl:call-template name="annotation-options"/>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <h4>
-                                                    <a href="{$teiSource}">
-                                                        <i class="fas fa-download" title="show TEI source"/>
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <xsl:if test="ends-with($next, '.html')">
-                                                    <h4>
-                                                        <a>
-                                                            <xsl:attribute name="href">
-                                                                <xsl:value-of select="$next"/>
-                                                            </xsl:attribute>
-                                                            <i class="fas fa-chevron-right" title="next"/>
-                                                        </a>
-                                                    </h4>
-                                                </xsl:if>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <!--
-                                <h2>Textzeugen</h2>
-                                <ul>
-                                    <xsl:for-each select=".//tei:listWit//tei:witness">
-                                        <li>
-                                            <a>
-                                                <xsl:attribute name="href">
-                                                    <xsl:value-of select="replace(data(@xml:id), '.xml', '.html')"/>
-                                                </xsl:attribute>
-                                                <xsl:value-of select="."/>
-                                            </a>
-                                        </li>
-                                    </xsl:for-each>
-                                </ul>
-                                -->
-                                <div class="col-md-8 hide-reading" style="margin:0 auto;justify-content:center;font-style:italic;">
-                                    <h3>Über das Werk</h3>
-                                    <div style="padding-bottom:1em;">
-                                        <xsl:for-each select="//tei:notesStmt/tei:note[@type='e']">
-                                            <label><strong><xsl:value-of select="./tei:title"/></strong></label>
-                                            <xsl:for-each select="./tei:p">
-                                                <p><xsl:apply-templates/></p>
-                                            </xsl:for-each>
-                                        </xsl:for-each>
-                                    </div>
-                                    <div class="about-text-hidden fade">
-                                        <ul style="padding-bottom:1em;padding-left:0;text-align:center;">
-                                        <label><strong>Mitwirkende und Aufgabenbereiche</strong></label>
-                                            <xsl:for-each select="//tei:editionStmt/tei:respStmt">                                                
-                                                <xsl:for-each select="./tei:resp">
-                                                    <li style="list-style:none;">
-                                                        <strong><xsl:apply-templates/></strong>
-                                                    </li>
-                                                </xsl:for-each>
-                                                <xsl:for-each select="./tei:name">
-                                                    <li style="list-style:none;">
-                                                        <xsl:apply-templates/>
-                                                    </li>
-                                                </xsl:for-each>
-                                            </xsl:for-each>
-                                        </ul>
-                                        <xsl:for-each select="//tei:sourceDesc/tei:listWit">
-                                            <ul style="padding-bottom:1em;padding-left:0;">
-                                                <label><strong>Textzeugen</strong></label>                                                
-                                                <xsl:for-each select="./tei:witness">                                                    
-                                                    <li style="list-style:none;">
-                                                        <label><strong><xsl:value-of select="./tei:idno"/></strong></label>
-                                                        <xsl:value-of select="./text()[not(parent::tei:idno)]"/>
-                                                    </li>
-                                                </xsl:for-each>
-                                            </ul>
-                                        </xsl:for-each>
-                                    </div>
-                                    <div style="padding-bottom:1em;" class="about-text-hidden fade">
-                                        <label><strong>Zitiervorschlag</strong></label>
-                                        <br/>
-                                        <xsl:value-of select="//tei:titleStmt/tei:author/text()"/>: 
-                                        <xsl:value-of select="//tei:titleStmt/tei:title[@type='manifestation']/text()"/>. 
-                                        In: Andorfer, Peter; Blatow, Arkadi; Diercks, Christine; Huber, Christian; Kaufmann, Kira; Liepold, Sophie; Roedelius, Julian; Rohrwasser, Michael; Stoxreiter, Daniel (2022): 
-                                        <xsl:value-of select="//tei:titleStmt/tei:title[@type='series']/text()"/>, 
-                                        Austrian Centre for Digital Humanities and Cultural Heritage, Wien. 
-                                        [<xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>], 
-                                        <a id="citation-url" href="{document-uri(/)}"><xsl:value-of select="document-uri(/)"/></a>
-                                    </div>
-                                    <div>
-                                        <a href="#" id="show-text">mehr anzeigen</a>
-                                    </div>
-                                </div>
                                 
+                                <xsl:call-template name="body_title_nav">
+                                    <xsl:with-param name="doc_title" select="$doc_title"></xsl:with-param>
+                                </xsl:call-template>
+                                
+                                <xsl:call-template name="editions-md"/>
+                                    
+                                </div>
                                 <xsl:for-each select=".//tei:body/tei:div">
                                     <div class="row text-middle">
                                         <div class="col-md-6 text-re">
@@ -258,7 +142,7 @@
                                         </div>
                                     </div>
                                 </xsl:for-each>
-                            </div>
+                            
                         </div>                       
                     </div>
                     <xsl:for-each select=".//tei:back//tei:org[@xml:id]">
