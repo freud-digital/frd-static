@@ -408,7 +408,7 @@
     </xsl:template>
     <xsl:template match="tei:list[@type='index']">
         <div class="index-table">
-            <xsl:if test="contains(ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main'], 'Schlagworte')">
+            <xsl:if test="contains(ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main'], 'Schlagwort')">
                 <table class="table" id="listkey">
                     
                     <thead>
@@ -436,7 +436,7 @@
                     </tbody>
                 </table>
             </xsl:if>
-            <xsl:if test="contains(ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main'], 'Träume')">
+            <xsl:if test="contains(ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main'], 'Traum')">
                 <table class="table" id="listdream">
                     <thead>
                         <tr>
