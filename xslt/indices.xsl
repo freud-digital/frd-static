@@ -90,7 +90,7 @@
                 </div><!-- .site -->
                 
                 <xsl:choose>
-                    <xsl:when test="contains($doc_title, 'Persons')">
+                    <xsl:when test="contains($doc_title, 'Person')">
                         <script type="text/javascript" src="js/dt-panes.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
@@ -98,7 +98,7 @@
                             });
                         </script>
                     </xsl:when>
-                    <xsl:when test="contains($doc_title, 'Places')">
+                    <xsl:when test="contains($doc_title, 'Ort')">
                         
                         <script src="js/leaflet.js"></script>
                         <script type="text/javascript">
@@ -115,7 +115,7 @@
                             });
                         </script>
                     </xsl:when>
-                    <xsl:when test="contains($doc_title, 'Träume')">
+                    <xsl:when test="contains($doc_title, 'Traum')">
                         <script type="text/javascript" src="js/dt.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
@@ -123,7 +123,7 @@
                             });
                         </script>
                     </xsl:when>
-                    <xsl:when test="contains($doc_title, 'Schlagworte')">
+                    <xsl:when test="contains($doc_title, 'Schlagwort')">
                         <script type="text/javascript" src="js/dt.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
