@@ -5,11 +5,10 @@
             <title type="work" level="a">Freud, Sigmund (1905-001; 1905a [1904]): Über
                Psychotherapie</title>
             <title type="manifestation" level="a">Über Psychotherapie (1905-001/1925)</title>
-            <title type="series" level="s">
-            Sigmund Freud: Historisch-kritische Ausgabe (HKA)
-        </title>
+            <title type="series" level="s"> Sigmund Freud: Historisch-kritische Ausgabe (HKA) </title>
             <author ref="#p__80f26163-0581-4079-a0ce-4f2417f09b97">Freud, Sigmund</author>
-            <editor><name>Huber, Christian</name><name>Kaufmann, Kira</name><name>Rohrwasser, Michael</name></editor>
+            <editor><name>Huber, Christian</name><name>Kaufmann, Kira</name><name>Rohrwasser,
+                  Michael</name></editor>
             <funder>
                <name>FWF Der Wissenschaftsfond.</name>
                <address>
@@ -22,8 +21,41 @@
                </address>
             </funder>
          </titleStmt>
-         <editionStmt><edition>Sigmund Freud: Historisch-kritische Ausgabe (HKA)</edition><respStmt><resp>Editionsrichtlinien</resp><name>Huber, Christian</name><name>Kaufmann, Kira</name><name>Rohrwasser, Michael</name></respStmt><respStmt><resp>Diplomatische Umschrift, Lektorat</resp><name>Fuchs, Laura</name><name>Huber, Christian</name><name>Kaufmann, Kira</name><name>Liepold, Sophie</name><name>Wimmer, Philipp</name></respStmt><respStmt><resp>Kritischer Apparat</resp><name>Huber, Christian</name><name>Kaufmann, Kira</name><name>Rohrwasser, Michael</name></respStmt><respStmt><resp>Kommentar</resp><name>Huber, Christian</name><name>Kaufmann, Kira</name><name>Rohrwasser, Michael</name></respStmt><respStmt><resp>Datenexport aus Drupal und TEI Serialisierung, TEI Schema ODD und
-                technische Umsetzung der Webapplikation.</resp><name>Andorfer, Peter</name><name>Stoxreiter, Daniel</name></respStmt></editionStmt>
+         <editionStmt>
+            <edition>Sigmund Freud: Historisch-kritische Ausgabe (HKA)</edition>
+            <respStmt>
+               <resp>Editionsrichtlinien</resp>
+               <name>Huber, Christian</name>
+               <name>Kaufmann, Kira</name>
+               <name>Rohrwasser, Michael</name>
+            </respStmt>
+            <respStmt>
+               <resp>Diplomatische Umschrift, Lektorat</resp>
+               <name>Fuchs, Laura</name>
+               <name>Huber, Christian</name>
+               <name>Kaufmann, Kira</name>
+               <name>Liepold, Sophie</name>
+               <name>Wimmer, Philipp</name>
+            </respStmt>
+            <respStmt>
+               <resp>Kritischer Apparat</resp>
+               <name>Huber, Christian</name>
+               <name>Kaufmann, Kira</name>
+               <name>Rohrwasser, Michael</name>
+            </respStmt>
+            <respStmt>
+               <resp>Kommentar</resp>
+               <name>Huber, Christian</name>
+               <name>Kaufmann, Kira</name>
+               <name>Rohrwasser, Michael</name>
+            </respStmt>
+            <respStmt>
+               <resp>Datenexport aus Drupal und TEI Serialisierung, TEI Schema ODD und technische
+                  Umsetzung der Webapplikation.</resp>
+               <name>Andorfer, Peter</name>
+               <name>Stoxreiter, Daniel</name>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
@@ -303,32 +335,35 @@
                   </relatedItem>
                </biblStruct>
             </listBibl>
-            <listWit><witness xml:id="sfe-1905-001__1905.xml" corresp="#bibl-1905-001-1905">sfe-1905-001__1905.xml<idno>E</idno>: Über
-                  Psychotherapie. In: Wiener Medizinische Presse. Organ für praktische Ärzte 46, 1,
-                  1905.</witness><witness xml:id="sfe-1905-001__1905_2.xml" corresp="#bibl-1905-001-1905_2">sfe-1905-001__1905_2.xml<idno>J</idno>: Über
-                  Psychotherapie [Separatdruck]. Aus: Wiener Medizinische Presse. Organ für praktische
-                  Ärzte 46, 1, 1905.</witness><witness xml:id="sfe-1905-001__1906.xml" corresp="#bibl-1905-001-1906">sfe-1905-001__1906.xml<idno>S1</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur
-                  Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 1. Auflage. Leipzig, Wien: Deuticke 1906, S. 205-217.</witness><witness xml:id="sfe-1905-001__1911.xml" corresp="#bibl-1905-001-1911">sfe-1905-001__1911.xml<idno>S2</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur
-                  Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 2. unveränderte Auflage. Leipzig, Wien: Deuticke 1911, S.
-                  201-212.</witness><witness xml:id="sfe-1905-001__1920.xml" corresp="#bibl-1905-001-1920">sfe-1905-001__1920.xml<idno>S3</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur
-                  Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 3. unveränderte Auflage. Leipzig, Wien: Deuticke 1920, S.
-                  201-212.</witness><witness xml:id="sfe-1905-001__1922.xml" corresp="#bibl-1905-001-1922">sfe-1905-001__1922.xml<idno>S4</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund (Hg.): Sammlung kleiner Schriften zur
-                  Neurosenlehre. [Sammlung kleiner Schriften zur Neurosenlehre aus den Jahren
-                  1893-1906]. 1. Folge, 4. unveränderte Auflage, Leipzig, Wien: Franz Deuticke 1922, S.
-                  201-212.</witness><witness xml:id="sfe-1905-001__1924.xml" corresp="#bibl-1905-001-1924">sfe-1905-001__1924.xml<idno>S5</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund (Hg.): Zur Technik der Psychoanalyse und zur
-                  Metapsychologie. Leipzig, Wien, Zürich: Internationaler Psychoanalytischer Verlag
-                  1924, S. 11-24.</witness><witness xml:id="sfe-1905-001__1925.xml" corresp="#bibl-1905-001-1925">sfe-1905-001__1925.xml<idno>C</idno>: Über
-                  Psychotherapie. In: Freud, Sigmund; Freud, Anna; Storfer, A.J. (Hg.): Gesammelte
-                  Schriften von Sigm. Freud. 6. Band, Leipzig, Wien, Zürich: Internationaler
-                  Psychoanalytischer Verlag 1925, S. 11-24</witness></listWit>
+            <listWit>
+               <witness xml:id="sfe-1905-001__1905.xml" corresp="#bibl-1905-001-1905">sfe-1905-001__1905.xml<idno>E</idno>: Über Psychotherapie. In: Wiener
+                  Medizinische Presse. Organ für praktische Ärzte 46, 1, 1905.</witness>
+               <witness xml:id="sfe-1905-001__1905_2.xml" corresp="#bibl-1905-001-1905_2">sfe-1905-001__1905_2.xml<idno>J</idno>: Über Psychotherapie [Separatdruck].
+                  Aus: Wiener Medizinische Presse. Organ für praktische Ärzte 46, 1, 1905.</witness>
+               <witness xml:id="sfe-1905-001__1906.xml" corresp="#bibl-1905-001-1906">sfe-1905-001__1906.xml<idno>S1</idno>: Über Psychotherapie. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 1. Auflage. Leipzig, Wien:
+                  Deuticke 1906, S. 205-217.</witness>
+               <witness xml:id="sfe-1905-001__1911.xml" corresp="#bibl-1905-001-1911">sfe-1905-001__1911.xml<idno>S2</idno>: Über Psychotherapie. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 2. unveränderte Auflage.
+                  Leipzig, Wien: Deuticke 1911, S. 201-212.</witness>
+               <witness xml:id="sfe-1905-001__1920.xml" corresp="#bibl-1905-001-1920">sfe-1905-001__1920.xml<idno>S3</idno>: Über Psychotherapie. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 3. unveränderte Auflage.
+                  Leipzig, Wien: Deuticke 1920, S. 201-212.</witness>
+               <witness xml:id="sfe-1905-001__1922.xml" corresp="#bibl-1905-001-1922">sfe-1905-001__1922.xml<idno>S4</idno>: Über Psychotherapie. In: Freud, Sigmund
+                  (Hg.): Sammlung kleiner Schriften zur Neurosenlehre. [Sammlung kleiner Schriften
+                  zur Neurosenlehre aus den Jahren 1893-1906]. 1. Folge, 4. unveränderte Auflage,
+                  Leipzig, Wien: Franz Deuticke 1922, S. 201-212.</witness>
+               <witness xml:id="sfe-1905-001__1924.xml" corresp="#bibl-1905-001-1924">sfe-1905-001__1924.xml<idno>S5</idno>: Über Psychotherapie. In: Freud, Sigmund
+                  (Hg.): Zur Technik der Psychoanalyse und zur Metapsychologie. Leipzig, Wien,
+                  Zürich: Internationaler Psychoanalytischer Verlag 1924, S. 11-24.</witness>
+               <witness xml:id="sfe-1905-001__1925.xml" corresp="#bibl-1905-001-1925">sfe-1905-001__1925.xml<idno>C</idno>: Über Psychotherapie. In: Freud, Sigmund;
+                  Freud, Anna; Storfer, A.J. (Hg.): Gesammelte Schriften von Sigm. Freud. 6. Band,
+                  Leipzig, Wien, Zürich: Internationaler Psychoanalytischer Verlag 1925, S.
+                  11-24</witness>
+            </listWit>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -360,7 +395,12 @@
                <p>Traumregister</p>
             </prefixDef>
          </listPrefixDef>
-      <listPrefixDef><prefixDef ident="frdhka" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/$1"><p>Editionsregister</p></prefixDef></listPrefixDef></encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="frdhka" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/frd-hka/$1">
+               <p>Editionsregister</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="de">Deutsch</language>
@@ -589,26 +629,57 @@
                ausgenommen) und pflege<lb/> solche Sendungen mit dem Rate, wer auf die Hypnose
                baut,<lb/> möge sie selbst machen, zu retournieren. In Wahrheit besteht<lb/> zwischen
                der suggestiven Technik und der analytischen der größt<lb break="no"/>mögliche
-               Gegensatz, jener Gegensatz, den der große <hi rendition="#smallcaps">Leonardo<lb/> da
-                  Vinci</hi> für die Künste in die Formeln <hi rendition="#em">per via di porre</hi> und<lb/>
-               <hi rendition="#em">per via di levare</hi> gefaßt hat. Die Malerei, sagt <hi rendition="#smallcaps">Leonardo</hi>,<lb/> arbeitet <hi rendition="#em">per via di
-                  porre</hi>; sie setzt nämlich Farbenhäufchen hin,<lb/> wo sie früher nicht waren,
-               auf die nichtfarbige Leinwand; die<lb/> Skulptur dagegen geht <hi rendition="#em">per
-                  via di levare</hi> vor, sie nimmt nämlich<lb/> vom Stein so viel weg, als die
-               Oberfläche der in ihm enthaltenen<lb/> Statue noch bedeckt. Ganz ähnlich, meine
-               Herren, sucht die<lb/> Suggestivtechnik <hi rendition="#em">per via di porre</hi> zu
-               wirken, sie kümmert sich<lb/> nicht um Herkunft, Kraft und Bedeutung der
+               Gegensatz, jener Gegensatz, den der große <app>
+                  <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml"><hi rendition="#smallcaps">Leonardo<lb/> da Vinci</hi></lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml">LEONARDO DA
+                     VINCI</rdg>
+               </app>für die Künste in die Formeln <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml"><hi rendition="#em">per
+                        via di porre</hi></lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml"><hi rendition="#smallcaps">per via di porre</hi></rdg>
+               </app> und<lb/>
+               <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml"><hi rendition="#em">per
+                        via di levare</hi></lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml"><hi rendition="#smallcaps">per via di levare</hi></rdg>
+               </app> gefaßt hat. Die Malerei, sagt <app>
+                  <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml"><hi rendition="#smallcaps">Leonardo</hi></lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml">LEONARDO</rdg>
+               </app>,<lb/> arbeitet <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml"><hi rendition="#em">per
+                        via di porre</hi></lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">per via di porre</rdg>
+               </app>; sie setzt nämlich Farbenhäufchen hin,<lb/> wo sie früher nicht waren, auf die <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">nichtfarbige</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">nicht farbige</rdg>
+               </app> Leinwand; die<lb/> Skulptur dagegen geht <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml"><hi rendition="#em">per
+                        via di levare</hi></lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">per via di levare</rdg>
+               </app> vor, sie nimmt nämlich<lb/> vom Stein <app>
+                  <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">so viel</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">soviel</rdg>
+               </app> weg, als die Oberfläche der in ihm enthaltenen<lb/> Statue noch bedeckt. Ganz
+               ähnlich, meine Herren, sucht die<lb/> Suggestivtechnik <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml"><hi rendition="#em">per
+                        via di porre</hi></lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">per via di porre</rdg>
+               </app> zu wirken, sie kümmert sich<lb/> nicht um Herkunft, Kraft und Bedeutung der
                Krankheitssymptome,<lb/> sondern legt etwas auf, die Suggestion nämlich, wovon
                sie<lb/> erwartet, daß es stark genug sein wird, die pathogene Idee an<lb/> der
                Äußerung zu hindern. Die analytische Therapie dagegen will<lb/> nicht auflegen,
-               nichts Neues einführen, sondern wegnehmen,<lb/> herausschaffen und zu diesem Zwecke
+               nichts Neues einführen, sondern wegnehmen,<lb/>herausschaffen, und zu diesem Zwecke
                bekümmert sie sich um<lb/> die Genese der krankhaften Symptome und den
                psychischen<lb/> Zusammenhang der pathogenen Idee, deren Wegschaffung ihr Ziel<lb/>
-               ist. Auf diesem Wege der Forschung hat sie unserem Verständnis<lb/> sehr bedeutende
-               Förderung gebracht. Ich habe die Suggestionstechnik<lb/> und mit ihr die Hypnose so
-               frühzeitig aufgegeben, weil ich<lb/> daran verzweifelte, die Suggestion so stark und
-               so haltbar zu<lb/> machen, wie es für die dauernde Heilung notwendig wäre. In<lb/>
-               allen schweren Fällen sah ich die darauf gelegte Suggestion <pb n="6" xml:id="page__d3b8585d-eacb-4112-b965-08c3b8e07fa7"/><fw type="pageNum">16</fw>wieder abbröckeln, und dann war das Kranksein oder ein dasselbe<lb/>
+               ist. Auf diesem Wege der Forschung hat sie unserem Verständnis<lb/>
+               <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">sehr</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">so</rdg>
+               </app> bedeutende Förderung gebracht. Ich habe die Suggestionstechnik<lb/> und mit
+               ihr die Hypnose so frühzeitig aufgegeben, weil ich<lb/> daran verzweifelte, die
+               Suggestion so stark und so haltbar zu<lb/> machen, wie es für die dauernde Heilung
+               notwendig wäre. In<lb/> allen schweren Fällen sah ich die darauf gelegte Suggestion
+                  <pb n="6" xml:id="page__d3b8585d-eacb-4112-b965-08c3b8e07fa7"/><fw type="pageNum">16</fw>wieder abbröckeln, und dann war das Kranksein oder ein dasselbe<lb/>
                Ersetzendes wieder da. Außerdem mache ich dieser Technik den<lb/> Vorwurf, daß sie
                uns die Einsicht in das psychische Kräftespiel<lb/> verhüllt, z. B. uns den <hi rendition="#smallcaps">Widerstand</hi> nicht erkennen läßt, mit<lb/> dem die
                Kranken an ihrer Krankheit festhalten, mit dem sie sich<lb/> also auch gegen die
@@ -620,23 +691,30 @@
             <p><hi rendition="#em">b)</hi> Es scheint mir der Irrtum unter den Kollegen weit ver<lb break="no"/>breitet zu sein, daß die Technik der Forschung nach den Krank<lb break="no"/>heitsanlässen und die Beseitigung der Erscheinungen durch diese<lb/>
                Erforschung leicht und selbstverständlich sei. Ich schließe dies<lb/> daraus, daß
                noch keiner von den vielen, die sich für meine<lb/> Therapie interessieren und
-               sichere Urteile über dieselbe von sich<lb/> geben, mich je gefragt hat, wie ich es
-               eigentlich mache. Das<lb/> kann doch nur den einzigen Grund haben, daß sie meinen,
-               es<lb/> sei nichts zu fragen, es verstehe sich ganz von selbst. Auch höre<lb/> ich
-               mitunter mit Erstaunen, daß auf dieser oder jener Abteilung<lb/> eines Spitals ein
-               junger Arzt von seinem Chef den Auftrag<lb/> erhalten hat, bei einer Hysterischen
-               eine „Psychoanalyse“ zu<lb/> unternehmen. Ich bin überzeugt, man würde ihm nicht
-               einen<lb/> exstirpierten Tumor zur Untersuchung überlassen, ohne sich<lb/> vorher
-               versichert zu haben, daß er mit der histologischen Technik<lb/> vertraut ist. Ebenso
-               erreicht mich die Nachricht, dieser oder<lb/> jener Kollege richte sich Sprechstunden
-               mit einem Patienten<lb/> ein, um eine psychische Kur mit ihm zu machen, während
-               ich<lb/> sicher bin, daß er die Technik einer solchen Kur nicht kennt.<lb/> Er muß
-               also erwarten, daß ihm der Kranke seine Geheimnisse<lb/> entgegenbringen wird, oder
-               sucht das Heil in irgendeiner Art<lb/> von Beichte oder Anvertrauen. Es würde mich
-               nicht wundern,<lb/> wenn der so behandelte Kranke dabei eher zu Schaden als zum<lb/>
-               Vorteil käme. Das seelische Instrument ist nämlich nicht gar<lb/> leicht zu spielen.
-               Ich muß bei solchen Anlässen an die Rede<lb/> eines weltberühmten Neurotikers denken,
-               der freilich nie in der <pb n="7" xml:id="page__fc1cf226-dcb8-4251-8f20-8e308513ecae"/><fw type="pageNum">17</fw>Behandlung eines Arztes gestanden, der nur in der
+               sichere Urteile über dieselbe von sich<lb/> geben, mich <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml">je</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml">noch je</rdg>
+               </app> gefragt hat, wie ich es eigentlich mache. Das<lb/> kann doch nur den einzigen
+               Grund haben, daß sie meinen, es<lb/> sei nichts zu fragen, es <app>
+                  <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">verstehe</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml">verstünde</rdg>
+               </app> sich ganz von selbst. Auch höre<lb/> ich mitunter mit Erstaunen, daß auf
+               dieser oder jener Abteilung<lb/> eines Spitals ein junger Arzt von seinem Chef den
+               Auftrag<lb/> erhalten hat, bei einer Hysterischen eine „Psychoanalyse“ zu<lb/>
+               unternehmen. Ich bin überzeugt, man würde ihm nicht einen<lb/> exstirpierten Tumor
+               zur Untersuchung überlassen, ohne sich<lb/> vorher versichert zu haben, daß er mit
+               der histologischen Technik<lb/> vertraut ist. Ebenso erreicht mich die Nachricht,
+               dieser oder<lb/> jener Kollege richte sich Sprechstunden mit einem Patienten<lb/>
+               ein, um eine psychische Kur mit ihm zu machen, während ich<lb/> sicher bin, daß er
+               die Technik einer solchen Kur nicht kennt.<lb/> Er muß also erwarten, daß ihm der
+               Kranke seine Geheimnisse<lb/> entgegenbringen wird, oder sucht das Heil in <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">irgendeiner</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">irgend einer</rdg>
+               </app> Art<lb/> von Beichte oder Anvertrauen. Es würde mich nicht wundern,<lb/> wenn
+               der so behandelte Kranke dabei eher zu Schaden als zum<lb/> Vorteil käme. Das
+               seelische Instrument ist nämlich nicht gar<lb/> leicht zu spielen. Ich muß bei
+               solchen Anlässen an die Rede<lb/> eines weltberühmten Neurotikers denken, der
+               freilich nie in der <pb n="7" xml:id="page__fc1cf226-dcb8-4251-8f20-8e308513ecae"/><fw type="pageNum">17</fw>Behandlung eines Arztes gestanden, der nur in der
                Phantasie<lb/> eines Dichters gelebt hat. Ich meine den Prinzen <hi rendition="#smallcaps">Hamlet</hi> von<lb/> Dänemark. Der König hat die beiden
                Höflinge Rosenkranz und<lb/> Güldenstern über ihn geschickt, um ihn auszuforschen,
                ihm das<lb/> Geheimnis seiner Verstimmung zu entreißen. Er wehrt sie ab;<lb/> da
@@ -648,28 +726,42 @@
                   dringen; ihr<lb/> wollt mich von meiner tiefsten Note bis zum Gipfel meiner<lb/>
                   Stimme hinauf prüfen, und in diesem kleinen Instrument hier<lb/> ist viel Musik,
                   eine vortreffliche Stimme, dennoch könnt ihr es<lb/> nicht zum Sprechen bringen.
-                     <hi rendition="#smallcaps">Wetter, denkt ihr, daß ich<lb/> leichter zu spielen
-                     bin, als eine Flöte? Nennt mich<lb/> was für ein Instrument ihr wollt, ihr
-                     könnt mich<lb/> zwar verstimmen, aber nicht auf mir spielen</hi>.</quote>“<lb/>
-               (III. Akt, 2.)</p>
+                     <hi rendition="#smallcaps">Wetter, denkt ihr, daß ich<lb/> leichter zu spielen <app>
+                        <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">bin,</lem>
+                        <rdg wit="#sfe-1905-001__1905.xml #sfe-1905-001__1905.2.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml">bin</rdg>
+                     </app> als eine Flöte? Nennt mich<lb/> was für ein Instrument ihr wollt, ihr
+                     könnt mich<lb/> zwar verstimmen, aber nicht auf mir </hi>.<app>
+                     <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml"><hi rendition="#smallcaps">spielen</hi>.“</lem>
+                     <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml"><hi rendition="#smallcaps">spielen</hi>“</rdg>
+                  </app></quote>“<lb/> (III. Akt,<app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">2.)</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml"> 2.).</rdg>
+                  <rdg wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">2).</rdg>
+               </app></p>
 
 
 
             <p><hi rendition="#em">c)</hi> Sie werden aus gewissen meiner Bemerkungen erraten<lb/>
                haben, daß der analytischen Kur manche Eigenschaften anhaften,<lb/> die sie von dem
-               Ideal einer Therapie ferne halten. <hi rendition="#em">Tuto, cito,</hi><lb/>
-               <hi rendition="#em">iucunde</hi>; das Forschen und Suchen deutet nicht eben auf
-               Raschheit<lb/> des Erfolges, und die Erwähnung des Widerstandes bereitet Sie<lb/> auf
-               die Erwartung von Unannehmlichkeiten vor. Gewiß, die<lb/> psychoanalytische
-               Behandlung stellt an den Kranken wie an den<lb/> Arzt hohe Ansprüche; von ersterem
-               verlangt sie das Opfer voller<lb/> Aufrichtigkeit, gestaltet sich für ihn zeitraubend
-               und daher auch<lb/> kostspielig; für den Arzt ist sie gleichfalls zeitraubend und
-               wegen<lb/> der Technik, die er zu erlernen und auszuüben hat, ziemlich<lb/> mühselig.
-               Ich finde es auch selbst ganz berechtigt, daß man<lb/> bequemere Heilmethoden in
-               Anwendung bringt, so lange man <pb n="8" xml:id="page__5441cd37-8ef4-4f8c-992f-cea9d59f1ffe"/><fw type="pageNum">18</fw>eben die Aussicht hat, mit diesen letzteren etwas zu erreichen.<lb/> Auf
-               diesen Punkt kommt es allein an; erzielt man mit dem<lb/> mühevolleren und
-               langwierigeren Verfahren erheblich mehr als<lb/> mit dem kurzen und leichten, so ist
-               das erstere trotz alledem<lb/> gerechtfertigt. Denken Sie, meine Herren, um wieviel die<lb/>
+               Ideal einer Therapie ferne halten. <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml"><hi rendition="#em">Tuto, cito,</hi><lb/>
+                     <hi rendition="#em">iucunde</hi></lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">Tuto, cito, incunde</rdg>
+               </app>; das Forschen und Suchen deutet nicht eben auf Raschheit<lb/> des Erfolges,
+               und die Erwähnung des Widerstandes bereitet Sie<lb/> auf die Erwartung von
+               Unannehmlichkeiten vor. Gewiß, die<lb/> psychoanalytische Behandlung stellt an den
+               Kranken wie an den<lb/> Arzt hohe Ansprüche; von ersterem verlangt sie das Opfer
+               voller<lb/> Aufrichtigkeit, gestaltet sich für ihn zeitraubend und daher auch<lb/>
+               kostspielig; für den Arzt ist sie gleichfalls zeitraubend und wegen<lb/> der Technik,
+               die er zu erlernen und auszuüben hat, ziemlich<lb/> mühselig. Ich finde es auch
+               selbst ganz berechtigt, daß man<lb/> bequemere Heilmethoden in Anwendung bringt, <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">so lange</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">solange</rdg>
+               </app> man <pb n="8" xml:id="page__5441cd37-8ef4-4f8c-992f-cea9d59f1ffe"/><fw type="pageNum">18</fw>eben die Aussicht hat, mit diesen letzteren etwas zu
+               erreichen.<lb/> Auf diesen Punkt kommt es allein an; erzielt man mit dem<lb/>
+               mühevolleren und langwierigeren Verfahren erheblich mehr als<lb/> mit dem kurzen und
+               leichten, so ist das erstere trotz alledem<lb/> gerechtfertigt. Denken Sie, meine
+               Herren, um wieviel die<lb/>
                <hi rendition="#smallcaps">Finsen</hi>therapie des Lupus unbequemer und kostspieliger
                ist als<lb/> das früher gebräuchliche Ätzen und Schaben, und doch bedeutet<lb/> es
                einen großen Fortschritt, bloß weil es mehr leistet; es heilt<lb/> nämlich den Lupus
@@ -685,37 +777,68 @@
                an dauernd existenzunfähigen<lb/> Kranken und für solche geschaffen worden, und ihr
                Triumph<lb/> ist es, daß sie eine befriedigende Anzahl von solchen dauernd<lb/>
                existenzfähig macht. Gegen diesen Erfolg erscheint dann aller Auf<lb break="no"/>wand
-               geringfügig. Wir können uns nicht verhehlen, daß wir vor<lb/> dem Kranken zu
-               verleugnen pflegen, daß eine schwere Neurose in<lb/> ihrer Bedeutung für das ihr
-               unterworfene Individuum hinter keiner<lb/> Kachexie, keinem der gefürchteten
-               Allgemeinleiden zurücksteht.</p>
+               geringfügig. Wir können uns nicht verhehlen, <app>
+                  <lem wit="#sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">daß</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml">was</rdg>
+               </app> wir vor<lb/>
+               <app>
+                  <lem wit="#sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">dem</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml">den</rdg>
+               </app> Kranken zu verleugnen pflegen, daß eine schwere Neurose in<lb/> ihrer
+               Bedeutung für das ihr unterworfene Individuum hinter keiner<lb/> Kachexie, keinem der
+               gefürchteten <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml">Allgemeinleiden</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml">Allgemeinleiden,</rdg>
+               </app>zurücksteht.</p>
 
 
 
             <p><hi rendition="#em">d)</hi> Die Indikationen und Gegenanzeigen dieser Behandlung
                sind<lb/> infolge der vielen praktischen Beschränkungen, die meine Tätigkeit<lb/>
-               betroffen haben, kaum endgültig anzugeben. Indes will ich ver<lb break="no"/>suchen,
-               einige Punkte mit Ihnen zu erörtern:</p>
-            <p>1) Man übersehe nicht über die Krankheit den sonstigen<lb/> Wert einer Person und
+               betroffen haben, kaum <app>
+                  <lem wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">endgültig</lem>
+                  <rdg wit="#sfe-1905-001__1906.xml">endgiltig</rdg>
+               </app> anzugeben. Indes will ich ver<lb break="no"/>suchen, einige Punkte mit Ihnen
+               zu erörtern:</p>
+            <p><app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">1)</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">1.</rdg>
+               </app> Man übersehe nicht über die Krankheit den sonstigen<lb/> Wert einer Person und
                weise Kranke zurück, welche nicht einen <pb n="9" xml:id="page__848540a1-e3e4-4b30-a9ab-2004caf1859c"/><fw type="pageNum">19</fw>gewissen Bildungsgrad und einen einigermaßen verläßlichen<lb/> Charakter
                besitzen. Man darf nicht vergessen, daß es auch Gesunde<lb/> gibt, die nichts taugen,
                und daß man nur allzu leicht geneigt<lb/> ist, bei solchen minderwertigen Personen
                alles, was sie existenz<lb break="no"/>unfähig macht, auf die Krankheit zu schieben,
-               wenn sie irgend<lb break="no"/>einen Anflug von Neurose zeigen. Ich stehe auf dem
-               Standpunkt,<lb/> daß die Neurose ihren Träger keineswegs zum <hi rendition="#em">dégéneré</hi> stempelt,<lb/> daß sie sich aber häufig genug mit den Erscheinungen
-               der<lb/> Degeneration vergesellschaftet an demselben Individuum findet.<lb/> Die
-               analytische Psychotherapie ist nun kein Verfahren zur<lb/> Behandlung der
-               neuropathischen Degeneration, sie findet im Gegen<lb break="no"/>teil an derselben
-               ihre Schranke. Sie ist auch bei Personen nicht<lb/> anwendbar, die sich nicht selbst
-               durch ihre Leiden zur Therapie<lb/> gedrängt fühlen, sondern sich einer solchen nur
-               infolge des<lb/> Machtgebotes ihrer Angehörigen unterziehen. Die Eigenschaft,<lb/>
-               auf die es für die Brauchbarkeit zur psychoanalytischen Behandlung<lb/> ankommt, die
-               Erziehbarkeit, werden wir noch von einem anderen<lb/> Gesichtspunkte würdigen
-               müssen.</p>
+               wenn sie <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">irgend<lb break="no"/>einen</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">irgend einen</rdg>
+               </app> Anflug von Neurose zeigen. Ich stehe auf dem <app>
+                  <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Standpunkt</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml">Standunkt</rdg>
+               </app>,<lb/> daß die Neurose ihren Träger keineswegs zum <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml"><hi rendition="#em">dégéneré</hi></lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">Dégéneré</rdg>
+               </app> stempelt,<lb/> daß sie sich aber häufig genug mit den Erscheinungen der<lb/>
+               Degeneration vergesellschaftet an demselben Individuum findet.<lb/> Die analytische
+               Psychotherapie ist nun kein Verfahren zur<lb/> Behandlung der neuropathischen
+               Degeneration, sie findet im <app>
+                  <lem wit="#sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Gegen<lb break="no"/>teil</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml">Gegenteile</rdg>
+               </app> an derselben ihre Schranke. Sie
+               ist auch bei Personen nicht<lb/> anwendbar, die sich nicht selbst durch ihre Leiden
+               zur Therapie<lb/> gedrängt fühlen, sondern sich einer solchen nur infolge des<lb/>
+               Machtgebotes ihrer Angehörigen unterziehen. Die Eigenschaft,<lb/> auf die es für die
+               Brauchbarkeit zur psychoanalytischen Behandlung<lb/> ankommt, die Erziehbarkeit,
+               werden wir noch von einem <app>
+                  <lem wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">anderen</lem>
+                  <rdg wit="#sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">andern</rdg>
+               </app><lb/> Gesichtspunkte würdigen müssen.</p>
 
 
 
-            <p>2) Wenn man sicher gehen will, beschränke man seine Aus<lb break="no"/>wahl auf
+            <p><app>
+               <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">2)</lem>
+               <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">2.</rdg>
+            </app> Wenn man sicher gehen will, beschränke man seine Aus<lb break="no"/>wahl auf
                Personen, die einen Normalzustand haben, da man sich<lb/> im psychoanalytischen
                Verfahren von diesem aus des Krankhaften<lb/> bemächtigt. Psychosen, Zustände von
                Verworrenheit und tief<lb break="no"/>greifender (ich möchte sagen: toxischer)
@@ -724,22 +847,46 @@
                daß<lb/> man bei geeigneter Abänderung des Verfahrens sich über diese<lb/>
                Gegenindikation hinaussetzen und so eine Psychotherapie der<lb/> Psychosen in Angriff
                nehmen könne.</p>
-            <p>3) Das Alter der Kranken spielt bei der Auswahl zur psycho<lb break="no"/>analytischen Behandlung insofern eine Rolle, als bei Personen<lb/> nahe an oder
-               über fünfzig Jahre einerseits die Plastizität der<lb/> seelischen Vorgänge zu fehlen
+            <p><app>
+               <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">3)</lem>
+               <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">3.</rdg>
+            </app> Das Alter der Kranken spielt bei der Auswahl zur psycho<lb break="no"/>analytischen Behandlung <app>
+               <lem wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">insofern</lem>
+               <rdg wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml">insoferne</rdg>
+            </app> eine Rolle, als bei Personen<lb/> nahe an oder
+               über <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">fünfzig</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">50</rdg>
+               </app> Jahre einerseits die Plastizität der<lb/> seelischen Vorgänge zu fehlen
                pflegt, auf welche die Therapie<lb/> rechnet — alte Leute sind nicht mehr erziehbar —
-               und als <pb n="10" xml:id="page__bff729d4-43c7-41be-a6b5-e64c42bed6fb"/><fw type="pageNum">20</fw>anderseits das Material, welches durchzuarbeiten ist,
+               und als <pb n="10" xml:id="page__bff729d4-43c7-41be-a6b5-e64c42bed6fb"/><fw type="pageNum">20</fw><app>
+                     <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">anderseits</lem>
+                     <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml">andrerseits</rdg>
+                  </app> das Material, welches durchzuarbeiten ist,
                die<lb/> Behandlungsdauer ins Unabsehbare verlängert. Die Altersgrenze<lb/> nach
                unten ist nur individuell zu bestimmen; jugendliche<lb/> Personen noch vor der
                Pubertät sind oft ausgezeichnet zu<lb/> beeinflussen.</p>
 
 
 
-            <p>4) Man wird nicht zur Psychoanalyse greifen, wenn es sich<lb/> um die rasche
-               Beseitigung drohender Erscheinungen handelt,<lb/> also zum Beispiel bei einer
+            <p><app>
+               <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">4)</lem>
+               <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">4.</rdg>
+            </app> Man wird nicht zur Psychoanalyse greifen, wenn es sich<lb/> um die rasche
+               Beseitigung drohender Erscheinungen handelt,<lb/> also <app>
+                  <lem wit="#sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">zum Beispiel</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml">z. B.</rdg>
+               </app> bei einer
                hysterischen Anorexie.</p>
             <p>Sie werden nun den Eindruck gewonnen haben, daß das<lb/> Anwendungsgebiet der
                analytischen Psychotherapie ein sehr<lb/> beschränktes ist, da Sie eigentlich nichts
-               anderes als Gegen<lb break="no"/>anzeigen von mir gehört haben. Nichtsdestoweniger
+               <app>
+                  <lem wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">anderes</lem>
+                  <rdg wit="#sfe-1905-001__1906.xml">anders</rdg>
+               </app> als Gegen<lb break="no"/>anzeigen von mir gehört haben. <app>
+                  <lem wit="#sfe-1905-001__1906.xml #sfe-1905-001__1911.xml #sfe-1905-001__1920.xml #sfe-1905-001__1922.xml #sfe-1905-001__1924.xml #sfe-1905-001__1925.xml">Nichtsdestoweniger</lem>
+                  <rdg wit="#sfe-1905-001__1905.2.xml #sfe-1905-001__1905.xml">Nichsdestoweniger</rdg>
+               </app>
                bleiben Fälle<lb/> und Krankheitsformen genug übrig, an denen diese Therapie<lb/>
                sich erproben kann, alle chronischen Formen von Hysterie mit<lb/> Resterscheinungen,
                das große Gebiet der Zwangszustände und<lb/> Abulien und dergleichen.</p>
