@@ -482,7 +482,7 @@
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Bewußtsein</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">Bewusstsein</rdg>
                </app> gelangten psychischen Vorgängen stehe, also eine Umwandlung<lb/>
-               („Konversion“) der letzteren darstelle. Die therapeutische Wirk<lb break="no"/>samkeit ihres Verfahrens erklärten sie sich aus der <rs type="keyword" ref="frd_kw_9">Abfuhr</rs> des<lb/> bis dahin gleichsam „eingeklemmten“ Affektes,
+               („Konversion“) der letzteren darstelle. Die therapeutische Wirk<lb break="no"/>samkeit ihres Verfahrens erklärten sie sich aus der <rs type="keyword" ref="#frd_kw_9">Abfuhr</rs> des<lb/> bis dahin gleichsam „eingeklemmten“ Affektes,
                der an den unter<lb break="no"/>drückten seelischen Aktionen gehaftet hatte
                („Abreagieren“). Das<lb/> einfache Schema des therapeutischen<app>
                   <lem wit="#sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Eingriffes</lem>
@@ -593,12 +593,12 @@
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">lassen,</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">lassen</rdg>
                </app> „wie man es etwa in<lb/> einem <app>
-                  <lem wit="#sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml"><rs type="keyword" ref="frd_kw_3416">Gespräche</rs></lem>
+                  <lem wit="#sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml"><rs type="keyword" ref="#frd_kw_3416">Gespräche</rs></lem>
                   <rdg wit="#sfe-1904-002__1904.xml #sfe-1904-002__1906.xml">Gespräch</rdg>
                </app> tut, bei welchem man aus dem Hundertsten in<lb/> das Tausendste <app>
                   <lem wit="#sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">gerät.“</lem>
                   <rdg wit="#sfe-1904-002__1904.xml #sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml">gerät“.</rdg>
-               </app> Er schärft ihnen, ehe er sie zur detaillierten<lb/> Erzählung ihrer <rs type="keyword" ref="frd_kw_1468">Krankengeschichte</rs> auffordert, ein, alles mit
+               </app> Er schärft ihnen, ehe er sie zur detaillierten<lb/> Erzählung ihrer <rs type="keyword" ref="#frd_kw_1468">Krankengeschichte</rs> auffordert, ein, alles mit
                zu<lb/> sagen, was ihnen dabei durch den Kopf geht, auch wenn sie <pb n="4" xml:id="page__5b8b2c55-7ea3-4d51-b989-112dedc3d064"/><fw type="pageNum">6</fw>meinen, es sei unwichtig, oder es gehöre nicht dazu, oder es sei<lb/>
                unsinnig. Mit besonderem <app>
                   <lem wit="#sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">Nachdrucke</lem>
@@ -622,7 +622,7 @@
                </app><lb/> zeitliche Beziehungen verwirrt oder Kausalzusammenhänge zer<lb break="no"/>rissen worden sind, so <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">daß</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">dass</rdg>
-               </app> sich unbegreifliche Effekte ergeben.<lb/> Ohne <rs type="keyword" ref="frd_kw_112">Amnesie</rs> irgend einer Art gibt es keine neurotische
+               </app> sich unbegreifliche Effekte ergeben.<lb/> Ohne <rs type="keyword" ref="#frd_kw_112">Amnesie</rs> irgend einer Art gibt es keine neurotische
                   Kranken<lb break="no"/>geschichte. Drängt man den Erzählenden, diese Lücken
                seines<lb/> Gedächtnisses durch angestrengte Arbeit der Aufmerksamkeit aus<lb break="no"/>zufüllen, so merkt man, <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">daß</lem>
@@ -805,7 +805,7 @@
                   <rdg wit="#sfe-1904-002__1904.xml">abgesehen</rdg>
                </app> das nämliche für alle Symptombilder der vielgestaltigen<lb/>
                <rs type="keyword" ref="#frd_kw_1224">Hysterie</rs> und ebenso für alle Ausbildungen
-               der <rs type="keyword" ref="frd_kw_3397">Zwangsneurose</rs>.<lb/> Von einer
+               der <rs type="keyword" ref="#frd_kw_3397">Zwangsneurose</rs>.<lb/> Von einer
                unbeschränkten Anwendbarkeit desselben ist aber keine<lb/> Rede. Die Natur der <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">psychoanalytischen</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">psycho-analytischen</rdg>
@@ -846,7 +846,7 @@
                soll, sind mehrfache Forderungen zu stellen. Sie <app>
                   <lem wit="#sfe-1904-002__1906.xml #sfe-1904-002__1911.xml #sfe-1904-002__1920.xml #sfe-1904-002__1922.xml #sfe-1904-002__1924.xml #sfe-1904-002__1925.xml">muß</lem>
                   <rdg wit="#sfe-1904-002__1904.xml">muss</rdg>
-               </app><lb/> erstens eines psychischen <rs type="keyword" ref="frd_kw_3419">Normalzustandes</rs> fähig sein; in Zeiten<lb/> der Verworrenheit oder
+               </app><lb/> erstens eines psychischen <rs type="keyword" ref="#frd_kw_3419">Normalzustandes</rs> fähig sein; in Zeiten<lb/> der Verworrenheit oder
                melancholischer Depression ist auch bei<lb/> einer Hysterie nichts auszurichten. Man
                darf ferner ein gewisses<lb/>
                <app>
@@ -914,99 +914,88 @@
             </p>
          </div>
       </body>
-   <back><list><item xml:id="frd_kw_1468">
-               <term>Krankengeschichte</term>
+   <back><list><item xml:id="frd_kw_3417">
+               <term>Deutungskunst</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_766">
-               <term>Erzählung</term>
+            <item xml:id="frd_kw_1219">
+               <term>Hypnose</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2643">
-               <term>Symptom</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3416">
-               <term>Gespräch</term>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_1983">
+               <term>Passionnelle Phase</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_3415">
                <term>Kathartisches Verfahren</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2113">
-               <term>Psychoanalyse</term>
+            <item xml:id="frd_kw_2913">
+               <term>Unbewußtes</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_2750">
                <term>Traum</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_1224">
-               <term>Hysterie</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_1983">
-               <term>Passionnelle Phase</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3417">
-               <term>Deutungskunst</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_9">
-               <term>Abfuhr</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_658">
-               <term>Entstellung</term>
+            <item xml:id="frd_kw_1468">
+               <term>Krankengeschichte</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_3419">
                <term>Normalzustand</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_1219">
-               <term>Hypnose</term>
+            <item xml:id="frd_kw_112">
+               <term>Amnesie</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3235">
-               <term>Widerstand</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2631">
-               <term>Suggestion</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3028">
-               <term>Verdrängung</term>
+            <item xml:id="frd_kw_658">
+               <term>Entstellung</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_3397">
                <term>Zwangsneurose</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_112">
-               <term>Amnesie</term>
+            <item xml:id="frd_kw_1224">
+               <term>Hysterie</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2913">
-               <term>Unbewußtes</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            </list><listPerson><person xml:id="frd_person_44">
-                  <persName>
-                     <forename>Hans</forename>
-                     <surname>Kurella</surname>
-                  </persName>
-                  <idno type="GND">https://d-nb.info/gnd/116616105</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q101822</idno>
-                  <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_41">
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2113">
+               <term>Psychoanalyse</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3235">
+               <term>Widerstand</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2643">
+               <term>Symptom</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_9">
+               <term>Abfuhr</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3028">
+               <term>Verdrängung</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3416">
+               <term>Gespräch</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2631">
+               <term>Suggestion</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_766">
+               <term>Erzählung</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            </list><listPerson><person xml:id="frd_person_41">
                   <persName>
                      <forename>Leopold</forename>
                      <surname>Löwenfeld</surname>
@@ -1018,6 +1007,17 @@
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
                psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
                psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_44">
+                  <persName>
+                     <forename>Hans</forename>
+                     <surname>Kurella</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116616105</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q101822</idno>
+                  <note/>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_40">
                   <persName>
                      <forename>Josef</forename>
@@ -1028,7 +1028,26 @@
                   <note>(1842-1925), österr. Arzt und Physiologe, veröffentl. gem. mit Freud u.a. Studien über Hysterie.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></person>
-               </listPerson><listBibl><biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
+               </listPerson><listBibl><biblStruct type="book" xml:id="zotero__7XC58JJ2" corresp="http://zotero.org/groups/4690432/items/7XC58JJ2">
+          <monogr>
+            <title level="m">Über den Traum</title>
+            <author>
+              <forename>Sigmund</forename>
+              <surname>Freud</surname>
+            </author>
+            <imprint>
+              <pubPlace>Wiesbaden</pubPlace>
+              <publisher>J. F. Bergmann</publisher>
+              <date>1901</date>
+            </imprint>
+          </monogr>
+          <series>
+            <title level="s">Grenzfragen des Nerven- und Seelenlebens</title>
+            <biblScope unit="volume">8</biblScope>
+          </series>
+        <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
+        <biblStruct type="book" xml:id="zotero__V9N337QB" corresp="http://zotero.org/groups/4690432/items/V9N337QB">
           <monogr>
             <title level="m">Studien über Hysterie</title>
             <idno type="callNumber">I-176203</idno>
@@ -1048,25 +1067,6 @@
               <note type="url">http://phaidra.univie.ac.at/o:350215</note>
             </imprint>
           </monogr>
-        <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
-        <biblStruct type="book" xml:id="zotero__7XC58JJ2" corresp="http://zotero.org/groups/4690432/items/7XC58JJ2">
-          <monogr>
-            <title level="m">Über den Traum</title>
-            <author>
-              <forename>Sigmund</forename>
-              <surname>Freud</surname>
-            </author>
-            <imprint>
-              <pubPlace>Wiesbaden</pubPlace>
-              <publisher>J. F. Bergmann</publisher>
-              <date>1901</date>
-            </imprint>
-          </monogr>
-          <series>
-            <title level="s">Grenzfragen des Nerven- und Seelenlebens</title>
-            <biblScope unit="volume">8</biblScope>
-          </series>
         <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></biblStruct>
         </listBibl></back></text>

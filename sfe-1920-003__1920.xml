@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://freud-digital.github.io/frd-static" xml:id="sfe-1920-003__1920.xml" prev="https://freud-digital.github.io/frd-static/sfe-1920-002__1924.xml" next="https://freud-digital.github.io/frd-static/sfe-1920-003__1928.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://freud-digital.github.io/frd-static" xml:id="sfe-1920-003__1920.xml" prev="https://freud-digital.github.io/frd-static/sfe-1920-002__1931.xml" next="https://freud-digital.github.io/frd-static/sfe-1920-003__1928.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -217,8 +217,8 @@ Buch aus <material>Papier</material> in Druckschrift .                          
         <language ident="de">Deutsch</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc status="complete">
-      <change who="#dstoxreiter" when="2022-12-13">Der Status 'complete' entspricht einer abgeschlossenen Korrektur der diplomatischen Umschrift.</change>
+    <revisionDesc status="progress">
+      <change who="#dstoxreiter" when="2022-12-19">Der Status 'progress' entspricht einer noch nicht abgeschlossenen Korrektur der diplomatischen Umschrift.</change>
     </revisionDesc>
   </teiHeader>
   <text>

@@ -192,7 +192,7 @@
             </item>
             <item xml:id="frd_kw_54">
                <term>Affekt</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_50">
                <term>Affektaufwand</term>
             </item>
@@ -651,7 +651,7 @@
             </item>
             <item xml:id="frd_kw_202">
                <term>Arzt</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_203">
                <term>Asexualität</term>
             </item>
@@ -930,7 +930,7 @@
             </item>
             <item xml:id="frd_kw_295">
                <term>Beichte</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_296">
                <term>Beißen</term>
             </item>
@@ -1603,7 +1603,7 @@
             </item>
             <item xml:id="frd_kw_519">
                <term>Dichter</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_520">
                <term>Dichtung</term>
             </item>
@@ -1636,7 +1636,7 @@
             </item>
             <item xml:id="frd_kw_530">
                <term>Disposition</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_531">
                <term>Dispositionshysterie</term>
             </item>
@@ -3478,13 +3478,13 @@
             </item>
             <item xml:id="frd_kw_1136">
                <term>Heilmethode</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1141">
                <term>Heilsarmee</term>
             </item>
             <item xml:id="frd_kw_1137">
                <term>Heilung</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1138">
                <term>Heilungsversuch</term>
             </item>
@@ -3689,7 +3689,7 @@
             <item xml:id="frd_kw_1219">
                <term>Hypnose</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1220">
                <term>Hypnotiseur</term>
             </item>
@@ -3706,7 +3706,7 @@
                <term>Hysterie</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
                (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1225">
                <term>Hysteriker</term>
             </item>
@@ -3880,7 +3880,7 @@
             </item>
             <item xml:id="frd_kw_1271">
                <term>Instrument</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1272">
                <term>Integration</term>
             </item>
@@ -3976,7 +3976,7 @@
             </item>
             <item xml:id="frd_kw_1302">
                <term>Irrtum</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1304">
                <term>Ischias</term>
             </item>
@@ -4114,7 +4114,7 @@
             </item>
             <item xml:id="frd_kw_3418">
                <term>kathartische Methode</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1349">
                <term>Kathartische Wirkung</term>
             </item>
@@ -4433,7 +4433,7 @@
             </item>
             <item xml:id="frd_kw_1453">
                <term>Konversion</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1454">
                <term>Konversionswahl</term>
             </item>
@@ -4482,7 +4482,7 @@
             </item>
             <item xml:id="frd_kw_1467">
                <term>Kranker</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1470">
                <term>Krankheit</term>
             </item>
@@ -4638,7 +4638,7 @@
             </item>
             <item xml:id="frd_kw_1546">
                <term>Kunst</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1547">
                <term>Kunstgenuß</term>
             </item>
@@ -4848,7 +4848,7 @@
             </item>
             <item xml:id="frd_kw_1592">
                <term>Leid</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1593">
                <term>Leidensquelle</term>
             </item>
@@ -5227,7 +5227,7 @@
             </item>
             <item xml:id="frd_kw_1715">
                <term>Medizin</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1716">
                <term>Melancholie</term>
             </item>
@@ -5398,7 +5398,7 @@
             </item>
             <item xml:id="frd_kw_1772">
                <term>Moral</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1773">
                <term>Moralisierende Therapie</term>
             </item>
@@ -5741,7 +5741,7 @@
             <item xml:id="frd_kw_1887">
                <term>Neurose</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1888">
                <term>Neurosenart</term>
             </item>
@@ -5756,7 +5756,7 @@
             </item>
             <item xml:id="frd_kw_1892">
                <term>Neurotiker</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_1893">
                <term>Neutralisierung</term>
             </item>
@@ -6196,7 +6196,7 @@
             </item>
             <item xml:id="frd_kw_2038">
                <term>Physik</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_2039">
                <term>Physiologie</term>
             </item>
@@ -6421,7 +6421,7 @@
             </item>
             <item xml:id="frd_kw_3422">
                <term>psychisch</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_2111">
                <term>Psychischer Apparat</term>
             </item>
@@ -6431,7 +6431,7 @@
             <item xml:id="frd_kw_2113">
                <term>Psychoanalyse</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_2114">
                <term>Psychoanalytiker</term>
             </item>
@@ -6510,7 +6510,7 @@
             <item xml:id="frd_kw_2139">
                <term>Psychoneurose</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Rezension von: Löwenfeld, L[eopold] ›Die
-               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event></listEvent></item>
+               psychischen Zwangserscheinungen‹ (1904-006/1904)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-006.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_2140">
                <term>Psychopathologie</term>
             </item>
@@ -6528,7 +6528,7 @@
             </item>
             <item xml:id="frd_kw_2145">
                <term>Psychotherapie</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_2146">
                <term>Psychotiker</term>
             </item>
@@ -7395,7 +7395,7 @@
             </item>
             <item xml:id="frd_kw_2434">
                <term>Seelisch</term>
-            </item>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_3423">
                <term>seelischer Vorgang</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
@@ -7960,7 +7960,7 @@
             <item xml:id="frd_kw_2631">
                <term>Suggestion</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_2632">
                <term>Suggestive Beeinflussung</term>
             </item>
@@ -7994,7 +7994,7 @@
             <item xml:id="frd_kw_2643">
                <term>Symptom</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_2648">
                <term>Symptomatik</term>
             </item>
@@ -9663,7 +9663,7 @@
             <item xml:id="frd_kw_3235">
                <term>Widerstand</term>
             <listEvent><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
             <item xml:id="frd_kw_3236">
                <term>Wiederbelebung</term>
             </item>
