@@ -7,7 +7,15 @@ const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
                 port: '443',
                 protocol: 'https'
             }
-        ]
+        ],
+        // apiKey: "xyz", // Be sure to use an API key that only allows searches, in production
+        // nodes: [
+        //   {
+        //     host: "0.0.0.0",
+        //     port: "8108",
+        //     protocol: "http",
+        //   },
+        // ],
     },
     // The following parameters are directly passed to Typesense's search API endpoint.
     //  So you can pass any parameters supported by the search endpoint below.
@@ -47,7 +55,7 @@ search.addWidgets([
             empty: 'Keine Ergebnisse',
             item: 
                 `
-                    <h4><a href="{{ id }}.html">{{ title }}</a></h4>
+                    <h4><a href="{{ id }}">{{ title }}</a></h4>
                     <p style="overflow:hidden;max-height:210px;">{{#helpers.snippet}}{ "attribute": "full_text" }{{/helpers.snippet}}</p>
                     <h5><span class="badge badge-primary">{{ project }}</span></h5>
                     <div>
@@ -55,11 +63,6 @@ search.addWidgets([
                             {{#persons}}
                             <span class="badge badge-secondary">{{ . }}</span>
                             {{/persons}}
-                        </div>
-                        <div>
-                            {{#works}}
-                            <span class="badge badge-success">{{ . }}</span>
-                            {{/works}}
                         </div>
                         <div>
                             {{#keywords}}
@@ -130,22 +133,22 @@ search.addWidgets([
         }
     }),
 
-    instantsearch.widgets.refinementList({
-        container: '#refinement-list-works',
-        attribute: 'works',
-        searchable: true,
-        searchablePlaceholder: 'Suche',
-        cssClasses: {
-            searchableInput: 'form-control form-control-sm mb-2 border-light-2',
-            searchableSubmit: 'd-none',
-            searchableReset: 'd-none',
-            showMore: 'btn btn-secondary btn-sm align-content-center',
-            list: 'list-unstyled',
-            count: 'badge ml-2 badge-success',
-            label: 'd-flex align-items-center text-capitalize',
-            checkbox: 'mr-2',
-        }
-    }),
+    // instantsearch.widgets.refinementList({
+    //     container: '#refinement-list-works',
+    //     attribute: 'works',
+    //     searchable: true,
+    //     searchablePlaceholder: 'Suche',
+    //     cssClasses: {
+    //         searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+    //         searchableSubmit: 'd-none',
+    //         searchableReset: 'd-none',
+    //         showMore: 'btn btn-secondary btn-sm align-content-center',
+    //         list: 'list-unstyled',
+    //         count: 'badge ml-2 badge-success',
+    //         label: 'd-flex align-items-center text-capitalize',
+    //         checkbox: 'mr-2',
+    //     }
+    // }),
     
     instantsearch.widgets.rangeInput({
         container: "#range-input",
