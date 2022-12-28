@@ -16,7 +16,7 @@
             <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
         </xsl:variable>
         <xsl:choose>
-            <xsl:when test="contains($doc_title, 'Persons')">
+            <xsl:when test="contains($doc_title, 'Personenregister')">
                 <xsl:for-each select="//tei:person">
                     <xsl:variable name="doc_url" select="concat(@xml:id, '.html')"/>
                     <xsl:result-document href="{$doc_url}">
@@ -187,7 +187,7 @@
                     </xsl:result-document>
                 </xsl:for-each>
             </xsl:when>
-            <xsl:when test="contains($doc_title, 'Places')">
+            <xsl:when test="contains($doc_title, 'Ortsregister')">
                 <xsl:for-each select="//tei:place">
                     <xsl:variable name="doc_url" select="concat(@xml:id, '.html')"/>
                     <xsl:result-document href="{$doc_url}">
@@ -350,7 +350,7 @@
                     </xsl:result-document>
                 </xsl:for-each>
             </xsl:when>
-            <xsl:when test="contains($doc_title, 'Literaturverzeichnis')">
+            <xsl:when test="contains($doc_title, 'Literatur')">
                 <xsl:for-each select="//tei:biblStruct">
                     <xsl:variable name="doc_url" select="concat(@xml:id, '.html')"/>
                     <xsl:result-document href="{$doc_url}">
@@ -661,7 +661,7 @@
                     </xsl:result-document>
                 </xsl:for-each>
             </xsl:when>
-            <xsl:when test="contains($doc_title, 'Träume')">
+            <xsl:when test="contains($doc_title, 'Traum')">
                 <xsl:for-each select="//tei:item">
                     <xsl:variable name="doc_url" select="concat(@xml:id, '.html')"/>
                     <xsl:result-document href="{$doc_url}">
