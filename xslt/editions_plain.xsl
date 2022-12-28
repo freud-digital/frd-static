@@ -517,7 +517,7 @@
                 
             </xsl:when>
             <xsl:otherwise>
-                <br class="break" style="display:none;"/>
+                <br class="break" id="page-{@n}" style="display:none;"/>
                 <br class="break" style="display:none;"/>
             </xsl:otherwise>
         </xsl:choose>
