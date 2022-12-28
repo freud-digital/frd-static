@@ -94,9 +94,9 @@
                             </div>
                             <div class="card-footer">
                                 <ul style="list-style:none;">
-                                    <li>* complete = Abgeschlossene Korrektur der diplomatischen Umschrift.</li>
-                                    <li>* progress = Nicht abgeschlossene Korrektur der diplomatischen Umschrift.</li>
-                                    <li>* proposed = Keine Korrektur der diplomatischen Umschrift.</li>
+                                    <li>* complete = Abgeschlossene Korrektur der OCR Umschrift.</li>
+                                    <li>* progress = Nicht abgeschlossene Korrektur der OCR Umschrift.</li>
+                                    <li>* proposed = Keine Korrektur der OCR Umschrift.</li>
                                 </ul>
                             </div>
                         </div>
