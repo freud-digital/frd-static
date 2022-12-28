@@ -38,8 +38,10 @@
                                         <div id="refinement-list-persons"></div>
                                         <h4>Schlagworte</h4>
                                         <div id="refinement-list-keywords"></div>
+                                        <!--
                                         <h4>Werke</h4>
                                         <div id="refinement-list-works"></div>
+                                        -->
                                         <h4>Jahr</h4>
                                         <div id="range-input"></div>
                                     </div>
