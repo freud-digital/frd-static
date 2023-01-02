@@ -14,7 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>search</String>
+                                        <String>toc-ocr</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -70,7 +70,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/critical/sfe-1904-002.xml</String>
+                                    <String>data/editions/plain/sfe-1901-003__1901.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -90,7 +90,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/plain/sfe-1901-003__1901.xml</String>
+                                    <String>data/editions/critical/sfe-1904-002.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

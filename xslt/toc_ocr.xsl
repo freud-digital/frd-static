@@ -46,6 +46,8 @@
                                             <th scope="col">Publ. Titel</th>
                                             <th scope="col">Hrsg.</th>
                                             <th scope="col">Ort</th>
+                                            <th scope="col">Dok.-Typ</th>
+                                            <th scope="col">Man.-Typ</th>
                                             <th scope="col">Status *</th>
                                         </tr>
                                     </thead>
@@ -85,6 +87,12 @@
                                                     <xsl:value-of select=".//tei:biblStruct[@type='guidingManifestation']//tei:imprint/tei:pubPlace"/>
                                                 </td>
                                                 <td>
+                                                    <xsl:value-of select=".//tei:notesStmt/tei:note[@type='doc_component']"/>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of select=".//tei:notesStmt/tei:note[@type='man_type']"/>
+                                                </td>
+                                                <td>
                                                     <xsl:value-of select=".//tei:revisionDesc/@status"/>
                                                 </td>
                                             </tr>
@@ -96,7 +104,6 @@
                                 <ul style="list-style:none;">
                                     <li>* complete = Abgeschlossene Korrektur der OCR Umschrift.</li>
                                     <li>* progress = Nicht abgeschlossene Korrektur der OCR Umschrift.</li>
-                                    <li>* proposed = Keine Korrektur der OCR Umschrift.</li>
                                 </ul>
                             </div>
                         </div>
@@ -105,7 +112,7 @@
                     <xsl:call-template name="html_footer"/>
                     <script type="text/javascript">
                         $(document).ready(function () {
-                            createDataTable('tocTable2', 'Suchen:', [1, 3, 7], [0, 2, 4, 5, 6], false);
+                            createDataTable('tocTable2', 'Suchen:', [1, 3, 7, 8 ,9], [0, 2, 4, 5, 6], false);
                         });
                     </script>
                 </div>
