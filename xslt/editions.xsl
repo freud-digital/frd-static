@@ -514,7 +514,8 @@
     <xsl:template match="tei:pb">
         <xsl:choose>
             <xsl:when test="preceding-sibling::tei:lb[1][@break]">
-                
+                <br class="break" id="page-{@n}" style="display:none;"/>
+                <br class="break" style="display:none;"/>
             </xsl:when>
             <xsl:otherwise>
                 <br class="break" id="page-{@n}" style="display:none;"/>
