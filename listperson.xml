@@ -810,7 +810,7 @@
                </person>
                <person xml:id="frd_person_57">
                   <persName>
-                     <forename>Anna</forename>
+                     <forename>Anna Bonus</forename>
                      <surname>Kingsford</surname>
                   </persName>
                   <idno type="GND">https://d-nb.info/gnd/118562231</idno>
@@ -1007,7 +1007,398 @@
                      <surname>Giessler</surname>
                   </persName>
                   <idno type="GND">https://d-nb.info/gnd/101683995</idno>
+                  <note>(auch Gießler)</note>
+               </person>
+               <person xml:id="frd_person_84">
+                  <persName>
+                     <forename>Adelbert von</forename>
+                     <surname>Gleichen-Rußwurm</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/139570047</idno>
                   <note/>
+               </person>
+               <person xml:id="frd_person_85">
+                  <persName>
+                     <forename>Paul</forename>
+                     <surname>Graffunder</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116819952</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_86">
+                  <persName>
+                     <forename>Eugène</forename>
+                     <surname>Gley</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/102714908</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_87">
+                  <persName>
+                     <forename>Edmond</forename>
+                     <surname>Goblot</surname>
+                  </persName>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_88">
+                  <persName>
+                     <forename>Frederick</forename>
+                     <surname>Greenwood</surname>
+                  </persName>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_89">
+                  <persName>
+                     <forename>George Milbry</forename>
+                     <surname>Gould</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/1055233482</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_90">
+                  <persName>
+                     <forename>Wilhelm</forename>
+                     <surname>Griesinger</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/11854215X</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_91">
+                  <persName>
+                     <forename>Nikolaj Jakovlevič</forename>
+                     <surname>Grot</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116873973</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_92">
+                  <persName>
+                     <forename>Josep Miquel</forename>
+                     <surname>Guàrdia Bagur</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/1055181660</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_93">
+                  <persName>
+                     <forename>Ina</forename>
+                     <surname>Gutfeldt</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116931868</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_94">
+                  <persName>
+                     <forename>Paul Leopold</forename>
+                     <surname>Haffner</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116370262</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_95">
+                  <persName>
+                     <forename>Florence</forename>
+                     <surname>Hallam</surname>
+                  </persName>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_96">
+                  <persName>
+                     <forename>Sarah</forename>
+                     <surname>Weed</surname>
+                  </persName>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_97">
+                  <persName>
+                     <forename>Theodor</forename>
+                     <surname>Hampe</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116444797</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_98">
+                  <persName>
+                     <forename>Friedrich</forename>
+                     <surname>Heerwagen</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/12749877X</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_99">
+                  <persName>
+                     <forename>Justus Christian</forename>
+                     <surname>Hennings</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116717025</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_100">
+                  <persName>
+                     <forename>Wilhelm</forename>
+                     <surname>Henzen</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/119242559</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_101">
+                  <persName>
+                     <forename>Léon d'</forename>
+                     <surname>Hervey de Saint-Denys</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/120315505</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_102">
+                  <persName>
+                     <forename>Friedrich Wilhelm</forename>
+                     <surname>Hildebrandt</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116803967</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_103">
+                  <persName>
+                     <forename/>
+                     <surname>Friedrich Hitschmann</surname>
+                  </persName>
+                  <birth>
+                     <date when="1866">1866</date>
+                  </birth>
+                  <death>
+                     <date when-iso="1894">1894</date>
+                  </death>
+                  <note>Erblindete nach eigenen Angaben im Alter von 3 Jahren. Er besuchte ab 1878 das Israelitische Blinden-Institut zur Hohen Warte in Wien unter der Leitung von Simon Heller. Prägte den Begriff der "Surrogatvorstellungen" .(https://www.hitschmann.net/friedrich_hitschmann)</note>
+               </person>
+               <person xml:id="frd_person_104">
+                  <persName>
+                     <forename/>
+                     <surname>Hippocrates</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/11855140X</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_105">
+                  <persName>
+                     <forename>Joseph</forename>
+                     <surname>Jastrow</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/1055123873</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_106">
+                  <persName>
+                     <forename>Karl Wilhelm</forename>
+                     <surname>Ideler</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/118555316</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_107">
+                  <persName>
+                     <forename/>
+                     <surname>Jean Paul</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/118557211</idno>
+                  <note>Eig. 	Richter, Jean Paul Friedrich</note>
+               </person>
+               <person xml:id="frd_person_108">
+                  <persName>
+                     <forename>Julius</forename>
+                     <surname>Jensen</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/117104450</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_109">
+                  <persName>
+                     <forename>Peter Willers</forename>
+                     <surname>Jessen</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/124906737</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_110">
+                  <persName>
+                     <forename>Friedrich</forename>
+                     <surname>Jodl</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/119305429</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_111">
+                  <persName>
+                     <forename>Immanuel</forename>
+                     <surname>Kant</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/118559796</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_112">
+                  <persName>
+                     <forename>Julius H. von</forename>
+                     <surname>Kirchmann</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/118841726</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_113">
+                  <persName>
+                     <forename>F.</forename>
+                     <surname>Kloepfel</surname>
+                  </persName>
+                  <note>nicht identifiziert; schreibt über "Täumerei und Traum. Allerlei aus unserem Traumleben" in der Familienzeitschrift "Universum" (15. Jg, 1899)</note>
+               </person>
+               <person xml:id="frd_person_114">
+                  <persName>
+                     <forename>Oldřich</forename>
+                     <surname>Kramář</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/1037862201</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_115">
+                  <persName>
+                     <forename>Emil von</forename>
+                     <surname>Krasnicki</surname>
+                  </persName>
+                  <note>nicht identifiziert; berichtet von Wahrtraum Karls IV. (Psychische Studien, 24. Jg. 1897, Heft 12, Dezember, S. 697-701)</note>
+               </person>
+               <person xml:id="frd_person_116">
+                  <persName>
+                     <forename>August</forename>
+                     <surname>Krauss</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/128452730</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_117">
+                  <persName>
+                     <forename>Eduard</forename>
+                     <surname>Kučera</surname>
+                  </persName>
+                  <note>nicht identifiziert; Werke in onb</note>
+               </person>
+               <person xml:id="frd_person_118">
+                  <persName>
+                     <forename>George Trumbull</forename>
+                     <surname>Ladd</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116643641</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_119">
+                  <persName>
+                     <forename>Ludwig</forename>
+                     <surname>Laistner</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116648163</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_120">
+                  <persName>
+                     <forename>M.</forename>
+                     <surname>Landau</surname>
+                  </persName>
+                  <note>Dr. M. Landau. Nicht identifiziert.</note>
+               </person>
+               <person xml:id="frd_person_121">
+                  <persName>
+                     <forename>Charles</forename>
+                     <surname>Lasègue</surname>
+                  </persName>
+                  <note>Auch Ernest-Charles Lasègue; nicht auf lobid-gnd</note>
+               </person>
+               <person xml:id="frd_person_122">
+                  <persName>
+                     <forename>Georges</forename>
+                     <surname>Saint-Paul</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/1055370560</idno>
+                  <note>Veröffentlichte unter dem Pseudonym Dr. Laupts (sowie Espé de Metz, G.)</note>
+               </person>
+               <person xml:id="frd_person_123">
+                  <persName>
+                     <forename>Maximilian</forename>
+                     <surname>Leidesdorf</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/117626546</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_124">
+                  <persName>
+                     <forename>Jacques</forename>
+                     <surname>Le Lorrain</surname>
+                  </persName>
+                  <birth>
+                     <date when="1856">1856</date>
+                  </birth>
+                  <death>
+                     <date when-iso="1904">1904</date>
+                  </death>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_125">
+                  <persName>
+                     <forename> Louis-François</forename>
+                     <surname>Lélut</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/117635189</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_126">
+                  <persName>
+                     <forename>Albert</forename>
+                     <surname>Lemoine</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/173243142</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_127">
+                  <persName>
+                     <forename>Matthäus Franz</forename>
+                     <surname>Lerch</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/1157549411</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_128">
+                  <persName>
+                     <forename>Ambroise-Auguste</forename>
+                     <surname>Liébeault</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/117671673</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_129">
+                  <persName>
+                     <forename>Theodor</forename>
+                     <surname>Lipps</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/117057436</idno>
+                  <note/>
+               </person>
+               <person xml:id="frd_person_130">
+                  <persName>
+                     <forename>Leopoldine</forename>
+                     <surname>Luksch</surname>
+                  </persName>
+                  <note>Keine näheren Angaben gefunden. Zu Leopoldine Luksch, eine Österreicherin vgl. Psychische Studien 1917: http://dl.ub.uni-freiburg.de/diglit/psychische_studien1917/0093?sid=6720834936d3f2f837475f2536cdd3d1</note>
+               </person>
+               <person xml:id="frd_person_131">
+                  <persName>
+                     <forename>Maurice-Martin-Antonin</forename>
+                     <surname>Macario</surname>
+                  </persName>
+                  <birth>
+                     <date when="1811">1811</date>
+                  </birth>
+                  <death>
+                     <date when-iso="1898">1898</date>
+                  </death>
+                  <note>Nicht auf lobid-gnd, wohl aber hier
+https://data.bnf.fr/en/10697717/maurice_macario/
+https://www.histoiredelafolie.fr/psychiatrie-neurologie/maurice-macario-des-reves-consideres-sous-le-rapport-physiologique-et-pathologique-partie-2-reves-pathologiques-extrait-des-annales-medico-psychologiques-paris-tome-i</note>
                </person>
             </listPerson>
          </div>

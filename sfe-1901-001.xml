@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://freud-digital.github.io/frd-static" xml:id="sfe-1901-001.xml" next="https://freud-digital.github.io/frd-static/sfe-1904-002.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://freud-digital.github.io/frd-static" xml:id="sfe-1901-001.xml" prev="https://freud-digital.github.io/frd-static/sfe-1900-001.xml" next="https://freud-digital.github.io/frd-static/sfe-1904-002.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -605,7 +605,7 @@
                   <lem wit="#sfe-1901-001__1911.xml #sfe-1901-001__1921.xml #sfe-1901-001__1925.xml #sfe-1901-001__1931.xml">folgendermaßen</lem>
                   <rdg wit="#sfe-1901-001__1901.xml">folgendermassen</rdg>
                </app>:</p>
-            <p>„<hi rendition="#em">Eine Gesellschaft, Tisch oder Table d’hôte<note type="e" resp="#kkaufmann"><term>Table d’hôte</term><term/>Gasthaustafel mit
+            <p>„<hi rendition="#em">Eine Gesellschaft, Tisch oder Table d’hôte<note type="e" resp="#kkaufmann"><term>Table d’hôte</term>Gasthaustafel mit
                      festgelegtem Menü, im Gegensatz zu à la carte. Vgl. SFs Brief an Martha Freud,
                      Riva, 5.9.1900: <quote>„u im nahe gelegenen [Hotel] Mahlzeiten an der Tabel des
                         Todes, wie ich sie reichlicher u besser, leichter u appetitlicher nirgends
@@ -4473,7 +4473,154 @@
                erschienen. (Ges. Schriften, Bd. II und III.)</note>
          </div>
       </body>
-   <back><listPerson><person xml:id="frd_person_55">
+   <back><list><item xml:id="frd_kw_2768">
+               <term>Trauminhalt</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2223">
+               <term>Reiz</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3188">
+               <term>Wahrnehmung</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3425">
+               <term>Gedächntnis</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3421">
+               <term>Wachen</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2750">
+               <term>Traum</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
+               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2485">
+               <term>Sinn</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_54">
+               <term>Affekt</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3426">
+               <term>physiologisch</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3428">
+               <term>Deutungsmethode</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3420">
+               <term>mythologisch</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_949">
+               <term>Gehirn</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3414">
+               <term>Traumerreger</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_687">
+               <term>Erinnerung</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_513">
+               <term>Deutung</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2769">
+               <term>Traumleben</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2339">
+               <term>Schlaf</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_1832">
+               <term>Mythologie</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3423">
+               <term>seelischer Vorgang</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_1808">
+               <term>Musik</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2842">
+               <term>Träumer</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3257">
+               <term>Wissenschaft</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3422">
+               <term>psychisch</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2429">
+               <term>Seelenleben</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3424">
+               <term>biologisch</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2138">
+               <term>Psychologie</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_3427">
+               <term>Volksmeinung</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2636">
+               <term>Symbol</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            <item xml:id="frd_kw_2772">
+               <term>Traumphantasie</term>
+            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
+            </list><listPerson><person xml:id="frd_person_53">
+                  <persName>
+                     <forename>Karl Friedrich</forename>
+                     <surname>Burdach</surname>
+                  </persName>
+                  <birth>
+                     <date when="1776">1776</date>
+                  </birth>
+                  <death>
+                     <date when-iso="1847">1847</date>
+                  </death>
+                  <idno type="GND">https://d-nb.info/gnd/119498170</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q215645</idno>
+                  <note>Karl Friedrich Burdach (1776-1847) deutscher Anatom und Physiologe.</note>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_1">
+                  <persName>
+                     <forename/>
+                     <surname>Artemidoros aus Daldis</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/1089126093</idno>
+                  <note/>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_59">
+                  <persName>
+                     <forename>Martha</forename>
+                     <surname>Freud</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/11883018X</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q3042226</idno>
+                  <note>Ehefrau Sigmund Freuds, geb. Bernays</note>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_24">
+                  <persName>
+                     <forename>Johann Wolfgang von</forename>
+                     <surname>Goethe</surname>
+                  </persName>
+                  <birth>
+                     <date when="1749">1749</date>
+                  </birth>
+                  <idno type="GND">https://d-nb.info/gnd/118540238</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q5879</idno>
+                  <note/>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_52">
+                  <persName>
+                     <forename>Sante</forename>
+                     <surname>De Sanctis</surname>
+                  </persName>
+                  <birth>
+                     <date when="1862">1862</date>
+                  </birth>
+                  <death>
+                     <date when-iso="1935">1935</date>
+                  </death>
+                  <idno type="GND">https://d-nb.info/gnd/1089690460</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q3656095</idno>
+                  <note>Camillo Sante de Sanctis (1862-1935), ital. Arzt, Psychiater und Psychologe.</note>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_55">
                   <persName>
                      <forename>Francis</forename>
                      <surname>Galton</surname>
@@ -4488,14 +4635,14 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q191026</idno>
                   <note>Francis Galton (1822-1911), engl. Naturforscher und Eugeniker</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_63">
+               <person xml:id="frd_person_38">
                   <persName>
-                     <forename>Adalbert</forename>
-                     <surname>Goldscheider</surname>
+                     <forename>Johannes</forename>
+                     <surname>Volkelt</surname>
                   </persName>
-                  <idno type="GND">https://d-nb.info/gnd/142373672</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q804815</idno>
-                  <note>Veröffentlichte unter dem Pseudonym Balduin Groller</note>
+                  <idno type="GND">https://d-nb.info/gnd/118627724</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q74318</idno>
+                  <note/>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_21">
                   <persName>
@@ -4517,83 +4664,6 @@
                   <idno type="GND">https://d-nb.info/gnd/118535315</idno>
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q9215</idno>
                   <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_53">
-                  <persName>
-                     <forename>Karl Friedrich</forename>
-                     <surname>Burdach</surname>
-                  </persName>
-                  <birth>
-                     <date when="1776">1776</date>
-                  </birth>
-                  <death>
-                     <date when-iso="1847">1847</date>
-                  </death>
-                  <idno type="GND">https://d-nb.info/gnd/119498170</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q215645</idno>
-                  <note>Karl Friedrich Burdach (1776-1847) deutscher Anatom und Physiologe.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_52">
-                  <persName>
-                     <forename>Sante</forename>
-                     <surname>De Sanctis</surname>
-                  </persName>
-                  <birth>
-                     <date when="1862">1862</date>
-                  </birth>
-                  <death>
-                     <date when-iso="1935">1935</date>
-                  </death>
-                  <idno type="GND">https://d-nb.info/gnd/1089690460</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q3656095</idno>
-                  <note>Camillo Sante de Sanctis (1862-1935), ital. Arzt, Psychiater und Psychologe.</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_59">
-                  <persName>
-                     <forename>Martha</forename>
-                     <surname>Freud</surname>
-                  </persName>
-                  <idno type="GND">https://d-nb.info/gnd/11883018X</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q3042226</idno>
-                  <note>Ehefrau Sigmund Freuds, geb. Bernays</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_1">
-                  <persName>
-                     <forename/>
-                     <surname>Artemidoros aus Daldis</surname>
-                  </persName>
-                  <idno type="GND">https://d-nb.info/gnd/1089126093</idno>
-                  <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_36">
-                  <persName>
-                     <forename>Gotthilf Heinrich</forename>
-                     <surname>Schubert</surname>
-                  </persName>
-                  <birth>
-                     <date when="1780">1780</date>
-                  </birth>
-                  <death>
-                     <date when-iso="1860">1860</date>
-                  </death>
-                  <idno type="GND">http://lobid.org/gnd/118610937</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q66704</idno>
-                  <note>(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_54">
-                  <persName>
-                     <forename>Carl</forename>
-                     <surname>Auer von Welsbach</surname>
-                  </persName>
-                  <birth>
-                     <date when="1858">1858</date>
-                  </birth>
-                  <death>
-                     <date when-iso="1929">1929</date>
-                  </death>
-                  <idno type="GND">https://d-nb.info/gnd/118651013</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q89390</idno>
-                  <note>(1858-1929) österr. Chemiker und Erfinder</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_60">
                   <persName>
@@ -4619,36 +4689,6 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q68726</idno>
                   <note/>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_6">
-                  <persName>
-                     <forename>Carl</forename>
-                     <surname>Binz</surname>
-                  </persName>
-                  <idno type="GND">https://d-nb.info/gnd/116184280</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q90228</idno>
-                  <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_24">
-                  <persName>
-                     <forename>Johann Wolfgang von</forename>
-                     <surname>Goethe</surname>
-                  </persName>
-                  <birth>
-                     <date when="1749">1749</date>
-                  </birth>
-                  <idno type="GND">https://d-nb.info/gnd/118540238</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q5879</idno>
-                  <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
-               <person xml:id="frd_person_38">
-                  <persName>
-                     <forename>Johannes</forename>
-                     <surname>Volkelt</surname>
-                  </persName>
-                  <idno type="GND">https://d-nb.info/gnd/118627724</idno>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q74318</idno>
-                  <note/>
-               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
                <person xml:id="frd_person_35">
                   <persName>
                      <forename>Karl Albert</forename>
@@ -4664,93 +4704,53 @@
                   <idno type="WIKIDATA">http://www.wikidata.org/entity/Q3813028</idno>
                   <note>(1825-1889), deutscher Philosoph und Psychologe.</note>
                <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
-               </listPerson><list><item xml:id="frd_kw_3414">
-               <term>Traumerreger</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2772">
-               <term>Traumphantasie</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3425">
-               <term>Gedächntnis</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3427">
-               <term>Volksmeinung</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2485">
-               <term>Sinn</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2339">
-               <term>Schlaf</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3421">
-               <term>Wachen</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3426">
-               <term>physiologisch</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3422">
-               <term>psychisch</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2138">
-               <term>Psychologie</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2769">
-               <term>Traumleben</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3188">
-               <term>Wahrnehmung</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2429">
-               <term>Seelenleben</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2768">
-               <term>Trauminhalt</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2636">
-               <term>Symbol</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3428">
-               <term>Deutungsmethode</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3420">
-               <term>mythologisch</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3424">
-               <term>biologisch</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_1808">
-               <term>Musik</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2750">
-               <term>Traum</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Die Freudsche psychoanalytische Methode
-               (1904-002/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1904-002.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_54">
-               <term>Affekt</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Über Psychotherapie (1905-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1905-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_687">
-               <term>Erinnerung</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_513">
-               <term>Deutung</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2842">
-               <term>Träumer</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_2223">
-               <term>Reiz</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_949">
-               <term>Gehirn</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3423">
-               <term>seelischer Vorgang</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_1832">
-               <term>Mythologie</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            <item xml:id="frd_kw_3257">
-               <term>Wissenschaft</term>
-            <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></item>
-            </list></back></text>
+               <person xml:id="frd_person_6">
+                  <persName>
+                     <forename>Carl</forename>
+                     <surname>Binz</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/116184280</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q90228</idno>
+                  <note/>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_54">
+                  <persName>
+                     <forename>Carl</forename>
+                     <surname>Auer von Welsbach</surname>
+                  </persName>
+                  <birth>
+                     <date when="1858">1858</date>
+                  </birth>
+                  <death>
+                     <date when-iso="1929">1929</date>
+                  </death>
+                  <idno type="GND">https://d-nb.info/gnd/118651013</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q89390</idno>
+                  <note>(1858-1929) österr. Chemiker und Erfinder</note>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_63">
+                  <persName>
+                     <forename>Adalbert</forename>
+                     <surname>Goldscheider</surname>
+                  </persName>
+                  <idno type="GND">https://d-nb.info/gnd/142373672</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q804815</idno>
+                  <note>Veröffentlichte unter dem Pseudonym Balduin Groller</note>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               <person xml:id="frd_person_36">
+                  <persName>
+                     <forename>Gotthilf Heinrich</forename>
+                     <surname>Schubert</surname>
+                  </persName>
+                  <birth>
+                     <date when="1780">1780</date>
+                  </birth>
+                  <death>
+                     <date when-iso="1860">1860</date>
+                  </death>
+                  <idno type="GND">http://lobid.org/gnd/118610937</idno>
+                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q66704</idno>
+                  <note>(1780-1860) deutscher Arzt, Naturforscher, Mystiker und Naturphilosoph</note>
+               <listEvent><event type="mentioned"><p>erwähnt in <title>Über den Traum (1901-001/1925)</title></p><linkGrp><link type="ARCHE" target="https://freud-digital.github.io/frd-static/sfe-1901-001.xml"/></linkGrp></event></listEvent></person>
+               </listPerson></back></text>
 </TEI>
