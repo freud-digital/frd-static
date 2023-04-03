@@ -15,7 +15,11 @@
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-title" content="{$html_title}" />
+        <meta name="msapplication-TileImage" content="img/freud_logo.png" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
         <link rel="profile" href="http://gmpg.org/xfn/11"></link>
+        <link rel="shortcut icon" href="img/freud_logo.png" sizes="96x70" />
+        <link rel="apple-touch-icon" sizes="180x180" href="img/freud_logo.png" />
         <title><xsl:value-of select="$html_title"/></title>
         <link rel="stylesheet" id="fundament-styles"  href="dist/fundament/css/fundament.min.css" type="text/css"></link>
         <link rel="stylesheet" href="css/style.css" type="text/css"></link>
@@ -23,22 +27,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></link>
         <script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <!-- Matomo -->
-        <script>
-            var _paq = window._paq = window._paq || [];
-            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-            var u="https://matomo.acdh.oeaw.ac.at/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
-            _paq.push(['setSiteId', '223']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
-        <!-- End Matomo Code -->
-        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>        
     </xsl:template>
 </xsl:stylesheet>
